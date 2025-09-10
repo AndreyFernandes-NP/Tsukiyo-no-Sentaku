@@ -17,7 +17,7 @@ Please note:
 ## About the Team
 We are **RedHammer Studios**, a group of passionate creators who came together to combine our skills and bring this project to life.  
 
-- **Rain (Andrey)** — Lead Developer, Director, Team Manager, and Writer. Responsible for the story, overall direction, and the implementation of the LLM system.  
+- **Rain (Andrey)** — Lead Developer, Programmer, Director, Team Manager, and Writer. Responsible for the story, overall direction, programming of many QoL features, systems, and the implementation of the LLM system.  
 - **Ervilha** — Character Designer, shaping the look and personality of each character.  
 - **Sigmamaco** — Background Artist, crafting the immersive settings and stunning environments.  
 - **Salada** — Concept and Sketch Artist, providing the foundation for the project’s visual identity.  
