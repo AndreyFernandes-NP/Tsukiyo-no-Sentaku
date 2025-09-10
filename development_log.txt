@@ -1,0 +1,3193 @@
+﻿[SfxCycler/ambfx] instância criada (intervalo=20.00..50.00, auto_mode=all,
+rotation=['tree', 'wind'])
+--- Sun Aug 24 20:12:35 2025
+
+[SfxCycler/ambfx] KICKOFF tag=tree uid=audio/sfx/tree-rustle.ogg||tree||0.2
+delay=46.65
+[SfxCycler/ambfx] START: intervalo=20.00..50.00
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=35.69
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=29.68
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-
+intense.ogg||tree||0.1 delay=37.33
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=36.50
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle.ogg||tree||0.2
+delay=47.21
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=44.47
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-
+intense.ogg||tree||0.1 delay=35.77
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=42.11
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=22.47
+[SfxCycler/ambfx] instância criada (intervalo=20.00..50.00, auto_mode=all,
+rotation=['tree', 'wind'])
+--- Sun Aug 24 20:21:50 2025
+
+[SfxCycler/ambfx] START: intervalo=20.00..50.00
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle.ogg||tree||0.2
+delay=33.21
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=35.66
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-
+intense.ogg||tree||0.1 delay=38.20
+Ren
+Chegamos carai, olha os gráfico mano.
+
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=22.89
+[SfxCycler/ambfx] instância criada (intervalo=20.00..50.00, auto_mode=all,
+rotation=['tree', 'wind'])
+--- Sun Aug 24 20:40:04 2025
+
+[SfxCycler/ambfx] START: intervalo=20.00..50.00
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-
+intense.ogg||tree||0.1 delay=47.22
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_2.ogg||wind||0.3
+delay=21.36
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=26.41
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=35.79
+Ren
+Chegamos carai, olha os gráfico mano.
+
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle.ogg||tree||0.2
+delay=35.99
+[SfxCycler/ambfx] instância criada (intervalo=20.00..50.00, auto_mode=all,
+rotation=['tree', 'wind'])
+--- Sun Aug 24 20:42:48 2025
+
+[SfxCycler/ambfx] START: intervalo=20.00..50.00
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle.ogg||tree||0.2
+delay=33.38
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=39.39
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=21.52
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_2.ogg||wind||0.3
+delay=29.49
+[SfxCycler/ambfx] instância criada (intervalo=20.00..50.00, auto_mode=all,
+rotation=['tree', 'wind'])
+--- Sun Aug 24 20:50:52 2025
+
+[SfxCycler/ambfx] START: intervalo=20.00..50.00
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle.ogg||tree||0.2
+delay=38.69
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_2.ogg||wind||0.3
+delay=26.37
+Ren
+Chegamos carai, olha os gráfico mano.
+
+[SfxCycler/ambfx] já estava rodando; ignorando start.
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=32.20
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=45.24
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-
+intense.ogg||tree||0.1 delay=32.20
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-
+intense.ogg||tree||0.1 delay=26.37
+[SfxCycler/ambfx] já estava rodando; ignorando start.
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=24.72
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=39.18
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_2.ogg||wind||0.3
+delay=34.48
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle.ogg||tree||0.2
+delay=34.46
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_2.ogg||wind||0.3
+delay=37.71
+Ren
+Chegamos carai, olha os gráfico mano.
+
+Ren
+Ajusta esse textinho ae pra ficar legal
+
+Ren
+Isso tá ótimo, continua assim
+
+Ren
+A partir daqui é menu
+
+--- Sun Aug 24 20:54:46 2025
+
+[SfxCycler/ambfx] QUEUE tag=wind uid=audio/sfx/wind-howl_1.ogg||wind||0.3
+delay=29.38
+[SfxCycler/ambfx] QUEUE tag=tree uid=audio/sfx/tree-rustle-soft.ogg||tree||0.2
+delay=30.56
+--- Sun Sep  7 23:36:20 2025
+
+Ren
+Chegamos carai, olha os gráfico mano.
+
+Ren
+Ajusta esse textinho ae pra ficar legal
+
+Ren
+Isso tá ótimo, continua assim
+
+Ren
+A partir daqui é menu
+
+--- Sun Sep  7 23:38:10 2025
+
+--- Sun Sep  7 23:38:44 2025
+
+Ren
+Chegamos carai, olha os gráfico mano.
+
+Ren
+Ajusta esse textinho ae pra ficar legal
+
+Ren
+Isso tá ótimo, continua assim
+
+Ren
+A partir daqui é menu
+
+--- Sun Sep  7 23:42:21 2025
+
+--- Sun Sep  7 23:45:35 2025
+
+--- Sun Sep  7 23:55:48 2025
+
+--- Sun Sep  7 23:56:39 2025
+
+--- Sun Sep  7 23:56:52 2025
+
+--- Mon Sep  8 00:00:11 2025
+
+--- Mon Sep  8 00:00:54 2025
+
+--- Mon Sep  8 00:01:04 2025
+
+--- Mon Sep  8 00:01:05 2025
+
+--- Mon Sep  8 00:01:34 2025
+
+--- Mon Sep  8 00:02:17 2025
+
+Ren
+Chegamos carai, olha os gráfico mano.
+
+Ren
+Ajusta esse textinho ae pra ficar legal
+
+Ren
+Isso tá ótimo, continua assim
+
+Ren
+A partir daqui é menu
+
+--- Mon Sep  8 00:02:30 2025
+
+--- Mon Sep  8 00:35:24 2025
+
+--- Mon Sep  8 00:35:56 2025
+
+...
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+Eu sinto uma leve sensação de frio vindo de uma brisa que entra por uma das
+janelas, mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas...
+Tudo isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a andar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá.', eu checo as
+horas mais uma vez. 10:45 PM.
+
+Ren
+Aaah...
+
+Ren
+Droga...
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, tentando me acalmar. Eu não sei o que a Miya quer falar
+comigo, na verdade, existe alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem? Hoje
+em dia é tão difícil você ainda manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas no futuro, e talvez eu nem precise mais dela, certo?
+
+--- Mon Sep  8 00:40:03 2025
+
+--- Mon Sep  8 01:20:18 2025
+
+--- Mon Sep  8 01:21:08 2025
+
+--- Mon Sep  8 01:23:42 2025
+
+--- Mon Sep  8 01:23:59 2025
+
+--- Mon Sep  8 01:24:30 2025
+
+...
+
+Quem eu estou querendo enganar.
+
+--- Mon Sep  8 01:25:29 2025
+
+--- Mon Sep  8 01:25:50 2025
+
+...
+
+--- Mon Sep  8 01:26:36 2025
+
+...
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+--- Mon Sep  8 01:37:22 2025
+
+--- Mon Sep  8 01:37:41 2025
+
+--- Mon Sep  8 01:38:04 2025
+
+--- Mon Sep  8 01:38:47 2025
+
+--- Mon Sep  8 01:38:58 2025
+
+--- Mon Sep  8 01:40:07 2025
+
+--- Mon Sep  8 01:41:06 2025
+
+--- Mon Sep  8 01:41:20 2025
+
+--- Mon Sep  8 01:42:39 2025
+
+--- Mon Sep  8 01:43:35 2025
+
+--- Mon Sep  8 01:45:39 2025
+
+--- Mon Sep  8 01:45:57 2025
+
+--- Mon Sep  8 01:46:03 2025
+
+--- Mon Sep  8 01:46:50 2025
+
+...
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+Eu sinto uma leve sensação de frio vindo de uma brisa que entra por uma das
+janelas, mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 01:48:58 2025
+
+--- Mon Sep  8 01:50:15 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 01:50:34 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 01:52:46 2025
+
+--- Mon Sep  8 01:52:53 2025
+
+--- Mon Sep  8 01:53:03 2025
+
+--- Mon Sep  8 01:54:07 2025
+
+--- Mon Sep  8 01:54:14 2025
+
+--- Mon Sep  8 01:54:18 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 01:54:25 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 01:54:37 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 01:54:44 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 01:56:06 2025
+
+--- Mon Sep  8 02:00:28 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 02:00:38 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 02:00:47 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 02:00:53 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 02:01:01 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+--- Mon Sep  8 02:01:11 2025
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas...
+Tudo isso me dá arrepios.
+
+--- Mon Sep  8 02:01:54 2025
+
+--- Mon Sep  8 02:02:43 2025
+
+--- Mon Sep  8 02:07:03 2025
+
+...
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+Eu sinto uma leve sensação de frio vindo de uma brisa que entra por uma das
+janelas, mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas...
+Tudo isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a andar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá.', eu checo as
+horas mais uma vez. 10:50 PM.
+
+Ren
+Aaah...
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, tentando me acalmar. Eu não sei o que a Miya quer falar
+comigo, na verdade, existe alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+--- Mon Sep  8 02:11:53 2025
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+--- Mon Sep  8 02:12:31 2025
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez eu nem precise mais dela,
+certo?
+
+--- Mon Sep  8 02:12:49 2025
+
+--- Mon Sep  8 02:34:17 2025
+
+...
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+Eu sinto uma leve sensação de frio vindo de uma brisa que entra por uma das
+janelas, mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas...
+Tudo isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a andar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá.', eu checo as
+horas mais uma vez. 10:50 PM.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá.', eu checo as
+horas mais uma vez. 10:50 PM.
+
+Ren
+Aaah...
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, tentando me acalmar. Eu não sei o que a Miya quer falar
+comigo, na verdade, existe alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez...
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez...
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez...
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Mon Sep  8 02:49:37 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é
+só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, tentando me acalmar. Eu não sei o que a Miya quer falar
+comigo, na verdade, existe alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+--- Mon Sep  8 02:51:54 2025
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Mon Sep  8 23:47:03 2025
+
+--- Tue Sep  9 00:26:51 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 00:30:59 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 17:32:19 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 18:31:33 2025
+
+--- Tue Sep  9 18:31:50 2025
+
+--- Tue Sep  9 18:32:01 2025
+
+--- Tue Sep  9 18:32:21 2025
+
+--- Tue Sep  9 18:33:19 2025
+
+--- Tue Sep  9 18:33:45 2025
+
+--- Tue Sep  9 18:34:53 2025
+
+--- Tue Sep  9 18:35:48 2025
+
+--- Tue Sep  9 18:36:08 2025
+
+--- Tue Sep  9 18:36:44 2025
+
+--- Tue Sep  9 18:36:59 2025
+
+--- Tue Sep  9 18:38:27 2025
+
+--- Tue Sep  9 18:39:01 2025
+
+--- Tue Sep  9 18:42:23 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 18:46:47 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 18:47:24 2025
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 18:51:15 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+--- Tue Sep  9 18:54:45 2025
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 18:54:59 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 18:58:31 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:13:27 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:19:12 2025
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:21:13 2025
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:38:29 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:39:14 2025
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:40:56 2025
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:42:22 2025
+
+--- Tue Sep  9 19:42:46 2025
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:44:42 2025
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:44:53 2025
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+--- Tue Sep  9 19:46:40 2025
+
+--- Tue Sep  9 19:46:56 2025
+
+--- Tue Sep  9 19:47:03 2025
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:48:23 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:49:06 2025
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:49:29 2025
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: As coisas são naturalmente assim.
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 19:50:19 2025
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: Não, isso não está certo.
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: Talvez a resposta não seja tão óbvia.
+
+--- Tue Sep  9 19:50:25 2025
+
+--- Tue Sep  9 21:11:52 2025
+
+--- Tue Sep  9 21:12:22 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:13:19 2025
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:13:44 2025
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:14:56 2025
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:15:55 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+--- Tue Sep  9 21:17:41 2025
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+--- Tue Sep  9 21:18:07 2025
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:22:26 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:23:00 2025
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:24:31 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:24:44 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:25:00 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:29:22 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:29:56 2025
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:33:00 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:33:23 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Tue Sep  9 21:33:29 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 00:58:54 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que está batendo nas minhas costas me dá uma leve sensação de frio,
+mas não é só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 01:01:02 2025
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 01:01:20 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 01:01:28 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 01:01:36 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 01:01:44 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 01:01:50 2025
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: Não, isso não está certo.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: Talvez a resposta não seja tão óbvia.
+
+--- Wed Sep 10 01:02:26 2025
+
+--- Wed Sep 10 01:03:50 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é
+só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é
+só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é
+só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é
+só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+--- Wed Sep 10 01:05:38 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é
+só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+--- Wed Sep 10 01:05:59 2025
+
+…
+
+Quem eu estou querendo enganar.
+
+Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha.
+
+A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é
+só isso.
+
+Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria
+estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Player chose: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
+O farfalhar das árvores lá fora, o som do vento passando entre as folhas… Tudo
+isso me dá arrepios.
+
+Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que
+preciso de alguma forma.
+
+'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje
+à noite? Preciso muito falar com você.'
+
+Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou.
+Isso se tornou um hábito desde que comecei a caminhar até aqui.
+
+'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as
+horas mais uma vez, 10:50 PM.
+
+Ren
+Aaah…
+
+Ren
+Droga.
+
+Ren
+Por que a lua tinha que estar tão cheia hoje?
+
+Eu suspiro, sentindo o peso da situação. Eu não sei o que me espera, mas não é
+como se eu fosse voltar atrás agora.
+
+E logo respiro fundo, eu preciso ficar calmo. O que será que a Miya quer falar
+comigo? Na verdade, existe mesmo alguma coisa pra falar?
+
+Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir
+de um momento eu não senti mais a necessidade de falar com ela.
+
+Mas eu não posso negar que sinto falta disso. Eu sinto falta dela.
+
+É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora
+parece que estamos nos afastando.
+
+Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?
+
+Hoje em dia é tão difícil manter uma amizade além do ensino médio. Vou
+conhecer novas pessoas, fazer novos amigos, e talvez…
+
+Eu nem precise mais dela, certo?
+
+Choice: Não, isso não está certo.
+Choice: Talvez a resposta não seja tão óbvia.
+Choice: As coisas são naturalmente assim.
+
