@@ -1,6 +1,3 @@
-# Github files
-.github/*
-
 # Logs & Debug files
 development_log.txt
 errors.txt
