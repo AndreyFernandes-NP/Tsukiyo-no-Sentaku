@@ -25,7 +25,7 @@ We are **RedHammer Studios**, a group of passionate creators who came together t
 ---
 
 ## About the Novel
-*Tsukiyo no Sentaku* is a short *one-shot* novel that follows the intertwined fates of two main characters: **Ren**, the male protagonist, and **Miya**, his childhood friend and female protagonist.  
+*Tsukiyo no Sentaku* is a short *one-shot* visual novel that follows the intertwined fates of two main characters: **Ren**, the male protagonist, and **Miya**, his childhood friend and female protagonist.  
 
 Players will explore their story through branching choices, while writing responses in real time and experiencing Miya’s unique reactions. Every decision shapes the future, leading to different outcomes.
 There's a total of 3 endings to discover and infinite possibilites of dialogues, experiment how much you want and immerse yourself while doing so!
