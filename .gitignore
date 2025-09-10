@@ -1,0 +1,32 @@
+# Logs & Debug files
+development_log.txt
+errors.txt
+log.txt
+traceback.txt
+
+# LLM System (sensitive/private code)
+game/LLM/*
+
+# Ren'Py generated files
+cache/
+saves/
+tmp/
+
+# Common compiled/temporary files
+*.rpyc
+*.rpymc
+*.rpa
+*.bak
+*.swp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode settings
+.vscode/
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
