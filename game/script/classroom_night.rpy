@@ -59,6 +59,9 @@ label corridors_A:
 
     "Mas eu não posso negar que sinto falta disso. Eu sinto falta dela."
 
+    # Mudança de planos, cortar aqui e lançar tudo abaixo pra cena B, começar a aprofundar o passado do mc e a relação com a miya aqui.
+    # mudar a primeira escolha pra ele ponderar mais sobre o passado e a amizade deles, como uma introdução a novel.
+
     "É o que eu quero acreditar, pelo menos. Nós éramos tão próximos, e agora parece que estamos nos afastando."
 
     "Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?"
