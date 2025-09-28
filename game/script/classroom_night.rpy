@@ -1,3 +1,5 @@
+# Oioioi bobobo
+
 label corridors:
     call corridors_A from _calling_scene2
     call choice_corridorsA from _calling_choice1
