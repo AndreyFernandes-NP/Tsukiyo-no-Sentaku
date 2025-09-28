@@ -7,8 +7,9 @@ init -2 python:
     renpy.music.register_channel("ambfx", "sfx", loop=False, tight=True, buffer_queue=True)
     store._last_say_ended = -1.0
 
+    channel_volumes = {}
+
     menu_duck_channels = ["music", "ambience", "ambfx"]
-    menu_prev_volumes = {}
     
     def _any_char_cb(event, interact, **kwargs):
         if event == "end":
@@ -104,6 +105,14 @@ init -2 python:
     def menu_init():
         renpy.music.play(music_relaxing, fadein=5.0, fadeout=0.5, if_changed=True)
     
+    def set_channel_volume(channel, vol, delay=0.3, ignore=False):
+        renpy.music.set_volume(vol, delay=delay, channel=channel,)
+        if not ignore:
+            channel_volumes[channel] = vol
+    
+    def get_channel_volume(channel):
+        return channel_volumes.get(channel, 1.0)
+    
     def amb_play(filename_or_list, fadein=1.0, if_changed=True, loop=True, synchro_start=False):
         """
         Plays or change current ambience music.
@@ -126,27 +135,33 @@ init -2 python:
         renpy.music.stop(channel="ambience", fadeout=fadeout)
         
     def amb_volume(vol=1.0, delay=0.3):
-        renpy.music.set_volume(vol, delay=delay, channel="ambience",)
+        set_channel_volume("ambience", vol, delay)
     
     def amb_duck(to=0.35, delay=0.15):
-        amb_volume(to, delay)
+        set_channel_volume("ambience", to, delay, ignore=True)
     
     def amb_unduck(delay=0.25):
-        current = renpy.music.get_mixer("sfx").get_volume()
+        current = channel_volumes.get("ambience", 1.0)
         amb_volume(current, delay)
     
     def _menu_duck(start, duck_to=1.0, duck_delay=0.05):
+        print(channel_volumes)
         if start:
             for ch in menu_duck_channels:
                 try:
-                    current = renpy.music.get_volume(channel=ch)
-                except:
+                    if ch in channel_volumes:
+                        current = channel_volumes[ch]
+                    else:
+                        current = 1.0
+                except Exception as e:
+                    print(e)
                     current = 1.0
-                menu_prev_volumes[ch] = current
+                # print(f"[MenuDuck] Channel '{ch}' volume {current} -> {duck_to}")
                 renpy.music.set_volume(duck_to, duck_delay, channel=ch)
         else:
             for ch in menu_duck_channels:
-                orig = menu_prev_volumes.get(ch, 1.0)
+                orig = channel_volumes.get(ch, 1.0)
+                # print(f"[MenuDuck] Channel '{ch}' volume -> {orig}")
                 renpy.music.set_volume(orig, duck_delay, channel=ch)
 
     # Classes

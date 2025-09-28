@@ -39,7 +39,7 @@ label corridors_A:
 
     "Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou. Isso se tornou um hábito desde que comecei a caminhar até aqui."
 
-    mc "Escola hoje à noite..."
+    mc "Escola hoje à noite…"
 
     "'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as horas mais uma vez, 10:50 PM."
 
@@ -89,8 +89,6 @@ label corridors_A:
 
     "Ao menos com a Miya, tudo de fato parecia mais simples."
 
-    with Pause(0.5)
-
     mc "…"
 
     "Será que tem mais alguém no mundo passando por algo parecido comigo?"
@@ -121,14 +119,15 @@ label corridors_A:
 
     "Eu nunca sei de nada quando se trata desses assuntos."
 
-    "Acho que, no fundo..."
+    "Acho que, no fundo…"
 
     "Eu talvez nem precise mais dela, certo?"
 
-label choice_corridorsA:
-    with menueffect
-    
+    return
+
+label choice_corridorsA:   
     menu:
+        with menueffect
         "Não, não é assim que funciona.":
 
             return "opt1"
@@ -140,10 +139,143 @@ label choice_corridorsA:
             return "opt3"
 
 label corridors_Aa:
+    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+
+    "Não. O que eu tava pensando com isso?"    
+
+    "Eu não posso simplesmente desistir assim do nada."
+
+    "Afinal, a Miya ainda é minha amiga de infância, isso é algo que nunca vai mudar."
+
+    "Eu não posso deixar que essa simples distância acabe com tudo o que a gente já viveu."
+
+    "As memórias que a gente tem juntos são muito importantes pra mim. E eu sei que elas são pra você também."
+
+    "Se eu não tentar, eu nunca vou saber o que poderia ter acontecido. E eu não quero viver com esse arrependimento."
+
+    "Muito menos quero que você viva com esse arrependimento."
+
+    "Eu respiro fundo, tentando afastar esses pensamentos negativos."
+
+    "Eu não posso deixar que isso me consuma."
+
+    "Se eu quiser que as coisas voltem a ser como antes, vou ter que me esforçar pra isso."
+
+    "Eu vim até aqui porque preciso falar com ela, e é isso que eu vou fazer."
+
+    return
 
 label corridors_Ab:
+    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+
+    "Não é fácil pensar numa resposta."
+
+    "Eu não sei o que eu realmente quero."
+
+    "Eu só sei que eu não quero me sentir assim."
+
+    "Eu não quero me sentir tão perdido."
+
+    "Sermos amigos de infância não é algo que se perde da noite pro dia, mas eu não sei se isso é o suficiente."
+
+    "Independente do que eu faça, eu não sei se as coisas vão voltar a ser como antes."
+
+    "Eu não sei se nem quero que elas voltem a ser."
+
+    "Uma coisa que eu detesto são promessas vazias, e eu não quero fazer uma promessa dessas pra Miya."
+
+    "Eu não quero decepcioná-la, mas eu também não quero me decepcionar."
+
+    "Eu adoraria continuar sendo amigo dela, mas será que ela ainda gostaria disso?"
+
+    "Será que eu ainda sou importante pra ela?"
+
+    "Não, eu sei que sou, é por isso que estou aqui, mas, ao mesmo tempo, não sei se conseguiria cumprir o que ela espera de mim."
+
+    "Mas que merda… pode não parecer Miya, mas eu ainda prezo muito pela nossa amizade."
+
+    "Só não sei como agir, como pôr isso em palavras."
+
+    "Eu não sei o que eu quero, e eu não sei o que você quer."
+
+    "Eu apenas não sei, e por causa disso, que eu só vou seguindo o fluxo das coisas. O que for, for. O que tiver que ser, será."
+
+    "Mas por que isso me incomoda tanto? É como se não fosse eu que estivesse no controle."
+
+    "Na verdade, o que é ter controle?"
+
+    "Querer andar todo dia pra outro lado, mas acabar indo parar sempre no mesmo."
+
+    "Nesse caso, o destino mesmo importa?"
+
+    "Importa, ou eu só tô me iludindo?"
+
+    "Talvez eu só precise parar de pensar tanto nessas coisas."
+
+    "Se eu estou aqui, é porque eu quero estar."
+
+    "E se eu quero estar aqui, é porque eu quero falar com a Miya."
+
+    "E se eu quero falar com você, Miya, é porque eu ainda me importo contigo."
+
+    "Então só hoje, apenas por hoje, eu quero estar no controle."
+    
+    return
 
 label corridors_Ac:
+    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+
+    "Eu não sei se isso é algo que eu possa controlar."
+
+    "E eu não sei se isso é algo que eu queira controlar."
+
+    "Eu não sei se eu quero que as coisas sejam diferentes."
+
+    "Somos amigos de infância, mas não somos mais crianças."
+
+    "Eu não sei se eu quero que a gente volte a ser tão próximos quanto antes."
+
+    "Não é como se estivéssemos preso por um laço inquebrável ou algo assim."
+
+    "Eu não sei se eu quero isso…"
+
+    "Mas eu também não sei se eu quero o contrário."
+
+    "Estar longe de você, Miya, é algo que me incomoda."
+
+    "Mas não seria estranho demais de repente, depois de tanto tempo, voltarmos a ser próximos assim?"
+
+    "Talvez você pense de outra forma, mas eu não sei. Talvez esse incômodo seja só meu."
+
+    "Talvez você queira mesmo se afastar."
+
+    "Ou talvez queira estar tão próxima quanto antes."
+
+    "Droga, eu não sei e não aguento mais não saber."
+
+    "Por que tudo tem que ser tão complicado?"
+
+    "Por que eu não posso simplesmente aceitar as coisas como elas são?"
+
+    "Tudo estava indo bem, eu estava seguindo minha vida normalmente, e agora, isso?"
+
+    "É só uma mensagem, mas cacete, por que isso tá mexendo tanto comigo?"
+
+    "Ou será que eu só tô me iludindo?"
+
+    "Talvez eu quisesse falar tanto sobre isso quanto você, que só a ideia de te ver já me deixa assim."
+
+    "É como se fosse errado eu não tentar, errado em te deixar."
+
+    "E por isso que tudo tá tão confuso. Eu não sei nem mais o que eu quero de verdade."
+
+    "Mas eu sei que eu quero te ver. E é por isso que eu vou tentar, mesmo que eu não saiba o que vai acontecer depois."
+
+    "Ao menos por uma última vez, Miya."
+
+    return
 
 label corridors_B:
+    "acabou aqui por enquanto."
+
     return
