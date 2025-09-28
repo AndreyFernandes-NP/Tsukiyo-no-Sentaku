@@ -17,7 +17,7 @@ Please note:
 ## About the Team
 We are **RedHammer Studios**, a group of passionate creators who came together to combine our skills and bring this project to life.  
 
-- **Rain (Andrey)** — Lead Developer, Director, Team Manager, and Writer. Responsible for the story, overall direction, and the implementation of the LLM system.  
+- **Rain (Andrey)** — Lead Developer, Programmer, Director, Team Manager, and Writer. Responsible for the story, overall direction, programming of many QoL features, systems, and the implementation of the LLM system.  
 - **Ervilha** — Character Designer, shaping the look and personality of each character.  
 - **Sigmamaco** — Background Artist, crafting the immersive settings and stunning environments.  
 - **Salada** — Concept and Sketch Artist, providing the foundation for the project’s visual identity.  
@@ -25,7 +25,7 @@ We are **RedHammer Studios**, a group of passionate creators who came together t
 ---
 
 ## About the Novel
-*Tsukiyo no Sentaku* is a short *one-shot* novel that follows the intertwined fates of two main characters: **Ren**, the male protagonist, and **Miya**, his childhood friend and female protagonist.  
+*Tsukiyo no Sentaku* is a short *one-shot* visual novel that follows the intertwined fates of two main characters: **Ren**, the male protagonist, and **Miya**, the female protagonist and his childhood friend.  
 
 Players will explore their story through branching choices, while writing responses in real time and experiencing Miya’s unique reactions. Every decision shapes the future, leading to different outcomes.
 There's a total of 3 endings to discover and infinite possibilites of dialogues, experiment how much you want and immerse yourself while doing so!
