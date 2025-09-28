@@ -50,7 +50,7 @@ translate portuguese strings:
 
     # game/script.rpy:75
     old "Soon, it would all be over. I'd start college and stop seeing all the people I'd known for years."
-    new "Em breve, tudo acabaria. Eu entraria pra faculdade e deixaria de ver todos os meus colegas."
+    new "Em breve, tudo acabaria. Eu entraria para faculdade e deixaria de ver todos os meus colegas."
 
     # game/script.rpy:77
     old "Even if that sounded sad, I didn't feel much of anything. It bothered me, but somehow, it didn't seem to matter either."

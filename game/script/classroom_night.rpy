@@ -29,9 +29,9 @@ label corridors_A:
 
     "A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é só isso."
 
-    "Esse vento é o suficiente para me lembrar aonde eu estou, do que vim fazer aqui. Apesar de ser quase verão, a noite não tem nenhuma intenção de estar menos fria."
+    "Esse vento é o suficiente pra me lembrar aonde eu estou, do que vim fazer aqui. Apesar de ser quase verão, a noite não tem nenhuma intenção de estar menos fria."
 
-    "O som do farfalhar das folhas, as árvores rangendo quando vão de um lado para o outro… tudo isso vem me dando arrepios."
+    "O som do farfalhar das folhas, as árvores rangendo quando vão de um lado pra o outro… tudo isso vem me dando arrepios."
 
     "Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas não é como se eu tivesse outra opção, não depois do que recebi mais cedo."
 
@@ -63,36 +63,79 @@ label corridors_A:
 
     "Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?"
 
-    "Pouco a pouco você nem percebe quando enviou a última mensagem para alguém importante."
+    "Pouco a pouco você nem percebe quando enviou a última mensagem pra alguém importante."
 
     "Não percebe quando já é tarde demais para querer tentar de novo."
 
-    "Mas o que isso tudo significa pra mim? Pra eu tentar melhor outra vez?"
+    "Mas o que isso tudo significa pra mim? Pra eu simplesmente ser melhor daqui em diante? Como?"
 
     "Eu queria mesmo ter uma resposta pra essa pergunta, mas quanto mais eu penso, mais embaralhado as coisas ficam."
 
     "Eu e Miya somos amigos de infância, porém, parece até que mesmo uma amizade assim não é imune a esses problemas."
 
-    "Nosso círculo social é completamente diferente, ela tem várias amigas, está sempre saindo, já eu, conheço apenas uns dois ou três caras da minha turma. Muito menos decido sair com eles pra algum lugar."
+    "Nosso círculo social é completamente diferente, ela tem várias amigas e está sempre saindo, já eu, conheço apenas uns dois ou três caras da minha turma. Muito menos decido sair com eles pra algum lugar."
 
     "Nós não temos mais tanta coisa em comum, e eu sempre acreditei que isso não seria um problema."
 
     "E no fim disso tudo, a maioria tomarão caminhos diferentes, ao ponto de se eu me encontrar com qualquer um deles na rua, seria apenas uma coincidência rara."
 
-    "Hoje em dia é tão difícil manter uma amizade além do ensino médio."
+    "Dizem que é cada vez mais difícil manter uma amizade hoje em dia, ainda mais depois do ensino médio."
 
-    "Quando eu chegar na faculdade, vou conhecer novas pessoas, fazer novos amigos, e talvez até lá…"
+    "Tudo vem acontecendo tão rápido, e eu não sei se estou preparado pra isso."
+
+    "Às vezes eu só queria que as coisas fossem mais simples, sabe?"
+
+    "Porém, acredito que isso seja mais um sentimento de nostalgia do que qualquer outra coisa."
+
+    "Ao menos com a Miya, tudo de fato parecia mais simples."
+
+    with Pause(0.5)
+
+    mc "…"
+
+    "Será que tem mais alguém no mundo passando por algo parecido comigo?"
+
+    "Ou será que sou o único nessa noite que tá se sentindo assim?"
+
+    "Eu não sei."
+
+    "Não sei de mais nada. Eu pensava que conhecia a Miya, mas agora eu não sei mais."
+
+    "Talvez ela tenha mudado também, que nem eu, e eu não percebi. Mas a mudança dela foi pra melhor, eu acho."
+
+    "Como ela sempre foi tão extrovertida, eu comecei a pensar que talvez ela tenha conhecido alguém novo, ou até mesmo um grupo de amigos que a faça se sentir mais feliz."
+
+    "Parte disso possa ser mesmo verdade, mas talvez eu esteja apenas tentando me convencer disso."
+
+    "Como se fosse apenas uma justificativa para eu mal estar falando com ela ultimamente."
+
+    "Eu não sei."
+
+    "Talvez eu esteja com medo de me sentir sozinho."
+
+    "Ou talvez eu só esteja com medo de não sentir nada."
+
+    "Por que eu cismei tanto com isso?"
+
+    "Eu não sei. Não sei, e não sei."
+
+    "Eu nunca sei de nada quando se trata desses assuntos."
+
+    "Acho que, no fundo..."
+
+    "Eu talvez nem precise mais dela, certo?"
 
 label choice_corridorsA:
+    with menueffect
+    
     menu:
-        "Eu acabe nem precisando mais dela, não é?"
-        "Não, isso não está certo.":
+        "Não, não é assim que funciona.":
 
             return "opt1"
-        "Queria que a resposta fosse simples assim.":
+        "Eu não consigo me decidir.":
 
             return "opt2"
-        "As coisas são naturalmente desse jeito.":
+        "As coisas são naturalmente assim.":
 
             return "opt3"
 
