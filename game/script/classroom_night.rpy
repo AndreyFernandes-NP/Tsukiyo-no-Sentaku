@@ -1,5 +1,3 @@
-# Oioioi bobobo
-
 label corridors:
     call corridors_A from _calling_scene2
     call choice_corridorsA from _calling_choice1
@@ -31,19 +29,22 @@ label corridors_A:
 
     "A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é só isso."
 
-    "Esse vento é o suficiente para me lembrar aonde eu estou, que eu não deveria estar aqui. Apesar de quase ser verão, a noite traz uma sensação estranha."
+    "Esse vento é o suficiente para me lembrar aonde eu estou, do que vim fazer aqui. Apesar de ser quase verão, a noite não tem nenhuma intenção de estar menos fria."
 
-    "O som do vento passando entre as folhas, as árvores rangendo quando vão de um lado para o outro… Tudo isso me dá arrepios."
+    "O som do farfalhar das folhas, as árvores rangendo quando vão de um lado para o outro… tudo isso vem me dando arrepios."
 
-    "Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas sinto que preciso de alguma forma."
+    "Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas não é como se eu tivesse outra opção, não depois do que recebi mais cedo."
 
     "'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje à noite? Preciso muito falar com você.'"
 
     "Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou. Isso se tornou um hábito desde que comecei a caminhar até aqui."
 
+    mc "Escola hoje à noite..."
+
     "'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as horas mais uma vez, 10:50 PM."
 
-    with charchange
+    with Pause(1.0)
+
     mc "Aaah…"
 
     mc "Droga."
@@ -62,19 +63,21 @@ label corridors_A:
 
     "Eu sei que isso é culpa minha, mas não é normal as pessoas se afastarem?"
 
-    "Pouco a pouco, você nem percebe quando enviou a última mensagem para alguém importante."
+    "Pouco a pouco você nem percebe quando enviou a última mensagem para alguém importante."
 
     "Não percebe quando já é tarde demais para querer tentar de novo."
 
-    "Mas o que isso tudo significa pra mim? Simplesmente tentar melhor de novo e é isso?"
+    "Mas o que isso tudo significa pra mim? Pra eu tentar melhor outra vez?"
 
     "Eu queria mesmo ter uma resposta pra essa pergunta, mas quanto mais eu penso, mais embaralhado as coisas ficam."
 
-    "Eu e Miya somos amigos de infância, mas parece que até mesmo uma amizade assim não é imune a esses problemas."
+    "Eu e Miya somos amigos de infância, porém, parece até que mesmo uma amizade assim não é imune a esses problemas."
 
-    "Nosso círculo social é completamente diferente, ela tem várias amigas, já eu conheço apenas uns dois ou três caras da minha turma."
+    "Nosso círculo social é completamente diferente, ela tem várias amigas, está sempre saindo, já eu, conheço apenas uns dois ou três caras da minha turma. Muito menos decido sair com eles pra algum lugar."
 
-    "E no fim disso tudo, a maioria tomarão caminhos diferentes, ao ponto de se eu notar qualquer um deles na rua ser uma coincidência rara."
+    "Nós não temos mais tanta coisa em comum, e eu sempre acreditei que isso não seria um problema."
+
+    "E no fim disso tudo, a maioria tomarão caminhos diferentes, ao ponto de se eu me encontrar com qualquer um deles na rua, seria apenas uma coincidência rara."
 
     "Hoje em dia é tão difícil manter uma amizade além do ensino médio."
 
