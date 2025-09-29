@@ -15,15 +15,26 @@ init -999:
     define choice_delay = 0.5
 
 init python:
-    def _amb_sanitize():
-        if not _ambfx_can_play_global():
-            renpy.music.set_queue_empty_callback(None, channel="ambfx")
+    def _amb_sync_with_state():
+        ch = "ambfx"
 
-            if renpy.music.is_playing(channel="ambfx"):
-                renpy.music.stop(channel="ambfx", fadeout=0.05)
-    
-    config.start_interact_callbacks.append(_amb_sanitize)
-    config.after_load_callbacks.append(_amb_sanitize)
+        try:
+            inst = ambience_sfx_cycle
+        except NameError:
+            inst = None
+
+        if inst and inst.running:
+            if renpy.context() != inst._ctx:
+                inst.stop(stop_all=True)
+                return
+            return
+
+        renpy.music.set_queue_empty_callback(None, channel=ch)
+        if renpy.music.is_playing(channel=ch):
+            renpy.music.stop(channel=ch, fadeout=0.05)
+
+    config.start_interact_callbacks.append(_amb_sync_with_state)
+    config.after_load_callbacks.append(_amb_sync_with_state)
 
 
 ## Text that is placed on the game's about screen. Place the text between the
