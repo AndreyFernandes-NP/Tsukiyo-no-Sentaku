@@ -163,6 +163,18 @@ init -2 python:
                 orig = channel_volumes.get(ch, 1.0)
                 # print(f"[MenuDuck] Channel '{ch}' volume -> {orig}")
                 renpy.music.set_volume(orig, duck_delay, channel=ch)
+    
+    def _ambfx_can_play_global():
+        if renpy.context_nesting_level() != 0:
+            return False
+
+        if renpy.is_skipping() or renpy.in_rollback():
+            return False
+
+        if renpy.get_ongoing_transition():
+            return False
+
+        return True
 
     # Classes
     # Fuck this class, fuck this shit, I hate it, I spent too much on this, idk why I overengineered something so simple, but it's done
@@ -375,7 +387,7 @@ init -2 python:
             return ["<silence %.3f>" % float(delay), it["file"]]          
 
         def _on_queue_empty(self):
-            if not self.running: 
+            if not self.running or not self._can_play_here(): 
                 return
 
             pick = self._pick_next_item()
@@ -385,7 +397,6 @@ init -2 python:
 
             it, tag = pick
             self.used.add(it["uid"])
-
             delay = renpy.random.uniform(self.interval[0], self.interval[1])
             
             renpy.music.queue(
@@ -399,24 +410,42 @@ init -2 python:
 
         # Control
         def start(self, start_after_random=True):
-            if self.running:
-                return
-            
-            if not self.items:
+            if self.running or not self.items:
                 return
 
             self.running = True
             self._rebuild_queues(reset_used=False)
             self._refresh_rotation()
 
-            renpy.music.set_queue_empty_callback(self._on_queue_empty, channel=self.channel)
+            self._ctx_level = renpy.context_nesting_level()
+
+            def _guarded_cb():
+                if not self._can_play_here():
+                    renpy.music.stop(channel=self.channel, fadeout=self.fadeout)
+                    return
+
+                self._on_queue_empty()
+            
+            self._queue_cb = _guarded_cb
+            renpy.music.set_queue_empty_callback(self._queue_cb, channel=self.channel)
    
         def stop(self, stop_all=False):
             self.running = False
-            renpy.music.set_queue_empty_callback(None, channel=self.channel)
+            try:
+                renpy.music.set_queue_empty_callback(None, channel=self.channel)
+            except Exception:
+                pass
 
             if stop_all:
                 renpy.music.stop(channel=self.channel, fadeout=self.fadeout)
+        
+        def _can_play_here(self):
+            if not self.running:
+                return False
+            if renpy.context_nesting_level() != getattr(self, "_ctx_level", 0):
+                return False
+
+            return _ambfx_can_play_global()
 
         def set_interval(self, min_s, max_s):
             self.interval = self._validate_interval(min_s, max_s)

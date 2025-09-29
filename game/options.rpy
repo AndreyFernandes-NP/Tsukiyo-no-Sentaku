@@ -15,23 +15,15 @@ init -999:
     define choice_delay = 0.5
 
 init python:
-    def _amb_sync_with_state():
-        ch = "ambfx"
+    def _amb_sanitize():
+        if not _ambfx_can_play_global():
+            renpy.music.set_queue_empty_callback(None, channel="ambfx")
 
-        try:
-            inst = ambience_sfx_cycle
-        except NameError:
-            inst = None
-
-        if inst and inst.running:
-            return
-
-        renpy.music.set_queue_empty_callback(None, channel=ch)
-        if renpy.music.is_playing(channel=ch):
-            renpy.music.stop(channel=ch, fadeout=0.05)
-
-    config.start_interact_callbacks.append(_amb_sync_with_state)
-    config.after_load_callbacks.append(_amb_sync_with_state)
+            if renpy.music.is_playing(channel="ambfx"):
+                renpy.music.stop(channel="ambfx", fadeout=0.05)
+    
+    config.start_interact_callbacks.append(_amb_sanitize)
+    config.after_load_callbacks.append(_amb_sanitize)
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -95,7 +87,11 @@ default preferences.text_cps = 60
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
 ## to 30 being the valid range.
-default preferences.afm_time = 15
+default preferences.afm_time = 30
+
+## They're not preferences, but let's just set their defaults here.
+define config.fast_skipping = False
+define config.skip_delay = 70
 
 
 ## Save directory ##############################################################
