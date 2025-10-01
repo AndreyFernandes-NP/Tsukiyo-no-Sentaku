@@ -82,7 +82,7 @@ translate portuguese strings:
 
     # game/script.rpy:91
     old "Just an ordinary door, like any other classroom. But it was the door to our room."
-    new "Era como qualquer outra, de qualquer sala de aula. Mas era a porta da nossa sala."
+    new "Era como qualquer outra, de qualquer sala de aula. Mas, era a porta da nossa sala."
 
     # game/script.rpy:93
     old "I didn't have any expectations, no certainty that anyone would be waiting."

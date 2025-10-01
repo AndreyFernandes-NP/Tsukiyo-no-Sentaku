@@ -35,13 +35,13 @@ label corridors_A:
 
     "Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas não é como se eu tivesse outra opção, não depois do que recebi mais cedo."
 
-    "'Ren, sei que parece meio aleatório, mas você pode me encontrar na escola hoje à noite? Preciso muito falar com você.'"
+    "'Ren, sei que parece meio aleatório, mas você poderia me encontrar na escola hoje à noite? Preciso muito falar com você.'"
 
     "Eu pego meu celular mais uma vez, olhando pra mensagem que a Miya me enviou. Isso se tornou um hábito desde que comecei a caminhar até aqui."
 
     mc "Escola hoje à noite…"
 
-    "'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as horas mais uma vez, 10:50 PM."
+    "'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as horas mais uma vez, 10:50 da noite."
 
     with Pause(1.0)
 
