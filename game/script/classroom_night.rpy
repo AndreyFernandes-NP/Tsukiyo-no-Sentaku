@@ -1,15 +1,15 @@
 label corridors:
-    call corridors_A from _calling_scene2
+    call iscene("corridors_A") from _calling_scene2
     call choice_corridorsA from _calling_choice1
     $ dest = routes_corridorA.get(_return, "corridors_Ab")
-    call expression dest from _calling_scene3
+    call iscene(dest) from _calling_scene3
 
-    call corridors_B from _calling_scene4
+    call iscene("corridors_B") from _calling_scene4
     call choice_corridorsB from _calling_choice2
     $ dest = routes_corridorB.get(_return, "corridors_Bb")
-    call expression dest from _calling_scene5
+    call iscene(dest) from _calling_scene5
 
-    call corridors_C from _calling_scene6
+    call iscene("corridors_C") from _calling_scene6
 
     return
 
@@ -297,7 +297,7 @@ label corridors_B:
 
     "Era algo como, 'não é normal as pessoas se afastarem com o tempo?', o que não deixa de ser verdade."
 
-    if renpy.seen_label("corridors_Aa"):
+    if seen_label("corridors_Aa"):
         "Mesmo tendo me divertido tanto com ela no passado… parecia que aquilo tudo tinha perdido o valor."
 
         "Como se fosse errado sentir saudade."
@@ -371,8 +371,6 @@ label corridors_B:
     "Eu nunca sei de nada quando se trata desses assuntos."
 
     "Acho que, no fundo…"
-
-    with Pause(1.0)
 
     "Eu talvez nem precise mais dela, certo?"
 

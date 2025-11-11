@@ -44,6 +44,14 @@ label start:
 
     return
 
+label iscene(target):
+    $ scene_register(target)
+    call expression target from _call_expression
+    
+    return
+
+# Maybe create one for menus too? Depends if I really need it.
+
 label future_prologue:
     scene black
     window hide
@@ -87,7 +95,7 @@ label future_prologue:
     pause
     show text _("It was the sort of thing she did sometimes, just to see how far I'd go to play along.") with fade
     pause
-    show text _("I didn't really believe it meant anything. Maybe that's exactly why I decided to go.") with fade
+    show text _("I didn't really believe it meant anything. Maybe that's exactly why I decided to go on.") with fade
     pause
     show text _("There was no one else left at school. It was already close to eleven when I climbed over the wall and walked into the main hall.") with fade
     pause

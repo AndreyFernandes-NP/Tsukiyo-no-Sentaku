@@ -1,4 +1,5 @@
 default persistent.choosen_language = False
+default seen_labels = []
 
 init -2 python:
     from collections import deque
@@ -17,6 +18,14 @@ init -2 python:
 
     if _any_char_cb not in config.all_character_callbacks:
         config.all_character_callbacks.append(_any_char_cb)
+    
+    def scene_register(label_name):
+        if not label_name in seen_labels:
+            seen_labels.append(label_name)
+        return
+
+    def seen_label(label_name):
+        return label_name in seen_labels
 
     def ld_bg(bgname):
         bg_image = f"bgs/{bgname}.png"
