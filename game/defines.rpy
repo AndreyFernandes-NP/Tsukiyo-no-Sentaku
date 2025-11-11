@@ -18,3 +18,9 @@ define routes_corridorA = {
         "opt2": "corridors_Ab",
         "opt3": "corridors_Ac",
 }
+
+define routes_corridorB = {
+        "opt1": "corridors_Ba",
+        "opt2": "corridors_Bb",
+        "opt3": "corridors_Bc",
+}
