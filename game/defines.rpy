@@ -4,8 +4,8 @@ define corridor_ambience_sfx = [
         {"file": sfx_tree_rustle, "tags": ["tree"], "vol": 0.2},
         {"file": sfx_tree_rustle_intense, "tags": ["tree"], "vol": 0.1},
         {"file": sfx_tree_rustle_soft, "tags": ["tree"], "vol": 0.2},
-        {"file": sfx_wind_howl_1, "tags": ["wind"],   "vol": 0.3},
-        {"file": sfx_wind_howl_2, "tags": ["wind"],   "vol": 0.3}
+        {"file": sfx_wind_howl_1, "tags": ["wind"], "vol": 0.3},
+        {"file": sfx_wind_howl_2, "tags": ["wind"], "vol": 0.3}
 ]
 
 ### IMPORTANT STORY DEFINITIONS/DEFAULTS
@@ -27,4 +27,10 @@ define routes_corridorB = {
         "opt1": "corridors_Ba",
         "opt2": "corridors_Bb",
         "opt3": "corridors_Bc",
+}
+
+define routes_corridorC = {
+        "opt1": "corridors_Ca",
+        "opt2": "corridors_Cb",
+        "opt3": "corridors_Cc",
 }
