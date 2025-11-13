@@ -148,7 +148,7 @@ label choice_corridorsA:
             return "opt3"
 
 label corridors_Aa:
-    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+    $ mc_personality.append("He carries some nostalgia for the carefree days of his childhood with Miya.")
 
     "É claro que eu me diverti."
 
@@ -187,7 +187,7 @@ label corridors_Aa:
     return
 
 label corridors_Ab:
-    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+    $ mc_personality.append("He feels guilty for not reciprocating Miya's efforts in their friendship.")
 
     "Não é como se eu pudesse culpá-la ou a sua família de qualquer coisa disso. Muito menos a mim mesmo."
 
@@ -230,7 +230,7 @@ label corridors_Ab:
     return
 
 label corridors_Ac:
-    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+    $ mc_personality.append("He struggles to admit his true feelings for Miya, masking them with irritation.")
 
     "Ela era irritante."
 
@@ -390,7 +390,7 @@ label choice_corridorsB:
             return "opt3"
 
 label corridors_Ba:
-    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+    $ mc_personality.append("He rejects the idea of giving up on their friendship and wants to fight to keep Miya in his life.")
 
     "Não. O que eu tava pensando com isso?"    
 
@@ -417,7 +417,7 @@ label corridors_Ba:
     return
 
 label corridors_Bb:
-    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+    $ mc_personality.append("He feels torn about his feelings towards Miya and is unsure of what to do.")
 
     "Não é fácil pensar numa resposta."
 
@@ -474,7 +474,7 @@ label corridors_Bb:
     return
 
 label corridors_Bc:
-    # Depois colocar o valor da variável de personalidade/pensamentos que vai atualizar nessa escolha.
+    $ mc_personality.append("He tries to rationalize his feelings and the situation, but remains uncertain and conflicted.")
 
     "Eu não sei se isso é algo que eu possa controlar."
 

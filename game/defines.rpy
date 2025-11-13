@@ -8,8 +8,12 @@ define corridor_ambience_sfx = [
         {"file": sfx_wind_howl_2, "tags": ["wind"],   "vol": 0.3}
 ]
 
-### IMPORTANT STORY DEFINITIONS
+### IMPORTANT STORY DEFINITIONS/DEFAULTS
 ### Character Thoughts / Personality
+
+default mc_personality = ["Ren is calm, introspective, and observes before acting. He avoids emotional confrontation and rarely reveals his feelings. He lives with an internal conflict between what he feels and what he believes he should feel."]
+
+default miya_personality = ["Miya is quietly cheerful and outgoing, sometimes impulsive. She values friendship and loyalty, even to the point of stubbornness. Her energetic nature can both uplift and overwhelm those around her. She speaks her mind when comfortable, but can also retreat into silence when she feels unsure."]
 
 ### Choices dictionaries
 
