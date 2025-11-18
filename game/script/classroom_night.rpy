@@ -540,7 +540,7 @@ label corridors_C:
 
     "Mas eu não sei se consigo dar esse passo, ou se eu quero dar."
 
-    "Por que tudo tem que ser resumido a um passo?"
+    "Por que tudo tem que ser resumido à isso?"
     
     "Na verdade, por que eu tenho que definir tudo agora?"
 
@@ -578,9 +578,9 @@ label corridors_C:
 
     "Eu nunca vi isso como um problema pra ser sincero, mas parando pra pensar agora…"
 
-    "O fato de eu não saber lidar com essas coisas é um dos principais motivos pra eu estar aqui agora."
+    "O fato de eu não saber lidar com isso é um dos principais motivos pra eu estar aqui agora."
 
-    "Na verdade, seria engraçado eu abrir essa porta e descobrir que você não tá nem aqui."
+    "Na verdade, seria tão engraçado eu abrir essa porta e descobrir que você não tá nem aqui."
 
     "Tantas coisas poderiam ter acontecido diferente pra que isso fosse possível, e mesmo assim, eu tô aqui no meio da escola às 11 da noite, só pra te ver."
 
@@ -588,13 +588,13 @@ label corridors_C:
 
     "Acho que agora é tarde demais pra sentir vergonha."
 
-    "Sua estratégia funcionou, mas não quer dizer que eu tô feliz por isso, só que eu não tenho escolha a não ser isso agora."
+    "Sua estratégia funcionou, mas não quer dizer que eu tô feliz por isso, só não tenho escolha a não ser isso agora."
 
-    "Não importa o que eu pense, eu não consigo encontrar uma razão pra dar meia volta e voltar pra casa. Eu não quero voltar."
+    "Não importa o que eu pense, eu não consigo encontrar uma razão pra dar meia volta e voltar pra casa."
 
-    "E eu queria poder encontrar uma razão, qualquer desculpa, só pra que eu não encarasse isso."
+    "E eu queria poder encontrar uma razão, qualquer desculpa, só pra poder não encarar isso."
 
-    "Mas não tem como fugir de você, é algo que você sempre deixou bem claro, seja em brincadeiras no passado, ou nas mensagens que você me manda."
+    "Mas fugir de você é bem difícil, é algo que sempre deixou claro comigo, seja em brincadeiras no passado, ou quando você me empurra pra encontros."
 
     "Mesmo assim, eu não consigo evitar de pensar no que poderia ter sido diferente."
 
@@ -610,27 +610,27 @@ label corridors_C:
 
     "Mas pelo menos, seja lá o que for acontecer depois disso…"
 
-    "Nós não seremos os mesmos."
+    "Nós não seremos mais os mesmos."
 
     "Talvez esse seja o grande elefante no meio da sala que eu recuso enxergar. Eu queria que tudo se mantivesse igual, mas tenho quase certeza que não vai."
 
-    "Eu não sou alguém de tomar riscos, já você decidiu apostar tudo nessa noite. E o pior, é que se eu não quiser perder, também preciso dar {i}all-in{/i} como você."
+    "Eu não sou alguém de tomar riscos, já você decidiu apostar tudo nessa noite. E o pior de tudo é que se eu não quiser perder, também preciso dar {i}all-in{/i} como você."
 
     "Por quanto tempo será que você planejou isso? Na verdade, houve sequer algum planejamento?"
 
     "E se eu não fosse aparecer hoje, o que você faria? Se você estivesse ai atrás dessa porta, esperando por mim, por quanto tempo você aguentaria?"
 
-    "Mas essas perguntas não passam por sua cabeça, apenas na minha. E é por isso que você tem a coragem de fazer algo assim, enquanto eu fico aqui, travado."
+    "Você faz as coisas de maneira impulsiva, sem pensar nas consequências na maioria das vezes, porém faz, enquanto eu atraso tudo o que tenho que fazer."
 
     "Talvez eu precise mesmo aprender algo com você, Miya, de parar de pensar tanto nas coisas."
 
-    "Mas ao mesmo tempo… é isso que me define. Mudar isso seria me perder, também seria muito difícil."
+    "Mas ao mesmo tempo… é isso que me define de alguma forma. Mudar isso seria perder parte de mim, além de que seria muito difícil."
 
     "É como se fosse um hábito lapidado por anos e anos, não necessariamente um hábito bom, mas que agora faz parte de mim."
 
-    "Porém, é curioso como você sempre esteve nas minhas experiências mais extremas."
+    "Porém, é curioso ver como você sempre esteve nas minhas experiências mais extremas."
 
-    "Minha vida podia ser monótona, previsível, mas era satisfatória. Até você aparecer. Tanto na nossa infância, adolescência, quanto agora."
+    "Minha vida podia ser monótona, previsível, mas era satisfatória, até você aparecer. Tanto na nossa infância, adolescência, quanto agora."
 
     "Tipo, porra, eu pulei um muro de dois metros só pra poder te ver."
 
@@ -649,7 +649,7 @@ label corridors_C:
 
     "Talvez o problema é que eu seja muito incerto sobre tudo."
 
-    "Eu não sei o que eu quero, eu não sei o que eu sinto, eu não sei o que eu espero."
+    "Eu não sei o que eu quero, eu não sei o que eu sinto, assim como não sei o que eu espero."
 
     "E no fim das contas, eu não sei nem o que eu sou."
 
@@ -671,11 +671,11 @@ label choice_corridorsC:
             return "opt3"
 
 label corridors_Ca:
-    # Append personality trait later
+    $ mc_personality.append("He's determined to face his feelings and the situation head-on, regardless of the outcome.")
 
     "Eu já pensei demais. Já duvidei demais. Já tentei me convencer do contrário tantas vezes…"
 
-    "Mas se existe um momento pra parar de fugir, é esse."
+    "Mas, se existe um momento pra parar de fugir, é esse."
 
     "Talvez eu esteja errado."
     
@@ -687,15 +687,136 @@ label corridors_Ca:
 
     "Nada disso importa mais. O que importa é que eu estou aqui, e eu vou até o fim."
 
-    "Eu não vou mais me esconder, eu cheguei até aqui porque parte de mim quer, precisa entender o que restou entre nós."
+    "Eu não vou mais me esconder, eu cheguei até aqui porque parte de mim quer, precisa entender o que ainda restou entre nós."
+
+    "Eu continuarei nessa corda bamba e vou atravessá-la até o outro lado."
+
+    "O lado em que você está, e o que você me espera."
 
     "E se eu fraquejar num momento desses, nunca vou me perdoar. Eu não quero viver com mais um arrependimento."
 
-    "Não tem problema eu não querer carregar nada sozinho."
+    "Eu poderia até não ligar pra isso no presente, mas eu sei que no futuro vou me culpar por não ter tentando ir em frente."
+
+    "Assim como eu me culpo por coisas que eu não fiz no passado de vez em quando."
+
+    "De tantas oportunidades que eu deixei passar, de tantos momentos que eu não aproveitei, que eu me senti incerto sobre tudo."
+
+    "Pelo menos, agora eu quero tentar."
+    
+    "Quero começar a viver minha vida de uma forma parecida com a sua."
+
+    if seen_label("corridors_Aa"):
+        "Afinal, eu sempre me diverti muito mais quando estive ao seu lado, e eu ainda continuo."
+
+        "Quero que mesmo depois do ensino médio, eu ainda possa sair com você de vez em quando."
+
+        "Te contar sobre as coisas novas que ando vivendo, enquanto te escuto falar sobre as suas."
+
+        "Quero continuar rindo contigo seja de qualquer coisa, ou de nada, não precisa de motivos pra rir."
+
+        "Isso foi uma das coisas que você me ensinou quando criança e eu nunca esqueci."
+
+        "Eu quero continuar me divertindo contigo."
+
+        "Assim como eu sempre me diverti."
+
+        if seen_label("corridors_Ba"):
+            "E a única coisa que desejo essa noite, é que seja o começo de algo novo entre nós."
+
+            "Talvez eu finalmente esteja entendendo o que eu quero de verdade."
+
+            "Na verdade é como se eu sempre soubesse, e só agora estou tendo coragem de admitir isso pra mim."
+
+            "De pouco em pouco pelo menos, e no fim, só precisarei admitir pra você."
+
+        else:
+            "Mesmo andando tão distante de como eu era antes, ainda quero estar perto de você."
+
+            "Na verdade, quero estar mais próximo ainda."
+
+            "Eu não quero mais me afastar de ninguém, nem de mim mesmo."
+
+            "E não há ninguém melhor pra me ensinar isso do que você."
+
+            "De todas as vezes que eu me senti vivo por sua causa, mesmo naquelas em que eu não queria."
+            
+            "Eu ainda me lembro de quase todas elas. Em todas eu quis me sentir vivo na verdade, mesmo que inconscientemente, sempre quis."
+
+            "E isso é algo que não mudou até hoje, só preciso ser mais sincero comigo mesmo."
+
+            "Em principal, com você também."
+
+    else:
+        "E não importa como as coisas terminem depois disso, pelo menos vou poder olhar lá na frente e dizer que tentei."
+
+        "Tentei com medo, porém tentei."
+
+        "Se tudo acabar dando certo, ótimo. Se tudo acabar dando errado, tudo bem também."
+
+        "Porque eu pelo menos terei a certeza de que fiz o que pude."
+
+        "E terei certeza que aos poucos vou aprendendo a lidar com essas coisas."
+
+        "De que eu não sou mais aquele garoto que foge de tudo o que sente."
+
+        "E na minha perspectiva, mesmo que contra esse pensamento, acredito que seria o melhor pra mim."
+
+        "Muitas coisas eu só passei a apreciar assim que eu tentei elas de alguma forma."
+
+        "Pra mim o mais difícil sempre foi isso, tentar, dar o primeiro passo, e eu sempre acabava desistindo antes mesmo de continuar."
+
+        "E se não fosse pela Miya me forçando a dar esse primeiro passo pra tantas coisas, eu provavelmente ainda estaria me sentindo tão preso quanto nunca."
+
+        "Uma zona de conforto não é mais confortável quando você percebe que está sozinho nela."
+
+        "Se ela deixa de estar confortável, se torna uma zona de dor, e sair dela é tão difícil quanto sair de uma zona de conforto."
+
+        if seen_label("corridors_Bc"):
+            "E é por isso que eu preciso sair dessa zona."
+
+            "Preciso me arriscar, mesmo que eu não saiba o que vai acontecer depois."
+
+            "Preciso aprender a lidar com essas coisas."
+
+            "Preciso aprender a me abrir mais pras pessoas."
+
+            "Preciso aprender a me importar mais."
+
+            "Mesmo que eu me sinta vulnerável pra isso."
+
+            "E mesmo que eu não queira, preciso aprender a dar o primeiro passo sozinho."
+
+            "Pois no fim das contas, ninguém vai fazer isso por mim além dela."
+
+            "Eu devia ter aprendido isso há muito tempo, mas antes tarde do que nunca."
+
+        else:
+            "E eu já passei por várias dessas zonas, mas nunca consegui sair totalmente delas."
+
+            "É como se eu estivesse preso num ciclo vicioso de tentar e falhar."
+            
+            "E eu não quero mais isso pra mim."
+
+            "Preciso aprender a dar o primeiro passo sozinho."
+
+            "Preciso aprender a me arriscar mais."
+
+            "Nada vai mudar se eu continuar esperando que as coisas simplesmente mudem por vontade própria."
+
+            "Dessa forma eu apenas estaria repetindo o mesmo ciclo que venho estando em alguns meses."
+
+            "E no fim das contas, ninguém vai fazer isso por mim além dela."
+
+            "Só por hoje, vou deixar me levar."
+
+    "Afinal, não há nenhum problema em carregar nada sozinho."
 
     "Então, vou até o fim."
 
     "Mesmo que eu tenha medo de onde esse fim vai me levar."
+
+    if not seen_label("corridors_Bc"):
+        "Mas, eu me sinto estranhamente positivo sobre isso."
 
     return
 
@@ -733,15 +854,17 @@ label corridors_Cb:
     return
 
 label corridors_Cc:
-    # Append personality trait later
+    $ mc_personality.append("He's conflicted about his feelings and fears change, preferring the comfort of the status quo.")
 
-    "Talvez eu esteja fazendo tempestade em copo d'água. Em algo que nunca foi tão profundo assim como eu faço parecer."
+    "Talvez eu esteja fazendo tempestade em copo d'água. Em algo que nunca foi tão profundo assim como faço parecer."
 
-    "Talvez você só queira conversar, ou desabafar sobre algo, e eu tô aqui me preocupando demais."
+    "Talvez você só queira conversar, ou desabafar sobre algo, e eu tô aqui me preocupando demais com algo simples."
 
-    "Tô criando expectativas, colocando um peso enorme em seus braços sem nem mesmo sequer ter visto seu rosto hoje."
+    "Fico criando expectativas, colocando um peso enorme em seus braços sendo que nem mesmo sequer vi teu rosto hoje."
 
-    "É claro que realmente possa existir algo importante pra conversar, mas eu não sei se isso vai mudar alguma coisa."
+    "É claro que possa existir algo importante pra conversarmos, mas eu não sei se isso vá mudar alguma coisa."
+
+    "Ao mesmo tempo que eu sinto que vai mudar, também sinto que tanto faz o que aconteça."
 
     "Eu não sei se tô disposto a ter essa conversa."
 
@@ -759,7 +882,7 @@ label corridors_Cc:
 
     "Eu dou um leve suspiro, só pra ver se isso pelo menos me ajuda com alguma coisa."
 
-    "É claro que isso não tá certo, mas por que eu sinto conforto nesse maldito pensamento?"
+    "É claro que não tá certo, mas por que eu sinto conforto nesse pensamento?"
 
     "A Miya sempre foi alguém que me fez sentir vivo, mesmo quando eu não queria."
 
@@ -776,7 +899,7 @@ label corridors_Cc:
         
         "Eu ando repetindo os mesmos pensamentos que eu tive no caminho pra cá, mas, por qual motivo?"
 
-        "Achei que já tivesse decidido o que fazer assim que eu pulei o muro, mas parece que eu só tô enrolando mais ainda."
+        "Achei que já tivesse decidido o que fazer quando pulei o muro, mas, parece que só tô enrolando mais ainda."
 
         "Enrolando pra não ter que encarar ela, como se eu já soubesse que algo definitivo fosse acontecer."
 
@@ -851,7 +974,7 @@ label corridors_Cc:
     
     "Não vai ser fácil, eu sei disso."
 
-    "Mas, mesmo se algo mudar ou não, ficar parado aqui não vai me levar a lugar nenhum."
+    "Mas, mesmo se algo mudar ou não, ficar parado aqui não vai me levar à lugar nenhum."
 
     "Se eu pelo menos quero alguma resposta, nem que seja qualquer uma, eu preciso entrar aí."
 
