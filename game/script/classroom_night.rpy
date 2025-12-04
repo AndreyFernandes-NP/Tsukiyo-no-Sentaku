@@ -239,7 +239,7 @@ label corridors_Ac:
 
     "Ela era irritante."
 
-    "Ou pelo menos… foi o rótulo que eu dei pra ela."
+    "Ppelo menos… foi o rótulo que eu dei pra ela."
 
     "Ela falava demais, ria alto demais, queria fazer amizade com todo mundo. Entrava na minha vida com uma facilidade absurda, como se não precisasse pedir permissão."
 
@@ -288,9 +288,9 @@ label corridors_B:
 
     "Isso entre eu e a Miya não aconteceu do nada. Foi acontecendo aos poucos."
 
-    "E eu lembro de cada oportunidade que eu tive pra evitar isso."
+    "E eu lembro de cada oportunidade que tive pra evitar isso."
 
-    "Eu mesmo me afastei dela, eu percebia isso acontecendo."
+    "Eu mesmo me afastei dela, e mesmo percebendo isso, não fiz nada."
 
     "Às vezes eu pensava, 'eu devia mandar uma mensagem pra ela' ou, 'é melhor eu respondê-la rápido', mas nunca o fazia."
 
@@ -594,7 +594,7 @@ label corridors_C:
 
     "E eu queria poder encontrar uma razão, qualquer desculpa, só pra poder não encarar isso."
 
-    "Mas fugir de você é bem difícil, é algo que sempre deixou claro comigo, seja em brincadeiras no passado, ou quando você me empurra pra encontros."
+    "Mas fugir de você é bem difícil, é algo que sempre deixou claro comigo, seja em brincadeiras no passado, ou quando você me empurrava pra encontros."
 
     "Mesmo assim, eu não consigo evitar de pensar no que poderia ter sido diferente."
 
@@ -620,7 +620,7 @@ label corridors_C:
 
     "E se eu não fosse aparecer hoje, o que você faria? Se você estivesse ai atrás dessa porta, esperando por mim, por quanto tempo você aguentaria?"
 
-    "Você faz as coisas de maneira impulsiva, sem pensar nas consequências na maioria das vezes, porém faz, enquanto eu atraso tudo o que tenho que fazer."
+    "Você faz as coisas de maneira impulsiva, sem pensar nas consequências na maioria das vezes, porém faz, enquanto eu atraso tudo o que preciso fazer."
 
     "Talvez eu precise mesmo aprender algo com você, Miya, de parar de pensar tanto nas coisas."
 
@@ -642,7 +642,7 @@ label corridors_C:
 
     "Eu nunca teria feito nada dessas coisas se não fosse por você."
 
-    if seen_label("corridors_Ba") or seen_label("corridors_Bb"):
+    if not seen_label("corridors_Bc"):
         "E mesmo sendo difícil admitir, eu me senti mais vivo hoje do que em muitos outros dias previsíveis que venho tendo."
 
         "Não é algo que eu queira sentir sempre, mas… é bom saber que eu ainda sou capaz disso."
@@ -651,7 +651,7 @@ label corridors_C:
 
     "Eu não sei o que eu quero, eu não sei o que eu sinto, assim como não sei o que eu espero."
 
-    "E no fim das contas, eu não sei nem o que eu sou."
+    "No final das contas, eu não sei nem o que eu sou."
 
     "Por isso, se for pra ser sincero comigo mesmo…"
 
@@ -809,7 +809,7 @@ label corridors_Ca:
 
             "Só por hoje, vou deixar me levar."
 
-    "Afinal, não há nenhum problema em carregar nada sozinho."
+    "Afinal, não há nenhum problema em não carregar nada sozinho."
 
     "Então, vou até o fim."
 
@@ -821,7 +821,7 @@ label corridors_Ca:
     return
 
 label corridors_Cb:
-    # Append personality trait later
+    $ mc_personality.append("He is willing to take things as they come, without overthinking the situation.")
 
     "A verdade é que eu não tenho resposta nenhuma."
 
@@ -833,23 +833,150 @@ label corridors_Cb:
 
     "Passei a noite inteira pensando em todas as possibilidades, de racionalizar o que eu sinto, mas no fim das contas nada disso importa."
 
+    "Eu ainda continuo me sentindo perdido."
+
     "Eu sei que só estou complicando algo que poderia ser simples no final, mas eu não consigo evitar."
 
-    "Eu sinto falta de você, Miya."
+    "Você é uma incógnita pra mim, eu penso, de novo e de novo, porém nada faz sentido."
+
+    "Não consigo encontrar uma resposta que me satisfaça, muito menos uma lógica pra tudo isso."
+
+    "Mas sequer existe algum tipo de lógica? Por acaso é possível eu encontrar uma resposta?"
+
+    "Existe a chance de você ter feito tudo isso por fazer, sem um motivo real?"
+
+    "Na verdade, se eu disser que não for real, é como se eu tirasse seu direito de estar aqui."
+
+    "Você tem um propósito isso é claro, mas qual é?"
+
+    "Se eu soubesse pelo menos, muito antes de chegar aqui, talvez eu já estivesse dentro dessa sala."
+
+    "Eu já teria pensado numa resposta, ou até numa conclusão antes mesmo de chegar aqui."
+
+    "Mas é justamente pela suas ambiguidades que eu nunca me senti tão perdido como agora."
+
+    "E o que me deixa mais irritado, é que algo me diz que tudo isso foi proposital."
+
+    "Como se você soubesse exatamente o que estava fazendo."
+
+    "Como se você soubesse que eu estaria aqui, parado nessa frente dessa porta, sem saber o que fazer."
+
+    "É o que eu quero acreditar, assim eu me sinto menos idiota por estar nessa situação."
+
+    "Tudo o que me resta é esse sentimento de culpa."
+
+    "Culpa por ter me afastado de você."
+
+    "…"
+
+    "Eu sinto sua falta, Miya."
+
+    if not seen_label("corridors_Bc"):
+        "Falta de quando andávamos juntos pra casa."
+
+        "Falta dos nossos rolês aleatórios que você me arrastava."
+
+        "Falta até de conversar mais contigo."
 
     "E isso deveria ser o suficiente pra eu dar esse passo."
 
-    "Eu não faço ideia do que vai acontecer quando eu entrar ai, já repeti isso tantas vezes na minha mente que perdi a conta."
+    if seen_label("corridors_Bc"):
+        "Mas não é."
+
+        "É como se eu estivesse preso num ciclo vicioso de tentar e falhar."
+
+        "Só que dessa vez nem mesmo isso eu tô conseguindo."
+
+        "Eu não quero falhar com você. Eu não quero falhar comigo mesmo."
+
+        "Porém se eu não tentar, do que adianta?"
+
+        "Nesse caso eu já vou estar falhando de qualquer forma."
+
+        "Mesmo não querendo isso, parece que é inevitável."
+
+        "Só que eu sei que tenho o poder de mudar as coisas."
+
+        "E eu preciso fazer isso."
+
+        "Porque se eu não fizer, vou me arrepender pelo resto da minha vida."
+
+        "Posso não saber como agir agora, mas sei que vou descobrir na hora certa."
+
+        "E mesmo que eu não descubra, eu sei que você vai me ajudar com isso."
+
+    else:
+        "Mas e se eu tentar e nada mudar?"
+
+        "Se eu abrir essa porta e simplesmente nada for resolvido?"
+
+        "Não, isso não aconteceria."
+
+        "Eu já estou indo com a certeza de que não vou voltar a ser o mesmo depois disso."
+
+        "Mas o que eu não sei é como elas vão voltar depois de tudo."
+
+        "As coisas vão voltar a ser como eram antes?"
+
+        "Eu e você vamos voltar a ser próximos novamente?"
+
+        "Tão próximos como nunca?"
+
+        "Com alguma coisa mudando, o que vai restar de nós?"
+
+        "O que vai restar entre nós?"
+
+        "E o que vai restar de mim?"
+
+    "Eu não faço ideia de verdade do que vai acontecer quando eu entrar ai, já repeti isso tantas vezes na minha mente que perdi a conta."
     
     "Não sei se vai ser estranho, constrangedor, ou até mesmo doloroso."
 
-    "Pode ser que nada mude, ou que tudo vire de cabeça pra baixo."
+    "Não sei se vou me sentir aliviado, feliz, ou talvez até triste."
 
-    "Mas se eu não tentar… se eu não girar a porcaria dessa maçaneta… então nunca vou saber se eu poderia ter mudado alguma coisa."
+    "Pode ser que muito pouco mude, ou que tudo vire de cabeça pra baixo."
+
+    "Mas se eu não tentar… se eu não girar essa droga de maçaneta… nunca vou saber se eu poderia ter mudado alguma coisa."
 
     "E talvez esse 'não saber' seja pior do que qualquer resposta que eu possa receber essa noite."
 
-    "Então, eu só vou descobrir se tentar."
+    if seen_label("corridors_Ba"):
+        "Eu posso ter o direito da dúvida, mas não o direito de desistir."
+
+        "Ficar parado aqui não vai me dar a razão que eu preciso."
+
+        "Eu preciso agir."
+
+        "Se pelo menos não por mim, ao menos por ela."
+
+        "Porque eu sei que a Miya merece uma resposta."
+
+        "E eu devo isso a ela."
+
+        "Mesmo que eu não saiba qual é essa resposta."
+
+        "Porque no fim das contas…"
+    
+    else:
+        "Porque eu sei que eu devo isso a mim mesmo."
+
+        "Eu não posso continuar vivendo assim, sem saber o que eu realmente sinto."
+
+        "Eu não posso continuar me sentindo perdido."
+
+        "Meu sentimento de culpa só vai aumentar se eu não fizer nada."
+
+        "E o pior de tudo é que não há ninguém mais pra culpar além de mim."
+
+        "Então eu preciso agir."
+
+        "Preciso de respostas."
+
+        "E eu só vou conseguir isso se eu abrir essa porta."
+
+        "Porque no fim das contas…"
+
+    "Querendo ou não, eu só vou descobrir se tentar."
 
     return
 
@@ -886,7 +1013,7 @@ label corridors_Cc:
 
     "A Miya sempre foi alguém que me fez sentir vivo, mesmo quando eu não queria."
 
-    if seen_label("corridors_Ba") or seen_label("corridors_Bb"):
+    if not seen_label("corridors_Bc"):
         "E mesmo que eu tenha dúvidas sobre o que eu sinto, eu sei que estar perto dela me faz bem."
 
         "Eu quero e não quero ao mesmo tempo."
@@ -994,6 +1121,73 @@ label corridors_Cc:
 label corridors_D:
     "Hoje a noite, talvez seja a última chance que eu tenho de falar com você."
     
-    "acabou por enquanto"
+    "De uma vez por todas, esclarecer o que tá acontecendo entre nós."
+
+    if seen_label("corridors_Aa") and seen_label("corridors_Ba") and seen_label("corridors_Ca"):
+        $ mc_personality.append("Ren is ready to confess his true feelings to Miya.")
+
+        "De finalmente, admitir o que eu sempre senti por você."
+
+        "Mesmo que eu tenha demorado tanto pra perceber isso. Pra admitir isso."
+
+        "Eu só espero que você ainda sinta o mesmo por mim."
+
+    elif seen_label("corridors_Ab") and seen_label("corridors_Bb") and seen_label("corridors_Cb"):
+        $ mc_personality.append("Ren is uncertain about his feelings.")
+
+        "De entender o que eu realmente sinto por você."
+
+        "E o que eu realmente quero da nossa amizade."
+
+        "Mesmo que eu não tenha certeza do que isso seja ainda."
+
+    elif seen_label("corridors_Ac") and seen_label("corridors_Bc") and seen_label("corridors_Cc"):
+        $ mc_personality.append("Ren is resigned to the possibility of losing Miya.")
+
+        "De perceber que talvez a gente não tenha mais o que falar."
+
+        "E que talvez a gente não tenha mais o que ser."
+
+        "Mesmo que eu não queira aceitar isso de jeito nenhum."
+
+        "Ainda é uma possibilidade infeliz."
+    
+    else:
+        "Por mais que eu não saiba o que dizer agora."
+
+        "Pelo menos é isso o que eu vou fazer."
+
+        "Por nós dois."
+
+    "Depois de me perder tanto tempo em meus pensamentos, eu finalmente tomo a coragem que precisava."
+
+    "Eu respiro fundo, coloco a mão na maçaneta, e a giro devagar."
+
+    "O som da porta se abrindo ecoa pelo corredor silencioso."
+
+    "Está acontecendo."
+
+    "Tudo o que eu pensei, tudo o que eu senti, tudo o que eu temi…"
+
+    "Tudo isso acaba se resumindo a um único pensamento."
+
+    python:
+        user_response = renpy.input("E esse pensamento é…", length=100)
+        ren_thought = user_response.strip()
+
+        if not ren_thought or ren_thought.isspace():
+            renpy.say("", "…")
+            renpy.say("", "Parece que eu não consigo colocar isso em palavras agora.")
+            renpy.say("", "Não é como se eu soubesse exatamente o que sinto.")
+            renpy.say("", "Mas eu não consigo expressar isso pra mim mesmo.")
+            renpy.say("", "Se for pra resumir tudo em uma palavra, eu diria que é confusão.")
+            renpy.say("", "Mas até mesmo confuso, eu entendo muito bem o que eu sinto por você.")
+            renpy.say("", "Por fim, só tenho uma coisa a fazer…")
+            pass
+        else:
+            # Add later the implementation of the LLM integration for the player's response.
+            pass
+        
+    "Eu entro na sala de aula."
 
     return
