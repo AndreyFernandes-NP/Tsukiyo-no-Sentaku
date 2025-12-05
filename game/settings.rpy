@@ -87,6 +87,8 @@ init -2 python:
     ld_sfx("tree-rustle-soft", "tree_rustle_soft")
     ld_sfx("wind-howl_1", "wind_howl_1")
     ld_sfx("wind-howl_2", "wind_howl_2")
+    ld_sfx("door-open", "door_open")
+    ld_sfx("door-creak", "door_creak")
 
     # Effects
     menueffect = None

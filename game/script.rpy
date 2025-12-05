@@ -123,3 +123,18 @@ label future_prologue:
     with Pause(1.5)
 
     return
+
+label end_of_build:
+    scene black with scenechange
+    window hide
+
+    $ qc_menu('hide')
+
+    pause(2.0)
+
+    $ qc_menu('show')
+
+    show text "Tsukiyo no Sentaku - Fim da Build v[config.version]" with fade
+    pause
+
+    return

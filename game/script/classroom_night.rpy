@@ -15,6 +15,7 @@ label corridors:
     call iscene(dest) from _calling_scene7
 
     call iscene("corridors_D") from _calling_scene8
+    jump end_of_build
 
     return
 
@@ -239,7 +240,7 @@ label corridors_Ac:
 
     "Ela era irritante."
 
-    "Ppelo menos… foi o rótulo que eu dei pra ela."
+    "Pelo menos… foi o rótulo que eu dei pra ela."
 
     "Ela falava demais, ria alto demais, queria fazer amizade com todo mundo. Entrava na minha vida com uma facilidade absurda, como se não precisasse pedir permissão."
 
@@ -558,7 +559,7 @@ label corridors_C:
     else:
         "E também do que vou sentir depois disso."
 
-    "Eu não sei como vai ser quando eu abrir essa porta. Ainda não entendi porque eu não giro essa droga de maçaneta."
+    "Eu não sei como vai ser quando eu abrir essa porta. Ainda não entendi porque eu não giro essa maçaneta."
 
     "Mas, tudo quando envolve o seu nome nunca sai como o planejado. Sempre foi assim com você."
 
@@ -612,7 +613,7 @@ label corridors_C:
 
     "Nós não seremos mais os mesmos."
 
-    "Talvez esse seja o grande elefante no meio da sala que eu recuso enxergar. Eu queria que tudo se mantivesse igual, mas tenho quase certeza que não vai."
+    "Talvez esse seja o grande elefante no meio da sala que me recuso enxergar. Eu queria que tudo se mantivesse igual, mas tenho quase certeza que não vai."
 
     "Eu não sou alguém de tomar riscos, já você decidiu apostar tudo nessa noite. E o pior de tudo é que se eu não quiser perder, também preciso dar {i}all-in{/i} como você."
 
@@ -620,9 +621,9 @@ label corridors_C:
 
     "E se eu não fosse aparecer hoje, o que você faria? Se você estivesse ai atrás dessa porta, esperando por mim, por quanto tempo você aguentaria?"
 
-    "Você faz as coisas de maneira impulsiva, sem pensar nas consequências na maioria das vezes, porém faz, enquanto eu atraso tudo o que preciso fazer."
+    "Você faz as coisas de maneira impulsiva, sem pensar nas consequências na maioria das vezes, porém faz, enquanto eu atraso tudo do meu lado."
 
-    "Talvez eu precise mesmo aprender algo com você, Miya, de parar de pensar tanto nas coisas."
+    "Talvez eu precise mesmo aprender algo contigo, Miya, de parar de pensar tanto nas coisas."
 
     "Mas ao mesmo tempo… é isso que me define de alguma forma. Mudar isso seria perder parte de mim, além de que seria muito difícil."
 
@@ -636,7 +637,7 @@ label corridors_C:
 
     "Eu invandi a escola à noite, por sorte ninguém mais tá aqui, nem segurança, nem zelador, nada."
 
-    "Não me impressionaria se eu encontrar algum casal se escondendo por ai, transando por trás de uma árvore ou arbusto."
+    "Não me impressionaria se eu encontrar algum casal escondido por aí, transando atrás de uma árvore ou sei lá."
 
     "Talvez até eu encontre algum fantasma, já que agora descobri que a escola me dá arrepios à noite."
 
@@ -1163,6 +1164,7 @@ label corridors_D:
 
     "Eu respiro fundo, coloco a mão na maçaneta, e a giro devagar."
 
+    play sound sfx_door_open
     "O som da porta se abrindo ecoa pelo corredor silencioso."
 
     "Está acontecendo."
@@ -1170,6 +1172,8 @@ label corridors_D:
     "Tudo o que eu pensei, tudo o que eu senti, tudo o que eu temi…"
 
     "Tudo isso acaba se resumindo a um único pensamento."
+
+    "E esse pensamento é…"
 
     python:
         user_response = renpy.input("E esse pensamento é…", length=100)
@@ -1187,7 +1191,15 @@ label corridors_D:
         else:
             # Add later the implementation of the LLM integration for the player's response.
             pass
-        
+    
+    $ amb_stop()
+    $ ambience_sfx_cycle.stop(stop_all=True)
+    
+    scene black
+    with scenechange
+
     "Eu entro na sala de aula."
+
+    play sound sfx_door_creak
 
     return
