@@ -17,10 +17,10 @@ Please note:
 ## About the Team
 We are **RedHammer Studios**, a group of passionate creators who came together to combine our skills and bring this project to life.  
 
-- **Rain (Andrey)** — Lead Developer, Programmer, Director, Team Manager, and Writer. Responsible for the story, overall direction, programming of many QoL features, systems, and the implementation of the LLM system.  
-- **Ervilha** — Character Designer, shaping the look and personality of each character.  
-- **Sigmamaco** — Background Artist, crafting the immersive settings and stunning environments.  
-- **Salada** — Concept and Sketch Artist, providing the foundation for the project’s visual identity.  
+- **Rain (Andrey)** — Lead Developer, Programmer, Director, Team Manager, and Writer.  
+- **Ervilha** — Character Designer.  
+- **Sigmamaco** — Background Artist.  
+- **Salada** — Moral Support, Shit'n'Giggles.  
 
 ---
 
@@ -33,21 +33,20 @@ There's a total of 3 endings to discover and infinite possibilites of dialogues,
 ---
 
 ## Contributing
-We are currently **not accepting external contributions**.  
-This may change depending on the project’s development stage.  
+We are currently **not accepting any code contributions nor grammatical reviews**. But, if you want to translate Tsukiyo to any other language, feel free to open a PR with your translations!
+We are looking for official Japanese translations.
 
 If you are interested in learning more about our **LLM system** or exploring a more generalized use-case version of it, please refer to the section below.
 
 ---
 
 ## LLM System
-The **LLM system** was developed by our programmer **Rain**, inspired by the system originally created by Zeeblo for a *Doki Doki Literature Club* mod. While that implementation is now dated and limited due to older LLM constraints, our system aims to push immersion to the next level.
+The **LLM system** was developed by our programmer **Rain**, inspired by the system originally created by Zeeblo for a *Doki Doki Literature Club* mod. While that implementation is now dated and limited due to older LLM constraints, our system aims to deliver a better and concise result overall.
 
-Through real-time interaction, players can write their own responses and receive dynamic reactions via **dialogue, imagery, music, and sound effects**.  
+Through real-time interaction, players can write their own responses and receive dynamic reactions via **dialogue, imagery, music, and sound effects**. For Tsukiyo, currently there's only dialogue and image receivers from the A.I.
 
-- The system is built on **OpenAI’s API**, optimized for the lowest latency possible.
-- It adapts writing style to match our narrative design, ensuring consistency with the story.  
-- The AI is capable of generating responses not only for the **narrator, Ren, and Miya**, but also of selecting appropriate images and dynamically choosing the soundtrack to reflect the current context.  
+- The system is built on **OpenAI’s API**, as it attends all of our necessities and have Deepseek compatibility too. In the future, this may be changed for the GLM model api integration.  
+- The AI is capable of generating responses not only for the **narrator, Ren, and Miya**, but also of selecting appropriate images to reflect the current context. One of our future objectives is it to be able to play specific SFX, play effects and even custom BGM to match the scene appropriately.
 
 More details and documentation will be shared in the **original repository**: *TBA*.
 
