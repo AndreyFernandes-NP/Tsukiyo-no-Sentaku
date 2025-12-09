@@ -1189,6 +1189,7 @@ label corridors_D:
             pass
         else:
             # Add later the implementation of the LLM integration for the player's response.
+            # Just to make each branches different so I can already open a PR
             pass
     
     $ amb_stop()
