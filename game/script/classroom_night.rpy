@@ -34,1159 +34,1158 @@ label corridors_A:
 
     "…"
 
-    "Quem eu estou querendo enganar."
+    "Who am I trying to fool?"
 
-    "Desde que sai de casa, não paro de pensar se essa foi mesmo a melhor escolha."
+    "Ever since I left home, I haven't stopped wondering if this was actually the right choice."
 
-    "A brisa que bate nas minhas costas me dá uma leve sensação de frio, mas não é só isso."
+    "The breeze brushing against my back gives me a slight chill, but it's more than that."
 
-    "Ela é o suficiente pra me lembrar aonde eu estou, e o que vim fazer aqui. Apesar de ser quase verão, a noite não tem nenhuma intenção de estar menos fria."
+    "It's enough to remind me where I am, and why I came here. Even though summer's almost here, the night has no intention of feeling any less cold."
 
-    "O som do farfalhar das folhas, as árvores rangendo quando vão de um lado pro outro… tudo isso vem me dando arrepios."
+    "The rustling of the leaves, the trees creaking as they sway from side to side… all of it has been sending shivers down my spine."
 
-    "Droga, tanto trabalho, mas pra quê? Eu não queria estar aqui, mas não é como se eu tivesse outra opção, não depois do que recebi mais cedo."
+    "Damn it. So much effort, yet for what? I didn't want to be here, but it's not like I had any other choice, not after what I received earlier."
 
-    "'Ren, sei que parece meio aleatório, mas você poderia me encontrar na escola hoje à noite? Preciso muito falar com você.'"
+    "'Ren, I know this sounds sudden, but could you meet me at school tonight? I really need to talk to you.'"
 
-    "Eu puxo meu celular do bolso, e encaro essa mensagem da Miya. Isso se tornou um hábito desde que comecei a caminhar até aqui."
+    "I pull my phone from my pocket and stare at Miya's message. It's become a habit ever since I started walking here."
 
-    mc "Escola hoje à noite…"
+    mc "School… at night."
 
-    "'Pode ser por volta das 10? Na nossa sala mesmo. Eu estarei lá'. Eu checo as horas mais uma vez, já são 10:50 da noite."
+    "'Around 10 is fine, right? In our classroom. I'll be there.' I check the time once again, it's already 10:50 p.m."
 
     with Pause(1.0)
 
     mc "Aaah…"
 
-    mc "Droga."
+    mc "Shit."
 
-    mc "Como eu consegui me atrasar tanto?"
+    mc "How did I manage to get this late?"
 
-    "Você sabe como, são no máximo vinte minutos de casa até aqui, porém, o tempo inteiro que eu passei pensando sobre isso…"
+    "You know how. It's at most a twenty-minute walk from house to school, but I spent the entire time lost in my own head about this…"
 
-    "Quando coloquei meu casaco já eram às dez, e quando pisei fora de casa já tinham se passado mais vinte."
+    "When I put my jacket on, it was already ten. And by the time I stepped outside, twenty minutes had passed."
 
-    "Eu suspiro, sentindo novamente o peso daquela mensagem. Eu não sei o que me espera, mas não é como se eu fosse voltar atrás agora."
+    "I let out a sigh, feeling the weight of that message all over again. I don't know what's waiting for me, but it's not like I'm turning back now."
 
-    "E logo, respiro fundo, eu ainda preciso ficar calmo. O que será que a Miya quer falar comigo? Na verdade, existe mesmo alguma coisa pra falar?"
+    "So I take a deep breath, I still need to calm down. What does Miya even want to talk about? Actually… is there really anything left to talk?"
 
-    "Não estamos trocando tantas mensagens quanto costumávamos, parece que a partir de um momento eu não senti mais a necessidade de falar com ela."
+    "We haven't been messaging each other as much as we used to. At some point, it felt like I didn't see much reason to talk to her anymore."
 
-    "Mas, eu não posso negar que sinto falta disso. Eu sinto falta dela."
+    "But I can't deny that I miss it. I miss her."
 
-    "A nossa amizade vem de muito tempo atrás, éramos amigos de infância, e eu sempre acreditei que isso nunca mudaria."
+    "Our friendship goes way back, we were childhood friends, and I always believed that would never change."
 
-    "Nossas famílias eram próximas, sempre nos viamos em festas, passeios, encontros, e até mesmo nas férias de verão."
+    "Our families were close. We always saw each other at parties, trips, gatherings, even during summer vacations."
 
-    "Eu vivia na casa dela quando criança, e ela na minha, brincávamos juntos o tempo inteiro, e ela sempre foi como uma irmã mais nova pra mim."
+    "I practically lived at her house when we were kids, and she at mine. We spent all our time together, and she was always like a younger sister to me."
 
-    "O seu sorriso, seu jeito de ser, a sua personalidade extrovertida…"
+    "Her smile, her way of acting, her cheerful personality…"
 
-    "Eu observava tudo isso nela, e sentia uma certa satisfação por ter alguém assim ao meu lado."
+    "I'd watch all of that in her, and feel a certain comfort in having someone like that by my side."
 
-    "Porém, isso não era correto."
+    "But that wasn't exactly right."
 
-    "Não é como se tivesse sido tudo por acaso, nossos pais realmente eram muito próximos por conta do negócio da família. Isso já vem de gerações atrás."
+    "It wasn't like it all happened by chance, our parents were very close because of the family business. That goes back generations."
 
-    "É por isso que eu nunca senti que a nossa amizade fosse algo natural."
+    "That's why I never felt like our friendship was something natural."
 
-    "Nossas mães são amigas de infância como nós, e nossos pais também se conhecem desde que nasceram."
+    "Our mothers are childhood friends just like we are, and our fathers have known each other since they were born."
 
-    "A geração antiga sempre fez questão de manter essa proximidade entre as famílias, e tudo isso ficou muito claro pra mim quando eu crescia."
+    "The older generation always made sure to keep the families close, and that became very clear to me as I grew up."
 
-    "Os momentos que eu passava com a Miya, os passeios, as conversas, tudo isso parecia ser mais uma obrigação do que algo espontâneo."
+    "The time I spent with Miya, all of the trips, our chit-chats, it kinda felt like an obligation more than anything real."
 
-    "Como se estívessemos fadados a ser amigos, só porque nossas famílias queriam isso. Era mais como um negócio do que qualquer outra coisa."
+    "As if we were destined to be friends just because our families wanted it. More like a business arrangement than anything else."
 
-    "Mas não pra Miya. Ela sempre pareceu genuinamente feliz por estar comigo, mesmo que tudo fosse meio forçado pelos nossos pais, ela queria estar ao meu lado."
+    "But not for Miya. She always looked genuinely happy to be around me, even if everything was pushed by our parents. She wanted to be by my side."
 
-    "E eu sempre me senti mal por não conseguir retribuir isso da mesma forma."
+    "And I always felt guilty for not being able to reciprocate that feeling."
 
-    "Eu nunca fui muito bom em fazer amigos, não que eu não fosse sociável, mas sim por um certo desinteresse. Porém, com a Miya, ela foi a única pessoa com quem eu pude me aproximar mais."
+    "I was never great at making friends, not because I wasn't sociable, but because I didn't really care. But with Miya… she was the only person I ever got close to."
 
-    "E é por isso que me incomoda pelo fato de eu pensar assim."
+    "And that's why it bothers me to think this way."
 
-    "Que nossa amizade não é nada além de… um contrato social."
+    "That our friendship is nothing more than… a social contract."
 
     "…"
 
-    mc "Cacete."
+    mc "Goddammit."
 
-    mc "Por que é que eu tô pensando dessa forma?"
+    mc "Why am I even thinking like this?"
 
-    "Eu não quero ter que pensar assim."
+    "I don't want to think this way."
 
-    "Não quero achar que tudo o que eu sinto pela Miya é falso."
+    "I don't want to believe that everything I feel about Miya is fake."
 
-    "Mas ao mesmo tempo, não é como se tivéssemos algo verdadeiro."
+    "But at the same time… it's not like we have anything truly genuine."
 
-    "E se nossas famílias não fossem próximas… será que ainda seríamos amigos?"
+    "And if our families weren't close… would we still be friends?"
 
-    "Será que sequer nos conheceríamos?"
+    "Would we have even met?"
 
-    "Será que eu ainda me importaria com ela da mesma forma?"
+    "Would I still care about her the same way?"
 
-    "Que independente de tudo, eu ainda iria querer estar ao lado dela?"
+    "Would I still want to be by her side, no matter what?"
 
-    "Não acho que seja justo eu pensar assim."
+    "I don't think it's fair for me to think like that."
 
-    "Não é justo pra ela."
+    "It's not fair to her."
 
-    "Nos últimos 15 anos, passamos por tanta coisas juntos, desde quando nos conhecemos ao lado de nossas mães… até essa noite."
+    "For the past fifteen years, we've been through so much together, from when we first met beside our mothers… up until tonight."
 
-    "Sobre tudo o que já vivemos, tudo o que conversamos…"
+    "Everything we lived through, everything we talked about…"
 
-    "O que eu realmente acho do meu passado com a Miya?"
+    "What do I really think about my past with Miya?"
 
     return
 
 label choice_corridorsA:   
     menu:
         with menueffect
-        "Eu me diverti.":
+        "I had fun.":
 
             return "opt1"
-        "Não posso culpá-la.":
+        "I can't blame her.":
 
             return "opt2"
-        "Ela era irritante.":
+        "She was annoying.":
 
             return "opt3"
 
 label corridors_Aa:
     $ mc_personality.append("He carries some nostalgia for the carefree days of his childhood with Miya.")
 
-    "É claro que eu me diverti."
+    "Of course I had fun."
 
-    "Por mais que eu tente complicar as coisas agora, não tem como apagar o que eu senti naquela época."
+    "No matter how much I try to complicate things now, there's no way to erase what I felt back then."
 
-    "Eu lembro dos momentos que quase morremos de rir. De todas as coisas bobas que fazíamos, das conversas sem sentido, das tardes que passavam rápido demais."
+    "I remember all the times we laughed so hard it felt like we were going to die. All the stupid things we did, the random conversations, the afternoons that ended way too fast."
 
-    "Eram coisas simples… mas eram nossas."
+    "They were simple moments… but they were ours."
 
-    "Brincávamos de esconde-esconde no quintal, pegávamos vassouras e fingíamos que eram espadas, ela inventava histórias malucas e me fazia participar."
+    "We played hide-and-seek in her backyard, grabbed brooms and pretended they were swords, she'd come up with crazy stories and dragged me into them."
 
-    "E quando chovia, a gente se escondia na varanda e ficava observando a água cair, falando sobre nada e tudo ao mesmo tempo."
+    "And when it rained, we'd hide on the porch and just watch the water fall, talking about nothing and everything at the same time."
 
-    "Não tinha cobrança. Não tinha medo. Só existia o momento."
+    "There were no expectations. No pressure. Just the moment."
 
-    "Ninguém precisa de obrigação pra rir daquele jeito."
+    "You don't need obligation to laugh like that."
 
-    "Mesmo quando nossas famílias nos empurravam um pro outro, existiam momentos em que eu esquecia completamente disso. Momentos em que parecia que… ter ela por perto era natural."
+    "Even when our families pushed us together, there were moments when I completely forgot about it. Moments when having her around felt… natural."
 
-    "E eu nunca admiti isso em voz alta."
+    "And I never admitted that out loud."
 
-    "Nem mesmo quando nos tornamos adolescentes, e as coisas começaram a mudar."
+    "Not even when we became teenagers, and things started to change."
 
-    "Talvez eu tenha levado tudo aquilo por garantido. Talvez eu tenha achado que aquilo duraria para sempre."
+    "Maybe I just took everything for granted. Maybe I thought it would last forever."
 
-    "Mas agora, parado nesse corredor escuro, pensando no passado…"
+    "But now, standing here in this dark hallway, thinking about the past…"
 
-    "Eu percebo que foram alguns dos melhores momentos da minha vida."
+    "I realize those were some of the best moments of my life."
 
-    "Nós dois nos importávamos um com o outro, de verdade."
+    "We really cared about each other, for real."
 
-    "E mesmo que eu tenha dúvidas sobre o que tudo isso significa, eu sei que eu me diverti muito."
+    "And even if I still have doubts about what all of this means… I know I had a great time."
 
-    "Mesmo assim…"
+    "Still…"
 
     return
 
 label corridors_Ab:
     $ mc_personality.append("He feels guilty for not reciprocating Miya's efforts in their friendship.")
 
-    "Não é como se eu pudesse culpá-la ou a sua família de qualquer coisa disso. Muito menos a mim mesmo."
+    "It's not like I can blame her or her family for any of this. And honestly, I can't even blame myself."
 
-    "Durante anos, eu tentei acreditar que nossa amizade só existia porque nossas famílias queriam assim. Era mais fácil pensar nisso dessa forma."
+    "For years, I tried to believe our friendship only existed because our families wanted it that way. It was easier to think like that."
 
-    "Se tudo fosse consequência de uma obrigação, então eu não precisaria admitir que eu nunca soube lidar com o que sentia."
+    "If everything was just the result of an obligation, then I didn't have to admit that I never knew how to deal with what I felt."
 
-    "Era mais confortável culpar as circunstâncias do que encarar a verdade."
+    "It was more comfortable to blame the circumstances than face the truth."
 
-    "A Miya sempre foi quem puxava a conversa. Quem perguntava se eu queria sair. Quem tomava iniciativa."
+    "Miya was always the one who started conversations. The one who asked if I wanted to hang out. The one who took the initiative."
 
-    "Eu só estava lá."
+    "I was just… there."
 
-    "Sempre fui eu quem mantive distância."
+    "I was always the one keeping my distance."
 
-    "Ela tentava aproximar nossos mundos, enquanto eu fazia questão de manter o meu pequeno, controlado, confortável."
+    "She tried to bring our worlds closer, while I insisted on keeping mine small, controlled, comfortable."
 
-    "Talvez eu tivesse medo de depender demais dela."
+    "Maybe I was afraid of depending on her too much."
 
-    "Ou medo de descobrir que, sem essa amizade… eu não teria mais ninguém."
+    "Or afraid of realizing that without her friendship… I wouldn't have anyone else."
 
-    "E ainda assim, ela nunca me cobrou. Nunca me jogou na cara o esforço que fez. Nunca me fez sentir que eu estava em dívida."
+    "And even then, she never pressured me. Never threw her effort in my face. Never made me feel like I owed her anything."
 
-    "Ela só… continuou sendo ela."
+    "She just… kept being herself."
 
-    "E agora que estamos distantes, eu percebo o quanto me escondi atrás de desculpas."
+    "And now that we're distant, I can see how much I hid behind excuses."
 
-    "Eu dizia que nossa amizade era forçada pra justificar o fato de eu não conseguir corresponder."
+    "I kept saying our friendship was forced because it made it easier to justify why I couldn't reciprocate."
 
-    "Mas a verdade é que ela sempre foi sincera comigo."
+    "But the truth is, she was always honest with me."
 
-    "Eu é quem nunca tive coragem de ser sincero com ela."
+    "I was the one who never had the courage to be honest with her."
 
-    "Eu só posso assumir a parte que foi minha."
+    "I can only take responsibility for my part."
 
-    "Pelo menos agora eu consigo ver isso claramente."
+    "At least now I can see that clearly."
 
-    "Afinal…"
+    "After all…"
 
     return
 
 label corridors_Ac:
     $ mc_personality.append("He struggles to admit his true feelings for Miya, masking them with irritation.")
 
-    "Ela era irritante."
+    "She was annoying."
 
-    "Pelo menos… foi o rótulo que eu dei pra ela."
+    "At least… that's the label I gave to her."
 
-    "Ela falava demais, ria alto demais, queria fazer amizade com todo mundo. Entrava na minha vida com uma facilidade absurda, como se não precisasse pedir permissão."
+    "She talked too much, laughed too loud, tried to make friends with everyone. She walked into my life way too easily, like she didn't need permission."
 
-    "Ela me forçava a sair da minha zona de conforto. Me arrastava pra lugares que eu não queria ir, me fazia participar de coisas que eu jurava achar estúpidas."
+    "She pushed me out of my comfort zone. Dragged me to places I didn't want to go, made me join things I swore were stupid."
 
-    "E eu odiava isso."
+    "And I hated that."
 
-    "Era irritante."
+    "It was annoying."
 
-    "Ou… será que eu dizia isso porque era mais fácil do que admitir que eu gostava?"
+    "Or… maybe I only said that because it was easier than admitting I liked it."
 
-    "Porque no fim das contas, ela conseguia me fazer sentir vivo."
+    "Because in the end, she was the one who made me feel alive."
 
-    "Cada vez que ela puxava meu braço e dizia 'vamos, Ren, confia em mim', eu sentia como se o mundo ficasse mais leve."
+    "Every time she grabbed my arm and said, 'Come on, Ren, trust me,' it felt like the world got a little lighter."
 
-    "E isso me assustava."
+    "And that scared me."
 
-    "Eu não sei lidar com pessoas que entram na minha vida sem pedir licença."
+    "I don't know how to deal with people who walk into my life without knocking."
 
-    "Muito menos com alguém que consegue me enxergar."
+    "Let alone someone who can actually see me."
 
-    "Então eu dizia que ela era irritante. Porque aceitar o contrário significaria admitir que ela importava."
+    "So I said she was annoying. Because admitting the opposite would mean admitting she mattered."
 
-    "Mas agora, depois de tanto tempo, depois de tantas tentativas de me afastar…"
+    "But now, after all this time, after all my attempts to push her away…"
 
-    "Se eu realmente não gostasse dela, por que eu ainda lembro de tudo com tanta clareza?"
+    "If I really didn't like her, why do I remember everything so clearly?"
 
-    "Não existe ninguém irritante o bastante para marcar alguém dessa forma."
+    "No one is annoying enough to leave that kind of mark."
 
-    "Talvez eu só estivesse me protegendo. Talvez eu ainda esteja."
+    "Maybe I was just protecting myself. Maybe I still am."
 
-    "Porque sentir algo sempre foi muito mais assustador do que não sentir nada."
+    "Because feeling something has always been way scarier than feeling nothing."
 
-    "E hoje tá sendo um dos piores dias pra sentir isso."
+    "And today is one of the worst days to feel that."
 
-    "No fim…"
+    "In the end…"
 
     return
 
 label corridors_B:
-    "O culpado disso tudo ainda sou eu."
+    "The one to blame for all of this is still me."
 
-    "Se não fosse por minha causa, eu não estaria aqui agora."
+    "If it weren't for me, I wouldn't be here right now."
 
-    "Ou melhor… eu não estaria nessa situação."
+    "Or better… I wouldn't be in this situation."
 
-    "Isso entre eu e a Miya não aconteceu do nada. Foi acontecendo aos poucos."
+    "Whatever happened between me and Miya didn't come out of nowhere. It happened little by little."
 
-    "E eu lembro de cada oportunidade que tive pra evitar isso."
+    "And I remember every chance I had to stop it from getting here."
 
-    "Eu mesmo me afastei dela, e mesmo percebendo isso, não fiz nada."
+    "I'm the one who pulled away, and even noticing it, I did nothing."
 
-    "Às vezes eu pensava, 'eu devia mandar uma mensagem pra ela' ou, 'é melhor eu respondê-la rápido', mas nunca o fazia."
+    "Sometimes I thought, 'I should message her,' or, 'I should reply quickly this time,' but I never did."
 
-    "Até cheguei a pensar se ela se incomodava com isso, mas esse pensamento sumia tão rápido quanto aparecia."
+    "I even wondered if it bothered her, but that thought disappeared as fast as it appeared."
 
-    "Eu deixei que as coisas chegassem a esse ponto, e quando eu me perguntava o porquê, eu não conseguia encontrar uma resposta."
+    "I let everything reach this point, and whenever I asked myself why… I could never find an answer."
 
-    "Apenas me sentia… vazio. Indiferente. E dava uma desculpa qualquer pra justificar isso."
+    "I just felt… empty. Indifferent. And I threw any excuse on top of it to justify that."
 
-    "Era algo como, 'não é normal as pessoas se afastarem com o tempo?', o que não deixa de ser verdade."
+    "Something like, 'Isn't it normal for people to drift apart over time?' And yeah, that's true."
 
     if seen_label("corridors_Aa"):
-        "Mesmo tendo me divertido tanto com ela no passado… parecia que aquilo tudo tinha perdido o valor."
+        "Even though I had so much fun with her back then… it felt like all of that had lost its value."
 
-        "Como se fosse errado sentir saudade."
+        "Like it was wrong to miss it."
 
-        "Como se fosse errado querer reviver algo que já passou."
+        "Like it was wrong to want to relive something that's already gone."
 
-        "Mas, sendo realista, o que importa mesmo é o presente, e no presente, eu não vejo mais o mundo da mesma forma."
+        "But realistically, what matters is the present, and right now, I don't see the world the same way."
 
-    "Pouco a pouco, você nem percebe quando enviou a última mensagem pra alguém importante."
+    "You barely notice when you send your last message to someone important."
 
-    "Não percebe quando já é tarde demais pra querer tentar de novo."
+    "You don't notice when it's already too late to try again."
 
-    "Mas são essas dúvidas e incertezas que me incomodam tanto."
+    "But it's these doubts, these uncertainties, that bother me so much."
 
-    "O que isso significa pra mim? O que eu deveria fazer com isso?"
+    "What does all this mean to me? What am I supposed to do with it?"
 
-    "Devo tentar me tornar uma pessoa melhor? Como?"
+    "Should I try to become a better person? How?"
 
-    "Eu queria mesmo ter uma resposta pra essa pergunta, mas quanto mais eu penso, mais embaralhado as coisas ficam."
+    "I really wish I had an answer, but the more I think, the messier everything gets."
 
-    "Mesmo sendo amigos de infância, até parece que uma amizade assim não é imune a esses problemas."
+    "Even as childhood friends… I guess not even a friendship like that is immune to problems like these."
 
-    "Somos duas pessoas completamente diferentes agora."
+    "We're two completely different people now."
 
-    "Nosso círculo social não é o mesmo, ela é rodeada de gente, sempre saindo na primeira oportunidade. Já eu, no máximo troco duas palavras com um ou dois da minha classe."
+    "Our social circles aren't the same, she's always surrounded by people, always going out whenever she gets the chance. And me? I barely talk to one or two people in my class."
 
-    "Não temos mais nada em comum, e eu sempre tentei acreditar que isso não é um problema."
+    "We don't have anything in common anymore, and I always tried to believe that wasn't a problem."
 
-    "Tudo anda mudando tão rápido, que eu não sei se consigo acompanhar mais."
+    "Everything's changing so fast that I don't even know if I can keep up."
 
-    "Talvez no futuro eu acabe ficando congelado no tempo de alguma forma."
+    "Maybe in the future I'll just end up frozen in time somehow."
 
-    "Às vezes eu só queria que tudo fosse mais simples."
+    "Sometimes I just wish everything could be simpler."
 
-    "Porém, acredito que isso seja mais um sentimento de nostalgia do que qualquer outra coisa."
+    "But I guess that's more nostalgia talking than anything else."
 
-    "Ao menos com a Miya, tudo de fato parecia mais simples."
+    "At least with Miya, things really did feel simpler."
 
     mc "…"
 
-    "Será que tem mais alguém no mundo passando por algo assim?"
+    "Is there anyone else in the world going through something like this right now?"
 
-    "Ou será que sou o único nessa noite que tá se sentindo desse jeito?"
+    "Or am I the only one tonight feeling this way?"
 
-    "Eu não sei."
+    "I don't know."
 
-    "Eu não sei de mais nada."
+    "I don't know anything anymore."
 
-    "Eu pensava que conhecia a Miya, mas agora, eu nem sei mais."
+    "I thought I knew Miya, but now… I'm not even sure."
 
-    "Talvez eu nem mesmo me conheça, se eu não consigo me entender, como diabos entenderei outra pessoa?"
+    "Maybe I don't even know myself. If I can't understand me, how the hell am I supposed to understand someone else?"
 
-    "Pode ser que ela também tenha mudado, e eu só não percebi. Mas a mudança dela foi pra melhor, eu acho."
+    "Maybe she changed too, and I just didn't notice. But it feels like her change was for the better… I think."
 
-    "Como ela sempre foi tão extrovertida, eu comecei a pensar que talvez ela tenha conhecido alguém novo, ou até mesmo um grupo de amigos que a faça se sentir mais feliz."
+    "Since she's always been so outgoing, I started thinking maybe she found someone new. Or a new group of friends that makes her feel happier."
 
-    "Parte disso possa ser mesmo verdade, mas talvez eu esteja apenas tentando me convencer disso."
+    "Part of that might be true. But maybe I'm just trying to convince myself of that."
 
-    "Como se fosse apenas mais uma desculpa pra justificar eu me afastar dela."
+    "Like it's just another excuse for why I drifted away."
 
-    "Eu não sei."
+    "I don't know."
 
-    "Talvez eu esteja com medo de me sentir sozinho."
+    "Maybe I'm scared of ending up alone."
 
-    "Ou talvez eu só esteja com medo de continuar não sentindo nada."
+    "Or maybe I'm just scared of continuing to feel nothing."
 
-    "Por que eu cismei tanto com isso?"
+    "Why am I so hung up on this?"
 
-    "Eu não sei. Não sei, e não sei."
+    "I don't know. I don't know, and I don't know."
 
-    "Eu nunca sei de nada quando se trata desses assuntos."
+    "I never know anything when it comes to this stuff."
 
-    "Acho que, no fundo…"
+    "Deep down…"
 
-    "Eu talvez nem precise mais dela, certo?"
+    "Maybe I don't even need her anymore, right?"
 
     return
 
 label choice_corridorsB:   
     menu:
         with menueffect
-        "Não, não é assim que funciona.":
+        "No, that's not how it works.":
 
             return "opt1"
-        "Eu não consigo me decidir.":
+        "I can't make up my mind.":
 
             return "opt2"
-        "As coisas são naturalmente assim.":
+        "Things are just the way they are.":
 
             return "opt3"
 
 label corridors_Ba:
     $ mc_personality.append("He rejects the idea of giving up on their friendship and wants to fight to keep Miya in his life.")
 
-    "Não. O que eu tava pensando com isso?"    
+    "No. What was I even thinking?"
 
-    "Eu não posso simplesmente desistir assim do nada."
+    "I can't just give up out of nowhere."
 
-    "Afinal, a Miya ainda é minha amiga de infância, isso é algo que nunca vai mudar."
+    "Miya is still my childhood friend, that's something that's never going to change."
 
-    "Eu não posso deixar que essa simples distância acabe com tudo o que a gente já viveu."
+    "I can't let this distance erase everything we've been through."
 
-    "As memórias que temos juntos são muito importantes pra mim. E eu sei que elas são pra você também."
+    "The memories we have together mean a lot to me. And I know they mean a lot to you too."
 
-    "Se eu não tentar, eu nunca vou saber o que poderia ter acontecido. E eu não quero viver com esse arrependimento."
+    "If I don't try, I'll never know what could've happened. And I don't want to live with that regret."
 
-    "Muito menos quero que você viva com esse arrependimento."
+    "Even less do I want you to live with it."
 
-    "Eu respiro fundo, tentando afastar esses pensamentos negativos."
+    "I take a deep breath, trying to push these negative thoughts away."
 
-    "Eu não posso deixar que isso me consuma."
+    "I can't let this consume me."
 
-    "Se eu quiser que as coisas voltem a ser como antes, vou ter que me esforçar pra isso."
+    "If I want things to go back to how they were, then I'm the one who has to put in the effort."
 
-    "Eu vim até aqui porque preciso falar com ela, e é isso que eu vou fazer."
+    "I came all the way here because I need to talk to her, and that's exactly what I'm going to do."
 
     return
 
 label corridors_Bb:
     $ mc_personality.append("He feels torn about his feelings towards Miya and is unsure of what to do.")
 
-    "Não é fácil pensar numa resposta."
+    "It's not easy to think of an answer."
 
-    "Eu não sei o que eu realmente quero."
+    "I don't even know what I really want."
 
-    "Eu só sei que eu não quero me sentir assim."
+    "I just know I don't want to feel like this."
 
-    "Eu não quero me sentir tão perdido."
+    "I don't want to feel this lost."
 
-    "Sermos amigos de infância não é algo que se perde da noite pro dia, mas eu não sei se isso é o suficiente."
+    "Being childhood friends isn't something that disappears overnight, but I don't know if that's enough."
 
-    "Independente do que eu faça, eu não sei se as coisas vão voltar a ser como antes."
+    "No matter what I do, I don't know if things will ever go back to how they were."
 
-    "Eu não sei se nem quero que elas voltem a ser."
+    "I don't even know if I want them to."
 
-    "Uma coisa que eu detesto são promessas vazias, e eu não quero fazer uma promessa dessas pra Miya."
+    "One thing I hate are empty promises, and I don't want to make one of those to Miya."
 
-    "Eu não quero decepcioná-la, mas eu também não quero me decepcionar."
+    "I don't want to disappoint her, but I also don't want to disappoint myself."
 
-    "Eu adoraria continuar sendo amigo dela, mas será que ela ainda gostaria disso?"
+    "I'd love to still be her friend, but… would she even want that?"
 
-    "Será que eu ainda sou importante pra ela?"
+    "Am I still important to her?"
 
-    "Não, eu sei que sou, é por isso que estou aqui, mas, ao mesmo tempo, não sei se conseguiria cumprir o que ela espera de mim."
+    "No, I know I am. That's why I'm here. But at the same time, I don't know if I can live up to what she expects from me."
 
-    "Mas que merda… pode não parecer Miya, mas eu ainda prezo muito pela nossa amizade."
+    "Damn it… it may not look like it, Miya, but I still care a lot about our friendship."
 
-    "Só não sei como agir, como pôr isso em palavras."
+    "I just don't know how to act, or how to put any of this into words."
 
-    "Eu não sei o que eu quero, e eu não sei o que você quer."
+    "I don't know what I want, and I don't know what you want."
 
-    "Eu apenas não sei, e por causa disso, que eu só vou seguindo o fluxo das coisas. O que for, for. O que tiver que ser, será."
+    "I just don't know, and because of that, I end up going with the flow. Whatever happens, happens."
 
-    "Mas por que isso me incomoda tanto? É como se não fosse eu que estivesse no controle."
+    "But why does that bother me so much? It feels like I'm not the one in control."
 
-    "Na verdade, o que é ter controle?"
+    "Actually… what does it even mean to have control?"
 
-    "Querer andar todo dia pra outro lado, mas acabar indo parar sempre no mesmo."
+    "Wanting to walk in one direction but always ending up somewhere else."
 
-    "Nesse caso, o destino mesmo importa?"
+    "In that case, does the destination always matter?"
 
-    "Importa, ou eu só tô me iludindo?"
+    "Does it matter, or am I just fooling myself?"
 
-    "Talvez eu só precise parar de pensar tanto nessas coisas."
+    "Maybe I just need to stop overthinking everything."
 
-    "Se eu estou aqui, é porque eu quero estar."
+    "If I'm here, it's because I want to be."
 
-    "E se eu quero estar aqui, é porque eu quero falar com a Miya."
+    "And if I want to be here, it's because I want to talk to Miya."
 
-    "E se eu quero falar com você, Miya, é porque eu ainda me importo contigo."
+    "And if I want to talk to you, Miya, it's because I still care about you."
 
-    "Então só hoje, apenas por hoje, eu quero estar no controle."
+    "So just for today… just for tonight… I want to be the one in control."
     
     return
 
 label corridors_Bc:
     $ mc_personality.append("He tries to rationalize his feelings and the situation, but remains uncertain and conflicted.")
 
-    "Eu não sei se isso é algo que eu possa controlar."
+    "I don't know if this is something I can control."
 
-    "E eu não sei se isso é algo que eu queira controlar."
+    "And I don't know if it's something I even want to control."
 
-    "Eu não sei se eu quero que as coisas sejam diferentes."
+    "I don't know if I want things to be different."
 
-    "Somos amigos de infância, mas não somos mais crianças."
+    "We're childhood friends, but we're not kids anymore."
 
-    "Eu não sei se eu quero que a gente volte a ser tão próximos quanto antes."
+    "I don't know if I want us to go back to being as close as we used to be."
 
-    "Não é como se estivéssemos preso por um laço inquebrável ou algo assim."
+    "It's not like we're bound together by some unbreakable tie or anything."
 
-    "Eu não sei se eu quero isso…"
+    "I don't know if I want that…"
 
-    "Mas eu também não sei se eu quero o contrário."
+    "But I also don't know if I want the opposite."
 
-    "Estar longe de você, Miya, é algo que me incomoda."
+    "Being away from you, Miya, does bother me."
 
-    "Mas não seria estranho demais de repente, depois de tanto tempo, voltarmos a ser próximos assim?"
+    "But wouldn't it be weird if, after all this time, we suddenly went back to being that close?"
 
-    "Talvez você pense de outra forma, mas eu não sei. Talvez esse incômodo seja só meu."
+    "Maybe you see it differently, I don't know. Maybe this discomfort is just mine."
 
-    "Talvez você queira mesmo se afastar."
+    "Maybe you actually want distance."
 
-    "Ou talvez queira estar tão próxima quanto antes."
+    "Or maybe you want to be just as close as before."
 
-    "Droga, eu não sei e não aguento mais não saber."
+    "Damn it, I don't know, and I'm tired of not knowing."
 
-    "Por que tudo tem que ser tão complicado?"
+    "Why does everything have to be so complicated?"
 
-    "Por que eu não posso simplesmente aceitar as coisas como elas são?"
+    "Why can't I just accept things the way they are?"
 
-    "Tudo estava indo bem, eu estava seguindo minha vida normalmente, e agora, isso?"
+    "Everything was fine, I was living my life normally, and now… this?"
 
-    "É só uma mensagem, mas cacete, por que isso tá mexendo tanto comigo?"
+    "It's just a message, but damn, why is it messing with me this much?"
 
-    "Ou será que eu só tô me iludindo?"
+    "Or am I just fooling myself?"
 
-    "Talvez eu quisesse falar tanto sobre isso quanto você, que só a ideia de te ver já me deixa assim."
+    "Maybe I wanted to talk about this as much as you did, and just the idea of seeing you again is making me feel like this."
 
-    "É como se fosse errado eu não tentar, errado em te deixar."
+    "It feels wrong not to try. Wrong to just leave things as they are."
 
-    "E por isso que tudo tá tão confuso. Eu não sei nem mais o que eu quero de verdade."
+    "And that's why everything feels so confusing. I don't even know what I truly want anymore."
 
-    "Mas eu sei que eu quero te ver. E é por isso que eu vou tentar, mesmo que eu não saiba o que vai acontecer depois."
+    "But I do know I want to see you. And that's why I'm going to try, even if I have no idea what comes next."
 
-    "Ao menos por uma última vez, Miya."
+    "At least for one last time, Miya."
 
     return
 
 label corridors_C:
-    "Pois tudo o que eu fiz até agora, me levou até aqui."
+    "Because everything I've done up until now led me here."
 
-    "Tudo o que eu venho pensando, tudo o que eu venho sentindo… parece tão pequeno comparado a esse momento."
+    "Everything I've been thinking, everything I've been feeling… it all seems so small compared to this moment."
 
-    "E é por isso que tudo tá tão estranho. Eu estou preso entre o passado e o futuro, e agora… tudo se resume a um passo."
+    "And that's why everything feels so strange. I'm stuck between my past and my future, and now… everything comes down to a single step."
 
-    "Mas eu não sei se consigo dar esse passo, ou se eu quero dar."
+    "But I don't know if I can take that step. Or if I even want to."
 
-    "Por que tudo tem que ser resumido à isso?"
-    
-    "Na verdade, por que eu tenho que definir tudo agora?"
+    "Why does everything have to be summed up to this?"
 
-    "Por que {i}tudo{/i} não sai da minha cabeça?"
+    "Actually, why do I have to define everything right now?"
 
-    "Um único passo, e tudo muda."
+    "Why can't I get {i}everything{/i} out of my head?"
 
-    "Um único passo, e me aproximo mais de você."
+    "One step, and everything changes."
+
+    "One step, and I'm closer to you."
 
     if seen_label("corridors_Bc"):
-        "Ou talvez me afaste de vez."
+        "Or maybe further away for good."
 
-        "E eu continue sozinho, sem saber o que fazer."
-
+        "And I'd still be alone, not knowing what to do."
     else:
-        "E também do que vou sentir depois disso."
+        "And closer to whatever I'm going to feel after this."
 
-    "Eu não sei como vai ser quando eu abrir essa porta. Ainda não entendi porque eu não giro essa maçaneta."
+    "I don't know what it's going to be like when I open this door. I still don't understand why I can't bring myself to turn the handle."
 
-    "Mas, tudo quando envolve o seu nome nunca sai como o planejado. Sempre foi assim com você."
+    "But anything that involves your name never goes the way I expect. It's always been like that with you."
 
-    "Eu só sei que, seja o que for, eu talvez finalmente consiga entender alguma coisa."
+    "All I know is that whatever happens, maybe I'll finally understand something."
 
-    "Talvez eu consiga entender o que eu realmente sinto por você."
+    "Maybe I'll finally understand what I really feel about you."
 
-    "Talvez eu consiga entender o que eu realmente sinto por mim mesmo."
+    "Maybe I'll understand what I really feel about myself."
 
-    "Mas dizem que algumas coisas não precisam ser entendidas."
+    "But people say some things aren't meant to be understood."
 
-    "Que é necessário apenas senti-las. E eu acho que chegou a hora de eu fazer isso, se não, pelo menos tentar."
+    "That you're supposed to just feel them. And I think it's time to do that, or at least just try."
 
-    "Relacionamentos nunca foram meu forte, e eu sempre evitei me envolver demais."
+    "Relationships were never my forte, and I've always avoided getting too involved."
 
-    "Querendo ou não, acabei me envolvendo em um de qualquer forma. Vai ver é por isso que eu nunca fui tão popular com as pessoas."
+    "One way or another, I ended up involved anyway. Maybe that's why I was never exactly popular with people."
 
-    "Eu nunca vi isso como um problema pra ser sincero, mas parando pra pensar agora…"
+    "I never saw that as a problem, to be honest, but thinking about it now…"
 
-    "O fato de eu não saber lidar com isso é um dos principais motivos pra eu estar aqui agora."
+    "Not knowing how to deal with any of this is one of the main reasons I'm here."
 
-    "Na verdade, seria tão engraçado eu abrir essa porta e descobrir que você não tá nem aqui."
+    "Honestly, it'd be kind of funny if I opened this door and you weren't even here."
 
-    "Tantas coisas poderiam ter acontecido diferente pra que isso fosse possível, e mesmo assim, eu tô aqui no meio da escola às 11 da noite, só pra te ver."
+    "So many things could have happened differently to make that possible, and even then, here I am, in the middle of the school at 11 PM, just to see you."
 
-    "Eu não sei o que te levou a querer me chamar aqui, mas o que me deixa mais incomodado é eu entender o porquê de você ter escolhido assim."
+    "I don't know what made you want to call me here, but what bothers me the most is understanding why you chose to do it this way."
 
-    "Acho que agora é tarde demais pra sentir vergonha."
+    "I guess it's too late to feel embarrassed."
 
-    "Sua estratégia funcionou, mas não quer dizer que eu tô feliz por isso, só não tenho escolha a não ser isso agora."
+    "Your strategy worked, but that doesn't mean I'm happy about it. It's just that I don't have any other choice now."
 
-    "Não importa o que eu pense, eu não consigo encontrar uma razão pra dar meia volta e voltar pra casa."
+    "No matter what I think, I can't find a single reason to go back home."
 
-    "E eu queria poder encontrar uma razão, qualquer desculpa, só pra poder não encarar isso."
+    "And I wish I could find one, any excuse at all, just so I wouldn't have to face this."
 
-    "Mas fugir de você é bem difícil, é algo que sempre deixou claro comigo, seja em brincadeiras no passado, ou quando você me empurrava pra encontros."
+    "But running away from you is hard. You always made that clear, whether it was in our childhood games or when you pushed me into things I didn't want to."
 
-    "Mesmo assim, eu não consigo evitar de pensar no que poderia ter sido diferente."
+    "Even so, I can't help thinking about how things could have been different."
 
-    "Não que isso vá mudar alguma coisa, não é como se eu pudesse voltar no tempo."
+    "Not that it matters now, it's not like I can go back in time."
 
-    "E mesmo que eu pudesse, não sei se teria coragem de fazer isso."
+    "And even if I could, I don't know if I'd have the courage to change anything."
 
-    "Porque no fim das contas, tudo o que aconteceu…"
+    "Because in the end, everything that happened…"
 
-    "Me trouxe até aqui."
+    "Led me right here."
 
-    "Seja isso bom ou ruim, eu não sei."
+    "Whether that's good or bad, I have no idea."
 
-    "Mas pelo menos, seja lá o que for acontecer depois disso…"
+    "But at the very least, whatever happens after this…"
 
-    "Nós não seremos mais os mesmos."
+    "We won't be the same."
 
-    "Talvez esse seja o grande elefante no meio da sala que me recuso enxergar. Eu queria que tudo se mantivesse igual, mas tenho quase certeza que não vai."
+    "Maybe that's the elephant in the room I'm refusing to look at. I wanted everything to stay the same, but I'm almost sure it won't."
 
-    "Eu não sou alguém de tomar riscos, já você decidiu apostar tudo nessa noite. E o pior de tudo é que se eu não quiser perder, também preciso dar {i}all-in{/i} como você."
+    "I'm not someone who takes risks, but you're the one who bet everything on tonight. And the worst part is, if I don't want to lose, I have to go {i}all-in{/i} too."
 
-    "Por quanto tempo será que você planejou isso? Na verdade, houve sequer algum planejamento?"
+    "How long did you even plan this? Actually, was there even a plan?"
 
-    "E se eu não fosse aparecer hoje, o que você faria? Se você estivesse ai atrás dessa porta, esperando por mim, por quanto tempo você aguentaria?"
+    "And if I hadn't shown up, what would you have done? If you're behind this door waiting for me, how long would you have waited?"
 
-    "Você faz as coisas de maneira impulsiva, sem pensar nas consequências na maioria das vezes, porém faz, enquanto eu atraso tudo do meu lado."
+    "You do things impulsively without thinking about the consequences most of the time, but you do them. Meanwhile, I slow everything down on my side."
 
-    "Talvez eu precise mesmo aprender algo contigo, Miya, de parar de pensar tanto nas coisas."
+    "Maybe I really do need to learn something from you, to stop overthinking everything so much."
 
-    "Mas ao mesmo tempo… é isso que me define de alguma forma. Mudar isso seria perder parte de mim, além de que seria muito difícil."
+    "But at the same time… that's part of who I am. Changing that would mean losing a piece of myself, and it'd be really hard."
 
-    "É como se fosse um hábito lapidado por anos e anos, não necessariamente um hábito bom, mas que agora faz parte de mim."
+    "It's like a habit shaped over years and years, not necessarily a good habit, but one that's part of me now."
 
-    "Porém, é curioso ver como você sempre esteve nas minhas experiências mais extremas."
+    "But it's funny how you've always been there in my most extreme moments."
 
-    "Minha vida podia ser monótona, previsível, mas era satisfatória, até você aparecer. Tanto na nossa infância, adolescência, quanto agora."
+    "My life could be monotonous, predictable, but still satisfying… until you showed up. In our childhood, in our teens, and even now."
 
-    "Tipo, porra, eu pulei um muro de dois metros só pra poder te ver."
+    "Like, seriously, I climbed a two-meter wall just to see you."
 
-    "Eu invandi a escola à noite, por sorte ninguém mais tá aqui, nem segurança, nem zelador, nada."
+    "I broke into the school at night. Luckily there's no one here, no security, janitors, nothing."
 
-    "Não me impressionaria se eu encontrar algum casal escondido por aí, transando atrás de uma árvore ou sei lá."
+    "I wouldn't even be surprised if I ran into some couple hiding somewhere, making out behind a tree or something."
 
-    "Talvez até eu encontre algum fantasma, já que agora descobri que a escola me dá arrepios à noite."
+    "Maybe I'll even run into a ghost, seeing as the school gives me chills at night."
 
-    "Eu nunca teria feito nada dessas coisas se não fosse por você."
+    "I would've never done any of this if it weren't for you."
 
     if not seen_label("corridors_Bc"):
-        "E mesmo sendo difícil admitir, eu me senti mais vivo hoje do que em muitos outros dias previsíveis que venho tendo."
+        "And as hard as it is to admit, I felt more alive tonight than during a lot of the predictable days I've been having."
 
-        "Não é algo que eu queira sentir sempre, mas… é bom saber que eu ainda sou capaz disso."
+        "It's not something I want to feel all the time, but… it's good to know I'm still capable of it."
 
-    "Talvez o problema é que eu seja muito incerto sobre tudo."
+    "Maybe the real problem is that I'm uncertain about everything."
 
-    "Eu não sei o que eu quero, eu não sei o que eu sinto, assim como não sei o que eu espero."
+    "I don't know what I want, I don't know what I feel, and I don't know what I expect."
 
-    "No final das contas, eu não sei nem o que eu sou."
+    "In the end, I don't even know what I am."
 
-    "Por isso, se for pra ser sincero comigo mesmo…"
+    "So if I'm going to be honest with myself…"
+
 
     return
 
 label choice_corridorsC:   
     menu:
         with menueffect
-        "Eu vou até o fim.":
+        "I'll go all the way.":
 
             return "opt1"
-        "Só vou descobrir tentando.":
+        "I'll only know if I try.":
 
             return "opt2"
-        "Talvez nada mude.":
+        "Maybe nothing'll change.":
 
             return "opt3"
 
 label corridors_Ca:
     $ mc_personality.append("He's determined to face his feelings and the situation head-on, regardless of the outcome.")
 
-    "Eu já pensei demais. Já duvidei demais. Já tentei me convencer do contrário tantas vezes…"
+    "I've thought too much already, doubted too much. Tried to convince myself otherwise so many times…"
 
-    "Mas, se existe um momento pra parar de fugir, é esse."
+    "But if there's a moment to stop running, it's this one."
 
-    "Talvez eu esteja errado."
-    
-    "Talvez eu esteja me enganando."
+    "Maybe I'm wrong."
 
-    "Talvez eu nem consiga dizer o que realmente sinto quando olhar pra você."
+    "Maybe I'm fooling myself."
 
-    "Mas não importa."
+    "Maybe I won't even be able to say what I really feel when I look at you."
 
-    "Nada disso importa mais. O que importa é que eu estou aqui, e eu vou até o fim."
+    "But it doesn't matter."
 
-    "Eu não vou mais me esconder, eu cheguei até aqui porque parte de mim quer, precisa entender o que ainda restou entre nós."
+    "None of that matters anymore. What matters is that I'm here, and I'm going all the way."
 
-    "Eu continuarei nessa corda bamba e vou atravessá-la até o outro lado."
+    "I'm done hiding, I came this far because a part of me wants, needs to understand what's still left between us."
 
-    "O lado em que você está, e o que você me espera."
+    "I'll stay on this tightrope and walk it to the other side."
 
-    "E se eu fraquejar num momento desses, nunca vou me perdoar. Eu não quero viver com mais um arrependimento."
+    "The side where you are, the side where you're waiting for me."
 
-    "Eu poderia até não ligar pra isso no presente, mas eu sei que no futuro vou me culpar por não ter tentando ir em frente."
+    "And if I hesitate now, I'll never forgive myself. I don't want to live with another regret."
 
-    "Assim como eu me culpo por coisas que eu não fiz no passado de vez em quando."
+    "I might not care about this in the present, but I know that in the future I'd blame myself for not trying to move forward."
 
-    "De tantas oportunidades que eu deixei passar, de tantos momentos que eu não aproveitei, que eu me senti incerto sobre tudo."
+    "Just like I blame myself sometimes for things I never did in the past."
 
-    "Pelo menos, agora eu quero tentar."
-    
-    "Quero começar a viver minha vida de uma forma parecida com a sua."
+    "For all the opportunities I let slip away, for all the moments I never lived because I felt uncertain about everything."
+
+    "At the very least, now I want to try."
+
+    "I want to start living my life a little more like you do."
 
     if seen_label("corridors_Aa"):
-        "Afinal, eu sempre me diverti muito mais quando estive ao seu lado, e eu ainda continuo."
+        "After all, I always had way more fun when I was by your side, and I still do."
 
-        "Quero que mesmo depois do ensino médio, eu ainda possa sair com você de vez em quando."
+        "I want that even after high school, I'll still get to hang out with you sometimes."
 
-        "Te contar sobre as coisas novas que ando vivendo, enquanto te escuto falar sobre as suas."
+        "To tell you about the new things happening in my life, while I listen to you talk about yours."
 
-        "Quero continuar rindo contigo seja de qualquer coisa, ou de nada, não precisa de motivos pra rir."
+        "I want to keep laughing with you, whether it's about anything or nothing at all, there doesn't need to be a reason to laugh."
 
-        "Isso foi uma das coisas que você me ensinou quando criança e eu nunca esqueci."
+        "That's something you taught me when we were kids, and I never forgot it."
 
-        "Eu quero continuar me divertindo contigo."
+        "I want to keep having fun with you."
 
-        "Assim como eu sempre me diverti."
+        "Just like I always did."
 
         if seen_label("corridors_Ba"):
-            "E a única coisa que desejo essa noite, é que seja o começo de algo novo entre nós."
+            "And the only thing I want tonight is for this to be the start of something new between us."
 
-            "Talvez eu finalmente esteja entendendo o que eu quero de verdade."
+            "Maybe I'm finally starting to understand what I truly want."
 
-            "Na verdade é como se eu sempre soubesse, e só agora estou tendo coragem de admitir isso pra mim."
+            "Actually, it's like I always knew, and only now I'm finding the courage to admit it to myself."
 
-            "De pouco em pouco pelo menos, e no fim, só precisarei admitir pra você."
+            "Little by little, at least. The only thing left is that I just need to admit it to you."
 
         else:
-            "Mesmo andando tão distante de como eu era antes, ainda quero estar perto de você."
+            "Even if I'm far from who I used to be, I still want to be close to you."
 
-            "Na verdade, quero estar mais próximo ainda."
+            "Actually, I want to be even closer."
 
-            "Eu não quero mais me afastar de ninguém, nem de mim mesmo."
+            "I don't want to pull away from anyone anymore, not even from myself."
 
-            "E não há ninguém melhor pra me ensinar isso do que você."
+            "And there's no one better to teach me that than you."
 
-            "De todas as vezes que eu me senti vivo por sua causa, mesmo naquelas em que eu não queria."
-            
-            "Eu ainda me lembro de quase todas elas. Em todas eu quis me sentir vivo na verdade, mesmo que inconscientemente, sempre quis."
+            "For all the times you made me feel alive, even when I didn't want to."
 
-            "E isso é algo que não mudou até hoje, só preciso ser mais sincero comigo mesmo."
+            "I still remember almost all of them. And in every one, I wanted to feel alive. Even unconsciously, I always wanted that."
 
-            "Em principal, com você também."
+            "And that's something that hasn't changed to this day. I just need to be more honest with myself."
+
+            "And most importantly, with you too."
 
     else:
-        "E não importa como as coisas terminem depois disso, pelo menos vou poder olhar lá na frente e dizer que tentei."
+        "And no matter how things end after this, at least I'll be able to look back and say I tried."
 
-        "Tentei com medo, porém tentei."
+        "Tried even while afraid, but tried."
 
-        "Se tudo acabar dando certo, ótimo. Se tudo acabar dando errado, tudo bem também."
+        "If it all goes well, great. If it all goes wrong, that's fine too."
 
-        "Porque eu pelo menos terei a certeza de que fiz o que pude."
+        "Because at least I'll know I did what I could."
 
-        "E terei certeza que aos poucos vou aprendendo a lidar com essas coisas."
+        "And I'll know that little by little I'm learning how to deal with things like this."
 
-        "De que eu não sou mais aquele garoto que foge de tudo o que sente."
+        "That I'm not the same kid who runs away from everything he feels."
 
-        "E na minha perspectiva, mesmo que contra esse pensamento, acredito que seria o melhor pra mim."
+        "And honestly, even if it goes against how I think, I believe that would be the best for me."
 
-        "Muitas coisas eu só passei a apreciar assim que eu tentei elas de alguma forma."
+        "There are so many things I only learned to appreciate after giving them a chance somehow."
 
-        "Pra mim o mais difícil sempre foi isso, tentar, dar o primeiro passo, e eu sempre acabava desistindo antes mesmo de continuar."
+        "Trying has always been the hardest part for me, taking the first step, and I always gave up before I even continued."
 
-        "E se não fosse pela Miya me forçando a dar esse primeiro passo pra tantas coisas, eu provavelmente ainda estaria me sentindo tão preso quanto nunca."
+        "And if it weren't for Miya forcing me to take that first step so many times, I'd probably still feel as stuck as ever."
 
-        "Uma zona de conforto não é mais confortável quando você percebe que está sozinho nela."
+        "A comfort zone isn't comfortable anymore once you realize you're alone in it."
 
-        "Se ela deixa de estar confortável, se torna uma zona de dor, e sair dela é tão difícil quanto sair de uma zona de conforto."
+        "And once it's no longer comfortable, it becomes a pain zone, and getting out is just as hard as leaving a comfort zone."
 
         if seen_label("corridors_Bc"):
-            "E é por isso que eu preciso sair dessa zona."
+            "And that's why I need to get out of that zone."
 
-            "Preciso me arriscar, mesmo que eu não saiba o que vai acontecer depois."
+            "I need to take risks, even if I don't know what will happen next."
 
-            "Preciso aprender a lidar com essas coisas."
+            "I need to learn how to deal with things like this."
 
-            "Preciso aprender a me abrir mais pras pessoas."
+            "I need to learn how to open up to people more."
 
-            "Preciso aprender a me importar mais."
+            "I need to learn how to care more."
 
-            "Mesmo que eu me sinta vulnerável pra isso."
+            "Even if being vulnerable scares me."
 
-            "E mesmo que eu não queira, preciso aprender a dar o primeiro passo sozinho."
+            "And even if I don't want to, I need to learn how to take the first step on my own."
 
-            "Pois no fim das contas, ninguém vai fazer isso por mim além dela."
+            "Because in the end, no one is going to do that for me except her."
 
-            "Eu devia ter aprendido isso há muito tempo, mas antes tarde do que nunca."
+            "I should have learned that a long time ago, but better late than never."
 
         else:
-            "E eu já passei por várias dessas zonas, mas nunca consegui sair totalmente delas."
+            "And I've gone through so many versions of that zone, but I was never able to fully leave any of them."
 
-            "É como se eu estivesse preso num ciclo vicioso de tentar e falhar."
-            
-            "E eu não quero mais isso pra mim."
+            "It's like I'm stuck in a cycle of trying and failing."
 
-            "Preciso aprender a dar o primeiro passo sozinho."
+            "And I don't want that for myself anymore."
 
-            "Preciso aprender a me arriscar mais."
+            "I need to learn how to take the first step alone."
 
-            "Nada vai mudar se eu continuar esperando que as coisas simplesmente mudem por vontade própria."
+            "I need to learn how to take more risks."
 
-            "Dessa forma eu apenas estaria repetindo o mesmo ciclo que venho estando em alguns meses."
+            "Nothing will change if I keep waiting for things to change on their own."
 
-            "E no fim das contas, ninguém vai fazer isso por mim além dela."
+            "That would just mean repeating the same cycle I've been in for months."
 
-            "Só por hoje, vou deixar me levar."
+            "And in the end, no one is going to do this for me except her."
 
-    "Afinal, não há nenhum problema em não carregar nada sozinho."
+            "Just for today, I'll let myself go with it."
 
-    "Então, vou até o fim."
+    "In the end, there's nothing wrong with not carrying everything alone."
 
-    "Mesmo que eu tenha medo de onde esse fim vai me levar."
+    "So, I'm going all the way."
+
+    "Even if I'm scared of where that ending might take me."
 
     if not seen_label("corridors_Bc"):
-        "Mas, eu me sinto estranhamente positivo sobre isso."
+        "But still, I feel strangely positive about it."
 
     return
 
 label corridors_Cb:
     $ mc_personality.append("He is willing to take things as they come, without overthinking the situation.")
 
-    "A verdade é que eu não tenho resposta nenhuma."
+    "The truth is that I don't have any answers."
 
-    "Não tenho certeza do que eu quero, do que eu sinto, ou do que eu espero."
+    "I have no idea what I want, what I feel, or what I expect."
 
-    "Não tenho um plano, muito menos controle sobre o que vai acontecer."
+    "I don't have a plan, much less control over what's going to happen."
 
-    "Eu só tenho esse aperto no peito, essa ansiedade, esse medo… essa vontade confusa de ver a Miya e, ao mesmo tempo, de desaparecer do mundo."
+    "All I have is this tightness in my chest, this anxiety, this fear… this confused urge to see Miya and, at the same time, disappear from the world."
 
-    "Passei a noite inteira pensando em todas as possibilidades, de racionalizar o que eu sinto, mas no fim das contas nada disso importa."
+    "I spent the whole night thinking of every possibility, trying to rationalize what I feel, but in the end none of it matters."
 
-    "Eu ainda continuo me sentindo perdido."
+    "I'm still lost."
 
-    "Eu sei que só estou complicando algo que poderia ser simples no final, mas eu não consigo evitar."
+    "I know I'm complicating something that could be simple in the end, but I can't help it."
 
-    "Você é uma incógnita pra mim, eu penso, de novo e de novo, porém nada faz sentido."
+    "You're still an enigma to me. I think, again and again, but nothing makes sense."
 
-    "Não consigo encontrar uma resposta que me satisfaça, muito menos uma lógica pra tudo isso."
+    "I can't find an answer that satisfies me, or any logic behind all this."
 
-    "Mas sequer existe algum tipo de lógica? Por acaso é possível eu encontrar uma resposta?"
+    "But is there even supposed to be logic? Is it even possible to find a real answer?"
 
-    "Existe a chance de você ter feito tudo isso por fazer, sem um motivo real?"
+    "Is there a chance you did all of this just because, without a real reason?"
 
-    "Na verdade, se eu disser que não for real, é como se eu tirasse seu direito de estar aqui."
+    "Actually, saying it isn't real would feel like I'm taking away your right to be here."
 
-    "Você tem um propósito isso é claro, mas qual é?"
+    "You have a purpose, that much is clear, but what is it?"
 
-    "Se eu soubesse pelo menos, muito antes de chegar aqui, talvez eu já estivesse dentro dessa sala."
+    "If I had known even a little earlier, I might already be inside that room."
 
-    "Eu já teria pensado numa resposta, ou até numa conclusão antes mesmo de chegar aqui."
+    "I might've already come up with an answer or even a conclusion long before arriving here."
 
-    "Mas é justamente pela suas ambiguidades que eu nunca me senti tão perdido como agora."
+    "But it's exactly because of your ambiguity that I've never felt as lost as I do now."
 
-    "E o que me deixa mais irritado, é que algo me diz que tudo isso foi proposital."
+    "And what irritates me the most is that something tells me this was intentional."
 
-    "Como se você soubesse exatamente o que estava fazendo."
+    "As if you knew exactly what you were doing."
 
-    "Como se você soubesse que eu estaria aqui, parado nessa frente dessa porta, sem saber o que fazer."
+    "As if you knew I'd be here, stuck in front of this door, not knowing what to do."
 
-    "É o que eu quero acreditar, assim eu me sinto menos idiota por estar nessa situação."
+    "I want to believe that, so I can feel less stupid for being in this situation."
 
-    "Tudo o que me resta é esse sentimento de culpa."
+    "All that's left is this feeling of guilt."
 
-    "Culpa por ter me afastado de você."
+    "Guilt for distancing myself from you."
 
     "…"
 
-    "Eu sinto sua falta, Miya."
+    "I miss you, Miya."
 
     if not seen_label("corridors_Bc"):
-        "Falta de quando andávamos juntos pra casa."
+        "I miss when we walked home together."
 
-        "Falta dos nossos rolês aleatórios que você me arrastava."
+        "I miss the random hangouts you'd drag me into."
 
-        "Falta até de conversar mais contigo."
+        "I even miss talking to you more."
 
-    "E isso deveria ser o suficiente pra eu dar esse passo."
+    "And that should be enough for me to take this step."
 
     if seen_label("corridors_Bc"):
-        "Mas não é."
+        "But it isn't."
 
-        "É como se eu estivesse preso num ciclo vicioso de tentar e falhar."
+        "It feels like I'm stuck in a cycle of trying and failing."
 
-        "Só que dessa vez nem mesmo isso eu tô conseguindo."
+        "Except this time, I can't even manage that."
 
-        "Eu não quero falhar com você. Eu não quero falhar comigo mesmo."
+        "I don't want to fail you. I don't want to fail myself."
 
-        "Porém se eu não tentar, do que adianta?"
+        "But if I don't try, then what's the point?"
 
-        "Nesse caso eu já vou estar falhando de qualquer forma."
+        "In that case I'd already be failing either way."
 
-        "Mesmo não querendo isso, parece que é inevitável."
+        "Even if I don't want this, it feels inevitable."
 
-        "Só que eu sei que tenho o poder de mudar as coisas."
+        "But I know I have the power to change things."
 
-        "E eu preciso fazer isso."
+        "And I need to do that."
 
-        "Porque se eu não fizer, vou me arrepender pelo resto da minha vida."
+        "Because if I don't, I'll regret it for the rest of my life."
 
-        "Posso não saber como agir agora, mas sei que vou descobrir na hora certa."
+        "I may not know how to act right now, but I know I'll figure it out when the time comes."
 
-        "E mesmo que eu não descubra, eu sei que você vai me ajudar com isso."
+        "And even if I don't, I know you'll help me with that."
 
     else:
-        "Mas e se eu tentar e nada mudar?"
+        "But what if I try and nothing changes?"
 
-        "Se eu abrir essa porta e simplesmente nada for resolvido?"
+        "What if I open this door and nothing gets resolved?"
 
-        "Não, isso não aconteceria."
+        "No, that wouldn't happen."
 
-        "Eu já estou indo com a certeza de que não vou voltar a ser o mesmo depois disso."
+        "I'm already walking in knowing I won't be the same after this."
 
-        "Mas o que eu não sei é como elas vão voltar depois de tudo."
+        "What I don't know is how things will go back to being after all this."
 
-        "As coisas vão voltar a ser como eram antes?"
+        "Will things go back to how they were?"
 
-        "Eu e você vamos voltar a ser próximos novamente?"
+        "Will you and I be close again?"
 
-        "Tão próximos como nunca?"
+        "As close as before?"
 
-        "Com alguma coisa mudando, o que vai restar de nós?"
+        "With something changing, what will remain of us?"
 
-        "O que vai restar entre nós?"
+        "What will remain between us?"
 
-        "E o que vai restar de mim?"
+        "And what will remain of me?"
 
-    "Eu não faço ideia de verdade do que vai acontecer quando eu entrar ai, já repeti isso tantas vezes na minha mente que perdi a conta."
-    
-    "Não sei se vai ser estranho, constrangedor, ou até mesmo doloroso."
+    "I have no idea what's going to happen when I walk in there, I've repeated that in my head so many times I've lost count."
 
-    "Não sei se vou me sentir aliviado, feliz, ou talvez até triste."
+    "I don't know if it's going to be awkward, embarrassing, or even painful."
 
-    "Pode ser que muito pouco mude, ou que tudo vire de cabeça pra baixo."
+    "I don't know if I'm going to feel relieved, happy, or maybe even sad."
 
-    "Mas se eu não tentar… se eu não girar essa droga de maçaneta… nunca vou saber se eu poderia ter mudado alguma coisa."
+    "Maybe nothing will change, or maybe everything will flip upside down."
 
-    "E talvez esse 'não saber' seja pior do que qualquer resposta que eu possa receber essa noite."
+    "But if I don't try… if I don't turn this damn handle… I'll never know whether things could've changed."
+
+    "And maybe that 'not knowing' is worse than any answer I could get tonight."
 
     if seen_label("corridors_Ba"):
-        "Eu posso ter o direito da dúvida, mas não o direito de desistir."
+        "I may have the right to doubt, but I don't have the right to give up."
 
-        "Ficar parado aqui não vai me dar a razão que eu preciso."
+        "Standing here won't give me the clarity I need."
 
-        "Eu preciso agir."
+        "I need to act."
 
-        "Se pelo menos não por mim, ao menos por ela."
+        "If not for me, then at least for her."
 
-        "Porque eu sei que a Miya merece uma resposta."
+        "Because I know Miya deserves an answer."
 
-        "E eu devo isso a ela."
+        "And I owe her that."
 
-        "Mesmo que eu não saiba qual é essa resposta."
+        "Even if I don't know what that answer is."
 
-        "Porque no fim das contas…"
-    
+        "Because in the end…"
+
     else:
-        "Porque eu sei que eu devo isso a mim mesmo."
+        "Because I know I owe that to myself."
 
-        "Eu não posso continuar vivendo assim, sem saber o que eu realmente sinto."
+        "I can't keep living like this, not knowing what I really feel."
 
-        "Eu não posso continuar me sentindo perdido."
+        "I can't keep feeling lost."
 
-        "Meu sentimento de culpa só vai aumentar se eu não fizer nada."
+        "My guilt will only grow if I do nothing."
 
-        "E o pior de tudo é que não há ninguém mais pra culpar além de mim."
+        "And the worst part is there's no one else to blame but myself."
 
-        "Então eu preciso agir."
+        "So I need to act."
 
-        "Preciso de respostas."
+        "I need answers."
 
-        "E eu só vou conseguir isso se eu abrir essa porta."
+        "And I'll only get them if I open this door."
 
-        "Porque no fim das contas…"
+        "Because in the end…"
 
-    "Querendo ou não, eu só vou descobrir se tentar."
+    "Like it or not, I'll only know if I try."
 
     return
 
 label corridors_Cc:
     $ mc_personality.append("He's conflicted about his feelings and fears change, preferring the comfort of the status quo.")
 
-    "Talvez eu esteja fazendo tempestade em copo d'água. Em algo que nunca foi tão profundo assim como faço parecer."
+    "Maybe I'm just making a storm out of something small. Something that was never as deep as I made it seem."
 
-    "Talvez você só queira conversar, ou desabafar sobre algo, e eu tô aqui me preocupando demais com algo simples."
+    "Maybe you just want to talk, or vent about something, and here I am overthinking something simple."
 
-    "Fico criando expectativas, colocando um peso enorme em seus braços sendo que nem mesmo sequer vi teu rosto hoje."
+    "I keep setting expectations, placing this huge weight on your shoulders when I haven't even seen your face today."
 
-    "É claro que possa existir algo importante pra conversarmos, mas eu não sei se isso vá mudar alguma coisa."
+    "Sure, there might be something important for us to talk about, but I don't know if it'll change anything."
 
-    "Ao mesmo tempo que eu sinto que vai mudar, também sinto que tanto faz o que aconteça."
+    "At the same time that I feel something will change, I also feel like it doesn't matter what happens."
 
-    "Eu não sei se tô disposto a ter essa conversa."
+    "I don't know if I'm willing to have this conversation."
 
-    "E, sinceramente… não sei se estou pronto pra qualquer mudança."
+    "And honestly… I don't know if I'm ready for any change."
 
-    "Porque se nada mudar…"
+    "Because if nothing changes…"
 
-    "Se tudo continuar exatamente como está…"
+    "If everything stays exactly as it is…"
 
-    "Talvez eu até me sinta aliviado. Talvez seja mais fácil lidar com isso assim do que admitir que alguma coisa quebrou."
+    "Maybe I'll actually feel relieved. Maybe it's easier to deal with it that way than admit something broke."
 
     with Pause(1.0)
 
     mc "Hah…"
 
-    "Eu dou um leve suspiro, só pra ver se isso pelo menos me ajuda com alguma coisa."
+    "I let out a soft sigh, just to see if it helps with anything."
 
-    "É claro que não tá certo, mas por que eu sinto conforto nesse pensamento?"
+    "Of course it's not right, but why do I feel comfort in that thought?"
 
-    "A Miya sempre foi alguém que me fez sentir vivo, mesmo quando eu não queria."
+    "Miya has always been someone who made me feel alive, even when I didn't want to."
 
     if not seen_label("corridors_Bc"):
-        "E mesmo que eu tenha dúvidas sobre o que eu sinto, eu sei que estar perto dela me faz bem."
+        "And even if I have doubts about what I feel, I know being around her is good for me."
 
-        "Eu quero e não quero ao mesmo tempo."
+        "I want it and I don't want it at the same time."
 
-        "Pode ser até mais fácil lidar com isso se nada mudar, mas, e nos casos em que algo mude pra melhor?"
+        "Maybe it's easier if nothing changes, but… what about the times when something changes for the better?"
 
-        "Eu estou criando todo tipo de suposição em uma situação que algo bom ou ruim pode acontecer."
+        "I'm thinking about every possible scenario in a situation where anything, good or bad related could happen."
 
-        "Até então eu não tenho absolutamente nenhuma certeza do que ela vai dizer pra mim."
-        
-        "Eu ando repetindo os mesmos pensamentos que eu tive no caminho pra cá, mas, por qual motivo?"
+        "Up until now, I have absolutely no idea what she's going to say to me."
 
-        "Achei que já tivesse decidido o que fazer quando pulei o muro, mas, parece que só tô enrolando mais ainda."
+        "I'm repeating the same thoughts I had on the way here, but why?"
 
-        "Enrolando pra não ter que encarar ela, como se eu já soubesse que algo definitivo fosse acontecer."
+        "I thought I had already decided what to do the moment I jumped that wall, but now it feels like I'm just stalling again."
 
-        "Mas e se acontecer? No fim nada importa, o que importa é eu abrir logo essa porta e encarar o que for pra encarar."
+        "Stalling so I don't have to face her, as if I already knew something definitive was going to happen."
+
+        "But what if it does? In the end it doesn't matter, what matters is opening this door and dealing with whatever's waiting."
 
         if seen_label("corridors_Aa"):
-            "Eu me diverti tanto com ela no passado, e eu continuei me divertindo pelo tempo que ficamos juntos no presente."
+            "I had so much fun with her in the past, and I kept having fun the whole time we were still close."
 
-            "Eu me divirto ao lado dela, e eu só fui perceber isso quando passei a voltar sozinho pra casa."
+            "I feel good around her, and I only realized that once I started walking home alone."
 
-            "É apenas algo trivial, tão rotineiro, que no instante que eu parei de fazer isso contigo que eu senti falta."
+            "It's something trivial, routine, but the moment I stopped doing it with you, I felt the absence."
 
-            "Eu posso ter sentido mas ainda não era nada demais, haviam coisas mais importantes com que me preocupar."
+            "I may have felt it, but it still wasn't anything huge, there were more important things to worry about."
 
-            "E eu continuei assim, até mesmo quando você arrumava tempo pra voltar comigo e eu não dava a mínima."
+            "And I stayed that way, even when you still made time to walk with me and I didn't care."
 
-            "Mas, até mesmo uma simples ação como essa foi capaz de me fazer sentir algo."
+            "But even something that simple made me feel something."
 
-            "Mesmo que pouco, porém algo."
+            "Not much, but something."
 
-            "E isso me incomoda."
+            "And that bothers me."
 
-            "Por que só você tem o direito de me fazer sentir essas coisas?"
+            "Why are you the only one who gets to make me feel these things?"
 
-            "Por que eu não consigo me sentir de outra forma com outras pessoas?"
+            "Why can't I feel anything like that with anyone else?"
 
-            "Eu já sai com outros amigos e eu gostei de andar com eles, mas, nunca é a mesma coisa."
-        
+            "I've gone out with other friends and I liked being with them, but… it's never the same."
     else:
-        "Mas eu não consigo evitar de pensar que talvez eu só esteja me iludindo."
+        "But I can't help thinking that maybe I'm just fooling myself."
 
-        "Talvez eu só queira sentir algo, qualquer coisa, mesmo que seja só uma ilusão."
+        "Maybe I just want to feel something, anything, even if it's just an illusion."
 
-        "Mas eu não consigo de nenhuma forma. Eu não consigo sentir nada especial sobre isso."
-    
+        "But I can't. I can't feel anything special about this."
+
         if seen_label("corridors_Ac"):
-            "Não éramos pra sermos amigos de infância? Termos uma amizade inabalável, tão forte que nada poderia nos separar?"
+            "Weren't we supposed to be childhood friends? Have some unshakable bond, so strong nothing could break it?"
 
-            "Então por que eu não consigo me sentir assim? Por que tudo parece tão frágil?"
+            "So why can't I feel that? Why does everything feel so fragile?"
 
-            "É como se eu estivesse tentando encontrar um motivo pra desistir."
+            "It's like I'm trying to find a reason to give up."
 
-            "E talvez eu esteja quase perto de encontrá-lo, sério."
+            "And maybe I'm actually close to finding it, honestly."
 
-            "Mas eu não vou saber se eu ficar parado aqui pra sempre."
+            "But I won't know if I stay frozen here forever."
 
-            "O que pode acontecer se eu abrir essa maldita porta?"
+            "What could happen if I open this damn door?"
 
-            "Se nada mudar, se tudo isso for em vão, eu vou me sentir aliviado? Ou eu vou me sentir ainda mais perdido?"
+            "If nothing changes, if all of this was for nothing, will I feel relieved? Or even more lost?"
 
-            "Eu deveria prezar mais pela Miya, me importar em não magoá-la, mas eu não sei se eu consigo fazer isso agora."
+            "I should care more about Miya, care about not hurting her, but I don't know if I can do that right now."
 
-            "Eu tô mais frustrado comigo mesmo por não consegui colocar meus sentimentos em ordem, do que com qualquer outra coisa."
+            "I'm more frustrated with myself for not being able to sort out my feelings than anything else."
 
-            "Nesse caso, eu falhei como amigo dela? Ou eu falhei comigo mesmo?"
+            "So in that case… did I fail as her friend? Or did I fail myself?"
 
-            "Eu não sei o que eu quero."
+            "I don't know what I want."
 
-            "Na verdade, eu sei, mas não quero admitir."
+            "Actually, I do… but I don't want to admit it."
 
-            "Não era pra ser tão difícil assim, não era pra ser assim."
+            "It wasn't supposed to be this hard. It wasn't supposed to be like this."
 
-            "Mas parece que eu tô deixando de me importar."
+            "But it feels like I'm starting to stop caring."
 
-            "Não com ela, mas com tudo de maneira geral."
+            "Not about her, but about everything in general."
 
-            "Até mesmo com nossa amizade, que eu sei que sempre foi tão importante pra mim."
+            "Even about our friendship, which I know has always meant so much to me."
 
-            "E não é como se eu precisasse de um tempo sozinho, ultimamente o que eu mais ando tendo é isso, e eu não me incomodo."
+            "And it's not like I need time alone, lately that's all I've had, and I don't mind."
 
-            "É como se eu estivesse me afastando não só dela mas do mundo em si. Só restando eu como minha própria companhia."
-    
-    "Não vai ser fácil, eu sei disso."
+            "It's like I'm distancing myself not just from her, but from the world itself. Leaving only me as my own company."
 
-    "Mas, mesmo se algo mudar ou não, ficar parado aqui não vai me levar à lugar nenhum."
+    "It's not going to be easy, I know that."
 
-    "Se eu pelo menos quero alguma resposta, nem que seja qualquer uma, eu preciso entrar aí."
+    "But whether things change or not, standing here isn't going to get me anywhere."
 
-    "Eu preciso te ver antes de tudo, pra pelo menos eu conseguir racionalizar o que eu sinto."
+    "If I want any kind of answer, even the smallest one, I need to go in."
 
-    "Talvez minha mente fique de ponta cabeça, talvez isso tudo mude completamente o meu jeito de pensar."
+    "I need to see you before anything else, just so I can at least make sense of what I'm feeling."
 
-    "Ou no fim, eu apenas continue o mesmo de sempre."
+    "Maybe my mind will flip upside down, maybe all of this will completely change the way I think."
 
-    "Mas de qualquer forma…"
-    
-    "Ao menos eu vou saber o que você queria me contar."
+    "Or maybe in the end I'll just stay the same as always."
+
+    "But either way…"
+
+    "At least I'll finally know what you wanted to tell me."
     
     return
 
-
 label corridors_D:
-    "Hoje a noite, talvez seja a última chance que eu tenho de falar com você."
-    
-    "De uma vez por todas, esclarecer o que tá acontecendo entre nós."
+    "Tonight might be the last chance I have to talk to you."
+
+    "To finally clear up what's going on between us."
 
     if seen_label("corridors_Aa") and seen_label("corridors_Ba") and seen_label("corridors_Ca"):
         $ mc_personality.append("Ren is ready to confess his true feelings to Miya.")
 
-        "De finalmente, admitir o que eu sempre senti por você."
+        "To finally admit what I've always felt for you."
 
-        "Mesmo que eu tenha demorado tanto pra perceber isso. Pra admitir isso."
+        "Even if it took me so long to realize it… to admit it."
 
-        "Eu só espero que você ainda sinta o mesmo por mim."
+        "I just hope you still feel the same way about me."
 
     elif seen_label("corridors_Ab") and seen_label("corridors_Bb") and seen_label("corridors_Cb"):
         $ mc_personality.append("Ren is uncertain about his feelings.")
 
-        "De entender o que eu realmente sinto por você."
+        "To understand what I really feel for you."
 
-        "E o que eu realmente quero da nossa amizade."
+        "And what I really want from our friendship."
 
-        "Mesmo que eu não tenha certeza do que isso seja ainda."
+        "Even if I still have no idea what that is."
 
     elif seen_label("corridors_Ac") and seen_label("corridors_Bc") and seen_label("corridors_Cc"):
         $ mc_personality.append("Ren is resigned to the possibility of losing Miya.")
 
-        "De perceber que talvez a gente não tenha mais o que falar."
+        "To realize that maybe we don't have anything left to say."
 
-        "E que talvez a gente não tenha mais o que ser."
+        "And that maybe there's nothing left for us to be."
 
-        "Mesmo que eu não queira aceitar isso de jeito nenhum."
+        "Even if I don't want to accept that at all."
 
-        "Ainda é uma possibilidade infeliz."
+        "It's still an unfortunate possibility."
     
     else:
-        "Por mais que eu não saiba o que dizer agora."
+        "Even if I don't know what to say right now…"
 
-        "Pelo menos é isso o que eu vou fazer."
+        "At the very least, that's what I'm going to do."
 
-        "Por nós dois."
+        "For both of us."
 
-    "Depois de me perder tanto tempo em meus pensamentos, eu finalmente tomo a coragem que precisava."
+    "After losing myself in my thoughts for so long, I finally gather the courage I needed."
 
-    "Eu respiro fundo, coloco a mão na maçaneta, e a giro devagar."
+    "I take a deep breath, place my hand on the doorknob, and turn it slowly."
 
     play sound sfx_door_open
-    "O som da porta se abrindo ecoa pelo corredor silencioso."
+    "The sound of the door opening echoes through the silent hallway."
 
-    "Está acontecendo."
+    "It's happening."
 
-    "Tudo o que eu pensei, tudo o que eu senti, tudo o que eu temi…"
+    "Everything I thought, everything I felt, everything I feared…"
 
-    "Tudo isso acaba se resumindo a um único pensamento."
+    "All of it comes down to a single thought."
 
-    "E esse pensamento é…"
+    "And that thought is…"
 
     python:
-        user_response = renpy.input("E esse pensamento é…", length=100)
+        user_response = renpy.input(_("And that thought is…"), length=100)
         ren_thought = user_response.strip()
 
         if not ren_thought or ren_thought.isspace():
             renpy.say("", "…")
-            renpy.say("", "Parece que eu não consigo colocar isso em palavras agora.")
-            renpy.say("", "Não é como se eu soubesse exatamente o que sinto.")
-            renpy.say("", "Mas eu não consigo expressar isso pra mim mesmo.")
-            renpy.say("", "Se for pra resumir tudo em uma palavra, eu diria que é confusão.")
-            renpy.say("", "Mas até mesmo confuso, eu entendo muito bem o que eu sinto por você.")
-            renpy.say("", "Por fim, só tenho uma coisa a fazer…")
+            renpy.say("", _("It seems like I can't put this into words right now."))
+            renpy.say("", _("It's not like I really know what I'm feeling."))
+            renpy.say("", _("But I can't express it to myself."))
+            renpy.say("", _("If I had to sum it all up with one word, I'd say it's confusion."))
+            renpy.say("", _("But even confused, I still understand very well what I feel for you."))
+            renpy.say("", _("Deep inside, I know I do."))
+            renpy.say("", _("Still, there's only one thing left for me to do…"))
             pass
         else:
             # Add later the implementation of the LLM integration for the player's response.
@@ -1198,7 +1197,7 @@ label corridors_D:
     scene black
     with scenechange
 
-    "Eu entro na sala de aula."
+    "I step into the classroom."
 
     play sound sfx_door_creak
 

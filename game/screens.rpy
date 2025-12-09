@@ -194,6 +194,8 @@ style input_prompt:
     xalign gui.dialogue_text_xalign
     properties gui.text_properties("input_prompt")
 
+    adjust_spacing False
+
 style input:
     xalign gui.dialogue_text_xalign
     xmaximum gui.dialogue_width

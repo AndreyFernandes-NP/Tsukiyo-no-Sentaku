@@ -27,6 +27,29 @@ init -2 python:
     def seen_label(label_name):
         return label_name in seen_labels
 
+    def ld_spr(char, expr_name, suffix=""):
+        files = [(make_sprite_path(char, expr_name), expr_name)]
+
+        if suffix:
+            files.append((make_sprite_path(char, expr_name, suffix), f"{expr_name}_{suffix}"))
+
+        for filename, mod_expr_name in files:
+            if not renpy.loadable(filename):
+                continue
+            else:
+                checked_filename = filename
+            renpy.image((char, mod_expr_name), checked_filename)
+
+    def make_sprite_path(char, expr, suffix=""):
+        if suffix:
+            suffix = f"_{suffix}"
+        
+        return f"sprites/{char}/{char}_{expr}{suffix}.png"
+
+    def make_sprites(char, expr_list, suffix=""):
+        for expr in expr_list:
+            ld_spr(char, expr, suffix)
+
     def ld_bg(bgname):
         bg_image = f"bgs/{bgname}.png"
         tag = "bg"
@@ -35,6 +58,16 @@ init -2 python:
             renpy.log(f"Couldn't load {tag} '{bgname}' from path '{bg_image}'")
             return False
         renpy.image((tag,bgname), bg_image)
+    
+    def ld_img(imgname):
+        img_file = f"images/{imgname}.png"
+
+        if not renpy.loadable(img_file):
+            img_file = f"sprites/{imgname}.png"
+            if not renpy.loadable(img_file):
+                renpy.log(f"Couldn't load image '{imgname}' from paths 'images/{imgname}.png' or 'sprites/{imgname}.png'")
+                return False
+        renpy.image(imgname, img_file)
     
     def ld_msc(mscname, alias):
         msc_file = f"audio/music/{mscname}.ogg"
@@ -67,6 +100,9 @@ init -2 python:
     ld_bg("school_corridor")
     ld_bg("school_classroom")
     ld_bg("school_classroom_shiny")
+    
+    # Images Files
+    ld_img("team_logo")
 
     # Music Files
     ld_msc("Breathlessly", "peaceful")
@@ -90,7 +126,9 @@ init -2 python:
     ld_sfx("door-open", "door_open")
     ld_sfx("door-creak", "door_creak")
 
-    # Effects
+    # Characters Sprites
+
+    # Transitions
     menueffect = None
     charchange = dissolve
     scenechange = dissolve

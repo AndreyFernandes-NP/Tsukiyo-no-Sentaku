@@ -12,13 +12,20 @@ init python:
 label splashscreen:
 
     scene black with fade
-    with Pause(1)
+    with Pause(1.0)
 
     if not persistent.choosen_language:
         call screen language_select with fade
+        scene black with fade
     
     window hide
-    scene black with fade
+
+    show team_logo at truecenter with Dissolve(1.0)
+
+    with Pause(2.0)
+    
+    hide team_logo with Dissolve(2.0)
+
     $ from_splash = True
 
     return
@@ -93,9 +100,9 @@ label future_prologue:
     pause
     show text _("We'd been talking less and less lately, so it caught me off guard.") with fade
     pause
-    show text _("It was the sort of thing she did sometimes, just to see how far I'd go to play along.") with fade
+    show text _("I thought it was the sort of thing she did sometimes, just to see how far I'd go to play along.") with fade
     pause
-    show text _("I didn't really believe it meant anything. Maybe that's exactly why I decided to go on.") with fade
+    show text _("I didn't really believe it meant anything at all. Maybe that's exactly why I decided to go on.") with fade
     pause
     show text _("There was no one else left at school. It was already close to eleven when I climbed over the wall and walked into the main hall.") with fade
     pause

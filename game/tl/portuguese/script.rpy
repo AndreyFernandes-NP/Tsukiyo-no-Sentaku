@@ -64,13 +64,13 @@ translate portuguese strings:
     old "We'd been talking less and less lately, so it caught me off guard."
     new "Estávamos conversando cada vez menos, que fui pego de surpresa."
 
-    # game/script.rpy:83
-    old "It was the sort of thing she did sometimes, just to see how far I'd go to play along."
-    new "Era o tipo de coisa que ela fazia de vez em quando, só para ver até onde eu iria levar a sério."
+    # game/script.rpy:103
+    old "I thought it was the sort of thing she did sometimes, just to see how far I'd go to play along."
+    new "Pensei que fosse o tipo de coisa que ela fazia de vez em quando, só para ver até onde eu iria levar a sério."
 
-    # game/script.rpy:85
-    old "I didn't really believe it meant anything. Maybe that's exactly why I decided to go."
-    new "Eu não acreditei muito que fosse importante. Talvez por isso mesmo eu tenha ido."
+    # game/script.rpy:98
+    old "I didn't really believe it meant anything at all. Maybe that's exactly why I decided to go on."
+    new "Eu não acreditei muito que fosse importante no começo. Talvez por isso mesmo eu tenha ido."
 
     # game/script.rpy:87
     old "There was no one else left at school. It was already close to eleven when I climbed over the wall and walked into the main hall."
@@ -107,3 +107,4 @@ translate portuguese strings:
     # game/script.rpy:103
     old "In the end, all I knew I could do was open the door."
     new "No fim, eu sabia que só restava abrir a porta."
+
