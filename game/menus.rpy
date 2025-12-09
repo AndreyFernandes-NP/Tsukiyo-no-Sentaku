@@ -20,7 +20,7 @@ screen language_select:
 
             textbutton "Português (Brasil)":
                 style "lang_button"
-                action [SetVariable("persistent.choosen_language", "Portuguese"), Language('portuguese'), Return()]
+                action [SetVariable("persistent.choosen_language", "Brazilian-Portuguese"), Language('portuguese'), Return()]
 
             textbutton "English":
                 style "lang_button"

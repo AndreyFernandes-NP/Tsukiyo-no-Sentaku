@@ -50,7 +50,7 @@ translate portuguese strings:
 
     # game/script.rpy:75
     old "Soon, it would all be over. I'd start college and stop seeing all the people I'd known for years."
-    new "Em breve, tudo acabaria. Eu entraria pra faculdade e deixaria de ver todos os meus colegas."
+    new "Em breve, tudo acabaria. Eu entraria para faculdade e deixaria de ver todos os meus colegas."
 
     # game/script.rpy:77
     old "Even if that sounded sad, I didn't feel much of anything. It bothered me, but somehow, it didn't seem to matter either."
@@ -64,13 +64,13 @@ translate portuguese strings:
     old "We'd been talking less and less lately, so it caught me off guard."
     new "Estávamos conversando cada vez menos, que fui pego de surpresa."
 
-    # game/script.rpy:83
-    old "It was the sort of thing she did sometimes, just to see how far I'd go to play along."
-    new "Era o tipo de coisa que ela fazia de vez em quando, só para ver até onde eu iria levar a sério."
+    # game/script.rpy:103
+    old "I thought it was the sort of thing she did sometimes, just to see how far I'd go to play along."
+    new "Pensei que fosse o tipo de coisa que ela fazia de vez em quando, só para ver até onde eu iria levar a sério."
 
-    # game/script.rpy:85
-    old "I didn't really believe it meant anything. Maybe that's exactly why I decided to go."
-    new "Eu não acreditei muito que fosse importante. Talvez por isso mesmo eu tenha ido."
+    # game/script.rpy:98
+    old "I didn't really believe it meant anything at all. Maybe that's exactly why I decided to go on."
+    new "Eu não acreditei muito que fosse importante no começo. Talvez por isso mesmo eu tenha ido."
 
     # game/script.rpy:87
     old "There was no one else left at school. It was already close to eleven when I climbed over the wall and walked into the main hall."
@@ -82,7 +82,7 @@ translate portuguese strings:
 
     # game/script.rpy:91
     old "Just an ordinary door, like any other classroom. But it was the door to our room."
-    new "Era como qualquer outra, de qualquer sala de aula. Mas era a porta da nossa sala."
+    new "Era como qualquer outra, de qualquer sala de aula. Mas, era a porta da nossa sala."
 
     # game/script.rpy:93
     old "I didn't have any expectations, no certainty that anyone would be waiting."
@@ -107,3 +107,4 @@ translate portuguese strings:
     # game/script.rpy:103
     old "In the end, all I knew I could do was open the door."
     new "No fim, eu sabia que só restava abrir a porta."
+

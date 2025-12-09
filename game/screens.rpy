@@ -194,6 +194,8 @@ style input_prompt:
     xalign gui.dialogue_text_xalign
     properties gui.text_properties("input_prompt")
 
+    adjust_spacing False
+
 style input:
     xalign gui.dialogue_text_xalign
     xmaximum gui.dialogue_width
@@ -554,7 +556,8 @@ style game_menu_content_frame:
     top_margin 15
 
 style game_menu_viewport:
-    xsize 1380
+    variant "small"
+    xsize 1305
 
 style game_menu_vscrollbar:
     unscrollable gui.unscrollable
@@ -831,16 +834,6 @@ screen preferences():
                             if config.sample_sound:
                                 textbutton _("Test") action Play("sound", config.sample_sound)
 
-
-                    if config.has_voice:
-                        label _("Voice Volume")
-
-                        hbox:
-                            bar value Preference("voice volume")
-
-                            if config.sample_voice:
-                                textbutton _("Test") action Play("voice", config.sample_voice)
-
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
@@ -856,7 +849,7 @@ screen preferences():
                 vbox:
                     style_prefix "check"
                     label _("Language")
-                    textbutton "Português (Brasil)" action [SetVariable("persistent.choosen_language", "Portuguese"), Language('portuguese')]
+                    textbutton "Português (Brasil)" action [SetVariable("persistent.choosen_language", "Brazilian-Portuguese"), Language('portuguese')]
                     textbutton "English" action [SetVariable("persistent.choosen_language", "English"), Language(None)]
                     textbutton "日本語" text_font "fonts/VL-PGothic-Regular.ttf" action [SetVariable("persistent.choosen_language", "Japanese"), Language('japanese')]
 

@@ -24,6 +24,9 @@ init python:
             inst = None
 
         if inst and inst.running:
+            if renpy.context() != inst._ctx:
+                inst.stop(stop_all=True)
+                return
             return
 
         renpy.music.set_queue_empty_callback(None, channel=ch)
@@ -95,7 +98,11 @@ default preferences.text_cps = 60
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
 ## to 30 being the valid range.
-default preferences.afm_time = 15
+default preferences.afm_time = 30
+
+## They're not preferences, but let's just set their defaults here.
+define config.fast_skipping = False
+define config.skip_delay = 70
 
 
 ## Save directory ##############################################################

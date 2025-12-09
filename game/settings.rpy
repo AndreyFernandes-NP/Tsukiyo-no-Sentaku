@@ -1,4 +1,5 @@
 default persistent.choosen_language = False
+default seen_labels = []
 
 init -2 python:
     from collections import deque
@@ -7,8 +8,9 @@ init -2 python:
     renpy.music.register_channel("ambfx", "sfx", loop=False, tight=True, buffer_queue=True)
     store._last_say_ended = -1.0
 
+    channel_volumes = {}
+
     menu_duck_channels = ["music", "ambience", "ambfx"]
-    menu_prev_volumes = {}
     
     def _any_char_cb(event, interact, **kwargs):
         if event == "end":
@@ -16,6 +18,37 @@ init -2 python:
 
     if _any_char_cb not in config.all_character_callbacks:
         config.all_character_callbacks.append(_any_char_cb)
+    
+    def scene_register(label_name):
+        if not label_name in seen_labels:
+            seen_labels.append(label_name)
+        return
+
+    def seen_label(label_name):
+        return label_name in seen_labels
+
+    def ld_spr(char, expr_name, suffix=""):
+        files = [(make_sprite_path(char, expr_name), expr_name)]
+
+        if suffix:
+            files.append((make_sprite_path(char, expr_name, suffix), f"{expr_name}_{suffix}"))
+
+        for filename, mod_expr_name in files:
+            if not renpy.loadable(filename):
+                continue
+            else:
+                checked_filename = filename
+            renpy.image((char, mod_expr_name), checked_filename)
+
+    def make_sprite_path(char, expr, suffix=""):
+        if suffix:
+            suffix = f"_{suffix}"
+        
+        return f"sprites/{char}/{char}_{expr}{suffix}.png"
+
+    def make_sprites(char, expr_list, suffix=""):
+        for expr in expr_list:
+            ld_spr(char, expr, suffix)
 
     def ld_bg(bgname):
         bg_image = f"bgs/{bgname}.png"
@@ -25,6 +58,16 @@ init -2 python:
             renpy.log(f"Couldn't load {tag} '{bgname}' from path '{bg_image}'")
             return False
         renpy.image((tag,bgname), bg_image)
+    
+    def ld_img(imgname):
+        img_file = f"images/{imgname}.png"
+
+        if not renpy.loadable(img_file):
+            img_file = f"sprites/{imgname}.png"
+            if not renpy.loadable(img_file):
+                renpy.log(f"Couldn't load image '{imgname}' from paths 'images/{imgname}.png' or 'sprites/{imgname}.png'")
+                return False
+        renpy.image(imgname, img_file)
     
     def ld_msc(mscname, alias):
         msc_file = f"audio/music/{mscname}.ogg"
@@ -57,6 +100,9 @@ init -2 python:
     ld_bg("school_corridor")
     ld_bg("school_classroom")
     ld_bg("school_classroom_shiny")
+    
+    # Images Files
+    ld_img("team_logo")
 
     # Music Files
     ld_msc("Breathlessly", "peaceful")
@@ -77,8 +123,12 @@ init -2 python:
     ld_sfx("tree-rustle-soft", "tree_rustle_soft")
     ld_sfx("wind-howl_1", "wind_howl_1")
     ld_sfx("wind-howl_2", "wind_howl_2")
+    ld_sfx("door-open", "door_open")
+    ld_sfx("door-creak", "door_creak")
 
-    # Effects
+    # Characters Sprites
+
+    # Transitions
     menueffect = None
     charchange = dissolve
     scenechange = dissolve
@@ -104,6 +154,14 @@ init -2 python:
     def menu_init():
         renpy.music.play(music_relaxing, fadein=5.0, fadeout=0.5, if_changed=True)
     
+    def set_channel_volume(channel, vol, delay=0.3, ignore=False):
+        renpy.music.set_volume(vol, delay=delay, channel=channel,)
+        if not ignore:
+            channel_volumes[channel] = vol
+    
+    def get_channel_volume(channel):
+        return channel_volumes.get(channel, 1.0)
+    
     def amb_play(filename_or_list, fadein=1.0, if_changed=True, loop=True, synchro_start=False):
         """
         Plays or change current ambience music.
@@ -126,27 +184,40 @@ init -2 python:
         renpy.music.stop(channel="ambience", fadeout=fadeout)
         
     def amb_volume(vol=1.0, delay=0.3):
-        renpy.music.set_volume(vol, delay=delay, channel="ambience",)
+        set_channel_volume("ambience", vol, delay)
     
     def amb_duck(to=0.35, delay=0.15):
-        amb_volume(to, delay)
+        set_channel_volume("ambience", to, delay, ignore=True)
     
     def amb_unduck(delay=0.25):
-        current = renpy.music.get_mixer("sfx").get_volume()
+        current = channel_volumes.get("ambience", 1.0)
         amb_volume(current, delay)
     
     def _menu_duck(start, duck_to=1.0, duck_delay=0.05):
+        print(channel_volumes)
         if start:
             for ch in menu_duck_channels:
                 try:
-                    current = renpy.music.get_volume(channel=ch)
-                except:
+                    if ch in channel_volumes:
+                        current = channel_volumes[ch]
+                    else:
+                        current = 1.0
+                except Exception as e:
+                    print(e)
                     current = 1.0
-                menu_prev_volumes[ch] = current
+
+                if current < duck_to:
+                    continue
+                
+                if current == duck_to:
+                    duck_to = duck_to / 2
+                
+                # print(f"[MenuDuck] Channel '{ch}' volume {current} -> {duck_to}")
                 renpy.music.set_volume(duck_to, duck_delay, channel=ch)
         else:
             for ch in menu_duck_channels:
-                orig = menu_prev_volumes.get(ch, 1.0)
+                orig = channel_volumes.get(ch, 1.0)
+                # print(f"[MenuDuck] Channel '{ch}' volume -> {orig}")
                 renpy.music.set_volume(orig, duck_delay, channel=ch)
 
     # Classes
@@ -393,6 +464,8 @@ init -2 python:
             self.running = True
             self._rebuild_queues(reset_used=False)
             self._refresh_rotation()
+
+            self._ctx = renpy.context()
 
             renpy.music.set_queue_empty_callback(self._on_queue_empty, channel=self.channel)
    
