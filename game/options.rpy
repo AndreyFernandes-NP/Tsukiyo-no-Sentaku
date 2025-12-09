@@ -156,27 +156,23 @@ init python:
     build.classify('**.bak', None)
     build.classify('**/.**', None)
     build.classify('**/#**', None)
+    build.classify('**.rpy', None)
     build.classify('**/thumbs.db', None)
+    build.classify("game/saves/", None)
+    build.classify("game/cache/", None)
 
-    build.archive('script','all')
-    build.archive('gui','all')
-    build.archive('audio','all')
-    build.archive('sprites','all')
-    build.archive('bgs','all')
-    build.archive('fonts','all')
+    build.archive('data','all')
+    build.archive('llm','all')
 
-    build.classify('game/script/**','script')
-
-    build.classify('game/bgs/**','bgs')
-
-    build.classify('game/sprites/**','sprites')
-
-    build.classify('game/gui/**','gui')
-
-    build.classify('game/audio/**','audio')
-
-    build.classify('game/**.ttf','fonts')
-    build.classify('game/fonts/**.ttf','fonts')
+    build.classify('game/script/**','data')
+    build.classify('game/bgs/**','data')
+    build.classify('game/sprites/**','data')
+    build.classify('game/images/**','data')
+    build.classify('game/gui/**','data')
+    build.classify('game/audio/**','data')
+    build.classify('game/**.ttf','data')
+    build.classify('game/fonts/**.ttf','data')
+    build.classify('game/llm/**','llm')
 
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.
