@@ -5,7 +5,7 @@ log.txt
 traceback.txt
 
 # LLM System (sensitive/private code)
-game/LLM/*
+game/secrets.json
 
 # Ren'Py generated files
 cache/

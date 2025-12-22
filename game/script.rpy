@@ -10,6 +10,7 @@ init python:
     ambience_sfx_cycle = SfxCycler(items=corridor_ambience_sfx, interval=(20.0, 50.0), channel="ambfx", fadein=0.05, fadeout=0.05, auto_rotation_mode="all")
 
 label splashscreen:
+    $ start_llm_warmup()
 
     scene black with fade
     with Pause(1.0)
