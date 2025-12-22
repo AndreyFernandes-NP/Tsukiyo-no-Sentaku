@@ -40,7 +40,7 @@ init -10 python:
         if log_type is None:
             log_type = set()
 
-        response_size = max(16, min(int(response_size), 512))
+        response_size = max(16, min(int(response_size), 1024))
         
         payload = {
             "system_prompt": system_prompt,
@@ -75,7 +75,7 @@ init -10 python:
                 log_response=False
             )
 
-            print("AI says:", response[-1])
+            print("Ping -", response[0])
 
         except Exception as e:
             print(f"LLM Warmup failed: {e}")
