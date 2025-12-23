@@ -3,9 +3,7 @@ development_log.txt
 errors.txt
 log.txt
 traceback.txt
-
-# LLM System (sensitive/private code)
-game/secrets.json
+project.json
 
 # Ren'Py generated files
 cache/

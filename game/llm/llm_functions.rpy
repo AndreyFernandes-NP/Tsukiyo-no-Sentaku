@@ -1,14 +1,14 @@
 init -10 python:
     import threading
-    from llm.core import post
+    import queue
+    import time
+    import uuid
+    from llm.core import post, hasInternet
 
     def user_language() -> str:
         lang = getattr(persistent, "choosen_language", None)
 
-        if not lang:
-            return "English"
-
-        return lang
+        return lang or "English"
 
     def sanitize_llm_output(text : str) -> list:
         lines = text.strip().split("\n")
@@ -50,6 +50,10 @@ init -10 python:
             "response_size": response_size
         }
 
+        if not hasInternet():
+            print("Warning: No internet connection available.")
+            return []
+
         status, data = post(payload)
 
         if not data['ok']:
@@ -75,7 +79,8 @@ init -10 python:
                 log_response=False
             )
 
-            print("Ping -", response[0])
+            if response:
+                print("Ping -", response[0])
 
         except Exception as e:
             print(f"LLM Warmup failed: {e}")
@@ -83,3 +88,35 @@ init -10 python:
     def start_llm_warmup() -> None:
         t = threading.Thread(target=_llm_warmup, daemon=True)
         t.start()
+    
+    class LLMJob:
+        def __init__(self):
+            self.id = str(uuid.uuid4())
+            self.done = False
+            self.result = []   # list[str]
+            self.error = None  # Exception | None
+    
+    def llm_request(system_prompt: str, player_input: str, reasoning: str = "medium", verbosity: str = "medium", response_size: int = 256,
+                    log_response: bool = False, log_type: set[str] | None = None) -> LLMJob:
+
+        job = LLMJob()
+
+        def _worker():
+            try:
+                job.result = generate_response(
+                    system_prompt=system_prompt,
+                    player_input=player_input,
+                    reasoning_effort=reasoning,
+                    text_verbosity=verbosity,
+                    response_size=response_size,
+                    log_response=log_response,
+                    log_type=log_type
+                )
+            except Exception as e:
+                job.error = e
+                job.result = []
+            finally:
+                job.done = True
+
+        threading.Thread(target=_worker, daemon=True).start()
+        return job

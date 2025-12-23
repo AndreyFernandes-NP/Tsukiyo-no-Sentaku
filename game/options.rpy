@@ -32,9 +32,14 @@ init python:
         renpy.music.set_queue_empty_callback(None, channel=ch)
         if renpy.music.is_playing(channel=ch):
             renpy.music.stop(channel=ch, fadeout=0.05)
+    
+    def on_load_reset_llm_request():
+        global current_llm_request
+        current_llm_request = None
 
     config.start_interact_callbacks.append(_amb_sync_with_state)
     config.after_load_callbacks.append(_amb_sync_with_state)
+    config.after_load_callbacks.append(on_load_reset_llm_request)
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -165,6 +170,7 @@ init python:
     build.archive('llm','all')
 
     build.classify('game/script/**','data')
+    build.classify('game/addons/**','data')
     build.classify('game/bgs/**','data')
     build.classify('game/sprites/**','data')
     build.classify('game/images/**','data')

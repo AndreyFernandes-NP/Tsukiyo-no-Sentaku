@@ -1,4 +1,5 @@
 default persistent.choosen_language = False
+default current_llm_job = None
 default seen_labels = []
 
 init -2 python:
@@ -125,6 +126,7 @@ init -2 python:
     ld_sfx("wind-howl_2", "wind_howl_2")
     ld_sfx("door-open", "door_open")
     ld_sfx("door-creak", "door_creak")
+    ld_sfx("glitch-sfx", "glitch")
 
     # Characters Sprites
 
@@ -219,6 +221,9 @@ init -2 python:
                 orig = channel_volumes.get(ch, 1.0)
                 # print(f"[MenuDuck] Channel '{ch}' volume -> {orig}")
                 renpy.music.set_volume(orig, duck_delay, channel=ch)
+    
+    def chroma_animated(child, **kwargs):
+        return animated_glitch(child, **kwargs)
 
     # Classes
     # Fuck this class, fuck this shit, I hate it, I spent too much on this, idk why I overengineered something so simple, but it's done

@@ -58,6 +58,19 @@ label iscene(target):
     
     return
 
+label glitch_scene(scene_bg, duration=1.0, dialogue=[]):
+    play sound sfx_glitch volume 1.5
+    show expression animated_glitch("bg " + scene_bg, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)) as glitch_bg with Pause(duration)
+
+    hide glitch_bg
+
+    python:
+        if dialogue:
+            for who, what in dialogue:
+                renpy.say(who, what)
+
+    return
+
 # Maybe create one for menus too? Depends if I really need it.
 
 label future_prologue:

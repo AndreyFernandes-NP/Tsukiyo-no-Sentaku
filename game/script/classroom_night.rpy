@@ -1177,20 +1177,37 @@ label corridors_D:
         user_response = renpy.input(_("And that thought is…"), length=100)
         ren_thought = user_response.strip()
 
-        if not ren_thought or ren_thought.isspace():
-            renpy.say("", "…")
-            renpy.say("", _("It seems like I can't put this into words right now."))
-            renpy.say("", _("It's not like I really know what I'm feeling."))
-            renpy.say("", _("But I can't express it to myself."))
-            renpy.say("", _("If I had to sum it all up with one word, I'd say it's confusion."))
-            renpy.say("", _("But even confused, I still understand very well what I feel for you."))
-            renpy.say("", _("Deep inside, I know I do."))
-            renpy.say("", _("Still, there's only one thing left for me to do…"))
-            pass
+        if not ren_thought:
+            renpy.call("iscene", "corridors_D_fallback")
+
         else:
-            # Add later the implementation of the LLM integration for the player's response.
-            # Just to make each branches different so I can already open a PR
-            pass
+            renpy.block_rollback()
+
+            current_llm_request = llm_request(
+                system_prompt=prompt_thoughts(user_language()),
+                player_input=ren_thought,
+                log_response=True,
+                log_type={"response"},
+            )
+
+            while current_llm_request and not current_llm_request.done:
+                renpy.say("", "…")
+
+            if current_llm_request and current_llm_request.error:
+                print("LLM request error:", current_llm_request.error)
+                renpy.call("iscene", "corridors_D_fallback")
+            
+            else:
+                lines = current_llm_request.result or []
+
+                if not lines:
+                    renpy.call("iscene", "corridors_D_fallback")
+                else:
+                    if lines[0] == "break_detected":
+                        renpy.call("glitch_scene", "school_corridor", duration=0.3, dialogue=[("", ":)")])
+                    else:
+                        for line in lines:
+                            renpy.say("", line)
     
     $ amb_stop()
     $ ambience_sfx_cycle.stop(stop_all=True)
@@ -1202,4 +1219,23 @@ label corridors_D:
 
     play sound sfx_door_creak
 
+    return
+
+label corridors_D_fallback:
+    "…"
+
+    "It seems like I can't put this into words right now."
+
+    "It's not like I really know what I'm feeling."
+
+    "But I can't express it to myself."
+
+    "If I had to sum it all up with one word, I'd say it's confusion."
+
+    "But even confused, I still understand very well what I feel for you."
+
+    "Deep inside, I know I do."
+
+    "Still, there's only one thing left for me to do…"
+    
     return
