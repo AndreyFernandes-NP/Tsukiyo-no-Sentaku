@@ -176,8 +176,10 @@ init python:
     build.classify('game/images/**','data')
     build.classify('game/gui/**','data')
     build.classify('game/audio/**','data')
-    build.classify('game/**.ttf','data')
-    build.classify('game/fonts/**.ttf','data')
+    
+    build.classify('game/**.ttf','all')
+    build.classify('game/fonts/**.ttf','all')
+    
     build.classify('game/llm/**','llm')
 
     ## Files matching documentation patterns are duplicated in a mac app build,

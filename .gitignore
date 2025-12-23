@@ -4,6 +4,9 @@ errors.txt
 log.txt
 traceback.txt
 project.json
+android.json
+android.keystore
+bundle.keystore
 
 # Ren'Py generated files
 cache/
