@@ -89,6 +89,10 @@ define config.end_game_transition = None
 define config.window = "auto"
 define config.gl_resize = False
 
+init python:
+    if renpy.variant("mobile"):
+        config.gl_resize = True
+
 
 ## Transitions used to show and hide the dialogue window
 define config.window_show_transition = Dissolve(.2)
@@ -178,9 +182,7 @@ init python:
     build.classify('game/audio/**','data')
     
     build.classify('game/**.ttf','all')
-    build.classify('game/**.otf','all')
-    build.classify('game/fonts/**.ttf','all')
-    build.classify('game/fonts/**.otf','all')
+    build.classify('game/fonts/**','all')
     
     build.classify('game/llm/**','llm')
 
