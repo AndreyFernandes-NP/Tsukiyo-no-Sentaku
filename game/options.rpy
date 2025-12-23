@@ -32,9 +32,14 @@ init python:
         renpy.music.set_queue_empty_callback(None, channel=ch)
         if renpy.music.is_playing(channel=ch):
             renpy.music.stop(channel=ch, fadeout=0.05)
+    
+    def on_load_reset_llm_request():
+        global current_llm_request
+        current_llm_request = None
 
     config.start_interact_callbacks.append(_amb_sync_with_state)
     config.after_load_callbacks.append(_amb_sync_with_state)
+    config.after_load_callbacks.append(on_load_reset_llm_request)
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -83,6 +88,10 @@ define config.end_game_transition = None
 ## Window management ###########################################################
 define config.window = "auto"
 define config.gl_resize = False
+
+init python:
+    if renpy.variant("mobile"):
+        config.gl_resize = True
 
 
 ## Transitions used to show and hide the dialogue window
@@ -156,27 +165,26 @@ init python:
     build.classify('**.bak', None)
     build.classify('**/.**', None)
     build.classify('**/#**', None)
+    build.classify('**.rpy', None)
     build.classify('**/thumbs.db', None)
+    build.classify("game/saves/", None)
+    build.classify("game/cache/", None)
 
-    build.archive('script','all')
-    build.archive('gui','all')
-    build.archive('audio','all')
-    build.archive('sprites','all')
-    build.archive('bgs','all')
-    build.archive('fonts','all')
+    build.archive('data','all')
+    build.archive('llm','all')
 
-    build.classify('game/script/**','script')
-
-    build.classify('game/bgs/**','bgs')
-
-    build.classify('game/sprites/**','sprites')
-
-    build.classify('game/gui/**','gui')
-
-    build.classify('game/audio/**','audio')
-
-    build.classify('game/**.ttf','fonts')
-    build.classify('game/fonts/**.ttf','fonts')
+    build.classify('game/script/**','data')
+    build.classify('game/addons/**','data')
+    build.classify('game/bgs/**','data')
+    build.classify('game/sprites/**','data')
+    build.classify('game/images/**','data')
+    build.classify('game/gui/**','data')
+    build.classify('game/audio/**','data')
+    
+    build.classify('game/**.ttf','all')
+    build.classify('game/fonts/**','all')
+    
+    build.classify('game/llm/**','llm')
 
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.

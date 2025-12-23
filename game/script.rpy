@@ -10,11 +10,13 @@ init python:
     ambience_sfx_cycle = SfxCycler(items=corridor_ambience_sfx, interval=(20.0, 50.0), channel="ambfx", fadein=0.05, fadeout=0.05, auto_rotation_mode="all")
 
 label splashscreen:
+    $ start_llm_warmup()
 
     scene black with fade
-    with Pause(1.0)
 
-    if not persistent.choosen_language:
+    $ renpy.pause(1.0, hard=True)
+
+    if not getattr(persistent, "choosen_language", None):
         call screen language_select with fade
         scene black with fade
     
@@ -55,6 +57,19 @@ label iscene(target):
     $ scene_register(target)
     call expression target from _call_expression
     
+    return
+
+label glitch_scene(scene_bg, duration=1.0, dialogue=[]):
+    play sound sfx_glitch volume 1.5
+    show expression animated_glitch("bg " + scene_bg, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)) as glitch_bg with Pause(duration)
+
+    hide glitch_bg
+
+    python:
+        if dialogue:
+            for who, what in dialogue:
+                renpy.say(who, what)
+
     return
 
 # Maybe create one for menus too? Depends if I really need it.

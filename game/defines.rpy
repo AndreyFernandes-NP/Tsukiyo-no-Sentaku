@@ -15,6 +15,9 @@ default mc_personality = ["Ren is calm, introspective, and observes before actin
 
 default miya_personality = ["Miya is quietly cheerful and outgoing, sometimes impulsive. She values friendship and loyalty, even to the point of stubbornness. Her energetic nature can both uplift and overwhelm those around her. She speaks her mind when comfortable, but can also retreat into silence when she feels unsure. Tonight, she wants Ren alongside her, even if it hurts."]
 
+### Scenes Context
+default corridor_context = ["It's late at night, around 11 PM. The school is quiet and empty. Ren stands at his classroom door, hesitating after Miya, his childhood friend, asked him to meet her here. Their friendship has grown distant recently. Now, he's moments from stepping inside."]
+
 ### Choices dictionaries
 
 define routes_corridorA = {

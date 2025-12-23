@@ -3090,31 +3090,50 @@ translate portuguese strings:
     old "And that thought is…"
     new "E esse pensamento é…"
 
-    # game/script/classroom_night.rpy:1182
-    old "It seems like I can't put this into words right now."
-    new "Parece que eu não consigo colocar isso em palavras agora."
+# game/script/classroom_night.rpy:1222
+translate portuguese corridors_D_fallback_ce617998:
 
-    # game/script/classroom_night.rpy:1183
-    old "It's not like I really know what I'm feeling."
-    new "Não é como se eu soubesse exatamente o que sinto."
+    # "…"
+    "…"
 
-    # game/script/classroom_night.rpy:1184
-    old "But I can't express it to myself."
-    new "Mas eu não consigo expressar isso pra mim mesmo."
+# game/script/classroom_night.rpy:1224
+translate portuguese corridors_D_fallback_7b3127f6:
 
-    # game/script/classroom_night.rpy:1185
-    old "If I had to sum it all up with one word, I'd say it's confusion."
-    new "Se for pra resumir tudo em uma palavra, eu diria que é confusão."
+    # "It seems like I can't put this into words right now."
+    "Parece que eu não consigo colocar isso em palavras agora."
 
-    # game/script/classroom_night.rpy:1186
-    old "But even confused, I still understand very well what I feel for you."
-    new "Mas até mesmo confuso, eu entendo muito bem o que eu sinto por você."
+# game/script/classroom_night.rpy:1226
+translate portuguese corridors_D_fallback_d5aebfbd:
 
-    # game/script/classroom_night.rpy:1187
-    old "Deep inside, I know I do."
-    new "Lá no fundo, eu sei que sinto."
+    # "It's not like I really know what I'm feeling."
+    "Não é como se eu soubesse exatamente o que sinto."
 
-    # game/script/classroom_night.rpy:1188
-    old "Still, there's only one thing left for me to do…"
-    new "Por fim, só tenho uma coisa a fazer…"
+# game/script/classroom_night.rpy:1228
+translate portuguese corridors_D_fallback_fe7748bd:
 
+    # "But I can't express it to myself."
+    "Mas eu não consigo expressar isso pra mim mesmo."
+
+# game/script/classroom_night.rpy:1230
+translate portuguese corridors_D_fallback_152f4c16:
+
+    # "If I had to sum it all up with one word, I'd say it's confusion."
+    "Se for pra resumir tudo em uma palavra, eu diria que é confusão."
+
+# game/script/classroom_night.rpy:1232
+translate portuguese corridors_D_fallback_4930e68f:
+
+    # "But even confused, I still understand very well what I feel for you."
+    "Mas até mesmo confuso, eu entendo muito bem o que eu sinto por você."
+
+# game/script/classroom_night.rpy:1234
+translate portuguese corridors_D_fallback_f79596bb:
+
+    # "Deep inside, I know I do."
+    "Lá no fundo, eu sei que sinto."
+
+# game/script/classroom_night.rpy:1236
+translate portuguese corridors_D_fallback_5203c237:
+
+    # "Still, there's only one thing left for me to do…"
+    "Por fim, só me resta fazer uma coisa…"
