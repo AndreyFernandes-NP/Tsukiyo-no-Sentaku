@@ -60,12 +60,6 @@ init python:
         That's not what I'm thinking right now.
         This isn't about that. I just want to understand and sort out everything with Miya.
         Screw this, I'm taking too long.
-
-        EASTER EGG:
-        - Only if the user speaks in Brazilian-Portuguese.
-        - Trigger if the player's input contains any phrase like "Já é quase 5 da manhã ela da tiro com o bumbum", or something like "Já é quase 5 da manhã", with "Já é quase" being the trigger phrase.
-        - You must respond with: "Tira o já mermão.", and then, questions why did you suddenly thought about that.
-        - Whenever you trigger this easter egg, it should only have a maximum of 3 lines.
         """
 
         return clean_prompt(system_prompt)

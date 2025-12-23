@@ -1,5 +1,4 @@
 screen language_select:
-    modal True
     tag menu
     
     add Solid("#00000080")
@@ -20,13 +19,19 @@ screen language_select:
 
             textbutton "Português (Brasil)":
                 style "lang_button"
-                action [SetVariable("persistent.choosen_language", "Brazilian-Portuguese"), Language('portuguese'), Return()]
+                action [SetVariable("persistent.choosen_language", "Brazilian-Portuguese"), 
+                Language('portuguese'), 
+                Return()]
 
             textbutton "English":
                 style "lang_button"
-                action [SetVariable("persistent.choosen_language", "English"), Language(None), Return()]
+                action [SetVariable("persistent.choosen_language", "English"), 
+                Language(None), 
+                Return()]
 
             textbutton "日本語":
                 style "lang_button"
                 text_font "fonts/VL-PGothic-Regular.ttf"
-                action [SetVariable("persistent.choosen_language", "Japanese"), Language('japanese'), Return()]
+                action [SetVariable("persistent.choosen_language", "Japanese"), 
+                Language('japanese'), 
+                Return()]

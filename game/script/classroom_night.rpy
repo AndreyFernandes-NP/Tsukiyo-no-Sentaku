@@ -1186,8 +1186,7 @@ label corridors_D:
             current_llm_request = llm_request(
                 system_prompt=prompt_thoughts(user_language()),
                 player_input=ren_thought,
-                log_response=True,
-                log_type={"response"},
+                log_response=False,
             )
 
             while current_llm_request and not current_llm_request.done:

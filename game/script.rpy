@@ -13,9 +13,10 @@ label splashscreen:
     $ start_llm_warmup()
 
     scene black with fade
-    with Pause(1.0)
 
-    if not persistent.choosen_language:
+    $ renpy.pause(1.0, hard=True)
+
+    if not getattr(persistent, "choosen_language", None):
         call screen language_select with fade
         scene black with fade
     
