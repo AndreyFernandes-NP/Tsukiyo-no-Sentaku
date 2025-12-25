@@ -1,4 +1,5 @@
 default persistent.choosen_language = False
+default persistent.endings_unlocked = []
 default current_llm_job = None
 default seen_labels = []
 

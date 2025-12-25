@@ -1174,6 +1174,7 @@ label corridors_D:
     "And that thought is…"
 
     python:
+        renpy.save("quick-1")
         user_response = renpy.input(_("And that thought is…"), length=100)
         ren_thought = user_response.strip()
 
@@ -1203,7 +1204,7 @@ label corridors_D:
                     renpy.call("iscene", "corridors_D_fallback")
                 else:
                     if lines[0] == "break_detected":
-                        renpy.call("glitch_scene", "school_corridor", duration=0.3, dialogue=[("", ":)")])
+                        renpy.call("glitch_scene", "school_corridor", duration=0.3, dialogue=[("", ":)")] if not getattr(persistent, "endings_unlocked", None) else [("", "g-694c8e05bc188191802f2555becf4e8f-")])
                     else:
                         for line in lines:
                             renpy.say("", line)
