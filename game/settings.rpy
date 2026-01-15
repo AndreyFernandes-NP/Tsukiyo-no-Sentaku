@@ -1,7 +1,7 @@
 default persistent.choosen_language = False
 default persistent.endings_unlocked = []
 default current_llm_job = None
-default seen_labels = []
+default seen_labels = set()
 
 init -2 python:
     from collections import deque
@@ -22,13 +22,13 @@ init -2 python:
         config.all_character_callbacks.append(_any_char_cb)
     
     def scene_register(label_name):
-        if not label_name in seen_labels:
-            seen_labels.append(label_name)
+        if label_name not in store.seen_labels:
+            store.seen_labels.add(label_name)
         return
 
     def seen_label(label_name):
-        return label_name in seen_labels
-
+        return label_name in store.seen_labels
+    
     def ld_spr(char, expr_name, suffix=""):
         files = [(make_sprite_path(char, expr_name), expr_name)]
 

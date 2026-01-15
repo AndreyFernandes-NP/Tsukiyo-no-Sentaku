@@ -4,7 +4,7 @@ define build.name = "TsukiyonoSentaku"
 init -999:
     define config.developer = True
     define config.defer_tl_scripts = True
-    define config.version = "0.1"
+    define config.version = "0.2"
     define config.transparent_tile = False
 
     define config.autosave_slots = 4

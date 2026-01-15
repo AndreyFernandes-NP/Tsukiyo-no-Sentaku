@@ -53,6 +53,7 @@ label start:
 
     return
 
+# Maybe create one for menus too? Depends if I really need it.
 label iscene(target):
     $ scene_register(target)
     call expression target from _call_expression
@@ -71,8 +72,6 @@ label glitch_scene(scene_bg, duration=1.0, dialogue=[]):
                 renpy.say(who, what)
 
     return
-
-# Maybe create one for menus too? Depends if I really need it.
 
 label future_prologue:
     scene black

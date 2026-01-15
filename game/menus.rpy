@@ -1,4 +1,4 @@
-screen language_select:
+screen language_select():
     tag menu
     
     add Solid("#00000080")
