@@ -153,7 +153,6 @@ init -2 python:
     contextchange = fade
     flash = Fade(0.1, 0.0, 0.5, color="#FFFFFF")
     bigflash = Fade(0.2, 0.0, 0.7, color="#FFFFFF")
-    scenezoomout = Zoom()
 
     # Vars
     from_splash = False
