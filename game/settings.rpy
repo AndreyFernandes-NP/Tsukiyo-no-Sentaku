@@ -61,6 +61,16 @@ init -2 python:
             return False
         renpy.image((tag,bgname), bg_image)
     
+    def ld_cg(cgname, cgfolder=""):
+        cg_path = f"cgs/{cgfolder}/" if cgfolder else "cgs/"
+        cg_image = f"{cg_path}{cgname}.png"
+        tag = "cg"
+
+        if not renpy.loadable(cg_image):
+            renpy.log(f"Couldn't load {tag} '{cgname}' from path '{cg_image}'")
+            return False
+        renpy.image((tag,cgname), cg_image)
+
     def ld_img(imgname):
         img_file = f"images/{imgname}.png"
 
@@ -102,6 +112,10 @@ init -2 python:
     ld_bg("school_corridor")
     ld_bg("school_classroom")
     ld_bg("school_classroom_shiny")
+
+    # CG Files
+    ld_cg("miya_classroom_moonlight")
+    ld_cg("miya_classroom_confused")
     
     # Images Files
     ld_img("team_logo")
@@ -128,6 +142,7 @@ init -2 python:
     ld_sfx("door-open", "door_open")
     ld_sfx("door-creak", "door_creak")
     ld_sfx("glitch-sfx", "glitch")
+    ld_sfx("ks-woosh", "cg_woosh")
 
     # Characters Sprites
 
@@ -136,6 +151,9 @@ init -2 python:
     charchange = dissolve
     scenechange = dissolve
     contextchange = fade
+    flash = Fade(0.1, 0.0, 0.5, color="#FFFFFF")
+    bigflash = Fade(0.2, 0.0, 0.7, color="#FFFFFF")
+    scenezoomout = Zoom()
 
     # Vars
     from_splash = False
