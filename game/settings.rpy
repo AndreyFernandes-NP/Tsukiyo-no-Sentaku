@@ -2,9 +2,10 @@ default persistent.choosen_language = False
 default persistent.endings_unlocked = []
 default current_llm_job = None
 default seen_labels = set()
+default routes_number = []
 
 init -2 python:
-    from collections import deque
+    from collections import deque, Counter
 
     renpy.music.register_channel("ambience", "sfx", loop=True, tight=True)
     renpy.music.register_channel("ambfx", "sfx", loop=False, tight=True, buffer_queue=True)
@@ -157,7 +158,7 @@ init -2 python:
     # Vars
     from_splash = False
 
-    # Other functions
+    # Other functions       
     def qc_menu(state: str) -> None:
         quick_menu = getattr(store, "quick_menu")
 
@@ -173,6 +174,19 @@ init -2 python:
 
     def menu_init():
         renpy.music.play(music_relaxing, fadein=5.0, fadeout=0.5, if_changed=True)
+    
+    def count_number(n) -> int | None:
+        if not n:
+            return None
+        
+        counts = Counter(map(str, n))
+        repeated = [d for d, c in counts.items() if c >= 2]
+
+        if len(repeated) != 1:
+            return None
+
+        return int(repeated[0]) # Return the digit that's the most repeated as int
+
     
     def set_channel_volume(channel, vol, delay=0.3, ignore=False):
         renpy.music.set_volume(vol, delay=delay, channel=channel,)

@@ -28,7 +28,9 @@ label corridors_A:
     $ amb_volume(0.3, 0.05)
     $ amb_play(ambience_corridor_wind, fadein=1.0)
 
-    $ ambience_sfx_cycle.start(start_after_random=True)
+    $ ambience_sfx_cycle.start(start_after_random=True) 
+    
+    $ routes_number = []
 
     window show
 
@@ -145,12 +147,15 @@ label choice_corridorsA:
         with menueffect
         "I had fun.":
 
+            $ routes_number.append(1)
             return "opt1"
         "I can't blame her.":
 
+            $ routes_number.append(2)
             return "opt2"
         "She was annoying.":
 
+            $ routes_number.append(3)
             return "opt3"
 
 label corridors_Aa:
@@ -387,12 +392,15 @@ label choice_corridorsB:
         with menueffect
         "No, that's not how it works.":
 
+            $ routes_number.append(1)
             return "opt1"
         "I can't make up my mind.":
 
+            $ routes_number.append(2)
             return "opt2"
         "Things are just the way they are.":
 
+            $ routes_number.append(3)
             return "opt3"
 
 label corridors_Ba:
@@ -663,12 +671,15 @@ label choice_corridorsC:
         with menueffect
         "I'll go all the way.":
 
+            $ routes_number.append(1)
             return "opt1"
         "I'll only know if I try.":
 
+            $ routes_number.append(2)
             return "opt2"
         "Maybe nothing'll change.":
 
+            $ routes_number.append(3)
             return "opt3"
 
 label corridors_Ca:
@@ -1157,6 +1168,22 @@ label corridors_D:
         "At the very least, that's what I'm going to do."
 
         "For both of us."
+    
+    python:
+        digit = count_number(routes_number)
+
+        match digit:
+            case 1:
+                mc_routes.append("Close")
+
+            case 2:
+                mc_routes.append("Neutral")
+
+            case 3:
+                mc_routes.append("Distant")
+                
+            case _:
+                mc_routes.append("Neutral")
 
     "After losing myself in my thoughts for so long, I finally gather the courage I needed."
 

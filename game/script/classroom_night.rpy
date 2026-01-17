@@ -1,6 +1,8 @@
 label classroom:
     $ qc_menu('hide')
 
+    $ routes_number = []
+
     pause(2.5)
 
     $ qc_menu('show')
