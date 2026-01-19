@@ -3,6 +3,7 @@ default persistent.endings_unlocked = []
 default current_llm_job = None
 default seen_labels = set()
 default routes_number = []
+default disable_duck = False
 
 init -2 python:
     from collections import deque, Counter

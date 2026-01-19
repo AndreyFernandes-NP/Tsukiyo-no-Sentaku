@@ -666,7 +666,7 @@ label corridors_C:
 
     return
 
-label choice_corridorsC:   
+label choice_corridorsC:
     menu:
         with menueffect
         "I'll go all the way.":

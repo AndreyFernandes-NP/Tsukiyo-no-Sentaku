@@ -209,14 +209,29 @@ style input:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#choice
 
-screen choice(items):
+screen choice(items, **kwargs):
     style_prefix "choice"
 
-    on "show" action [Function(_menu_duck, start=True, duck_to=0.3, duck_delay=0.5)]
-    on "hide" action [Function(_menu_duck, start=False)]
+    $ options = {
+        "duck": True,
+        "shuffle": False,
+    }
+
+    $ options.update(kwargs)
+
+    on "show" action If(options["duck"], Function(_menu_duck, start=True, duck_to=0.3, duck_delay=0.5))
+    on "hide" action If(options["duck"], Function(_menu_duck, start=False))
 
     default _dialogue_ready = False
     default _screen_start = renpy.get_game_runtime()
+
+    $ _items = None
+
+    if _items is None:
+        $ _items = list(items)
+        if options["shuffle"]:
+            $ renpy.random.shuffle(_items)
+    
     $ _bypass = renpy.is_skipping() or preferences.afm_enable
 
     if _bypass:
@@ -237,7 +252,7 @@ screen choice(items):
         add Solid("#0008") at menu_dim_fade
 
         vbox at menu_choices_fadein:
-            for i in items:
+            for i in _items:
                 textbutton i.caption action i.action
     else:
         null

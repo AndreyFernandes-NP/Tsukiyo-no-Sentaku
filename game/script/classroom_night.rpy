@@ -1,6 +1,9 @@
 label classroom:
     call iscene("classroom_Intro") from _calling_scene9
-    call iscene("classroom_A") from _calling_scene10
+    call iscene("classroom_A_1") from _calling_scene10
+
+    call choice_classroomA_1 from _calling_choice4
+    call iscene(_return) from _calling_scene11
     
     jump end_of_build
     return
@@ -134,13 +137,13 @@ label classroom_Intro_C:
 
     "É como se eu não estivesse olhando pra Miya."
 
-    "Eu não quero dizer 'Ela sempre foi tão bonita assim?', porque eu sempre achei ela bonita."
+    "Eu não quero dizer algo como 'Ela sempre foi tão bonita assim?', porque ela foi mesmo."
 
-    "Só que agora, olhando pra ela, é como se eu estivesse vendo uma pessoa completamente nova."
+    "Só que, olhando agora, é como se eu estivesse vendo uma pessoa completamente nova."
 
     "Não sei nem se bonita é a melhor palavra pra descrever essa cena."
 
-    "Achá-la bonita aqui parece errado, mas ao mesmo tempo tão certo."
+    "Pensar assim parece errado, mas ao mesmo tempo tão certo."
 
     "Eu queria poder descrever de uma maneira mais clara o que eu sinto."
 
@@ -148,15 +151,19 @@ label classroom_Intro_C:
 
     "Isso tudo cria uma atmosfera tão estranha."
 
-    "Não sei se é o momento certo para me aproximar dela."
+    "Eu quero me aproximar, mas eu sei que não é o momento pra isso."
 
-    "Mas, mesmo assim, por que eu tô parado na porta?"
+    "Posso até estar sendo cauteloso demais, é que… eu não sei."
+
+    "Talvez eu não devesse nenhuma explicação sobre o que eu sinto."
+
+    "Mesmo assim, por que eu ainda tô parado na porta?"
 
     "Por que eu não me movo nem um centímetro sequer?"
 
-    "E por que ela ainda não me notou também?"
+    "E por que ela não me notou também?"
 
-    "Eu a chamei assim que entrei, mas, ela continua olhando pra fora, tão perdida quanto eu."
+    "Eu a chamei assim que entrei, mas ela continua olhando pra fora, como se o mundo externo não existisse."
 
     "Será que ela nem percebeu que eu estou aqui?"
 
@@ -164,35 +171,35 @@ label classroom_Intro_C:
 
     "Parece até que tô olhando pra uma Miya que eu nunca tinha visto antes."
 
-    "Como se estivesse conversando consigo mesma em seus pensamentos, assim como eu costumo fazer."
+    "Uma que está conversando consigo mesma em seus pensamentos, assim como eu costumo fazer."
 
-    "Cadê aquela Miya barulhenta, que sempre tinha algo a dizer? Aquela Miya que sempre me provocava?"
+    "Cadê aquela Miya que não calava a boca? Que sempre tinha algo pra dizer toda hora? Que me provocava?"
 
-    "Que estaria nesse momento me enchendo de perguntas, perguntando porquê eu me atrasei, que não se deve deixar uma dama esperando."
+    "Que estaria nesse exato momento me enchendo de perguntas, questionando porquê eu me atrasei, que não se deve deixar uma dama esperando."
 
-    "E eu responderia com 'Eu não te chamaria exatamente de dama.'"
+    "E eu responderia com 'Eu não te chamaria exatamente de uma dama.'"
 
-    "Mas…"
+    "Por que…"
 
-    "Por que tá tudo tão silencioso?"
+    "Tudo tá tão silencioso?"
 
     "O que será que eu faço? Continuo parado aqui, esperando ela me notar? Ou eu viro as costas e vou embora?"
 
-    "Se eu for embora, será que faria alguma diferença? Ela parece estar tão distante mesmo que tão perto."
+    "Se eu for embora, no final vai fazer alguma diferença? Ela parece estar tão distante mesmo tão perto de mim."
 
-    "Então, por que eu não me aproximo e acabo logo com essa distância? Por que eu fico aqui mantendo as coisas como estão?"
+    "Então, por que eu não me aproximo e acabo logo com isso? Por que eu fico aqui mantendo as coisas como estão?"
 
-    "Por que eu estou fazendo exatamente o que venho fazendo nesses últimos meses?"
+    "Por que eu continuo fazendo exatamente o que fiz nesses últimos meses?"
+
+    "Pensei que dar esse passo fosse me ajudar a resolver as coisas, mas…"
 
     "…"
 
-    "Chega. Eu preciso dar um basta nisso."
-
-    "E é quando eu decido, que ao olhar pra ela novamente… nossos olhos se encontram."
+    "E é antes que eu percebesse, assim que a olho de novo… nossos olhos se encontram."
 
     return
 
-label classroom_A:
+label classroom_A_1:
     scene cg miya_classroom_confused
     with scenechange
 
@@ -200,6 +207,90 @@ label classroom_A:
 
     "Ela me nota enquanto eu estava perdido nos meus pensamentos."
 
-    "Desde que eu entrei na sala e a chamei, parecia que ambos estávamos presos em mundos diferentes ao mesmo tempo."
+    "Desde que eu entrei na sala e a chamei, parecia que ambos estávamos presos em mundos completamente diferentes ao mesmo tempo."
+
+    "Mas agora, é de verdade."
+
+    "Essa é a Miya com quem eu vim falar hoje à noite."
+
+    mc "Miya…"
+
+    mi "Você… chegou tarde né."
+
+    scene cg miya_classroom_moonlight
+    with scenechange
+
+    "Ela faz uma expressão mais triste, deixando de olhar de canto de olho pra mim."
+
+    "Eu não sei nem o que dizer na verdade."
+
+    mc "…"
+
+    mc "É, eu cheguei…"
+
+    "Eu consigo notar um sorriso sem graça surgindo no rosto dela."
+
+    "A primeira coisa que penso é em pedir desculpas, mas, eu sei que não vai adiantar de nada."
+
+    "Não são desculpas que a Miya quer ouvir agora."
+
+    "Posso não saber exatamente o que ela queira ouvir, mas pelo menos eu sei o que não devo falar."
+
+    mc "Sabe…"
+
+    "…"
+
+    return
+
+label choice_classroomA_1:
+    menu(duck=False, shuffle=True):
+        with menueffect
+        "Dar mais um passo.":
+            return "classroom_A_1a"
+
+        "Ficar quieto.":
+            return "classroom_A_1b"
+
+        "Sentar-se em uma cadeira próxima.":
+            return "classroom_A_1c"
+
+        "Ser honesto.":
+            return "classroom_A_1d"
+
+label classroom_A_1a:
+    "Eu dou mais um passo pra dentro da sala."
+
+    "Logo em seguida, eu dou outro. E mais outro. Até que fico perto o suficiente."
+
+    scene cg miya_classroom_confused
+    with scenechange
+
+    "Ela me olha um pouco surpresa, esperando eu dizer algo."
+
+    mc "Eu não sou tão bom com palavras… mas, quero que saiba que tô feliz de estar aqui."
+
+    "Ela me olha por alguns segundos, e esboça um sorriso tímido. Eu viro meu rosto pro lado, não por vergonha, mas é estranho encará-la depois de dizer algo assim."
+
+    mc "Nosso ano já tá acabando, e eu não faço ideia de quando poderia te ver novamente."
+
+    mc "Então, eu queria tentar aproveitar esse momento contigo."
+
+    mc "Posso acabar falando nada com nada, mas, hoje eu vim pra ficar ao seu lado."
+
+    "Eu olho pra ela de novo, apesar de não ter total certeza do que eu realmente sinto ou do que tô fazendo, ficar ao lado dela nem que seja por hoje, é a única coisa que eu sei que quero."
+
+    mc "Se você quiser, claro."
+
+    mi "…"
+
+    mi "{size=*0.8}É claro que eu quero…{/size}{nw}"
+
+    mc "…"
+
+    mc "O quê? Não deu pra ouvir direito…"
+
+    mi "…"
+
+    mi "É claro que pode ficar, ou já se esqueceu de quem foi que te chamou até aqui?"
 
     return
