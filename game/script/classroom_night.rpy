@@ -242,6 +242,8 @@ label classroom_A_1:
 
     return
 
+# Dar uma revisada sincera no diálogo acima e daqui pra baixo, o roteiro não tá me agradando, nem as escolhas simples que podem ser feitas abaixo.
+
 label choice_classroomA_1:
     menu(duck=False, shuffle=True):
         with menueffect
@@ -262,12 +264,10 @@ label classroom_A_1a:
 
     "Logo em seguida, eu dou outro. E mais outro. Até que fico perto o suficiente."
 
+    mc "Eu não sou tão bom com palavras… mas, quero que saiba que tô feliz de estar aqui."
+
     scene cg miya_classroom_confused
     with scenechange
-
-    "Ela me olha um pouco surpresa, esperando eu dizer algo."
-
-    mc "Eu não sou tão bom com palavras… mas, quero que saiba que tô feliz de estar aqui."
 
     "Ela me olha por alguns segundos, e esboça um sorriso tímido. Eu viro meu rosto pro lado, não por vergonha, mas é estranho encará-la depois de dizer algo assim."
 
