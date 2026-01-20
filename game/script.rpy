@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define mi = Character("Miya", color="#9b8e45")
+define mi = Character("Miya", color="#b4a344")
 define mc = Character("Ren", color="#546bab")
 
 init python:

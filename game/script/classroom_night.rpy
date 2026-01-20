@@ -1,9 +1,9 @@
 label classroom:
     call iscene("classroom_Intro") from _calling_scene9
     call iscene("classroom_A_1") from _calling_scene10
-
     call choice_classroomA_1 from _calling_choice4
     call iscene(_return) from _calling_scene11
+    call iscene("classroom_A_2") from _calling_scene12
     
     jump end_of_build
     return
@@ -207,7 +207,7 @@ label classroom_A_1:
 
     "Ela me nota enquanto eu estava perdido nos meus pensamentos."
 
-    "Desde que eu entrei na sala e a chamei, parecia que ambos estávamos presos em mundos completamente diferentes ao mesmo tempo."
+    "Desde que eu entrei na sala e a chamei, parecia que ambos estávamos presos em mundos completamente diferentes."
 
     "Mas agora, é de verdade."
 
@@ -220,9 +220,9 @@ label classroom_A_1:
     scene cg miya_classroom_moonlight
     with scenechange
 
-    "Ela faz uma expressão mais triste, deixando de olhar de canto de olho pra mim."
+    "Ela faz uma expressão mais triste, voltando a olhar pra janela."
 
-    "Eu não sei nem o que dizer na verdade."
+    "Eu não sei nem o que dizer na verdade. Pelo menos, falar alguma coisa deve ser melhor do que fazer cara de paisagem."
 
     mc "…"
 
@@ -242,55 +242,225 @@ label classroom_A_1:
 
     return
 
-# Dar uma revisada sincera no diálogo acima e daqui pra baixo, o roteiro não tá me agradando, nem as escolhas simples que podem ser feitas abaixo.
-
 label choice_classroomA_1:
     menu(duck=False, shuffle=True):
         with menueffect
         "Dar mais um passo.":
             return "classroom_A_1a"
 
-        "Ficar quieto.":
+        "Continuar parado.":
             return "classroom_A_1b"
-
-        "Sentar-se em uma cadeira próxima.":
-            return "classroom_A_1c"
-
-        "Ser honesto.":
-            return "classroom_A_1d"
 
 label classroom_A_1a:
     "Eu dou mais um passo pra dentro da sala."
 
     "Logo em seguida, eu dou outro. E mais outro. Até que fico perto o suficiente."
 
-    mc "Eu não sou tão bom com palavras… mas, quero que saiba que tô feliz de estar aqui."
+    if mc_routes[0] == "Close":
+        mc "Eu não sou muito bom com palavras. Pra falar a verdade, eu tô até feliz que você me chamou."
+
+        mc "Nosso ano já tá acabando, e eu não faço ideia de quando poderia te ver novamente."
+
+        mc "As nossas vidas vão mudar, nós dois nos tornaremos adultos e…"
+
+        mc "…"
+
+        mc "No fim das contas, eu só queria tentar aproveitar um último momento contigo."
+    
+    else:
+        mc "Eu não vim aqui pra falar sobre o meu atraso. Nem pra pedir desculpas."
+
+        mc "Esse ano vamos nos formar, e a nossa vida vai mudar por completo."
+
+        mc "Você já sabe pra qual faculdade vai, e eu… ainda não tenho nem certeza do que quero fazer."
+
+        mc "Eu não faço ideia de quando poderia te ver de novo, é por isso… que hoje eu precisava ver você."
 
     scene cg miya_classroom_confused
     with scenechange
 
     "Ela me olha por alguns segundos, e esboça um sorriso tímido. Eu viro meu rosto pro lado, não por vergonha, mas é estranho encará-la depois de dizer algo assim."
 
-    mc "Nosso ano já tá acabando, e eu não faço ideia de quando poderia te ver novamente."
+    mi "{size=*0.8}Por que as vezes você é tão idiota…?{/size}"
 
-    mc "Então, eu queria tentar aproveitar esse momento contigo."
+    "Ela sussurra isso, quase inaudível, mas de uma forma que eu ainda consigo escutar."
 
-    mc "Posso acabar falando nada com nada, mas, hoje eu vim pra ficar ao seu lado."
+    return
 
-    "Eu olho pra ela de novo, apesar de não ter total certeza do que eu realmente sinto ou do que tô fazendo, ficar ao lado dela nem que seja por hoje, é a única coisa que eu sei que quero."
+label classroom_A_1b:
+    "Sinto meu coração batendo forte, é como se pedisse pra eu sentar ao lado dela."
 
-    mc "Se você quiser, claro."
+    "Mas, ao mesmo tempo, eu fico com medo de acabar estragando alguma coisa."
 
-    mi "…"
+    mc "Eu… não vim até aqui pra falar do meu atraso. Também não vim apenas por questão de vir."
 
-    mi "{size=*0.8}É claro que eu quero…{/size}{nw}"
+    mc "Eu só…"
 
-    mc "…"
+    mi "Não."
 
-    mc "O quê? Não deu pra ouvir direito…"
+    mi "Não precisa dizer mais nada."
 
-    mi "…"
+    scene cg miya_classroom_confused
+    with scenechange
 
-    mi "É claro que pode ficar, ou já se esqueceu de quem foi que te chamou até aqui?"
+    "Ela me interrompe antes que eu possa continuar. Sua voz é firme, mas ao mesmo tempo delicada."
 
+    mi "Só o fato de você ter vindo hoje já significa muito mim."
+
+    "É como se sua voz estivesse um pouco trêmula, porém, ainda decisiva."
+
+    "Eu não sei o que ela estava pensando antes de eu entrar na sala, ou o que ela decidiu enquanto eu tava lá fora."
+
+    "Vendo que a chance de eu não aparecer hoje era uma possibilidade, talvez ela tenha passado por um turbilhão de coisas em sua mente assim como eu."
+
+    "Acabar pensando demais, enquanto tenta procurar mil e uma justificativas, tudo isso pra no final não chegar à lugar nenhum."
+
+    "Isso não combina com a Miya, é por isso que vê-la assim só me deixa mais vazio."
+
+    mi "Não fica parado aí na porta."
+
+    mi "Vem cá."
+
+    "Ela faz um gesto com a mão, me chamando pra perto dela."
+
+    "Eu me aproximo devagar, como se cada passo meu fosse um esforço enorme."
+
+    "O silêncio deixado entre nós enquanto eu caminho parece durar uma eternidade, o suficiente pra eu voltar a sentir meu próprio coração batendo rápido."
+
+    "Quando eu finalmente chego perto dela, eu sento em uma cadeira próxima."
+
+    return
+
+label classroom_A_2:
+    mi "Não foi só pra isso que eu te chamei hoje."
+
+    "Ela suspira um pouco, falando com uma voz meio emburrada."
+
+    if seen_label("classroom_A_1b"):
+        mi "Eu também queria te ver."
+
+    mi "Já faz tanto tempo que não conversamos ultimamente."
+
+    mi "Você até deixou de me visitar durante seu tempo livre enquanto eu tinha clubes."
+
+    mi "Se tivesse vindo anteontem, não teria perdido a festa de despedidas que a Yuki fez."
+
+    mi "Ela trouxe vários daqueles bolinhos que você gostou muito…"
+
+    "Eu nunca fui alguém de gostar de clubes, apesar de serem boas atividades extracurriculares e complementarem nas notas, é algo que eu não conseguia engolir direito."
+
+    "A Miya sempre participou de três, era o máximo permitido por nossa escola. Tinha o de vôlei, o de culinária e o de leitura, que eu cheguei a entrar numa época."
+
+    "Os momentos que eu tive com ela durante os clubes foram na maior parte bons, porém isso porquê era eu quem decidia quando ou não ir."
+
+    mi "Ah, você sabia que eu acabei adotando dois gatinhos?"
+
+    mc "Dois? Você não disse que não tinha coragem de cuidar de animais?"
+
+    mi "Sim… mas, é que eu acabei achando eles três numa caixa naquela rua que a gente sempre passa indo pra casa."
+
+    mi "Eu não aguentei vê-los jogados no meio da rua."
+
+    mc "Se você disse que tá cuidando de dois, quer dizer que um…"
+
+    mi "Não, um deles ficou com a Yuki, e desde então venho cuidando dos dois há alguns meses."
+
+    mi "Eu até havia te mandado uma foto quando os encontrei…"
+
+    "…"
+
+    "Eu não me lembro. Se eu não me lembro, é porque eu não me importei. Saber que ela aprendeu a cuidar de gatos me deixa surpreso, mas, não sei se é de uma maneira boa."
+
+    "Quando você é um dos últimos a receber uma notícia, é como se ela perdesse parte de seu peso total."
+
+    "Isso era pra ser uma grande coisa pra Miya conhecendo ela, mas, será que posso dizer isso agora?"
+
+    mi "Você também perdeu a nossa vitória no campeonato entre escolas de vôlei… sabe, eu fiquei tão feliz nesse dia com o pessoal todo gritando."
+
+    mi "No dia seguinte, foi como se eu tivesse me tornado uma daquelas heroínas de manga, por onde eu passava, havia alguém me cumprimentando e sorrindo."
+
+    "Miya sempre adorou Vôlei, ela não fazia questão nenhuma de perder qualquer aula extra ou treinamento desse clube."
+
+    "Mas, o que ela quer dizer com isso é…"
+
+    mi "Ano passado, quando perdemos na semi-final…"
+
+    mi "Eu sei que você não é do tipo que gosta de esportes, mas, você havia dito algo pra mim que, eu duvido muito que teria ganhado se não fosse por isso."
+
+    "'Quem se importa com perder ou vencer. Você jogou, e foi incrível, é só isso. Mas, aqueles que são incríveis, nunca desistem de verdade. É por isso que eu sei que no próximo ano você vai ganhar.'"
+    
+    "Por que eu lembro tão bem dessa frase?"
+
+    "Não é como se fosse algo especial, é um monte de palavras que eu inventei na hora pra tentar animar a Miya…"
+
+    if mc_routes[0] != "Distant":
+        "Na verdade, pode até não ser especial pra mim, mas pra ela, com certeza foi."
+
+        "E é por isso que eu me lembro tão bem dessa frase, e também do momento de quando falei."
+
+    mi "Eu queria ter te visto na arquibancada durante o último jogo."
+
+    "…"
+
+    "Eu não tenho nenhuma resposta que não pareça vazia à primeira vista."
+
+    if mc_routes[0] == "Close":
+        "Eu me arrependo amargamente de não ter ido nesse jogo. Mesmo não torcendo, eu ainda queria estar lá nem que fosse só pra vê-la jogar."
+
+        "Se fosse tão simples admitir isso pra ela, de uma forma que não pareça uma desculpa pra me fazer sentir menos pior."
+
+        "Só que não, não é isso que ela quer que eu fale. Ela não tá me contando essas coisas pra que eu diga algo em troca, ou que eu me sinta pior."
+
+        "Ela só quer que eu entenda as coisas, ainda mais do ponto de vista dela."
+
+        "Porém, não dizer nada também é o mesmo que admitir que eu ainda não entendi."
+
+        "Ou que eu esteja tão confuso que a única coisa que posso fazer agora é me remoer pelo passado."
+
+        "Talvez, a Miya não quer nem que eu diga nada."
+
+        "Seja isso ou não, ao invés de eu ter que pensar quando preciso ou não falar, vou confiar tudo isso apenas ao momento."
+
+        "Se for pra eu falar, que eu fale antes de pensar duas vezes e acabe quieto de novo."
+
+    elif mc_routes[0] == "Neutral":
+        "Qualquer coisa que eu possa falar pode ser vista apenas como uma desculpa pra me fazer sentir menos pior."
+
+        "Que no final, possa até ser, mas isso não resolveria nada entre a gente."
+
+        "Ela não está reclamando dos erros que cometi no passado, muito menos me crucificando agora por isso."
+
+        "Não é essa intenção que ela quer passar. Ela teve tempo o suficiente pra pensar em como abordaria seja lá o que ela queria desde o início."
+
+        "Se ela tá fazendo assim, é porque tem um motivo, é de propósito. Agora cabe a mim tentar adivinhar ou entender o que seria esse motivo."
+
+        "Ou talvez… como sempre, eu só esteja pensando muito, e a única coisa que a Miya está fazendo como sempre fez, é seguindo seus próprios sentimentos."
+
+        "Se for isso a resposta, se for pra eu admitir alguma coisa, é melhor que eu seja honesto comigo mesmo e também com ela."
+    
+    else:
+        "Mas, não é como se falar pudesse mudar muita coisa agora."
+
+        "O maior erro dela foi acabar se prendendo à mim pra essas coisas."
+
+        "Ela acabou se frustrando em algo que… ela mesma projetou na sua mente."
+
+        "Só que, é claro que não posso dizer que ela tá errada."
+
+        "Existe uma linha tênue entre o que é ilusão e o que é verdade."
+
+        "É como se a Miya estivesse cruzando por essa linha ocupando ambos os lados."
+
+        "Ao mesmo tempo que não é justo pra mim… eu não fui justo com ela no passado."
+
+        "De tanto pensar, já tem um tempo que minha perna tá balançando sozinha."
+
+        "A Miya nota esse meu nervosismo e sorri pra mim, quase como um sorriso de alívio por não ser a única."
+    
+    "…"
+
+    return
+
+label classroom_A:
+    "A Miya se levanta, e eu faço o mesmo."
     return
