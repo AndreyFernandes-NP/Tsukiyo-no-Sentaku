@@ -63,31 +63,33 @@ label classroom_Intro_A:
 
     "Ela sempre foi bonita, mas agora…"
 
-    "Eu mal consigo desviar o olhar dela. Eu fico hipnotizado, parado na porta a admirando em silêncio."
+    "Eu mal consigo desviar o olhar dela. Eu fico parado na porta, a admirando em silêncio."
     
-    "Enquanto eu estou aqui, ela está lá, sentada próxima da janela, olhando pra fora ou quem sabe pra lua, como se estivesse esperando por algo."
+    "A forma com que seus olhos brilham sob a luz da lua, o seu rosto suave, que parece tão delicado…"
 
-    "Há algo diferente nela, algo que me atrai."
+    "Eu fico hipnotizado. Ainda mais quando seus cachos são levantados por uma pequena brisa que vem lá de fora."
 
-    "Os seus olhos brilham sob a luz da lua que entra pela janela. O seu rosto parece tão suave, tão delicado…"
+    "Dou meio passo à frente, quase que inconscientemente, mas paro. A única coisa que me impede de continuar é a minha mão, que segura com uma força surpreendente a maçaneta."
 
-    "Os cachos levantados pelo vento a fazem parecer ainda mais viva."
+    "Eu a rapidamente solto, mas o tempo que levo pra isso é o tempo que me faz imóvel de novo."
 
-    "Eu sinto uma vontade enorme de me aproximar dela, como se pedisse para que eu me sentasse ao seu lado."
+    "Seria mesmo idiota admitir que eu só comecei a ver ela desse jeito agora?"
 
-    "Eu quero fazer isso, mas… será que é válido depois de tudo o que aconteceu?"
+    "Tantos momentos que passamos juntos, que ela estava tão bonita quanto nunca, e eu não sentia nada."
 
-    "Seria idiota admitir que eu só comecei a ver ela desse jeito agora?"
+    "Poderia eu culpar a distância? Que por conta dela, não conseguia ver o que estava bem na minha frente?"
 
-    "Tantos momentos que passamos por situações como essa, e eu nunca senti nada demais."
+    "Ou eu teria mais um cúmplice que decidiu fugir de antemão?"
 
-    "Seria porquê estivemos tão distantes um do outro ultimamente, que eu não consegui ver o que estava bem na minha frente?"
+    "Eu desço minha cabeça pro chão, quase como se eu tivesse a resposta na ponta da minha língua e a deixasse cair sem perceber."
 
-    "Eu não quero perder essa chance."
+    "Não, eu não quero perder essa chance."
 
     "Não quero ser o cara que deixou a Miya de lado de novo."
 
-    "No momento em que eu decido isso, uma voz fina chama meu nome."
+    "Balanço minha cabeça como se eu varresse esses pensamentos pro fundo da minha mente."
+
+    "É quando levanto o olhar e me preparo pra dar um passo, que uma voz fina, porém tão doce, chama meu nome."
 
     return
 
@@ -96,39 +98,43 @@ label classroom_Intro_B:
 
     "Na verdade, eu sempre achei ela bonita, mas agora… é um pouco diferente."
 
-    "Difícil pôr em palavras. Seus cabelos levantados suavemente pelo vento, seu rosto iluminado pela lua… é tudo tão, surreal."
+    "Difícil pôr em palavras. Seus cabelos levantados suavemente pelo vento, seu rosto iluminado pela lua, tudo é tão… surreal."
 
-    "Eu fico parado na porta, observando enquanto ela olha pra fora da janela. Eu sei que esse tempo todo ela estava esperando por mim."
+    "Eu dou meio passo pra dentro, é um passo tão silencioso, que quase pareceu insignificante."
 
-    "Talvez ela até tinha preparado alguma coisa para quando eu aparecesse na hora, seja uma pose ou até apresentação."
-
-    "Mas ela devia ter ficado tão cansada de me esperar, que acabou desistindo e sentando ali."
+    "Ela ficou esperando esse tempo todo por mim. Parte de mim havia se convencido de que ela nem estaria mais aqui."
 
     "Há quanto tempo será que ela tá assim?"
 
-    "O que será que ela pensou quando eu não apareci?"
+    "Sentada, com uma expressão cansada, de alguém que já entrou tão profundamente em seus pensamentos que nem se recorda mais da realidade."
 
-    "Talvez ver ela desse jeito, de uma forma tão vulnerável, me fez perceber outra coisa."
+    "E o que será que ela pensou quando eu não apareci?"
 
-    "Eu quero me aproximar dela, quero sentar ao lado dela."
+    "Talvez até tivesse alguma coisa pronta pra quando eu chegasse, que eu sem querer arruinei por demorar tanto."
 
-    "Eu quero conversar com ela, dizer que eu estou aqui, pelo menos agora."
+    "Ver ela desse jeito, de uma forma tão vulnerável, me fez perceber outra coisa."
 
-    "Mas eu não sei se é o momento certo."
+    "Dessa vez eu dou um passo inteiro na direção dela, com minha cabeça zoneando cada e única possibilidade de encontro pra assim que ela virasse a cabeça."
 
-    "Por acaso eu devo falar algo? Devo esperar ela falar primeiro? O que eu faço?"
+    "Eu quero conversar com ela, quero continuar olhando pra ela, dizer que estou aqui, ou pelo menos, que agora estou."
 
-    "Ela ainda não me notou, mesmo após eu ter chamado seu nome, mas… porque eu não consigo fazer nada além de ficar olhando?"
+    "Só que, no meio do meu segundo passo, eu volto dois, como se meu corpo tremesse naturalmente por fazer isso."
 
-    "Minha boca se abre, ela se move, mas nenhuma palavra sai."
+    "Não quero dizer que esse não é o momento certo, mas como eu poderia agir tão direto pra algo que me sinto tão incerto?"
 
-    "Eu tento gesticular algo, levantar minha mão, mas paro no meio do caminho."
+    "Por acaso eu devo falar algo? Devo esperar ela me olhar primeiro? O que eu faço?"
 
-    "Será que eu viro as costas e vou embora? Será que eu continuo parado sem dizer nada?"
+    "Mesmo depois de dizer o seu nome assim quando entrei… não fiz nada a não ser observar."
 
-    "Eu olho pro chão, encaro meus pés, e tento pensar no que fazer."
+    "Passo a língua entre meus lábios, minha boca se mexe, ela se abre, pronta pra anunciar que estou aqui."
 
-    "Mas, é nesse momento que…"
+    "Mas, ao invés de palavras só sai um monte de grunhidos silenciosos como se perdessem a força no último momento."
+
+    "Ainda sem desistir eu gesticulo algo, levanto minha mão, mas nada disso funciona, eu não falo uma única palavra."
+
+    "Declarando derrota, eu abaixo minha mão e encaro meus pés, tentando pensar no que fazer a seguir."
+
+    "É quando…"
 
     return
 
@@ -447,7 +453,7 @@ label classroom_A_2:
 
         "Só que, é claro que não posso dizer que ela tá errada."
 
-        "Existe uma linha tênue entre o que é ilusão e o que é verdade."
+        "Talvez eu esteja vendo o que quero ver."
 
         "É como se a Miya estivesse cruzando por essa linha ocupando ambos os lados."
 
