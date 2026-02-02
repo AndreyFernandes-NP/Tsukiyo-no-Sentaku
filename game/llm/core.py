@@ -6,7 +6,7 @@ import urllib.error
 import ssl, certifi
 ctx = ssl.create_default_context(cafile=certifi.where())
 
-BASE = "https://vns-generate.andreyfernandes1361.workers.dev"
+BASE = "https://redhammer.api.br/tsukiyo"
 URL = f"{BASE}/v1/generate"
 
 def post(payload: dict):
@@ -14,7 +14,12 @@ def post(payload: dict):
     req = urllib.request.Request(
         URL,
         data=data,
-        headers={"Content-Type": "application/json"},
+        headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "VNClient/1.0",
+            "X-VN-KEY": "tsukiyo.T3OYeSq5488vFSMi"
+            },
         method="POST",
     )
     try:
@@ -23,10 +28,11 @@ def post(payload: dict):
             return resp.status, json.loads(body)
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="ignore")
+        hdrs = dict(e.headers.items())
         try:
             return e.code, json.loads(body)
         except Exception:
-            return e.code, {"raw": body}
+            return e.code, {"raw": body[:2000], "headers": hdrs}
     except Exception as e:
         return None, {"error": str(e)}
 

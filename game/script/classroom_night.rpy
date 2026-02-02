@@ -77,19 +77,33 @@ label classroom_Intro_A:
 
     "Tantos momentos que passamos juntos, que ela estava tão bonita quanto nunca, e eu não sentia nada."
 
-    "Poderia eu culpar a distância? Que por conta dela, não conseguia ver o que estava bem na minha frente?"
+    "Estar ao lado dela não era nada mais do que apenas uma segunda-feira pra mim."
 
-    "Ou eu teria mais um cúmplice que decidiu fugir de antemão?"
+    "Se não fosse pela distância, eu não estaria vendo aquilo que tava bem óbvio na minha frente."
 
-    "Eu desço minha cabeça pro chão, quase como se eu tivesse a resposta na ponta da minha língua e a deixasse cair sem perceber."
+    "É por isso que nada impede que eu volte a vê-la como antes de novo."
+
+    "Apesar que eu gostaria que isso se tornasse permanente, ainda tem uma chance que…"
+
+    "Eu indiretamente desço minha cabeça pro chão, fico sentindo vergonha de mim mesmo mas não consigo interromper meus pensamentos."
+
+    "Não é como se eu tivesse a segurança do meu futuro inteiro pra poder dizer isso."
+
+    "É só que…"
+
+    "…"
 
     "Não, eu não quero perder essa chance."
 
     "Não quero ser o cara que deixou a Miya de lado de novo."
 
-    "Balanço minha cabeça como se eu varresse esses pensamentos pro fundo da minha mente."
+    "Se ela me deu ao menos uma razão pra que eu possa perceber algo, que eu faça valer de alguma coisa."
 
-    "É quando levanto o olhar e me preparo pra dar um passo, que uma voz fina, porém tão doce, chama meu nome."
+    "Balanço minha cabeça rapidamente como se eu varresse esses pensamentos pro fundo da minha mente."
+
+    "Lá, pelo menos por um tempinho, eles não vão mais me incomodar."
+
+    "E é quando levanto o olhar preparado pra dar um passo, que uma voz fina, porém tão doce, chama meu nome."
 
     return
 
@@ -147,6 +161,10 @@ label classroom_Intro_C:
 
     "Só que, olhando agora, é como se eu estivesse vendo uma pessoa completamente nova."
 
+    "Eu naturalmente agarro parte da minha camisa que fica no meu peito esquerdo."
+
+    "Meu coração bate rápido, eu sinto cada pulsar dele, mas, por quê?"
+
     "Não sei nem se bonita é a melhor palavra pra descrever essa cena."
 
     "Pensar assim parece errado, mas ao mesmo tempo tão certo."
@@ -155,39 +173,45 @@ label classroom_Intro_C:
 
     "Não é só uma questão de aparência, é tudo. O jeito que ela está sentada, o olhar distante, a luz da lua…"
 
+    "Pensando bem, quando pude notar o meu corpo já começou a dar passos na direção dela, quase como se algo me puxasse."
+
+    "Eu paro no último instante, penso em tentar resistir e voltar pra trás, mas…"
+
     "Isso tudo cria uma atmosfera tão estranha."
 
-    "Eu quero me aproximar, mas eu sei que não é o momento pra isso."
+    "Eu quero me aproximar mais, só que, não é o momento pra isso."
 
-    "Posso até estar sendo cauteloso demais, é que… eu não sei."
+    "Posso até estar sendo muito cauteloso, é que… eu não sei."
 
     "Talvez eu não devesse nenhuma explicação sobre o que eu sinto."
 
-    "Mesmo assim, por que eu ainda tô parado na porta?"
+    "Por acaso eu devo voltar e ficar próximo da porta? Como se eu nunca tivesse andado até aqui? Não, meu corpo já tá se movendo pra isso, a questão é outra."
 
-    "Por que eu não me movo nem um centímetro sequer?"
+    "Por que ela não me notou ainda?"
 
-    "E por que ela não me notou também?"
+    "Eu a chamei assim que entrei, eu andei na direção dela, tenho certeza que ela ouviu meus passos, mas, ela continua olhando pra fora."
 
-    "Eu a chamei assim que entrei, mas ela continua olhando pra fora, como se o mundo externo não existisse."
+    "Seus olhos parecem hipnotizados por algo, é como se o mundo não existisse mais."
 
     "Será que ela nem percebeu que eu estou aqui?"
 
-    "Ou, será que… ela não esperava que eu fosse aparecer?"
+    "Ou, será que ela não esperava que eu fosse aparecer?"
+
+    "…"
 
     "Parece até que tô olhando pra uma Miya que eu nunca tinha visto antes."
 
-    "Uma que está conversando consigo mesma em seus pensamentos, assim como eu costumo fazer."
+    "Uma que está conversando consigo mesma em seus pensamentos, assim como eu tô fazendo agora."
 
-    "Cadê aquela Miya que não calava a boca? Que sempre tinha algo pra dizer toda hora? Que me provocava?"
+    "É estranho ver a Miya tão calada, normalmente as vezes eu me perguntava quando ela iria ficar quieta por estar exausto de ouví-la."
 
-    "Que estaria nesse exato momento me enchendo de perguntas, questionando porquê eu me atrasei, que não se deve deixar uma dama esperando."
+    "Ela não está me provocando, não está fazendo nada pra me ver estressado. E muito menos não está me questionando e me enchendo de perguntas por ter atrasado."
 
-    "E eu responderia com 'Eu não te chamaria exatamente de uma dama.'"
+    "Ela me questionaria o porquê de eu ter deixado uma dama esperando, e eu responderia com 'Eu não te chamaria exatamente de uma dama.'"
 
-    "Por que…"
+    "Então por que…"
 
-    "Tudo tá tão silencioso?"
+    "Tudo está tão silencioso?"
 
     "O que será que eu faço? Continuo parado aqui, esperando ela me notar? Ou eu viro as costas e vou embora?"
 
@@ -195,13 +219,25 @@ label classroom_Intro_C:
 
     "Então, por que eu não me aproximo e acabo logo com isso? Por que eu fico aqui mantendo as coisas como estão?"
 
-    "Por que eu continuo fazendo exatamente o que fiz nesses últimos meses?"
-
     "Pensei que dar esse passo fosse me ajudar a resolver as coisas, mas…"
 
     "…"
 
-    "E é antes que eu percebesse, assim que a olho de novo… nossos olhos se encontram."
+    "Eu desvio meu rosto dela, é como se eu ficasse com vergonha de olhá-la de novo."
+
+    "O silêncio pesa bem mais do que eu esperava."
+
+    "Consigo até ouvir minha própria respiração. Isso me deixa inquieto."
+
+    "Isso é ridículo, eu justamente vim até aqui pra falar com ela."
+
+    "Só que, quando eu chego, eu nem consigo sustentar o meu olhar."
+
+    "Mesmo assim, tudo nessa sala parece querer chamar atenção pra ela. Eu escuto uma brisa atravessando a janela enquanto move as cortinas."
+
+    "O som ecoa pela sala e some tão rápido quanto veio."
+
+    "E é antes que eu percebesse, assim que a olho novamente… que nossos olhos se encontram."
 
     return
 

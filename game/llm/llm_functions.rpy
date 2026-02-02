@@ -56,8 +56,8 @@ init -10 python:
 
         status, data = post(payload)
 
-        if not data['ok']:
-            print(f"URL Error: {data}")
+        if not data.get("ok", False):
+            print(f"URL Request Failed. Status='{status}' \nData={data}")
             return []
 
         raw_output = data.get("output_text", "")
