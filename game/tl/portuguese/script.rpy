@@ -1,11 +1,6 @@
 ﻿# TODO: Translation updated at 2025-07-04 00:45
 
 # game/script.rpy:37
-translate portuguese start_76b2fe88:
-
-    # nvl clear
-    nvl clear
-
 translate portuguese strings:
 
     # game/script.rpy:55

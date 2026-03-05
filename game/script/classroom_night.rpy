@@ -8,6 +8,52 @@ label classroom:
     jump end_of_build
     return
 
+label classroom_Ervilha:
+    scene black with scenechange
+    window hide
+
+    with Pause(1.0)
+
+    scene bg school_classroom
+    with scenechange
+
+    play music music_happy_girl fadein 0.1
+
+    if persistent.emi_easteregg == 0:
+        show emi easter_egg
+        with charchange
+
+        "Oi Vilhazinha~{nw}"
+        call glitch_scene("school_classroom", duration=0.3, scene_char=["emi easter_egg"]) from _call_glitch_scene
+        $ persistent.emi_easteregg += 1
+        $ renpy.block_rollback()
+
+        hide emi easter_egg
+        $ delete_emi()
+    
+    "Olá Ervilha-chan! Essa aqui é sua própria área de testes para algumas artes da Miya."
+    "Infelizmente fiquei com preguiça de programar pra aparecer qualquer asset custom além dos predefinidos, então, só vai aceitar os que já estão escritos."
+    "Assim que você passar esse e mais um texto vai aparecer o nome que cada imagem precisa ter pra aparecer, assim como o caminho dela. São instruções básicas, mas que dão pro gasto."
+    "É só isso que você precisa saber mesmo, e se esqueceu, SHIFT+R dá reload no jogo, e não esquece do scroll do mouse pra voltar se precisar. Na dúvida, só reiniciar. Enfim, prossigamos."
+    
+    python:
+        current_poses = ["basic", "worried", "angry", "shy"]
+        for pose in current_poses:
+            if pose not in miya_poses:
+                continue
+            
+            for expression in miya_poses[pose]:
+                renpy.show(f"miya_{pose}_{expression}", at_list=[truecenter])
+                for text in miya_poses[pose].get(expression, []):
+                    renpy.say(None, text)
+                renpy.hide(f"miya_{pose}_{expression}")
+    
+    "E pronto, aqui acabou todas as imagens que {i}possivelmente{/i} teremos na novel."
+    "Relembrando, qualquer coisa scroll do mouse pra dar rollback e SHIFT+R pra dar reload."
+    "É isso, agora tu vai voltar pro menu depois dessa mensagem."
+
+    return
+
 label classroom_Intro:
     $ qc_menu('hide')
 

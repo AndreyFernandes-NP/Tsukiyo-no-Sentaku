@@ -48,8 +48,7 @@ label start:
     $ renpy.block_rollback()
     nvl clear
 
-    call future_prologue() from _calling_scene1
-    jump corridors
+    jump classroom_Ervilha
 
     return
 
@@ -60,11 +59,18 @@ label iscene(target):
     
     return
 
-label glitch_scene(scene_bg, duration=1.0, dialogue=[]):
+label glitch_scene(scene_bg, duration=1.0, scene_char=[], dialogue=[]):
     play sound sfx_glitch volume 1.5
-    show expression animated_glitch("bg " + scene_bg, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)) as glitch_bg with Pause(duration)
+    if scene_char:
+        python:
+            for character in scene_char:
+                renpy.show("glitch_char", what=animated_glitch(character, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)), zorder=10)
+    show expression animated_glitch("bg " + scene_bg, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)) as glitch_bg
+
+    with Pause(duration)
 
     hide glitch_bg
+    hide glitch_char
 
     python:
         if dialogue:
