@@ -176,6 +176,7 @@ init python:
     build.classify('game/script/**','data')
     build.classify('game/addons/**','data')
     build.classify('game/bgs/**','data')
+    build.classify('game/sprites/**','data')
     build.classify('game/images/**','data')
     build.classify('game/gui/**','data')
     build.classify('game/audio/**','data')

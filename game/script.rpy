@@ -48,7 +48,8 @@ label start:
     $ renpy.block_rollback()
     nvl clear
 
-    jump classroom_Ervilha
+    call future_prologue() from _calling_scene1
+    jump corridors
 
     return
 

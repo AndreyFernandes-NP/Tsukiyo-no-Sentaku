@@ -1,14 +1,11 @@
 default persistent.choosen_language = False
 default persistent.endings_unlocked = []
-default persistent.emi_easteregg = 0 
 default current_llm_job = None
 default seen_labels = set()
 default routes_number = []
 
 init -2 python:
     from collections import deque, Counter
-    import shutil
-    import os
 
     renpy.music.register_channel("ambience", "sfx", loop=True, tight=True)
     renpy.music.register_channel("ambfx", "sfx", loop=False, tight=True, buffer_queue=True)
@@ -17,14 +14,6 @@ init -2 python:
     channel_volumes = {}
 
     menu_duck_channels = ["music", "ambience", "ambfx"]
-
-    def delete_emi():
-        emi_path = os.path.join(renpy.config.gamedir, "sprites/emi")
-
-        try:
-            shutil.rmtree(emi_path)
-        except OSError as e:
-            pass
     
     def _any_char_cb(event, interact, **kwargs):
         if event == "end":
@@ -196,7 +185,6 @@ init -2 python:
     ]
 
     make_sprites("miya", miya_list)
-    make_sprites("emi", ["easter_egg"])
 
     # Transitions
     menueffect = None
