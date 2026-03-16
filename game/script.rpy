@@ -62,11 +62,12 @@ label iscene(target):
 
 label glitch_scene(scene_bg, duration=1.0, scene_char=[], dialogue=[]):
     play sound sfx_glitch volume 1.5
+    show expression animated_glitch("bg " + scene_bg, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)) as glitch_bg
+
     if scene_char:
         python:
             for character in scene_char:
-                renpy.show("glitch_char", what=animated_glitch(character, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)), zorder=10)
-    show expression animated_glitch("bg " + scene_bg, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)) as glitch_bg
+                renpy.show("glitch_char", what=animated_glitch(character, chroma=True, timeout_base=0.05, timeout_vanilla=(0.05)))
 
     with Pause(duration)
 

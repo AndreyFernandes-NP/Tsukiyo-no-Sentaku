@@ -3,7 +3,7 @@ label classroom:
     call iscene("classroom_A_1") from _calling_scene10
     call choice_classroomA_1 from _calling_choice4
     call iscene(_return) from _calling_scene11
-    call iscene("classroom_A_2") from _calling_scene12
+    call iscene("classroom_A") from _calling_scene12
     
     jump end_of_build
     return
@@ -55,6 +55,9 @@ label classroom_Intro:
 
             case "Distant":
                 renpy.call("iscene", "classroom_Intro_C")
+            
+            case _:
+                renpy.call("iscene", "classroom_Intro_B")
 
     return
 
@@ -257,26 +260,34 @@ label classroom_A_1:
 
     mc "Miya…"
 
-    mi "Você… chegou tarde né."
+    mi "Você…"
+
+    "Eu consigo sentir uma hesitação nos seus olhos."
+
+    mi "Chegou tarde né…"
 
     scene cg miya_classroom_moonlight
     with scenechange
 
-    "Ela faz uma expressão mais triste, voltando a olhar pra janela."
+    "Ela volta o olhar pra janela, sei que ela está claramente decepcionada comigo, mas…"
 
-    "Eu não sei nem o que dizer na verdade. Pelo menos, falar alguma coisa deve ser melhor do que fazer cara de paisagem."
+    "Eu não sei nem o que dizer na verdade. Isso não é o que a Miya que eu conheço falaria pra mim."
+
+    "Ela não aceitaria tão fácil o meu atraso numa hora tão importante. Eu já estava até preparado pro pior."
 
     mc "…"
 
+    "Eu penso bem no que posso falar em seguida."
+
     mc "É, eu cheguei…"
 
-    "Eu consigo notar um sorriso sem graça surgindo no rosto dela."
+    "É melhor do que ficar com cara de paisagem."
 
-    "A primeira coisa que penso é em pedir desculpas, mas, eu sei que não vai adiantar de nada."
+    "Eu até consigo notar um sorriso aparecendo no rosto dela com meu comentário sarcástico."
 
-    "Não são desculpas que a Miya quer ouvir agora."
+    "A primeira coisa que penso em falar agora é pedir desculpas, mas, eu sei que não vai adiantar de nada."
 
-    "Posso não saber exatamente o que ela queira ouvir, mas pelo menos eu sei o que não devo falar."
+    "Não são desculpas que a Miya quer ouvir agora. Só que, isso não resolve o problema de eu também não saber o que falar."
 
     mc "Sabe…"
 
@@ -294,38 +305,96 @@ label choice_classroomA_1:
             return "classroom_A_1b"
 
 label classroom_A_1a:
-    "Eu dou mais um passo pra dentro da sala."
+    "Eu dou mais um passo pra dentro da sala. É alto o suficiente pra que ela escutasse."
 
-    "Logo em seguida, eu dou outro. E mais outro. Até que fico perto o suficiente."
+    mc "Eu sei que você deve estar com raiva de mim…"
+
+    mc "Até agora me impressiona você não ter jogado uma dessas cadeiras no meu peito."
+
+    "Eu falo enquanto me aproximo lentamente. Eu queria estar brincando, mas a Miya com raiva é algo sério mesmo."
+
+    mc "Quero dizer, valeu…"
+
+    mc "Ao menos eu aprecio que você me esperou esse tempo todo."
+
+    "Ela levanta parcialmente o rosto como se eu tivesse chamado a atenção dela, isso me deixa de certa forma mais aliviado."
+
+    "Com mais um passo, eu olho pras cadeiras que estão espalhadas pela sala inteira."
+
+    "O lugar tá mesmo uma bagunça, mas eu já esperava isso afinal, hoje aconteceu um dos últimos eventos de fim de ano da escola."
+
+    "Eu pego a cadeira mais próxima e a posiciono de uma forma que eu sento apoiando meu braço no encosto, de frente pra Miya."
 
     if mc_routes[0] == "Close":
-        mc "Eu não sou muito bom com palavras. Pra falar a verdade, eu tô até feliz que você me chamou."
+        mc "Eu não sou muito bom com palavras."
 
-        mc "Nosso ano já tá acabando, e eu não faço ideia de quando poderia te ver novamente."
+        mc "Não sei como dizer isso de outra maneira, mas…"
 
-        mc "As nossas vidas vão mudar, nós dois nos tornaremos adultos e…"
+        mc "Dentro de mim, eu queria aproveitar um último momento contigo."
+
+        mc "A gente vai se formar e…"
+
+        "Eu penso bem no que vou falar agora, mas não tenho nenhuma direção do que vai acontecer quando eu me formar."
+
+        "A maioria das pessoas já teriam alguma faculdade em mente, ou um objetivo claro de vida, mas eu não tenho nada, e mesmo tentando imaginar algo, minha cabeça continua vazia."
+
+        "Eu sei muito bem o que a Miya pretende fazer quando nosso ensino médio acabar, mas…"
+
+        "E aí? Como eu posso explicar pra ela que não vou mais poder vê-la porque vou gastar meu tempo sendo vagabundo enquanto ela estuda?"
 
         mc "…"
-
-        mc "No fim das contas, eu só queria tentar aproveitar um último momento contigo."
     
     else:
-        mc "Eu não vim aqui pra falar sobre o meu atraso. Nem pra pedir desculpas."
+        mc "Esse ano vai ser o nosso último, e depois disso a gente provavelmente não vai mais se ver…"
 
-        mc "Esse ano vamos nos formar, e a nossa vida vai mudar por completo."
+        "Dizer isso deveria pesar um pouco mas… é estranho que eu consiga falar com tanta naturalidade."
 
-        mc "Você já sabe pra qual faculdade vai, e eu… ainda não tenho nem certeza do que quero fazer."
+        mc "Eu ainda lembro dos planos que você tem, pra onde você vai se mudar, os cursos que quer fazer."
 
-        mc "Eu não faço ideia de quando poderia te ver de novo, é por isso… que hoje eu precisava ver você."
+        mc "Mas, eu nunca me senti assim tão empolgado como você em relação a formatura."
 
-    scene cg miya_classroom_confused
-    with scenechange
+        mc "E muito menos tenho alguma ideia de…"
 
-    "Ela me olha por alguns segundos, e esboça um sorriso tímido. Eu viro meu rosto pro lado, não por vergonha, mas é estranho encará-la depois de dizer algo assim."
+        mc "Como eu…"
 
-    mi "{size=*0.8}Por que as vezes você é tão idiota…?{/size}"
+        "\"Vou ser depois de me formar.\" É o que eu queria dizer, mas nada sai da minha boca."
 
-    "Ela sussurra isso, quase inaudível, mas de uma forma que eu ainda consigo escutar."
+        "Não quero admitir isso em voz alta pra ela."
+
+        "…"
+    
+    mi "As vezes você é muito idiota."
+
+    "Hã? De onde veio isso de repente?"
+
+    "Não, na verdade que se dane, ela finalmente disse algo."
+
+    mi "Não consegue pensar em nada pra dizer, não é mesmo?"
+
+    mc "É porque eu não tenho ideia do que fazer depois de me formar."
+
+    if mc_routes[0] != "Close":
+        "Consegui admitir bem mais rápido do que pensei."
+
+    mc "E não vejo como eu seria útil pros negócios da família…"
+
+    "Só de dizer isso em voz alta me faz sentir dor física."
+
+    "Não por eu me achar inútil, mas sim de pensar em ter que ajudá-los com isso."
+
+    mc "Até então não tenho tantas outras opções…"
+
+    mc "E não é como se eu estivesse com mais vontade de estudar depois."
+
+    "Não desgosto exatamente da escola, mas nenhum outro tópico me interessa pra que eu queira estudá-lo numa faculdade ou sei lá."
+
+    "Também não sei se vou conseguir algum trabalho decente sem currículo, me tornar um caixa de uma loja de conveniências não parece tão ruim pra um começo."
+
+    mc "Meu plano é lidar com as coisas da forma que elas são e… seguir com a vida."
+
+    "Ouvir tudo o que eu disse faz ela sair da sua posição habitual e se ajeitar na cadeira."
+
+    "Ela rapidamente limpa sua manga que ficou suja da poeira da janela e se vira pra mim, apoiada da mesma forma que eu."
 
     return
 
@@ -504,5 +573,13 @@ label classroom_A_2:
     return
 
 label classroom_A:
-    "A Miya se levanta, e eu faço o mesmo."
+    stop music fadeout 2.0
+
+    scene bg school_classroom
+    with contextchange
+
+    # show miya basic_annoyed at truecenter
+    # with charchange
+
+    mi "Você é mesmo um completo idiota." # Aqui vejo ela falando numa pose que cerra os olhos, tipo de desaprovação
     return
