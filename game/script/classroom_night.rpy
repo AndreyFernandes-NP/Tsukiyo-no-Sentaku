@@ -271,9 +271,9 @@ label classroom_A_1:
 
     "Ela volta o olhar pra janela, sei que ela está claramente decepcionada comigo, mas…"
 
-    "Eu não sei nem o que dizer na verdade. Isso não é o que a Miya que eu conheço falaria pra mim."
+    "Eu não sei nem o que dizer na verdade. Isso não é o que a Miya que eu conheço falaria."
 
-    "Ela não aceitaria tão fácil o meu atraso numa hora tão importante. Eu já estava até preparado pro pior."
+    "Ela não aceitaria tão fácil assim o meu atraso numa hora tão importante, eu já até estava preparado pro pior."
 
     mc "…"
 
@@ -285,7 +285,7 @@ label classroom_A_1:
 
     "Eu até consigo notar um sorriso aparecendo no rosto dela com meu comentário sarcástico."
 
-    "A primeira coisa que penso em falar agora é pedir desculpas, mas, eu sei que não vai adiantar de nada."
+    "A primeira coisa que penso em fazer é pedir desculpas, mas, eu sei que não vai adiantar de nada."
 
     "Não são desculpas que a Miya quer ouvir agora. Só que, isso não resolve o problema de eu também não saber o que falar."
 
@@ -311,17 +311,17 @@ label classroom_A_1a:
 
     mc "Até agora me impressiona você não ter jogado uma dessas cadeiras no meu peito."
 
-    "Eu falo enquanto me aproximo lentamente. Eu queria estar brincando, mas a Miya com raiva é algo sério mesmo."
+    "Eu falo enquanto me aproximo lentamente. Eu queria estar brincando, mas a Miya com raiva é mesmo algo sério."
 
     mc "Quero dizer, valeu…"
 
     mc "Ao menos eu aprecio que você me esperou esse tempo todo."
 
-    "Ela levanta parcialmente o rosto como se eu tivesse chamado a atenção dela, isso me deixa de certa forma mais aliviado."
+    "Ela levanta parcialmente o rosto como se eu tivesse chamado sua atenção, isso me deixa de certa forma mais aliviado."
 
     "Com mais um passo, eu olho pras cadeiras que estão espalhadas pela sala inteira."
 
-    "O lugar tá mesmo uma bagunça, mas eu já esperava isso afinal, hoje aconteceu um dos últimos eventos de fim de ano da escola."
+    "O lugar tá mesmo uma bagunça, mas eu já esperava isso, hoje aconteceu um dos últimos eventos de fim de ano da escola."
 
     "Eu pego a cadeira mais próxima e a posiciono de uma forma que eu sento apoiando meu braço no encosto, de frente pra Miya."
 
@@ -334,13 +334,13 @@ label classroom_A_1a:
 
         mc "A gente vai se formar e…"
 
-        "Eu penso bem no que vou falar agora, mas não tenho nenhuma direção do que vai acontecer quando eu me formar."
+        "Eu tento buscar algum pensamento que me ajude a expressar o que sinto, mas a questão é que não tenho nenhuma direção do que vai acontecer quando eu me formar."
 
-        "A maioria das pessoas já teriam alguma faculdade em mente, ou um objetivo claro de vida, mas eu não tenho nada, e mesmo tentando imaginar algo, minha cabeça continua vazia."
+        "A maioria das pessoas já teriam alguma faculdade ou um objetivo claro em mente, mas eu não tenho nada, e mesmo tentando imaginar algo, minha cabeça continua vazia."
 
         "Eu sei muito bem o que a Miya pretende fazer quando nosso ensino médio acabar, mas…"
 
-        "E aí? Como eu posso explicar pra ela que não vou mais poder vê-la porque vou gastar meu tempo sendo vagabundo enquanto ela estuda?"
+        "E aí? Como eu posso explicar pra ela que não vou mais poder vê-la porque vou gastar meu tempo sendo um vagabundo enquanto ela estuda?"
 
         mc "…"
     
@@ -357,7 +357,7 @@ label classroom_A_1a:
 
         mc "Como eu…"
 
-        "\"Vou ser depois de me formar.\" É o que eu queria dizer, mas nada sai da minha boca."
+        "\"Vou ser depois de me formar.\" É o que eu queria dizer, mas não tenho a coragem."
 
         "Não quero admitir isso em voz alta pra ela."
 
@@ -367,14 +367,14 @@ label classroom_A_1a:
 
     "Hã? De onde veio isso de repente?"
 
-    "Não, na verdade que se dane, ela finalmente disse algo."
+    "Não, na verdade que se dane, pelo menos ela falou algo."
 
-    mi "Não consegue pensar em nada pra dizer, não é mesmo?"
+    mi "Não consegue pensar em nada, não é?"
 
     mc "É porque eu não tenho ideia do que fazer depois de me formar."
 
     if mc_routes[0] != "Close":
-        "Consegui admitir bem mais rápido do que pensei."
+        "Consegui admitir bem mais rápido do que pensei, na verdade."
 
     mc "E não vejo como eu seria útil pros negócios da família…"
 
@@ -399,26 +399,172 @@ label classroom_A_1a:
     return
 
 label classroom_A_1b:
-    "Sinto meu coração batendo forte, é como se pedisse pra eu sentar ao lado dela."
+    "Sinto meu coração batendo forte, não sei se consigo me aproximar ainda mais desse jeito."
 
-    "Mas, ao mesmo tempo, eu fico com medo de acabar estragando alguma coisa."
+    mc "Eu… não vim até aqui pra falar do meu atraso. Muito menos vim por questão de vir."
 
-    mc "Eu… não vim até aqui pra falar do meu atraso. Também não vim apenas por questão de vir."
-
-    mc "Eu só…"
+    mc "Sei que você deve tá com raiva mas…"
 
     mi "Não."
 
     mi "Não precisa dizer mais nada."
 
-    scene cg miya_classroom_confused
-    with scenechange
-
     "Ela me interrompe antes que eu possa continuar. Sua voz é firme, mas ao mesmo tempo delicada."
 
-    mi "Só o fato de você ter vindo hoje já significa muito mim."
+    mi "Eu continuei aqui porque senti que você viria, cedo ou tarde."
 
-    "É como se sua voz estivesse um pouco trêmula, porém, ainda decisiva."
+    mi "Se fosse necessário eu esperaria até meia noite também."
+
+    mi "Não importa o quão pior você seja, eu sei quais são os seus limites."
+
+    mi "E me deixar no meio da escola sozinha, à noite, passa bem longe deles."
+
+    "No começo, quando eu recebi aquela mensagem pela primeira vez, eu pensei que ela só estava sendo a Miya."
+
+    "Querendo me enganar pra se divertir com a ideia de eu ter realmente ido por um convite surreal e besta."
+
+    "Mas estranhamente tive a certeza que era algo sério, e depois de racionalizar bastante, minhas escolhas eram ser enganado ou possivelmente nunca mais vê-la."
+
+    "Era óbvio o que eu ia escolher, mas durante esse tempo inteiro eu tentava me convencer de alguma forma contrária a não ir."
+
+    if mc_routes[0] == "Close":
+        "Não importa o quanto minha mente tentasse, ela não superou a parte de mim que se preocupa com a Miya."
+
+        "Mesmo eu tão distante de mim quanto dela, ainda lembro de tudo o que passamos e de qualquer coisa insignificante que faz parte de nós dois."
+
+        "E é claro que nada disso se compara com o que tô sentindo nesse exato momento e com o que tá prestes a acontecer."
+
+        "De longe sou capaz de consertar os erros que já cometi, e eu não sinto que tenha algo quebrado entre nós dois que precisa de conserto."
+
+        "O que eu preciso fazer é ouví-la, ouvir suas palavras, ouvir seus pensamentos e sentimentos."
+
+        "Quero ouvir o verdadeiro motivo pra ela ter me pedido pra vir aqui."
+
+        "Diretamente da boca dela."
+    elif mc_routes[0] == "Distant":
+        "E eu quase consegui, por pouco eu não dei meia volta e voltei pra casa."
+
+        "O clima tá bem frio, eu tô cansado e muito menos tava com saco pra tudo isso."
+
+        "Mas agora eu preciso escutar o que ela tem a dizer."
+
+        "Eu quero saber a verdade por trás das palavras dela."
+
+        "Se isso puder me ajudar a realizar de alguma forma alguma coisa entre nós, ou, até mesmo dentro de mim, já valeria o esforço."
+
+        "Então pra que eu acabe essa confusão na minha mente de uma vez por todas, eu vou passar essa noite com ela."
+    else:
+        "E eu sinto que ainda não estou completamente decidido, falta alguma coisa que eu não sei exatamente o que é."
+
+        "Nos últimos 5 meses que eu ignorei a Miya, eu me queixava qual era o real motivo disso."
+
+        "Não era como se eu não fosse autoconsciente, mas eu não ligava pra causa e muito menos pro efeito, as consequências na época pouco me importavam."
+
+        "Mas, o peso de perder a minha melhor amiga definitivamente, não é algo tão simples como ignorar uma mensagem ou evitar contato."
+
+        "Se eu continuar com esse raciocínio vou acabar me perdendo de novo, então se for pra chegar a uma conclusão…"
+
+        "Que seja através das próprias palavras dela."
+    
+    "Eu me esfrego levemente em um dos encostos da porta pra me apoiar, ela entende isso como desconforto, e eu admito, ela não tá completamente errada."
+
+    mi "O ano já tá acabando…"
+
+    mi "A escola ficará aberta por mais uma semana antes das preparações pro evento de formatura…"
+
+    mi "E eu sei que você não viria em mais nenhum dia além de hoje."
+    
+    mi "Por isso tô mais feliz por estar certa que você viria do que com raiva de você."
+
+    "Um pequeno sorriso aparece no seu rosto enquanto ela fecha seus olhos por conta de uma brisa que vem de fora da janela."
+
+    "Ela move as pernas um pouco desconcertada, sua voz parece calma, mas o seu corpo…"
+
+    "…"
+
+    "Eu não aguento ver isso."
+
+    "Esse sorriso é falso."
+
+    "Essas palavras são falsas."
+
+    "Não preciso ser nenhum vidente ou médium pra saber que ela tá se segurando."
+
+    "E que botou uma máscara pra tentar fingir que tá tudo bem."
+
+    "Eu sei que ela tá com raiva de mim, pra caralho."
+
+    "E que ela quer descontar tudo o que aconteceu nos últimos seis meses agora."
+
+    if mc_routes[0] == "Close":
+        "Mas apontar isso não serviria de nada."
+
+        "Pelo contrário, pioraria ainda mais nossa situação."
+
+        "Se você optou por agir assim, que seja…"
+
+        "A questão é que eu não gosto disso. Não gosto de ver você fazendo isso, porque é quase como se fosse um espelho de mim."
+
+        "Eu não fui o Ren que você conhecia nos últimos meses, e agora você tá sendo uma Miya que eu não faço ideia de quem é."
+
+        "A Miya ainda precisa continuar sendo a Miya, não tem porquê se entregar a isso."
+
+        "Que se foda se eu tô trocando o mundo à fora por uma vida mais monótona e previsível…"
+
+        "Não quero que você faça o mesmo por minha culpa e perca uma das qualidades que eu mais admiro em você."
+
+        "Esse devia ser o certo, então mesmo que leve a noite inteira…"
+
+        "Eu vou te ajudar a se livrar dessa máscara. Nem que seja aos poucos, até que você decida uma hora tirar por conta própria."
+    else:
+        "Independente de tudo, não posso julgá-la."
+
+        "No fim, isso se trata de um jogo pra ver quem deixa sua máscara cair primeiro."
+        
+        "E o que vai acontecer depois disso?"
+
+        if mc_routes[0] == "Distant":
+            "No mínimo engraçado."
+
+            "E também decepcionante."
+
+            "Você decidiu usar a sua só por essa noite, mas, e eu?"
+
+            "Existe um ditado que, dizem que quando se usa uma máscara por muito tempo, acaba que você nunca usou uma de verdade."
+
+            "E ele está até hoje preso na minha cabeça, com meu consciente as vezes me recordando disso de propósito."
+
+            "Eu continuei seguindo minha vida, dia após dia, como se o mundo não estivesse mais andando."
+
+            "Como se ele estivesse parando o tempo, com todos ao meu redor ainda seguindo seus caminhos normais."
+
+            "Eu desacelerava, e desacelerava, ainda estou desacelerando, e não sei quando isso vai parar."
+
+            "E internamente dói um pouco de ver, por isso não quero que você siga esse caminho."
+
+            "Porque nele não há nada além de uma completa perda de tempo e uma sensação de futilidade."
+        else:
+            "Dor? Ou felicidade?"
+
+            "Pode tanto ser bom como ruim, se esconder atrás de uma faceta que não é sua significa que existe algum sentimento que você não quer mostrar."
+
+            "Como a forma que uma adolescente comum age quando está próxima do seu crush."
+
+            "Ou do jeito que um adolescente fala quando está próximo dos seus melhores amigos em privado."
+
+            "Tudo se trata dependendo do ponto de vista, e nós dois, não fazemos ideia como é o do outro."
+
+            "Seja lá o motivo pelo qual você quer esconder alguma coisa de mim, eu quero…"
+
+            "Eu quero mesmo descobrir. Pode ser a verdade por trás desse {i}encontro{/i}, ou simplesmente algo que você guarda há tanto tempo."
+
+            "Nunca senti tanto essa vontade de saber mais sobre você, de descobrir o que você sentia quando eu ficava ao seu lado."
+
+            "Eu sei claramente como eu me sinto, e é por isso que eu me recordo de uma forma tão sem graça dessas coisas."
+
+            "Só conheço o meu ponto de vista, e nunca parei pra me perguntar e conhecer o seu."
+    
+    # TODO: Continuar a história daqui, abaixo será descartado/reutilizado depois
 
     "Eu não sei o que ela estava pensando antes de eu entrar na sala, ou o que ela decidiu enquanto eu tava lá fora."
 
@@ -428,6 +574,9 @@ label classroom_A_1b:
 
     "Isso não combina com a Miya, é por isso que vê-la assim só me deixa mais vazio."
 
+    # Provavelmente vou reutilizar isso, gostei mt dessa parte, é uma rara brecha em que ela quer ele por perto mesmo sentindo 1001 coisas
+    # dá a entender que só quer conversar mais perto, ou, "tu teve o trabalho de vir aqui e vai ficar na porta? porra, não fode", sendo que
+    # o significado é outro e mais fofo de "por favor, fica perto de mim, eu te quero" enquanto ainda sente "mlk vai toma no cu desgraçado"
     mi "Não fica parado aí na porta."
 
     mi "Vem cá."
@@ -578,8 +727,10 @@ label classroom_A:
     scene bg school_classroom
     with contextchange
 
-    # show miya basic_annoyed at truecenter
-    # with charchange
+    # não exatamente a arte que é pra aparecer, mas só pra ficar o placeholder na frente do que apenas o background
+    show miya basic_annoyed at truecenter
+    with charchange
 
-    mi "Você é mesmo um completo idiota." # Aqui vejo ela falando numa pose que cerra os olhos, tipo de desaprovação
+    # Aqui vejo ela falando numa pose que cerra os olhos, tipo de desaprovação, enfim, usar a pose que mais encaixa com base nas artes finais
+    mi "Você é mesmo um completo idiota." 
     return
