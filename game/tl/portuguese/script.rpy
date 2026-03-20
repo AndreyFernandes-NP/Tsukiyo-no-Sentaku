@@ -102,4 +102,4 @@ translate portuguese strings:
     # game/script.rpy:103
     old "In the end, all I knew I could do was open the door."
     new "No fim, eu sabia que só restava abrir a porta."
-
+    

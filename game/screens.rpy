@@ -219,40 +219,32 @@ screen choice(items, **kwargs):
 
     $ options.update(kwargs)
 
-    on "show" action If(options["duck"], Function(_menu_duck, start=True, duck_to=0.3, duck_delay=0.5))
+    on "show" action [If(options["duck"], Function(_menu_duck, start=True, duck_to=0.3, duck_delay=0.5)), Hide("say"), Hide("input")]
     on "hide" action If(options["duck"], Function(_menu_duck, start=False))
 
     default _dialogue_ready = False
     default _screen_start = renpy.get_game_runtime()
+    default _n_items = list(items)
 
-    $ _items = None
-
-    if _items is None:
-        $ _items = list(items)
-        if options["shuffle"]:
-            $ renpy.random.shuffle(_items)
+    if options["shuffle"]:
+        on "show" action Function(renpy.random.shuffle, _n_items)
     
     $ _bypass = renpy.is_skipping() or preferences.afm_enable
+    $ _had_previous_say = (_last_say_ended >= 0.0 and _last_say_ended <= _screen_start)
 
     if _bypass:
         $ _dialogue_ready = True
-    else:
-        if not _dialogue_ready:
-            if _last_say_ended >= _screen_start:
-                timer choice_delay action SetScreenVariable("_dialogue_ready", True)
-            else:
-                $ _dialogue_ready = True
+    elif not _dialogue_ready:
+        if _had_previous_say:
+            timer choice_delay action SetScreenVariable("_dialogue_ready", True)
+        else:
+            $ _dialogue_ready = True
 
     if _dialogue_ready:
-        $ _no_text_since_last_time = (_last_say_ended < _screen_start)
-
-        if _no_text_since_last_time:
-            $ _window_hide(auto=True)
-
         add Solid("#0008") at menu_dim_fade
 
         vbox at menu_choices_fadein:
-            for i in _items:
+            for i in _n_items:
                 textbutton i.caption action i.action
     else:
         null
