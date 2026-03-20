@@ -484,27 +484,26 @@ translate portuguese strings:
 
     # renpy/common/00gui.rpy:449
     old "Are you sure you want to delete this save?"
-    new "Are you sure you want to delete this save?"
+    new "Tem certeza que você quer deletar este save?"
 
     # renpy/common/00gui.rpy:450
     old "Are you sure you want to overwrite your save?"
-    new "Are you sure you want to overwrite your save?"
-
+    new "Tem certeza que você quer sobrescrever este save?"
     # renpy/common/00gui.rpy:451
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "Carregar irá perder o progresso não salvo.\nTem certeza que você quer fazer isso?"
 
     # renpy/common/00gui.rpy:452
     old "Are you sure you want to quit?"
-    new "Are you sure you want to quit?"
+    new "Tem certeza que você quer sair?"
 
     # renpy/common/00gui.rpy:453
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "Tem certeza que você quer voltar ao menu principal?\nIsso irá perder o progresso não salvo."
 
     # renpy/common/00gui.rpy:454
     old "Are you sure you want to continue where you left off?"
-    new "Are you sure you want to continue where you left off?"
+    new "Tem certeza que você quer continuar de onde você parou?"
 
     # renpy/common/00gui.rpy:455
     old "Are you sure you want to end the replay?"
@@ -512,15 +511,15 @@ translate portuguese strings:
 
     # renpy/common/00gui.rpy:456
     old "Are you sure you want to begin skipping?"
-    new "Are you sure you want to begin skipping?"
+    new "Tem certeza que você quer começar a pular?"
 
     # renpy/common/00gui.rpy:457
     old "Are you sure you want to skip to the next choice?"
-    new "Are you sure you want to skip to the next choice?"
+    new "Tem certeza que você quer pular para a próxima escolha?"
 
     # renpy/common/00gui.rpy:458
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new "Are you sure you want to skip unseen dialogue to the next choice?"
+    new "Tem certeza que você quer pular diálogos não vistos para a próxima escolha?"
 
     # renpy/common/00gui.rpy:459
     old "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
@@ -796,7 +795,7 @@ translate portuguese strings:
 
     # renpy/common/00preferences.rpy:727
     old "Self-voicing enabled. Press 'v' to disable."
-    new "Self-voicing enabled. Press 'v' to disable."
+    new "Auto-voz habilitada. Pressione 'v' para desabilitar."
 
     # renpy/common/00speechbubble.rpy:420
     old "Speech Bubble Editor"
@@ -812,75 +811,75 @@ translate portuguese strings:
 
     # renpy/common/00sync.rpy:70
     old "Sync downloaded."
-    new "Sync downloaded."
+    new "Sync baixado."
 
     # renpy/common/00sync.rpy:184
     old "Could not connect to the Ren'Py Sync server."
-    new "Could not connect to the Ren'Py Sync server."
+    new "Não foi possível conectar ao servidor de sync do Ren'Py."
 
     # renpy/common/00sync.rpy:186
     old "The Ren'Py Sync server timed out."
-    new "The Ren'Py Sync server timed out."
+    new "O servidor de sync do Ren'Py expirou."
 
     # renpy/common/00sync.rpy:188
     old "An unknown error occurred while connecting to the Ren'Py Sync server."
-    new "An unknown error occurred while connecting to the Ren'Py Sync server."
+    new "Ocorreu um erro desconhecido ao conectar ao servidor de sync do Ren'Py."
 
     # renpy/common/00sync.rpy:204
     old "The Ren'Py Sync server does not have a copy of this sync. The sync ID may be invalid, or it may have timed out."
-    new "The Ren'Py Sync server does not have a copy of this sync. The sync ID may be invalid, or it may have timed out."
+    new "O servidor de sync do Ren'Py não tem uma cópia deste sync. O ID do sync pode ser inválido, ou pode ter expirado."
 
     # renpy/common/00sync.rpy:305
     old "Please enter the sync ID you generated.\nNever enter a sync ID you didn't create yourself."
-    new "Please enter the sync ID you generated.\nNever enter a sync ID you didn't create yourself."
+    new "Por favor, insira o ID de sync que você gerou.\nNunca insira um ID de sync que você não criou."
 
     # renpy/common/00sync.rpy:324
     old "The sync ID is not in the correct format."
-    new "The sync ID is not in the correct format."
+    new "O ID de sync não está no formato correto."
 
     # renpy/common/00sync.rpy:344
     old "The sync could not be decrypted."
-    new "The sync could not be decrypted."
+    new "O sync não pôde ser descriptografado."
 
     # renpy/common/00sync.rpy:367
     old "The sync belongs to a different game."
-    new "The sync belongs to a different game."
+    new "O sync pertence a um jogo diferente."
 
     # renpy/common/00sync.rpy:372
     old "The sync contains a file with an invalid name."
-    new "The sync contains a file with an invalid name."
+    new "O sync contém um arquivo com um nome inválido."
 
     # renpy/common/00sync.rpy:425
     old "This will upload your saves to the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\nDo you want to continue?"
-    new "This will upload your saves to the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\nDo you want to continue?"
+    new "Isso irá enviar seus saves para o {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\nVocê quer continuar?"
 
     # renpy/common/00sync.rpy:457
     old "Enter Sync ID"
-    new "Enter Sync ID"
+    new "Digite o ID de Sync"
 
     # renpy/common/00sync.rpy:468
     old "This will contact the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}."
-    new "This will contact the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}."
+    new "Isso irá contatar o {a=https://sync.renpy.org}Ren'Py Sync Server{/a}."
 
     # renpy/common/00sync.rpy:498
     old "Sync Success"
-    new "Sync Success"
+    new "Sucesso no Sync"
 
     # renpy/common/00sync.rpy:501
     old "The Sync ID is:"
-    new "The Sync ID is:"
+    new "O ID de Sync é:"
 
     # renpy/common/00sync.rpy:507
     old "You can use this ID to download your save on another device.\nThis sync will expire in an hour.\nRen'Py Sync is supported by {a=https://www.renpy.org/sponsors.html}Ren'Py's Sponsors{/a}."
-    new "You can use this ID to download your save on another device.\nThis sync will expire in an hour.\nRen'Py Sync is supported by {a=https://www.renpy.org/sponsors.html}Ren'Py's Sponsors{/a}."
+    new "Você pode usar este ID para baixar seu save em outro dispositivo.\nEste sync irá expirar em uma hora.\nRen'Py Sync é suportado por {a=https://www.renpy.org/sponsors.html}Sponsors do Ren'Py{/a}."
 
     # renpy/common/00sync.rpy:511
     old "Continue"
-    new "Continue"
+    new "Continuar"
 
     # renpy/common/00sync.rpy:536
     old "Sync Error"
-    new "Sync Error"
+    new "Erro de Sync"
 
     # renpy/common/00translation.rpy:63
     old "Translation identifier: [identifier]"

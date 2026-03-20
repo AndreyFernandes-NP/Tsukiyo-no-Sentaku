@@ -116,11 +116,11 @@ translate portuguese strings:
 
     # game/screens.rpy:741
     old "Upload Sync"
-    new "Upload Sync"
+    new "Enviar Sync"
 
     # game/screens.rpy:745
     old "Download Sync"
-    new "Baixar o Sync"
+    new "Baixar Sync"
 
     # game/screens.rpy:804
     old "Display"

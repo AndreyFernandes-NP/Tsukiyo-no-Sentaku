@@ -1333,8 +1333,22 @@ screen notify(message):
     zorder 100
     style_prefix "notify"
 
+    default notify_title = None
+
+    if type(message) is list:
+        $ notify_title, message = message
+
     frame at notify_appear:
-        text "[message!tq]"
+        if notify_title:
+            vbox:
+                spacing 1
+
+                text "[notify_title!tq]":
+                    size 30
+                text "[message!tq]":
+                    size 24
+        else:
+            text "[message!tq]"
 
     timer 3.25 action Hide('notify')
 
@@ -1348,6 +1362,7 @@ transform notify_appear:
 
 
 style notify_frame is empty
+style notify_title is gui_text
 style notify_text is gui_text
 
 style notify_frame:
@@ -1357,6 +1372,7 @@ style notify_frame:
     padding gui.notify_frame_borders.padding
 
 style notify_text:
+    color "#b9b9b9"
     properties gui.text_properties("notify")
 
 

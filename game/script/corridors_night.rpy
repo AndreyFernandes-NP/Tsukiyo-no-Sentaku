@@ -1222,6 +1222,8 @@ label corridors_D:
 
             if current_llm_request and current_llm_request.error:
                 print("LLM request error:", current_llm_request.error)
+                renpy.notify([f"{ERROR_PROTOCOL['llm']}", f"{ERROR_MESSAGES['llm_request_failure']}"])
+                log_error("llm_log", current_llm_request.error)
                 renpy.call("iscene", "corridors_D_fallback")
             
             else:

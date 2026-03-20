@@ -1,9 +1,20 @@
 init -10 python:
+    import os
     import threading
     import queue
     import time
     import uuid
+
+    from pathlib import Path
+    from datetime import datetime
     from llm.core import post, hasInternet
+
+    files_dir = None
+
+    if renpy.mobile:
+        files_dir = Path(config.savedir).parent
+    else:
+        files_dir = config.basedir
 
     def user_language() -> str:
         lang = getattr(persistent, "choosen_language", None)
@@ -35,6 +46,18 @@ init -10 python:
                 title, content = logs[key]
                 print(title)
                 print(content)
+    
+    def log_error(filename, error):
+        log_file_path = os.path.join(files_dir, f"{filename}.txt")
+
+        with open(log_file_path, "w", encoding="utf-8") as log_file:
+            log_file.write("I'm sorry, but an uncaught exception occurred.\n\n")
+            log_file.write(f"{error}")
+            log_file.write("\n\n")
+            log_file.write(f"{renpy.version()}\n")
+            log_file.write(f"{config.name} {config.version}\n")
+            log_file.write(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+            log_file.write("If you're sure this error is not caused by a specific case, or is persistent and are unsure how to fix,\nplease report it through an issue on the game's repository: https://github.com/AndreyFernandes-NP/Tsukiyo-no-Sentaku/issues")
 
     def generate_response(system_prompt:str, player_input:str, reasoning_effort:str = "medium", text_verbosity:str = "medium", response_size:int = 256, log_response:bool = False, log_type:set[str] | None = None) -> list[str]:
         if log_type is None:
@@ -52,12 +75,15 @@ init -10 python:
 
         if not hasInternet():
             print("Warning: No internet connection available.")
+            renpy.notify([f"{ERROR_PROTOCOL['generic']}", f"{ERROR_MESSAGES['no_internet']}"])
             return []
 
         status, data = post(payload)
 
         if not data.get("ok", False):
             print(f"URL Request Failed. Status='{status}' \nData={data}")
+            renpy.notify([f"{ERROR_PROTOCOL['http']}", f"{ERROR_MESSAGES['http_failure']}"])
+            log_error("http_log", f"Status: {status}\nData: {data}")
             return []
 
         raw_output = data.get("output_text", "")
@@ -84,6 +110,8 @@ init -10 python:
 
         except Exception as e:
             print(f"LLM Warmup failed: {e}")
+            renpy.notify([f"{ERROR_PROTOCOL['llm']}", f"{ERROR_MESSAGES['llm_warmup_failure']}"])
+            log_error("llm_log", f"LLM Warmup failed with exception: {e}")
     
     def start_llm_warmup() -> None:
         t = threading.Thread(target=_llm_warmup, daemon=True)
