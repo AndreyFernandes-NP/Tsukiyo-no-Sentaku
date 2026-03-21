@@ -1210,7 +1210,6 @@ label corridors_D:
 
         else:
             renpy.block_rollback()
-
             current_llm_request = llm_request(
                 system_prompt=prompt_thoughts(user_language()),
                 player_input=ren_thought,
@@ -1233,10 +1232,14 @@ label corridors_D:
                     renpy.call("iscene", "corridors_D_fallback")
                 else:
                     if lines[0] == "break_detected":
+                        lines.clear()
                         renpy.call("glitch_scene", "school_corridor", duration=0.3, dialogue=[("", ":)")] if not getattr(persistent, "endings_unlocked", None) else [("", "g-694c8e05bc188191802f2555becf4e8f-")])
-                    else:
-                        for line in lines:
-                            renpy.say("", line)
+
+    $ renpy.block_rollback()
+    
+    while len(lines) > 0:
+        $ renpy.say("", lines[0])
+        $ lines.pop(0)
     
     $ amb_stop()
     $ ambience_sfx_cycle.stop(stop_all=True)

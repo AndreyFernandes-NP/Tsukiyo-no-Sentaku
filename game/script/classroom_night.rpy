@@ -365,9 +365,22 @@ label classroom_A_1a:
     
     mi "As vezes você é muito idiota."
 
-    "Hã? De onde veio isso de repente?"
+    if mc_routes[0] == "Close":
+        "É a primeira coisa realmente honesta que ela me diz desde que eu entrei."
 
-    "Não, na verdade que se dane, pelo menos ela falou algo."
+        "E eu não sei se isso é bom ou ruim, mas…"
+
+        "Ouvir isso estranhamente me alivia."
+    elif mc_routes[0] == "Distant":
+        "Tá aí."
+
+        "Finalmente alguma coisa que soa menos falsa."
+    else:
+        "Hã? De onde veio isso de repente?"
+
+        "Não sei se isso foi uma bronca, uma provocação ou só a forma dela de começar de verdade."
+
+        "O que quer que seja, eu prefiro isso ao silêncio."
 
     mi "Não consegue pensar em nada, não é?"
 
@@ -388,9 +401,16 @@ label classroom_A_1a:
 
     "Não desgosto exatamente da escola, mas nenhum outro tópico me interessa pra que eu queira estudá-lo numa faculdade ou sei lá."
 
-    "Também não sei se vou conseguir algum trabalho decente sem currículo, me tornar um caixa de uma loja de conveniências não parece tão ruim pra um começo."
+    "Também não sei se vou conseguir algum trabalho decente sem currículo. Me tornar um caixa de uma loja de conveniências não parece tão ruim pra um começo."
 
-    mc "Meu plano é lidar com as coisas da forma que elas são e… seguir com a vida."
+    if mc_routes[0] == "Close":
+        mc "No fim eu só queria…"
+
+        mc "Entender se ainda existe alguma coisa que faça sentido antes que tudo acabe."
+    elif mc_routes[0] == "Distant": 
+        mc "Meu plano é lidar com as coisas da forma que elas são e… seguir com a vida."
+    else:
+        mc "Acho que meu plano, por enquanto, é só lidar com as coisas da forma que elas são… e seguir com a vida."
 
     "Ouvir tudo o que eu disse faz ela sair da sua posição habitual e se ajeitar na cadeira."
 
@@ -417,13 +437,13 @@ label classroom_A_1b:
 
     mi "Não importa o quão pior você seja, eu sei quais são os seus limites."
 
-    mi "E me deixar no meio da escola sozinha, à noite, passa bem longe deles."
+    mi "E me deixar no meio da escola sozinha, à noite, passa bem longe disso."
 
     "No começo, quando eu recebi aquela mensagem pela primeira vez, eu pensei que ela só estava sendo a Miya."
 
-    "Querendo me enganar pra se divertir com a ideia de eu ter realmente ido por um convite surreal e besta."
+    "Querendo me enganar pra se divertir com a ideia de eu ter realmente ido por um convite surreal."
 
-    "Mas estranhamente tive a certeza que era algo sério, e depois de racionalizar bastante, minhas escolhas eram ser enganado ou possivelmente nunca mais vê-la."
+    "Mas estranhamente tive a certeza que era algo sério, e depois de racionalizar bastante, minhas escolhas eram ser ou enganado ou possivelmente nunca mais vê-la."
 
     "Era óbvio o que eu ia escolher, mas durante esse tempo inteiro eu tentava me convencer de alguma forma contrária a não ir."
 
@@ -492,9 +512,9 @@ label classroom_A_1b:
 
     "E que botou uma máscara pra tentar fingir que tá tudo bem."
 
-    "Eu sei que ela tá com raiva de mim, pra caralho."
+    "Eu sei que ela deve estar com raiva de mim, e não é pouca."
 
-    "E que ela quer descontar tudo o que aconteceu nos últimos seis meses agora."
+    "Que ela quer descontar tudo o que aconteceu nos últimos seis meses agora."
 
     if mc_routes[0] == "Close":
         "Mas apontar isso não serviria de nada."
@@ -515,7 +535,7 @@ label classroom_A_1b:
 
         "Esse devia ser o certo, então mesmo que leve a noite inteira…"
 
-        "Eu vou te ajudar a se livrar dessa máscara. Nem que seja aos poucos, até que você decida uma hora tirar por conta própria."
+        "Eu vou te ajudar a se livrar dessa máscara, nem que seja aos poucos até uma hora você tirar por conta própria."
     else:
         "Independente de tudo, não posso julgá-la."
 
@@ -538,9 +558,9 @@ label classroom_A_1b:
 
             "Como se ele estivesse parando o tempo, com todos ao meu redor ainda seguindo seus caminhos normais."
 
-            "Eu desacelerava, e desacelerava, ainda estou desacelerando, e não sei quando isso vai parar."
+            "Eu desacelerava, e desacelerava, ainda contiuno desacelerando, e não sei quando isso vai parar."
 
-            "E internamente dói um pouco de ver, por isso não quero que você siga esse caminho."
+            "E internamente dói um pouco de te ver assim, por isso não quero que você siga esse caminho."
 
             "Porque nele não há nada além de uma completa perda de tempo e uma sensação de futilidade."
         else:
@@ -548,46 +568,112 @@ label classroom_A_1b:
 
             "Pode tanto ser bom como ruim, se esconder atrás de uma faceta que não é sua significa que existe algum sentimento que você não quer mostrar."
 
-            "Como a forma que uma adolescente comum age quando está próxima do seu crush."
+            "Como a forma que uma garota na adolescência age quando está próxima do seu crush."
 
-            "Ou do jeito que um adolescente fala quando está próximo dos seus melhores amigos em privado."
+            "Ou o jeito que um garoto fala quando está próximo dos seus melhores amigos em privado."
 
             "Tudo se trata dependendo do ponto de vista, e nós dois, não fazemos ideia como é o do outro."
 
             "Seja lá o motivo pelo qual você quer esconder alguma coisa de mim, eu quero…"
 
-            "Eu quero mesmo descobrir. Pode ser a verdade por trás desse {i}encontro{/i}, ou simplesmente algo que você guarda há tanto tempo."
+            "Eu quero mesmo descobrir. Pode ser a verdade por trás desse encontro, ou simplesmente algo que você guarda há tanto tempo."
 
             "Nunca senti tanto essa vontade de saber mais sobre você, de descobrir o que você sentia quando eu ficava ao seu lado."
 
             "Eu sei claramente como eu me sinto, e é por isso que eu me recordo de uma forma tão sem graça dessas coisas."
 
             "Só conheço o meu ponto de vista, e nunca parei pra me perguntar e conhecer o seu."
-    
-    # TODO: Continuar a história daqui, abaixo será descartado/reutilizado depois
+        
+    mi "…"
+        
+    mi "Eu não sei o que você tá pensando, mas…"
 
-    "Eu não sei o que ela estava pensando antes de eu entrar na sala, ou o que ela decidiu enquanto eu tava lá fora."
+    mi "Eu não tô mesmo com raiva de você."
 
-    "Vendo que a chance de eu não aparecer hoje era uma possibilidade, talvez ela tenha passado por um turbilhão de coisas em sua mente assim como eu."
+    if mc_routes[0] == "Distant":
+        mc "Não consigo acreditar nisso."
 
-    "Acabar pensando demais, enquanto tenta procurar mil e uma justificativas, tudo isso pra no final não chegar à lugar nenhum."
+        mi "É… {w}eu sei…"
 
-    "Isso não combina com a Miya, é por isso que vê-la assim só me deixa mais vazio."
+        "Ela olha pra baixo, com raiva ou não ela também se esforça pra transparecer que não está triste."
 
-    # Provavelmente vou reutilizar isso, gostei mt dessa parte, é uma rara brecha em que ela quer ele por perto mesmo sentindo 1001 coisas
-    # dá a entender que só quer conversar mais perto, ou, "tu teve o trabalho de vir aqui e vai ficar na porta? porra, não fode", sendo que
-    # o significado é outro e mais fofo de "por favor, fica perto de mim, eu te quero" enquanto ainda sente "mlk vai toma no cu desgraçado"
+        "Não digo que ela ficou ofendida, mas se continuar assim só vai acabar cansando a si mesma."
+
+        mi "Você sempre fica desse jeito quando acha que alguém tá escondendo alguma coisa."
+
+        mc "Porque geralmente tá."
+
+        "Seco demais? Não, não acho, eu ainda quero que ela ouça tudo isso."
+
+        "Só que, se eu continuar respondendo assim, não vamos parar em lugar nenhum."
+
+        "Por um momento ela até parece desistir de querer continuar conversando, mas…"
+
+        mi "Por que você ainda tá tão longe?"
+
+        "Isso me pegou de surpresa, até agora foi a frase mais Miya que ela já disse."
+
+        mi "Fica difícil acreditar em qualquer coisa minha daí."
+
+        "O tom é tranquilizador, até demais pro meu gosto."
+
+        "Meus olhos descem até ela por reflexo, quase cedendo àquela súplica."
+
+        "A distância entre nós dois não é nem tão grande assim, mas o pior é admitir que ela tem razão."
+
+        "Desde o momento em que chamei o nome dela, eu não saí da porta."
+
+        "Me mantive encostado aqui por sabe-se lá quantos minutos."
+
+        "Então, se a distância é tão curta, por que eu ainda não me aproximei?"
+
+        "É chegando nessa conclusão que ela me pega com a guarda baixa."
+    else:
+        mc "Eu acredito em você…"
+
+        "Mas a minha voz e minha expressão dizem o contrário."
+
+        mi "Se você diz…"
+
+        "Ela tenta sustentar o sorriso por mais alguns segundos…"
+
+        "Com ênfase no tenta."
+
+        "Nós dois sabemos que isso não adianta de nada."
+
+        "O sorriso vai acabando aos poucos, como se ela já tivesse cansada de ficar mantendo essa aparência."
+
+        "Os dedos dela apertam levemente a barra da saia. É algo tão banal e imperceptível…"
+
+        "Mas pra mim basta."
+
+        mi "Você sempre fala desse jeito quando se sente muito seguro das coisas."
+
+        mi "Como se estivesse com medo de dizer alguma coisa que possa parecer errada."
+
+        "Eu não respondo."
+
+        "Porque se eu abrir a boca agora vou pisar em falso, e dizer exatamente o que ela quer ouvir."
+        
+        "Esse tempo todo ela não desvia seu olhar nenhuma vez dos meus olhos."
+
+        mi "Ren…"
+
     mi "Não fica parado aí na porta."
 
     mi "Vem cá."
 
-    "Ela faz um gesto com a mão, me chamando pra perto dela."
+    "Ela se levanta, pega uma cadeira próxima e a põe em frente à sua."
 
-    "Eu me aproximo devagar, como se cada passo meu fosse um esforço enorme."
+    "Assim que se senta novamente, ela dá dois tapinhas no outro assento."
+
+    "Não tem mesmo outro jeito."
+
+    "Eu me aproximo devagar, como se cada passo fosse um esforço enorme."
 
     "O silêncio deixado entre nós enquanto eu caminho parece durar uma eternidade, o suficiente pra eu voltar a sentir meu próprio coração batendo rápido."
 
-    "Quando eu finalmente chego perto dela, eu sento em uma cadeira próxima."
+    "Quando eu finalmente me sento na própria cadeira que ela havia escolhido, fico cara-a-cara com o seu rosto."
 
     return
 
@@ -727,10 +813,162 @@ label classroom_A:
     scene bg school_classroom
     with contextchange
 
+    with Pause(0.5)
+
+    # Apenas um placeholder, mas apareceria dela com uma cara mais fechada com a boca fechada, e embaixo iria pra variação dessa com a boca aberta
+    show miya basic_neutral at center
+    with charchange
+
+    with Pause(1.5)
+
     # não exatamente a arte que é pra aparecer, mas só pra ficar o placeholder na frente do que apenas o background
-    show miya basic_annoyed at truecenter
+    show miya basic_annoyed at center
     with charchange
 
     # Aqui vejo ela falando numa pose que cerra os olhos, tipo de desaprovação, enfim, usar a pose que mais encaixa com base nas artes finais
-    mi "Você é mesmo um completo idiota." 
+    mi "Você é mesmo um completo idiota."
+
+    "É sério? Tudo isso pra me chamar de idiota?"
+
+    mi "Não faz essa cara."
+
+    mi "Você sabe muito bem do que eu tô falando."
+
+    "Eu queria saber. Pelo menos dessa vez queria, mas não faço ideia."
+
+    "São tantas coisas que aconteceram comigo… não, não aconteceu merda nenhuma ao mesmo tempo que também aconteceu."
+
+    "O que eu venho fazendo é seguindo uma receita atrás da outra e pra cada tentativa o meu prato continua sem gosto."
+
+    "E o pior de tudo é quando você se sente satisfeito com esse resultado e tem a mínima vontade de sequer mudar algo."
+
+    mi "Você sempre fala como se já tivesse aceitado tudo."
+
+    mi "Como se já tivesse entendido o mundo todo."
+
+    mi "Como se já tivesse…"
+
+    mi "…"
+
+    mi "Tanto faz, o que eu quero dizer é que eu odeio quando você faz isso."
+
+    "…"
+
+    mc "Você não entende."
+
+    mi "E como você espera que eu entenda se você não me diz nada?"
+
+    mi "Se eu tivesse pelo menos alguma resposta, não precisaria tocar a campainha da sua casa várias vezes e não obter nada…"
+
+    mi "Não precisaria mandar tantas mensagens e gradualmente for ignorada…"
+
+    mi "Não precisaria fingir que nós não somos…"
+
+    "Ela corta sua última frase ao meio."
+
+    "Cacete. Essa sim é a Miya que eu esperava encontrar aqui."
+
+    "Por isso que eu estava tão relutante em pisar nessa sala."
+
+    "Eu não queria ouvir essas perguntas. Não queria ouvir essas queixas."
+
+    "E eu já sabia que cada uma delas seria questionada, mesmo não sabendo exatamente qual ou como."
+
+    "Ela inspira profundamente e então expira como se controlasse parcialmente suas emoções."
+
+    "Os seus dedos continuam apertando um pouco o encosto da sua cadeira."
+
+    mc "Olha, se fosse tão simples assim…"
+
+    mi "Eu sei que não é."
+
+    mi "É exatamente esse o problema."
+
+    mi "Você sabe que não é simples, mas você também não busca transformar algo maior em vários menores."
+
+    if mc_routes[0] == "Distant":
+        mc "…"
+
+        mc "E o que você queria que eu fizesse?"
+
+        mc "Que eu chegasse aqui surtando?"
+
+        mc "Que eu fingisse que tenho uma resposta bonita pra tudo?"
+
+        mi "Não."
+
+        mi "Eu queria que você parasse de agir como se não se importasse."
+
+        "A resposta vem rápida e afiada."
+
+        "Que saco."
+
+        mi "Isso me irrita, e irrita muito."
+
+        mi "E eu conheço você bem demais pra acreditar nessa fachada."
+
+        "Se eu questionar seria ruim, e apontar as incongruências pior ainda."
+    elif mc_routes[0] == "Close":
+        mc "Eu tô tentando colocar em palavras."
+
+        mc "Mesmo que não estejam certas, ou que não fossem completas…"
+
+        mi "Então coloca errado."
+
+        mi "Se não são as palavras certas, pode dizer as ruins."
+
+        "Meu peito aperta."
+
+        "Ela fala como se me desse permissão pra jogar tudo de ponta cabeça."
+
+        "Como se preferisse ouvir minha pior versão sincera do que qualquer frase bonita pela metade."
+
+        mi "Eu não preciso que você fale direito comigo."
+
+        mi "Eu preciso que você pare de esconder as coisas de mim."
+    else:
+        mc "Eu só não sei, não faço ideia como falar disso."
+
+        mi "Então fala sem saber."
+
+        mi "Você acha mesmo que eu te chamei aqui porque tava esperando uma versão ensaiada sua?"
+
+        "Eu tenho manter meu olhar reto mas não consigo, não tem ironia o suficiente nessa pergunta pra eu me proteger dela de alguma forma."
+
+        mi "Eu não me importo se você tá confuso."
+
+        mi "Eu me importo quando você age como se essa confusão te desse todas as desculpas do mundo."
+    
+    mc "…"
+
+    mi "…"
+
+    "O silêncio volta a cair entre nós."
+
+    "Mas é um maldito silêncio pesado."
+
+    mc "Você sabe que a pior parte de eu não saber o que vai ser de mim quando a escola acabar…"
+
+    mc "É que isso não me assusta do jeito que deveria."
+
+    mi "Isso te assusta."
+
+    mi "Você só tá acostumado demais a engolir as coisas do jeito que ela são."
+
+    "Porra!" #"Fuck me!"
+
+    "Porque ela diz isso como se estivesse lendo alguma coisa escrita na minha cara há meses?"
+
+    mc "Tá e se for verdade? Por acaso muda alguma coisa?"
+
+    mi "Muda pra mim."
+
+    "Meu olhar sobe na mesma hora até o dela."
+
+    mi "Porque eu tô te ouvindo você falar de si mesmo como se fosse alguém que não tem importância."
+
+    mi "E eu não vou aceitar isso sentada aqui na sua frente."
+
+    # Talvez puxar escolha 'Você não sabe do que tá falando' (se o cara pegou distant só vai ter essa escolha) / 'Tem certeza?' / 'E o que isso significa?'
+
     return
