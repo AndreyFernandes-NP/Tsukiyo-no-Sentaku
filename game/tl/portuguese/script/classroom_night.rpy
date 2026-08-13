@@ -1882,3 +1882,809 @@ translate portuguese strings:
     old "Continuar parado."
     new "Continuar parado."
 
+# TODO: Translation updated at 2026-08-12 23:05
+
+# game/script/classroom_night.rpy:369
+translate portuguese classroom_A_1a_699c6cd6:
+
+    # "É a primeira coisa realmente honesta que ela me diz desde que eu entrei."
+    "É a primeira coisa realmente honesta que ela me diz desde que eu entrei."
+
+# game/script/classroom_night.rpy:371
+translate portuguese classroom_A_1a_b9869c19:
+
+    # "E eu não sei se isso é bom ou ruim, mas…"
+    "E eu não sei se isso é bom ou ruim, mas…"
+
+# game/script/classroom_night.rpy:373
+translate portuguese classroom_A_1a_485a0218:
+
+    # "Ouvir isso estranhamente me alivia."
+    "Ouvir isso estranhamente me alivia."
+
+# game/script/classroom_night.rpy:375
+translate portuguese classroom_A_1a_eff89b77:
+
+    # "Tá aí."
+    "Tá aí."
+
+# game/script/classroom_night.rpy:377
+translate portuguese classroom_A_1a_a4a1c8c5:
+
+    # "Finalmente alguma coisa que soa menos falsa."
+    "Finalmente alguma coisa que soa menos falsa."
+
+# game/script/classroom_night.rpy:381
+translate portuguese classroom_A_1a_301db447:
+
+    # "Não sei se isso foi uma bronca, uma provocação ou só a forma dela de começar de verdade."
+    "Não sei se isso foi uma bronca, uma provocação ou só a forma dela de começar de verdade."
+
+# game/script/classroom_night.rpy:383
+translate portuguese classroom_A_1a_f144d139:
+
+    # "O que quer que seja, eu prefiro isso ao silêncio."
+    "O que quer que seja, eu prefiro isso ao silêncio."
+
+# game/script/classroom_night.rpy:404
+translate portuguese classroom_A_1a_837366f0:
+
+    # "Também não sei se vou conseguir algum trabalho decente sem currículo. Me tornar um caixa de uma loja de conveniências não parece tão ruim pra um começo."
+    "Também não sei se vou conseguir algum trabalho decente sem currículo. Me tornar um caixa de uma loja de conveniências não parece tão ruim pra um começo."
+
+# game/script/classroom_night.rpy:407
+translate portuguese classroom_A_1a_ec5b0950:
+
+    # mc "No fim eu só queria…"
+    mc "No fim eu só queria…"
+
+# game/script/classroom_night.rpy:409
+translate portuguese classroom_A_1a_bdf47e96:
+
+    # mc "Entender se ainda existe alguma coisa que faça sentido antes que tudo acabe."
+    mc "Entender se ainda existe alguma coisa que faça sentido antes que tudo acabe."
+
+# game/script/classroom_night.rpy:413
+translate portuguese classroom_A_1a_4d4ea2cd:
+
+    # mc "Acho que meu plano, por enquanto, é só lidar com as coisas da forma que elas são… e seguir com a vida."
+    mc "Acho que meu plano, por enquanto, é só lidar com as coisas da forma que elas são… e seguir com a vida."
+
+# game/script/classroom_night.rpy:440
+translate portuguese classroom_A_1b_8b4c2f64:
+
+    # mi "E me deixar no meio da escola sozinha, à noite, passa bem longe disso."
+    mi "E me deixar no meio da escola sozinha, à noite, passa bem longe disso."
+
+# game/script/classroom_night.rpy:444
+translate portuguese classroom_A_1b_457dff33:
+
+    # "Querendo me enganar pra se divertir com a ideia de eu ter realmente ido por um convite surreal."
+    "Querendo me enganar pra se divertir com a ideia de eu ter realmente ido por um convite surreal."
+
+# game/script/classroom_night.rpy:446
+translate portuguese classroom_A_1b_7c247332:
+
+    # "Mas estranhamente tive a certeza que era algo sério, e depois de racionalizar bastante, minhas escolhas eram ser ou enganado ou possivelmente nunca mais vê-la."
+    "Mas estranhamente tive a certeza que era algo sério, e depois de racionalizar bastante, minhas escolhas eram ser ou enganado ou possivelmente nunca mais vê-la."
+
+# game/script/classroom_night.rpy:515
+translate portuguese classroom_A_1b_1e2211ed:
+
+    # "Eu sei que ela deve estar com raiva de mim, e não é pouca."
+    "Eu sei que ela deve estar com raiva de mim, e não é pouca."
+
+# game/script/classroom_night.rpy:517
+translate portuguese classroom_A_1b_7664df05:
+
+    # "Que ela quer descontar tudo o que aconteceu nos últimos seis meses agora."
+    "Que ela quer descontar tudo o que aconteceu nos últimos seis meses agora."
+
+# game/script/classroom_night.rpy:538
+translate portuguese classroom_A_1b_36ffd527:
+
+    # "Eu vou te ajudar a se livrar dessa máscara, nem que seja aos poucos até uma hora você tirar por conta própria."
+    "Eu vou te ajudar a se livrar dessa máscara, nem que seja aos poucos até uma hora você tirar por conta própria."
+
+# game/script/classroom_night.rpy:561
+translate portuguese classroom_A_1b_b2a8caae:
+
+    # "Eu desacelerava, e desacelerava, ainda contiuno desacelerando, e não sei quando isso vai parar."
+    "Eu desacelerava, e desacelerava, ainda contiuno desacelerando, e não sei quando isso vai parar."
+
+# game/script/classroom_night.rpy:563
+translate portuguese classroom_A_1b_db149dde:
+
+    # "E internamente dói um pouco de te ver assim, por isso não quero que você siga esse caminho."
+    "E internamente dói um pouco de te ver assim, por isso não quero que você siga esse caminho."
+
+# game/script/classroom_night.rpy:571
+translate portuguese classroom_A_1b_a058a76e:
+
+    # "Como a forma que uma garota na adolescência age quando está próxima do seu crush."
+    "Como a forma que uma garota na adolescência age quando está próxima do seu crush."
+
+# game/script/classroom_night.rpy:573
+translate portuguese classroom_A_1b_5acf83fe:
+
+    # "Ou o jeito que um garoto fala quando está próximo dos seus melhores amigos em privado."
+    "Ou o jeito que um garoto fala quando está próximo dos seus melhores amigos em privado."
+
+# game/script/classroom_night.rpy:579
+translate portuguese classroom_A_1b_ff16cde3:
+
+    # "Eu quero mesmo descobrir. Pode ser a verdade por trás desse encontro, ou simplesmente algo que você guarda há tanto tempo."
+    "Eu quero mesmo descobrir. Pode ser a verdade por trás desse encontro, ou simplesmente algo que você guarda há tanto tempo."
+
+# game/script/classroom_night.rpy:587
+translate portuguese classroom_A_1b_824fd7d3:
+
+    # mi "…"
+    mi "…"
+
+# game/script/classroom_night.rpy:589
+translate portuguese classroom_A_1b_b088f805:
+
+    # mi "Eu não sei o que você tá pensando, mas…"
+    mi "Eu não sei o que você tá pensando, mas…"
+
+# game/script/classroom_night.rpy:591
+translate portuguese classroom_A_1b_61451e96:
+
+    # mi "Eu não tô mesmo com raiva de você."
+    mi "Eu não tô mesmo com raiva de você."
+
+# game/script/classroom_night.rpy:594
+translate portuguese classroom_A_1b_4b432fc3:
+
+    # mc "Não consigo acreditar nisso."
+    mc "Não consigo acreditar nisso."
+
+# game/script/classroom_night.rpy:596
+translate portuguese classroom_A_1b_8f4a34d0:
+
+    # mi "É… {w}eu sei…"
+    mi "É… {w}eu sei…"
+
+# game/script/classroom_night.rpy:598
+translate portuguese classroom_A_1b_ac0cc2d7:
+
+    # "Ela olha pra baixo, com raiva ou não ela também se esforça pra transparecer que não está triste."
+    "Ela olha pra baixo, com raiva ou não ela também se esforça pra transparecer que não está triste."
+
+# game/script/classroom_night.rpy:600
+translate portuguese classroom_A_1b_85001ae6:
+
+    # "Não digo que ela ficou ofendida, mas se continuar assim só vai acabar cansando a si mesma."
+    "Não digo que ela ficou ofendida, mas se continuar assim só vai acabar cansando a si mesma."
+
+# game/script/classroom_night.rpy:602
+translate portuguese classroom_A_1b_d46cfc96:
+
+    # mi "Você sempre fica desse jeito quando acha que alguém tá escondendo alguma coisa."
+    mi "Você sempre fica desse jeito quando acha que alguém tá escondendo alguma coisa."
+
+# game/script/classroom_night.rpy:604
+translate portuguese classroom_A_1b_8ee12ce3:
+
+    # mc "Porque geralmente tá."
+    mc "Porque geralmente tá."
+
+# game/script/classroom_night.rpy:606
+translate portuguese classroom_A_1b_0e291360:
+
+    # "Seco demais? Não, não acho, eu ainda quero que ela ouça tudo isso."
+    "Seco demais? Não, não acho, eu ainda quero que ela ouça tudo isso."
+
+# game/script/classroom_night.rpy:608
+translate portuguese classroom_A_1b_48905d59:
+
+    # "Só que, se eu continuar respondendo assim, não vamos parar em lugar nenhum."
+    "Só que, se eu continuar respondendo assim, não vamos parar em lugar nenhum."
+
+# game/script/classroom_night.rpy:610
+translate portuguese classroom_A_1b_9976e294:
+
+    # "Por um momento ela até parece desistir de querer continuar conversando, mas…"
+    "Por um momento ela até parece desistir de querer continuar conversando, mas…"
+
+# game/script/classroom_night.rpy:612
+translate portuguese classroom_A_1b_7f74d6ce:
+
+    # mi "Por que você ainda tá tão longe?"
+    mi "Por que você ainda tá tão longe?"
+
+# game/script/classroom_night.rpy:614
+translate portuguese classroom_A_1b_c9c2e75b:
+
+    # "Isso me pegou de surpresa, até agora foi a frase mais Miya que ela já disse."
+    "Isso me pegou de surpresa, até agora foi a frase mais Miya que ela já disse."
+
+# game/script/classroom_night.rpy:616
+translate portuguese classroom_A_1b_f7c6e00c:
+
+    # mi "Fica difícil acreditar em qualquer coisa minha daí."
+    mi "Fica difícil acreditar em qualquer coisa minha daí."
+
+# game/script/classroom_night.rpy:618
+translate portuguese classroom_A_1b_40f6de07:
+
+    # "O tom é tranquilizador, até demais pro meu gosto."
+    "O tom é tranquilizador, até demais pro meu gosto."
+
+# game/script/classroom_night.rpy:620
+translate portuguese classroom_A_1b_6a192f7a:
+
+    # "Meus olhos descem até ela por reflexo, quase cedendo àquela súplica."
+    "Meus olhos descem até ela por reflexo, quase cedendo àquela súplica."
+
+# game/script/classroom_night.rpy:622
+translate portuguese classroom_A_1b_142f8e6a:
+
+    # "A distância entre nós dois não é nem tão grande assim, mas o pior é admitir que ela tem razão."
+    "A distância entre nós dois não é nem tão grande assim, mas o pior é admitir que ela tem razão."
+
+# game/script/classroom_night.rpy:624
+translate portuguese classroom_A_1b_d28b66f8:
+
+    # "Desde o momento em que chamei o nome dela, eu não saí da porta."
+    "Desde o momento em que chamei o nome dela, eu não saí da porta."
+
+# game/script/classroom_night.rpy:626
+translate portuguese classroom_A_1b_86928a3f:
+
+    # "Me mantive encostado aqui por sabe-se lá quantos minutos."
+    "Me mantive encostado aqui por sabe-se lá quantos minutos."
+
+# game/script/classroom_night.rpy:628
+translate portuguese classroom_A_1b_bc4b2506:
+
+    # "Então, se a distância é tão curta, por que eu ainda não me aproximei?"
+    "Então, se a distância é tão curta, por que eu ainda não me aproximei?"
+
+# game/script/classroom_night.rpy:630
+translate portuguese classroom_A_1b_7f42f789:
+
+    # "É chegando nessa conclusão que ela me pega com a guarda baixa."
+    "É chegando nessa conclusão que ela me pega com a guarda baixa."
+
+# game/script/classroom_night.rpy:632
+translate portuguese classroom_A_1b_16a90227:
+
+    # mc "Eu acredito em você…"
+    mc "Eu acredito em você…"
+
+# game/script/classroom_night.rpy:634
+translate portuguese classroom_A_1b_420bcf9e:
+
+    # "Mas a minha voz e minha expressão dizem o contrário."
+    "Mas a minha voz e minha expressão dizem o contrário."
+
+# game/script/classroom_night.rpy:636
+translate portuguese classroom_A_1b_598d4a23:
+
+    # mi "Se você diz…"
+    mi "Se você diz…"
+
+# game/script/classroom_night.rpy:638
+translate portuguese classroom_A_1b_39f47fba:
+
+    # "Ela tenta sustentar o sorriso por mais alguns segundos…"
+    "Ela tenta sustentar o sorriso por mais alguns segundos…"
+
+# game/script/classroom_night.rpy:640
+translate portuguese classroom_A_1b_782c7f14:
+
+    # "Com ênfase no tenta."
+    "Com ênfase no tenta."
+
+# game/script/classroom_night.rpy:642
+translate portuguese classroom_A_1b_631c7479:
+
+    # "Nós dois sabemos que isso não adianta de nada."
+    "Nós dois sabemos que isso não adianta de nada."
+
+# game/script/classroom_night.rpy:644
+translate portuguese classroom_A_1b_938c56b6:
+
+    # "O sorriso vai acabando aos poucos, como se ela já tivesse cansada de ficar mantendo essa aparência."
+    "O sorriso vai acabando aos poucos, como se ela já tivesse cansada de ficar mantendo essa aparência."
+
+# game/script/classroom_night.rpy:646
+translate portuguese classroom_A_1b_06dbea23:
+
+    # "Os dedos dela apertam levemente a barra da saia. É algo tão banal e imperceptível…"
+    "Os dedos dela apertam levemente a barra da saia. É algo tão banal e imperceptível…"
+
+# game/script/classroom_night.rpy:648
+translate portuguese classroom_A_1b_6c3db734:
+
+    # "Mas pra mim basta."
+    "Mas pra mim basta."
+
+# game/script/classroom_night.rpy:650
+translate portuguese classroom_A_1b_b8e3a258:
+
+    # mi "Você sempre fala desse jeito quando se sente muito seguro das coisas."
+    mi "Você sempre fala desse jeito quando se sente muito seguro das coisas."
+
+# game/script/classroom_night.rpy:652
+translate portuguese classroom_A_1b_2bcff73e:
+
+    # mi "Como se estivesse com medo de dizer alguma coisa que possa parecer errada."
+    mi "Como se estivesse com medo de dizer alguma coisa que possa parecer errada."
+
+# game/script/classroom_night.rpy:654
+translate portuguese classroom_A_1b_17170e2a:
+
+    # "Eu não respondo."
+    "Eu não respondo."
+
+# game/script/classroom_night.rpy:656
+translate portuguese classroom_A_1b_19b40103:
+
+    # "Porque se eu abrir a boca agora vou pisar em falso, e dizer exatamente o que ela quer ouvir."
+    "Porque se eu abrir a boca agora vou pisar em falso, e dizer exatamente o que ela quer ouvir."
+
+# game/script/classroom_night.rpy:658
+translate portuguese classroom_A_1b_1132d2b5:
+
+    # "Esse tempo todo ela não desvia seu olhar nenhuma vez dos meus olhos."
+    "Esse tempo todo ela não desvia seu olhar nenhuma vez dos meus olhos."
+
+# game/script/classroom_night.rpy:660
+translate portuguese classroom_A_1b_0d085080:
+
+    # mi "Ren…"
+    mi "Ren…"
+
+# game/script/classroom_night.rpy:666
+translate portuguese classroom_A_1b_d78a7946:
+
+    # "Ela se levanta, pega uma cadeira próxima e a põe em frente à sua."
+    "Ela se levanta, pega uma cadeira próxima e a põe em frente à sua."
+
+# game/script/classroom_night.rpy:668
+translate portuguese classroom_A_1b_fc7fd695:
+
+    # "Assim que se senta novamente, ela dá dois tapinhas no outro assento."
+    "Assim que se senta novamente, ela dá dois tapinhas no outro assento."
+
+# game/script/classroom_night.rpy:670
+translate portuguese classroom_A_1b_8692e603:
+
+    # "Não tem mesmo outro jeito."
+    "Não tem mesmo outro jeito."
+
+# game/script/classroom_night.rpy:672
+translate portuguese classroom_A_1b_2b79ed83:
+
+    # "Eu me aproximo devagar, como se cada passo fosse um esforço enorme."
+    "Eu me aproximo devagar, como se cada passo fosse um esforço enorme."
+
+# game/script/classroom_night.rpy:676
+translate portuguese classroom_A_1b_8fbd4c33:
+
+    # "Quando eu finalmente me sento na própria cadeira que ela havia escolhido, fico cara-a-cara com o seu rosto."
+    "Quando eu finalmente me sento na própria cadeira que ela havia escolhido, fico cara-a-cara com o seu rosto."
+
+# game/script/classroom_night.rpy:831
+translate portuguese classroom_A_c5033904:
+
+    # "É sério? Tudo isso pra me chamar de idiota?"
+    "É sério? Tudo isso pra me chamar de idiota?"
+
+# game/script/classroom_night.rpy:833
+translate portuguese classroom_A_75c737fa:
+
+    # mi "Não faz essa cara."
+    mi "Não faz essa cara."
+
+# game/script/classroom_night.rpy:835
+translate portuguese classroom_A_135600a1:
+
+    # mi "Você sabe muito bem do que eu tô falando."
+    mi "Você sabe muito bem do que eu tô falando."
+
+# game/script/classroom_night.rpy:837
+translate portuguese classroom_A_85c79039:
+
+    # "Eu queria saber. Pelo menos dessa vez queria, mas não faço ideia."
+    "Eu queria saber. Pelo menos dessa vez queria, mas não faço ideia."
+
+# game/script/classroom_night.rpy:839
+translate portuguese classroom_A_c42d4849:
+
+    # "São tantas coisas que aconteceram comigo… não, não aconteceu merda nenhuma ao mesmo tempo que também aconteceu."
+    "São tantas coisas que aconteceram comigo… não, não aconteceu merda nenhuma ao mesmo tempo que também aconteceu."
+
+# game/script/classroom_night.rpy:841
+translate portuguese classroom_A_138f4d2a:
+
+    # "O que eu venho fazendo é seguindo uma receita atrás da outra e pra cada tentativa o meu prato continua sem gosto."
+    "O que eu venho fazendo é seguindo uma receita atrás da outra e pra cada tentativa o meu prato continua sem gosto."
+
+# game/script/classroom_night.rpy:843
+translate portuguese classroom_A_d5db3a2b:
+
+    # "E o pior de tudo é quando você se sente satisfeito com esse resultado e tem a mínima vontade de sequer mudar algo."
+    "E o pior de tudo é quando você se sente satisfeito com esse resultado e tem a mínima vontade de sequer mudar algo."
+
+# game/script/classroom_night.rpy:845
+translate portuguese classroom_A_362da3d3:
+
+    # mi "Você sempre fala como se já tivesse aceitado tudo."
+    mi "Você sempre fala como se já tivesse aceitado tudo."
+
+# game/script/classroom_night.rpy:847
+translate portuguese classroom_A_7f4dc284:
+
+    # mi "Como se já tivesse entendido o mundo todo."
+    mi "Como se já tivesse entendido o mundo todo."
+
+# game/script/classroom_night.rpy:849
+translate portuguese classroom_A_dca5c6c3:
+
+    # mi "Como se já tivesse…"
+    mi "Como se já tivesse…"
+
+# game/script/classroom_night.rpy:851
+translate portuguese classroom_A_824fd7d3:
+
+    # mi "…"
+    mi "…"
+
+# game/script/classroom_night.rpy:853
+translate portuguese classroom_A_4dfc1f25:
+
+    # mi "Tanto faz, o que eu quero dizer é que eu odeio quando você faz isso."
+    mi "Tanto faz, o que eu quero dizer é que eu odeio quando você faz isso."
+
+# game/script/classroom_night.rpy:855
+translate portuguese classroom_A_ce617998:
+
+    # "…"
+    "…"
+
+# game/script/classroom_night.rpy:857
+translate portuguese classroom_A_4cb7de33:
+
+    # mc "Você não entende."
+    mc "Você não entende."
+
+# game/script/classroom_night.rpy:859
+translate portuguese classroom_A_61fca207:
+
+    # mi "E como você espera que eu entenda se você não me diz nada?"
+    mi "E como você espera que eu entenda se você não me diz nada?"
+
+# game/script/classroom_night.rpy:861
+translate portuguese classroom_A_34a5a390:
+
+    # mi "Se eu tivesse pelo menos alguma resposta, não precisaria tocar a campainha da sua casa várias vezes e não obter nada…"
+    mi "Se eu tivesse pelo menos alguma resposta, não precisaria tocar a campainha da sua casa várias vezes e não obter nada…"
+
+# game/script/classroom_night.rpy:863
+translate portuguese classroom_A_cc1e16a0:
+
+    # mi "Não precisaria mandar tantas mensagens e gradualmente for ignorada…"
+    mi "Não precisaria mandar tantas mensagens e gradualmente for ignorada…"
+
+# game/script/classroom_night.rpy:865
+translate portuguese classroom_A_effc51fd:
+
+    # mi "Não precisaria fingir que nós não somos…"
+    mi "Não precisaria fingir que nós não somos…"
+
+# game/script/classroom_night.rpy:867
+translate portuguese classroom_A_70b687da:
+
+    # "Ela corta sua última frase ao meio."
+    "Ela corta sua última frase ao meio."
+
+# game/script/classroom_night.rpy:869
+translate portuguese classroom_A_57798843:
+
+    # "Cacete. Essa sim é a Miya que eu esperava encontrar aqui."
+    "Cacete. Essa sim é a Miya que eu esperava encontrar aqui."
+
+# game/script/classroom_night.rpy:871
+translate portuguese classroom_A_8e7f815e:
+
+    # "Por isso que eu estava tão relutante em pisar nessa sala."
+    "Por isso que eu estava tão relutante em pisar nessa sala."
+
+# game/script/classroom_night.rpy:873
+translate portuguese classroom_A_0ce05b1a:
+
+    # "Eu não queria ouvir essas perguntas. Não queria ouvir essas queixas."
+    "Eu não queria ouvir essas perguntas. Não queria ouvir essas queixas."
+
+# game/script/classroom_night.rpy:875
+translate portuguese classroom_A_f4738f10:
+
+    # "E eu já sabia que cada uma delas seria questionada, mesmo não sabendo exatamente qual ou como."
+    "E eu já sabia que cada uma delas seria questionada, mesmo não sabendo exatamente qual ou como."
+
+# game/script/classroom_night.rpy:877
+translate portuguese classroom_A_068b1202:
+
+    # "Ela inspira profundamente e então expira como se controlasse parcialmente suas emoções."
+    "Ela inspira profundamente e então expira como se controlasse parcialmente suas emoções."
+
+# game/script/classroom_night.rpy:879
+translate portuguese classroom_A_9e90bc77:
+
+    # "Os seus dedos continuam apertando um pouco o encosto da sua cadeira."
+    "Os seus dedos continuam apertando um pouco o encosto da sua cadeira."
+
+# game/script/classroom_night.rpy:881
+translate portuguese classroom_A_00fa1141:
+
+    # mc "Olha, se fosse tão simples assim…"
+    mc "Olha, se fosse tão simples assim…"
+
+# game/script/classroom_night.rpy:883
+translate portuguese classroom_A_a1d24316:
+
+    # mi "Eu sei que não é."
+    mi "Eu sei que não é."
+
+# game/script/classroom_night.rpy:885
+translate portuguese classroom_A_a3404caf:
+
+    # mi "É exatamente esse o problema."
+    mi "É exatamente esse o problema."
+
+# game/script/classroom_night.rpy:887
+translate portuguese classroom_A_cb12c612:
+
+    # mi "Você sabe que não é simples, mas você também não busca transformar algo maior em vários menores."
+    mi "Você sabe que não é simples, mas você também não busca transformar algo maior em vários menores."
+
+# game/script/classroom_night.rpy:890
+translate portuguese classroom_A_ece63c8d:
+
+    # mc "…"
+    mc "…"
+
+# game/script/classroom_night.rpy:892
+translate portuguese classroom_A_5292550c:
+
+    # mc "E o que você queria que eu fizesse?"
+    mc "E o que você queria que eu fizesse?"
+
+# game/script/classroom_night.rpy:894
+translate portuguese classroom_A_c7ed8983:
+
+    # mc "Que eu chegasse aqui surtando?"
+    mc "Que eu chegasse aqui surtando?"
+
+# game/script/classroom_night.rpy:896
+translate portuguese classroom_A_7c9247bb:
+
+    # mc "Que eu fingisse que tenho uma resposta bonita pra tudo?"
+    mc "Que eu fingisse que tenho uma resposta bonita pra tudo?"
+
+# game/script/classroom_night.rpy:898
+translate portuguese classroom_A_1e9b31fd:
+
+    # mi "Não."
+    mi "Não."
+
+# game/script/classroom_night.rpy:900
+translate portuguese classroom_A_51e76492:
+
+    # mi "Eu queria que você parasse de agir como se não se importasse."
+    mi "Eu queria que você parasse de agir como se não se importasse."
+
+# game/script/classroom_night.rpy:902
+translate portuguese classroom_A_a02c5c48:
+
+    # "A resposta vem rápida e afiada."
+    "A resposta vem rápida e afiada."
+
+# game/script/classroom_night.rpy:904
+translate portuguese classroom_A_932a0591:
+
+    # "Que saco."
+    "Que saco."
+
+# game/script/classroom_night.rpy:906
+translate portuguese classroom_A_264a3ad8:
+
+    # mi "Isso me irrita, e irrita muito."
+    mi "Isso me irrita, e irrita muito."
+
+# game/script/classroom_night.rpy:908
+translate portuguese classroom_A_6aac7d5f:
+
+    # mi "E eu conheço você bem demais pra acreditar nessa fachada."
+    mi "E eu conheço você bem demais pra acreditar nessa fachada."
+
+# game/script/classroom_night.rpy:910
+translate portuguese classroom_A_748a63bc:
+
+    # "Se eu questionar seria ruim, e apontar as incongruências pior ainda."
+    "Se eu questionar seria ruim, e apontar as incongruências pior ainda."
+
+# game/script/classroom_night.rpy:912
+translate portuguese classroom_A_6be69746:
+
+    # mc "Eu tô tentando colocar em palavras."
+    mc "Eu tô tentando colocar em palavras."
+
+# game/script/classroom_night.rpy:914
+translate portuguese classroom_A_ea886e84:
+
+    # mc "Mesmo que não estejam certas, ou que não fossem completas…"
+    mc "Mesmo que não estejam certas, ou que não fossem completas…"
+
+# game/script/classroom_night.rpy:916
+translate portuguese classroom_A_9d15c6ee:
+
+    # mi "Então coloca errado."
+    mi "Então coloca errado."
+
+# game/script/classroom_night.rpy:918
+translate portuguese classroom_A_50c10d57:
+
+    # mi "Se não são as palavras certas, pode dizer as ruins."
+    mi "Se não são as palavras certas, pode dizer as ruins."
+
+# game/script/classroom_night.rpy:920
+translate portuguese classroom_A_3cb7b6b6:
+
+    # "Meu peito aperta."
+    "Meu peito aperta."
+
+# game/script/classroom_night.rpy:922
+translate portuguese classroom_A_a294118b:
+
+    # "Ela fala como se me desse permissão pra jogar tudo de ponta cabeça."
+    "Ela fala como se me desse permissão pra jogar tudo de ponta cabeça."
+
+# game/script/classroom_night.rpy:924
+translate portuguese classroom_A_596033f5:
+
+    # "Como se preferisse ouvir minha pior versão sincera do que qualquer frase bonita pela metade."
+    "Como se preferisse ouvir minha pior versão sincera do que qualquer frase bonita pela metade."
+
+# game/script/classroom_night.rpy:926
+translate portuguese classroom_A_5c524540:
+
+    # mi "Eu não preciso que você fale direito comigo."
+    mi "Eu não preciso que você fale direito comigo."
+
+# game/script/classroom_night.rpy:928
+translate portuguese classroom_A_b67d7bc0:
+
+    # mi "Eu preciso que você pare de esconder as coisas de mim."
+    mi "Eu preciso que você pare de esconder as coisas de mim."
+
+# game/script/classroom_night.rpy:930
+translate portuguese classroom_A_607e55c3:
+
+    # mc "Eu só não sei, não faço ideia como falar disso."
+    mc "Eu só não sei, não faço ideia como falar disso."
+
+# game/script/classroom_night.rpy:932
+translate portuguese classroom_A_2febbf41:
+
+    # mi "Então fala sem saber."
+    mi "Então fala sem saber."
+
+# game/script/classroom_night.rpy:934
+translate portuguese classroom_A_40f310fd:
+
+    # mi "Você acha mesmo que eu te chamei aqui porque tava esperando uma versão ensaiada sua?"
+    mi "Você acha mesmo que eu te chamei aqui porque tava esperando uma versão ensaiada sua?"
+
+# game/script/classroom_night.rpy:936
+translate portuguese classroom_A_7106e74e:
+
+    # "Eu tenho manter meu olhar reto mas não consigo, não tem ironia o suficiente nessa pergunta pra eu me proteger dela de alguma forma."
+    "Eu tenho manter meu olhar reto mas não consigo, não tem ironia o suficiente nessa pergunta pra eu me proteger dela de alguma forma."
+
+# game/script/classroom_night.rpy:938
+translate portuguese classroom_A_5f0825ff:
+
+    # mi "Eu não me importo se você tá confuso."
+    mi "Eu não me importo se você tá confuso."
+
+# game/script/classroom_night.rpy:940
+translate portuguese classroom_A_23f4aea7:
+
+    # mi "Eu me importo quando você age como se essa confusão te desse todas as desculpas do mundo."
+    mi "Eu me importo quando você age como se essa confusão te desse todas as desculpas do mundo."
+
+# game/script/classroom_night.rpy:942
+translate portuguese classroom_A_ece63c8d_1:
+
+    # mc "…"
+    mc "…"
+
+# game/script/classroom_night.rpy:944
+translate portuguese classroom_A_824fd7d3_1:
+
+    # mi "…"
+    mi "…"
+
+# game/script/classroom_night.rpy:946
+translate portuguese classroom_A_e20e359f:
+
+    # "O silêncio volta a cair entre nós."
+    "O silêncio volta a cair entre nós."
+
+# game/script/classroom_night.rpy:948
+translate portuguese classroom_A_e793f2ec:
+
+    # "Mas é um maldito silêncio pesado."
+    "Mas é um maldito silêncio pesado."
+
+# game/script/classroom_night.rpy:950
+translate portuguese classroom_A_5bc5bc4e:
+
+    # mc "Você sabe que a pior parte de eu não saber o que vai ser de mim quando a escola acabar…"
+    mc "Você sabe que a pior parte de eu não saber o que vai ser de mim quando a escola acabar…"
+
+# game/script/classroom_night.rpy:952
+translate portuguese classroom_A_8b6dcebe:
+
+    # mc "É que isso não me assusta do jeito que deveria."
+    mc "É que isso não me assusta do jeito que deveria."
+
+# game/script/classroom_night.rpy:954
+translate portuguese classroom_A_da214be2:
+
+    # mi "Isso te assusta."
+    mi "Isso te assusta."
+
+# game/script/classroom_night.rpy:956
+translate portuguese classroom_A_5a6453f5:
+
+    # mi "Você só tá acostumado demais a engolir as coisas do jeito que ela são."
+    mi "Você só tá acostumado demais a engolir as coisas do jeito que ela são."
+
+# game/script/classroom_night.rpy:958
+translate portuguese classroom_A_8cbd0edf:
+
+    # "Porra!"
+    "Porra!"
+
+# game/script/classroom_night.rpy:960
+translate portuguese classroom_A_b238ad05:
+
+    # "Porque ela diz isso como se estivesse lendo alguma coisa escrita na minha cara há meses?"
+    "Porque ela diz isso como se estivesse lendo alguma coisa escrita na minha cara há meses?"
+
+# game/script/classroom_night.rpy:962
+translate portuguese classroom_A_8207f4cf:
+
+    # mc "Tá e se for verdade? Por acaso muda alguma coisa?"
+    mc "Tá e se for verdade? Por acaso muda alguma coisa?"
+
+# game/script/classroom_night.rpy:964
+translate portuguese classroom_A_7c1d729a:
+
+    # mi "Muda pra mim."
+    mi "Muda pra mim."
+
+# game/script/classroom_night.rpy:966
+translate portuguese classroom_A_5bf9c4b2:
+
+    # "Meu olhar sobe na mesma hora até o dela."
+    "Meu olhar sobe na mesma hora até o dela."
+
+# game/script/classroom_night.rpy:968
+translate portuguese classroom_A_693055b7:
+
+    # mi "Porque eu tô te ouvindo você falar de si mesmo como se fosse alguém que não tem importância."
+    mi "Porque eu tô te ouvindo você falar de si mesmo como se fosse alguém que não tem importância."
+
+# game/script/classroom_night.rpy:970
+translate portuguese classroom_A_66babfca:
+
+    # mi "E eu não vou aceitar isso sentada aqui na sua frente."
+    mi "E eu não vou aceitar isso sentada aqui na sua frente."
+

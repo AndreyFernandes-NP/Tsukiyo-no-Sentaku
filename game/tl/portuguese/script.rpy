@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-07-04 00:45
+﻿# TODO: Translation updated at 2026-08-12 23:05
 
 # game/script.rpy:37
 translate portuguese strings:
@@ -48,24 +48,24 @@ translate portuguese strings:
     new "Em breve, tudo acabaria. Eu entraria para faculdade e deixaria de ver todos os meus colegas."
 
     # game/script.rpy:77
-    old "Even if that sounded sad, I didn't feel much of anything. It bothered me, but somehow, it didn't seem to matter either."
-    new "Apesar de parecer triste, eu não sentia nada. Isso me incomodava, mas, ao mesmo tempo, não importava tanto."
+    old "Even if that sounded sad, I didn't feel much of anything. It bothered me, but it didn't seem to matter either."
+    new "Mesmo que pareça triste, eu não sentia nada. Isso me incomodava, mas ao mesmo tempo, não importava tanto."
 
     # game/script.rpy:79
     old "That afternoon, she'd sent me a message, telling me to come by the school later that night."
     new "Naquela tarde, ela tinha mandado uma mensagem dizendo para eu vir pra escola à noite."
 
     # game/script.rpy:81
-    old "We'd been talking less and less lately, so it caught me off guard."
+    old "We'd been talking less and less lately, that it caught me off guard."
     new "Estávamos conversando cada vez menos, que fui pego de surpresa."
 
     # game/script.rpy:103
-    old "I thought it was the sort of thing she did sometimes, just to see how far I'd go to play along."
+    old "I thought it was the sort of thing she did sometimes, goofing around to see how far I'd play along."
     new "Pensei que fosse o tipo de coisa que ela fazia de vez em quando, só para ver até onde eu iria levar a sério."
 
     # game/script.rpy:98
-    old "I didn't really believe it meant anything at all. Maybe that's exactly why I decided to go on."
-    new "Eu não acreditei muito que fosse importante no começo. Talvez por isso mesmo eu tenha ido."
+    old "I didn't really believe it meant anything at all, but maybe that's exactly why I decided to go on."
+    new "Eu não acreditei muito que fosse importante no começo, mas talvez seja por isso que eu tenha ido."
 
     # game/script.rpy:87
     old "There was no one else left at school. It was already close to eleven when I climbed over the wall and walked into the main hall."
@@ -80,20 +80,20 @@ translate portuguese strings:
     new "Era como qualquer outra, de qualquer sala de aula. Mas, era a porta da nossa sala."
 
     # game/script.rpy:93
-    old "I didn't have any expectations, no certainty that anyone would be waiting."
+    old "I didn't have any expectations, no certainty that anyone would ever be waiting there."
     new "Eu não tinha nenhuma expectativa, nenhuma certeza de que haveria alguém ali."
 
     # game/script.rpy:95
-    old "For a moment, I even thought turning back. Pretending I'd fallen for her last end-of-year prank and that it had been a good one."
-    new "Por um instante, até considerei em voltar. Dizer que caí na sua última piada de fim de ano e que tinha sido um bom trote."
+    old "For a moment I even thought of turning back, pretending I'd fallen for her last end-of-year prank and that it had been a good one."
+    new "Por um instante até pensei em voltar, dizer que caí na sua última piada de fim de ano e que tinha sido um bom trote."
 
     # game/script.rpy:97
-    old "But part of me wanted to believe it was something more, that there was some reason I was standing there."
-    new "Mas, por outro lado, eu queria acreditar que fosse algo a mais. Que havia um motivo para eu estar ali."
+    old "But some part of me wanted to believe it meant something, that there was a reason I was standing there."
+    new "Mas, por outro lado, parte de mim queria acreditar que fosse algo a mais, que havia um motivo pra eu estar ali."
 
     # game/script.rpy:99
-    old "Maybe, I just needed to prove to myself that nothing had changed between us. Or that there was still something left to say."
-    new "Talvez eu quisesse confirmar que nada tinha mudado entre nós. Ou que ainda havia alguma coisa a dizer."
+    old "Maybe, I just wanted to prove to myself that nothing had changed between us, or that there was still nothing left to say."
+    new "Talvez eu quisesse confirmar que nada tinha mudado entre nós, ou que não havia mais nada a dizer."
 
     # game/script.rpy:101
     old "At that time, everything seemed a little less real. Like I had the feeling that any answer wouldn't really matter."
@@ -102,4 +102,4 @@ translate portuguese strings:
     # game/script.rpy:103
     old "In the end, all I knew I could do was open the door."
     new "No fim, eu sabia que só restava abrir a porta."
-    
+

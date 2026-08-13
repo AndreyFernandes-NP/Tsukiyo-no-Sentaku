@@ -6,9 +6,6 @@
 define mi = Character("Miya", color="#b4a344")
 define mc = Character("Ren", color="#546bab")
 
-init python:
-    ambience_sfx_cycle = SfxCycler(items=corridor_ambience_sfx, interval=(20.0, 50.0), channel="ambfx", fadein=0.05, fadeout=0.05, auto_rotation_mode="all")
-
 label splashscreen:
     $ start_llm_warmup()
 
@@ -116,15 +113,15 @@ label future_prologue:
     pause
     show text _("Soon, it would all be over. I'd start college and stop seeing all the people I'd known for years.") with fade
     pause
-    show text _("Even if that sounded sad, I didn't feel much of anything. It bothered me, but somehow, it didn't seem to matter either.") with fade
+    show text _("Even if that sounded sad, I didn't feel much of anything. It bothered me, but it didn't seem to matter either.") with fade
     pause
     show text _("That afternoon, she'd sent me a message, telling me to come by the school later that night.") with fade
     pause
-    show text _("We'd been talking less and less lately, so it caught me off guard.") with fade
+    show text _("We'd been talking less and less lately, that it caught me off guard.") with fade
     pause
-    show text _("I thought it was the sort of thing she did sometimes, just to see how far I'd go to play along.") with fade
+    show text _("I thought it was the sort of thing she did sometimes, goofing around to see how far I'd play along.") with fade
     pause
-    show text _("I didn't really believe it meant anything at all. Maybe that's exactly why I decided to go on.") with fade
+    show text _("I didn't really believe it meant anything at all, but maybe that's exactly why I decided to go on.") with fade
     pause
     show text _("There was no one else left at school. It was already close to eleven when I climbed over the wall and walked into the main hall.") with fade
     pause
@@ -132,13 +129,13 @@ label future_prologue:
     pause
     show text _("Just an ordinary door, like any other classroom. But it was the door to our room.") with fade
     pause
-    show text _("I didn't have any expectations, no certainty that anyone would be waiting.") with fade
+    show text _("I didn't have any expectations, no certainty that anyone would ever be waiting there.") with fade
     pause
-    show text _("For a moment, I even thought turning back. Pretending I'd fallen for her last end-of-year prank and that it had been a good one.") with fade
+    show text _("For a moment I even thought of turning back, pretending I'd fallen for her last end-of-year prank and that it had been a good one.") with fade
     pause
-    show text _("But part of me wanted to believe it was something more, that there was some reason I was standing there.") with fade
+    show text _("But some part of me wanted to believe it meant something, that there was a reason I was standing there.") with fade
     pause
-    show text _("Maybe, I just needed to prove to myself that nothing had changed between us. Or that there was still something left to say.") with fade
+    show text _("Maybe, I just wanted to prove to myself that nothing had changed between us, or that there was still nothing left to say.") with fade
     pause
     show text _("At that time, everything seemed a little less real. Like I had the feeling that any answer wouldn't really matter.") with fade
     pause

@@ -220,7 +220,7 @@ screen choice(items, **kwargs):
     $ options.update(kwargs)
 
     on "show" action [If(options["duck"], Function(_menu_duck, start=True, duck_to=0.3, duck_delay=0.5)), Hide("say"), Hide("input")]
-    on "hide" action If(options["duck"], Function(_menu_duck, start=False))
+    on "hide" action If(options["duck"], Function(_menu_duck, start=False, duck_delay=0.5))
 
     default _dialogue_ready = False
     default _screen_start = renpy.get_game_runtime()
