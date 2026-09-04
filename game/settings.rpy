@@ -2,9 +2,10 @@ default persistent.choosen_language = False
 default persistent.endings_unlocked = []
 default current_llm_job = None
 default seen_labels = set()
+default routes_number = []
 
 init -2 python:
-    from collections import deque
+    from collections import deque, Counter
 
     renpy.music.register_channel("ambience", "sfx", loop=True, tight=True)
     renpy.music.register_channel("ambfx", "sfx", loop=False, tight=True, buffer_queue=True)
@@ -61,6 +62,16 @@ init -2 python:
             return False
         renpy.image((tag,bgname), bg_image)
     
+    def ld_cg(cgname, cgfolder=""):
+        cg_path = f"cgs/{cgfolder}/" if cgfolder else "cgs/"
+        cg_image = f"{cg_path}{cgname}.png"
+        tag = "cg"
+
+        if not renpy.loadable(cg_image):
+            renpy.log(f"Couldn't load {tag} '{cgname}' from path '{cg_image}'")
+            return False
+        renpy.image((tag,cgname), cg_image)
+
     def ld_img(imgname):
         img_file = f"images/{imgname}.png"
 
@@ -102,6 +113,10 @@ init -2 python:
     ld_bg("school_corridor")
     ld_bg("school_classroom")
     ld_bg("school_classroom_shiny")
+
+    # CG Files
+    ld_cg("miya_classroom_moonlight")
+    ld_cg("miya_classroom_confused")
     
     # Images Files
     ld_img("team_logo")
@@ -128,19 +143,61 @@ init -2 python:
     ld_sfx("door-open", "door_open")
     ld_sfx("door-creak", "door_creak")
     ld_sfx("glitch-sfx", "glitch")
+    ld_sfx("ks-woosh", "cg_woosh")
 
     # Characters Sprites
+    miya_list = [
+        "basic_neutral",
+        "basic_impressed",
+        "basic_grin",
+        "basic_smug",
+        "basic_happy",
+        "basic_sad",
+        "basic_confused",
+        "basic_shy",
+        "basic_annoyed",
+        "basic_angry",
+        "worried_neutral",
+        "worried_shocked",
+        "worried_unsettled",
+        "worried_sad",
+        "worried_happy",
+        "worried_silent_happy",
+        "angry_neutral",
+        "angry_annoyed",
+        "angry_shout",
+        "angry_closed_shout",
+        "angry_sad",
+        "angry_smug",
+        "angry_mildly_smug",
+        "angry_furious",
+        "shy_neutral",
+        "shy_timid",
+        "shy_blush",
+        "shy_smug",
+        "shy_happy",
+        "shy_sad",
+        "shy_grin",
+        "shy_confused",
+        "shy_annoyed",
+        "shy_shocked",
+        "shy_really_shy"
+    ]
+
+    make_sprites("miya", miya_list)
 
     # Transitions
     menueffect = None
     charchange = dissolve
     scenechange = dissolve
     contextchange = fade
+    flash = Fade(0.1, 0.0, 0.5, color="#FFFFFF")
+    bigflash = Fade(0.2, 0.0, 0.7, color="#FFFFFF")
 
     # Vars
     from_splash = False
 
-    # Other functions
+    # Other functions       
     def qc_menu(state: str) -> None:
         quick_menu = getattr(store, "quick_menu")
 
@@ -156,6 +213,19 @@ init -2 python:
 
     def menu_init():
         renpy.music.play(music_relaxing, fadein=5.0, fadeout=0.5, if_changed=True)
+    
+    def count_number(n) -> int | None:
+        if not n:
+            return None
+        
+        counts = Counter(map(str, n))
+        repeated = [d for d, c in counts.items() if c >= 2]
+
+        if len(repeated) != 1:
+            return None
+
+        return int(repeated[0]) # Return the digit that's the most repeated as int
+
     
     def set_channel_volume(channel, vol, delay=0.3, ignore=False):
         renpy.music.set_volume(vol, delay=delay, channel=channel,)

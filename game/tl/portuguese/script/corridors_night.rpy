@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-12-06 15:24
+﻿# TODO: Translation updated at 2026-08-12 23:05
 
 # game/script/corridors_night.rpy:35
 translate portuguese corridors_A_ce617998:
@@ -31,9 +31,9 @@ translate portuguese corridors_A_cb1faaa1:
     "Ela é o suficiente pra me lembrar onde eu estou, e o que vim fazer aqui. Apesar de ser quase verão, a noite não tem nenhuma intenção de estar menos fria."
 
 # game/script/corridors_night.rpy:45
-translate portuguese corridors_A_bee0b998:
+translate portuguese corridors_A_0e4aa82c:
 
-    # "The rustling of the leaves, the trees creaking as they sway from side to side… all of it has been sending shivers down my spine."
+    # "The rustling of leaves, the trees creaking as they sway from side to side… all of it has been sending shivers down my spine."
     "O som do farfalhar das folhas, as árvores rangendo quando vão de um lado pro outro… tudo isso vem me dando arrepios."
 
 # game/script/corridors_night.rpy:47
@@ -205,10 +205,10 @@ translate portuguese corridors_A_ea16a3e9:
     "E eu sempre me senti mal por não conseguir retribuir isso da mesma forma."
 
 # game/script/corridors_night.rpy:105
-translate portuguese corridors_A_69190e33:
+translate portuguese corridors_A_422f7539:
 
-    # "I was never great at making friends, not because I wasn't sociable, but because I didn't really care. But with Miya… she was the only person I ever got close to."
-    "Eu nunca fui muito bom em fazer amigos, não que eu não fosse sociável, mas sim por um certo desinteresse. Porém, com a Miya, ela foi a única pessoa com quem eu pude me aproximar mais."
+    # "I wasn't exactly good at making friends, not because I wasn't sociable, I didn't really care at all. But with Miya… she was the only person I ever got close to."
+    "Eu nunca fui exatamente bom em fazer amigos, não que eu não fosse sociável, mas sim por um certo desinteresse. Porém com a Miya, ela foi a única pessoa com quem eu pude me aproximar mais."
 
 # game/script/corridors_night.rpy:107
 translate portuguese corridors_A_e4243171:
@@ -325,9 +325,9 @@ translate portuguese corridors_Aa_7e45c8c3:
     "Por mais que eu tente complicar as coisas agora, não tem como apagar o que eu senti naquela época."
 
 # game/script/corridors_night.rpy:163
-translate portuguese corridors_Aa_a5eebacc:
+translate portuguese corridors_Aa_86745fc2:
 
-    # "I remember all the times we laughed so hard it felt like we were going to die. All the stupid things we did, the random conversations, the afternoons that ended way too fast."
+    # "I remember all the times we laughed so hard it felt like we were going to die. All the stupid things we did, our notorious conversations, the afternoons that ended way too soon."
     "Eu lembro dos momentos que quase morremos de rir. De todas as coisas bobas que fazíamos, das conversas sem sentido, das tardes que passavam rápido demais."
 
 # game/script/corridors_night.rpy:165
@@ -355,9 +355,9 @@ translate portuguese corridors_Aa_62b75c12:
     "Não tinha cobrança. Não tinha medo. Só existia o momento."
 
 # game/script/corridors_night.rpy:173
-translate portuguese corridors_Aa_817760db:
+translate portuguese corridors_Aa_e7235205:
 
-    # "You don't need obligation to laugh like that."
+    # "You don't need any obligation to laugh like that."
     "Ninguém precisa de obrigação pra rir daquele jeito."
 
 # game/script/corridors_night.rpy:175
@@ -373,9 +373,9 @@ translate portuguese corridors_Aa_cbcf28eb:
     "E eu nunca admiti isso em voz alta."
 
 # game/script/corridors_night.rpy:179
-translate portuguese corridors_Aa_23aa8ce1:
+translate portuguese corridors_Aa_09aad55a:
 
-    # "Not even when we became teenagers, and things started to change."
+    # "Not even when we got to high school, and things started to change."
     "Nem mesmo quando nos tornamos adolescentes, e as coisas começaram a mudar."
 
 # game/script/corridors_night.rpy:181
@@ -409,16 +409,16 @@ translate portuguese corridors_Aa_b904b107:
     "E mesmo que eu tenha dúvidas sobre o que tudo isso significa, eu sei que eu me diverti muito."
 
 # game/script/corridors_night.rpy:191
-translate portuguese corridors_Aa_e2cf25f9:
+translate portuguese corridors_Aa_0df918de:
 
-    # "Still…"
-    "Mesmo assim…"
+    # "With that said, the one to blame for all of this is still me."
+    "Ainda assim, o culpado disso tudo continua sendo eu."
 
 # game/script/corridors_night.rpy:198
-translate portuguese corridors_Ab_e683876d:
+translate portuguese corridors_Ab_4d01a554:
 
-    # "It's not like I can blame her or her family for any of this. And honestly, I can't even blame myself."
-    "Não é como se eu pudesse culpá-la ou a sua família de qualquer coisa disso. Muito menos a mim mesmo."
+    # "It's not like I can blame her or her family for any of this. And I've gotten very good at not blaming myself."
+    "Não é como se eu pudesse culpá-la ou a sua família de qualquer coisa. E recentemente eu me tornei muito bom em não me culpar."
 
 # game/script/corridors_night.rpy:200
 translate portuguese corridors_Ab_1c4ec2c0:
@@ -475,10 +475,10 @@ translate portuguese corridors_Ab_c8ef2644:
     "Ou medo de descobrir que, sem essa amizade… eu não teria mais ninguém."
 
 # game/script/corridors_night.rpy:218
-translate portuguese corridors_Ab_2559faef:
+translate portuguese corridors_Ab_b4e1d819:
 
-    # "And even then, she never pressured me. Never threw her effort in my face. Never made me feel like I owed her anything."
-    "E ainda assim, ela nunca me cobrou. Nunca me jogou na cara o esforço que fez. Nunca me fez sentir que eu estava em dívida."
+    # "And even then, she never pressured me. Never threw her effort in my face, never made me feel like I owed her anything."
+    "E ainda assim, ela nunca me cobrou. Nunca me jogou na cara o esforço que fez, nunca me fez sentir que eu estava em dívida."
 
 # game/script/corridors_night.rpy:220
 translate portuguese corridors_Ab_73b6df77:
@@ -522,11 +522,11 @@ translate portuguese corridors_Ab_ea1f61ca:
     # "At least now I can see that clearly."
     "Pelo menos agora eu consigo ver isso claramente."
 
-# game/script/corridors_night.rpy:234
-translate portuguese corridors_Ab_f00c05fa:
+# game/script/corridors_night.rpy:241
+translate portuguese corridors_Ab_cda2f9a5:
 
-    # "After all…"
-    "Afinal…"
+    # "And I still didn't message her back, even though I knew she was waiting for me to do it."
+    "Pois apesar de tudo eu não respondi ela, mesmo sabendo que ela estava esperando que eu fizesse isso."
 
 # game/script/corridors_night.rpy:241
 translate portuguese corridors_Ac_47aa962a:
@@ -576,11 +576,29 @@ translate portuguese corridors_Ac_2d2b34de:
     # "Because in the end, she was the one who made me feel alive."
     "Porque no fim das contas, ela conseguia me fazer sentir vivo."
 
-# game/script/corridors_night.rpy:257
-translate portuguese corridors_Ac_862973fa:
+# game/script/corridors_night.rpy:262
+translate portuguese corridors_Ac_1fa04429:
 
-    # "Every time she grabbed my arm and said, 'Come on, Ren, trust me,' it felt like the world got a little lighter."
-    "Cada vez que ela puxava meu braço e dizia 'vamos, Ren, confia em mim', eu sentia como se o mundo ficasse mais leve."
+    # "Because in the end, she was the one who made me—"
+    "Porque no fim das contas, ela era a única que conseguia me—"
+
+# game/script/corridors_night.rpy:264
+translate portuguese corridors_Ac_3959c1ac:
+
+    # "...no. That's not the word."
+    "Não… essa não é a palavra certa."
+
+# game/script/corridors_night.rpy:266
+translate portuguese corridors_Ac_f82744dd:
+
+    # "She made me tired, that was almost all of it."
+    "Ela me cansava em grande parte, isso era quase tudo."
+
+# game/script/corridors_night.rpy:257
+translate portuguese corridors_Ac_a8c28eb2:
+
+    # "But, every time she grabbed my arm and said, 'Come on, Ren, trust me,' it felt like the world got a little lighter."
+    "Mas, toda vez que ela agarrava meu braço e dizia 'Vamos, Ren, confia em mim', eu sentia como se o mundo ficasse um pouco mais leve."
 
 # game/script/corridors_night.rpy:259
 translate portuguese corridors_Ac_655fdb7b:
@@ -601,10 +619,10 @@ translate portuguese corridors_Ac_aa0e2545:
     "Muito menos com alguém que consegue me enxergar."
 
 # game/script/corridors_night.rpy:265
-translate portuguese corridors_Ac_37428a57:
+translate portuguese corridors_Ac_b1732bfb:
 
-    # "So I said she was annoying. Because admitting the opposite would mean admitting she mattered."
-    "Então eu dizia que ela era irritante. Porque aceitar o contrário significaria admitir que ela importava."
+    # "I say she's annoying. Because admitting the opposite would mean admitting she mattered."
+    "Eu digo que ela é irritante porque aceitar o contrário significaria admitir que ela importava."
 
 # game/script/corridors_night.rpy:267
 translate portuguese corridors_Ac_cef3fe88:
@@ -643,16 +661,10 @@ translate portuguese corridors_Ac_ae638369:
     "E hoje tá sendo um dos piores dias pra sentir isso."
 
 # game/script/corridors_night.rpy:279
-translate portuguese corridors_Ac_7e0000bf:
+translate portuguese corridors_Ac_2d61254a:
 
-    # "In the end…"
-    "No fim…"
-
-# game/script/corridors_night.rpy:284
-translate portuguese corridors_B_dff7d087:
-
-    # "The one to blame for all of this is still me."
-    "O culpado disso tudo ainda sou eu."
+    # "Someone's to blame here, I'm just not convinced it's only me, but at the same time…"
+    "Alguém é o culpado aqui, só que eu não consigo me convencer de que seja só eu, mas ao mesmo tempo…"
 
 # game/script/corridors_night.rpy:286
 translate portuguese corridors_B_b522aeb7:
@@ -750,11 +762,29 @@ translate portuguese corridors_B_17360e80:
     # "You don't notice when it's already too late to try again."
     "Não percebe quando já é tarde demais pra querer tentar de novo."
 
-# game/script/corridors_night.rpy:319
-translate portuguese corridors_B_5ce9fb19:
+# game/script/corridors_night.rpy:328
+translate portuguese corridors_B_ce617998:
 
-    # "But it's these doubts, these uncertainties, that bother me so much."
-    "Mas são essas dúvidas e incertezas que me incomodam tanto."
+    # "…"
+    "…"
+
+# game/script/corridors_night.rpy:330
+translate portuguese corridors_B_13be62bd:
+
+    # "I don't even know which one it was. I could scroll up and find it right away, it'd only take ten seconds…"
+    "E eu nem sei qual deles foi. Eu poderia subir a tela e descobrir em segundos, só que…"
+
+# game/script/corridors_night.rpy:332
+translate portuguese corridors_B_211a713e:
+
+    # "But I'm not going to."
+    "Eu não vou."
+
+# game/script/corridors_night.rpy:319
+translate portuguese corridors_B_0cf7edf2:
+
+    # "It's these doubts, these uncertainties, that bother me so much."
+    "São essas dúvidas, essas incertezas, que me incomodam tanto."
 
 # game/script/corridors_night.rpy:321
 translate portuguese corridors_B_df48420c:
@@ -775,22 +805,28 @@ translate portuguese corridors_B_dfdc81e9:
     "Eu queria mesmo ter uma resposta pra essa pergunta, mas quanto mais eu penso, mais embaralhado as coisas ficam."
 
 # game/script/corridors_night.rpy:327
-translate portuguese corridors_B_a573b441:
+translate portuguese corridors_B_4527f3f1:
 
-    # "Even as childhood friends… I guess not even a friendship like that is immune to problems like these."
+    # "Even as childhood friends… I guess not even a friendship like that is immune to these problems."
     "Mesmo sendo amigos de infância, até parece que uma amizade assim não é imune a esses problemas."
 
 # game/script/corridors_night.rpy:329
-translate portuguese corridors_B_86b0c25d:
+translate portuguese corridors_B_930b0623:
 
-    # "We're two completely different people now."
-    "Somos duas pessoas completamente diferentes agora."
+    # "We're completely different people now."
+    "Somos completamente diferentes agora."
 
 # game/script/corridors_night.rpy:331
-translate portuguese corridors_B_e2a9402e:
+translate portuguese corridors_B_61c749ed:
 
-    # "Our social circles aren't the same, she's always surrounded by people, always going out whenever she gets the chance. And me? I barely talk to one or two people in my class."
-    "Nosso círculo social não é o mesmo, ela é rodeada de gente, sempre saindo na primeira oportunidade. Já eu, no máximo troco duas palavras com um ou dois da minha classe."
+    # "Our social circles aren't the same, she's always surrounded by people, always going out whenever she gets the chance."
+    "Nosso círculo social não é o mesmo, ela é rodeada de gente, sempre saindo na primeira oportunidade que tem."
+
+# game/script/corridors_night.rpy:348
+translate portuguese corridors_B_34d900c6:
+
+    # "And me? I talked to maybe two people in class this week."
+    "Já eu? Se eu conversei com duas pessoas na aula essa semana foi muito."
 
 # game/script/corridors_night.rpy:333
 translate portuguese corridors_B_ddbaf8ca:
@@ -834,17 +870,23 @@ translate portuguese corridors_B_ece63c8d:
     # mc "…"
     mc "…"
 
+# game/script/corridors_night.rpy:364
+translate portuguese corridors_B_a57e5221:
+
+    # "Somewhere down the hall I hear something creaking. Wood, metal, or a window, the sound of the wind is strong tonight, and it makes the whole school feel like it's alive."
+    "Em algum lugar no corredor eu escuto algo rangendo. Madeira, metal, ou até uma janela, o vento forte dessa noite faz com que a escola inteira pareça viva."
+
 # game/script/corridors_night.rpy:347
 translate portuguese corridors_B_44d4ce78:
 
     # "Is there anyone else in the world going through something like this right now?"
     "Será que tem mais alguém no mundo passando por algo assim?"
 
-# game/script/corridors_night.rpy:349
-translate portuguese corridors_B_0e0fdc81:
+    # game/script/corridors_night.rpy:349
+translate portuguese corridors_B_fb1d4fcc:
 
-    # "Or am I the only one tonight feeling this way?"
-    "Ou será que sou o único nessa noite que tá se sentindo desse jeito?"
+    # "Or am I the only one feeling this way?"
+    "Ou eu sou o único que tá se sentindo desse jeito?"
 
 # game/script/corridors_night.rpy:351
 translate portuguese corridors_B_2293b91e:
@@ -979,10 +1021,10 @@ translate portuguese corridors_Ba_7752db6e:
     "Se eu não tentar, eu nunca vou saber o que poderia ter acontecido. E eu não quero viver com esse arrependimento."
 
 # game/script/corridors_night.rpy:413
-translate portuguese corridors_Ba_6b2b5bfc:
+translate portuguese corridors_Ba_ec299583:
 
-    # "Even less do I want you to live with it."
-    "Muito menos quero que você viva com esse arrependimento."
+    # "And I want that even less for you."
+    "Muito menos quero que você viva com ele."
 
 # game/script/corridors_night.rpy:415
 translate portuguese corridors_Ba_8fb03d21:
@@ -991,10 +1033,10 @@ translate portuguese corridors_Ba_8fb03d21:
     "Eu respiro fundo, tentando afastar esses pensamentos negativos."
 
 # game/script/corridors_night.rpy:417
-translate portuguese corridors_Ba_b14692c2:
+translate portuguese corridors_Ba_54de74f4:
 
-    # "I can't let this consume me."
-    "Eu não posso deixar que isso me consuma."
+    # "But it doesn't work, it never does. I can't just ignore them, but I can try to change the way I think about them."
+    "Mas não funciona, na verdade nunca funciona. Eu não consigo simplesmente ignorá-los, mas posso tentar mudar a forma como penso sobre eles."
 
 # game/script/corridors_night.rpy:419
 translate portuguese corridors_Ba_8ba0090f:
@@ -1123,16 +1165,16 @@ translate portuguese corridors_Bb_3df6a43b:
     "Querer andar todo dia pra outro lado, mas acabar indo parar sempre no mesmo."
 
 # game/script/corridors_night.rpy:466
-translate portuguese corridors_Bb_ddb82be9:
+translate portuguese corridors_Bb_c8873204:
 
-    # "In that case, does the destination always matter?"
+    # "Does the destination even matter, then?"
     "Nesse caso, o destino mesmo importa?"
 
-# game/script/corridors_night.rpy:468
-translate portuguese corridors_Bb_833106a7:
+# game/script/corridors_night.rpy:490
+translate portuguese corridors_Bb_ce617998:
 
-    # "Does it matter, or am I just fooling myself?"
-    "Importa, ou eu só tô me iludindo?"
+    # "…"
+    "…"
 
 # game/script/corridors_night.rpy:470
 translate portuguese corridors_Bb_09959c9b:
@@ -1171,10 +1213,10 @@ translate portuguese corridors_Bc_2c54613f:
     "Eu não sei se isso é algo que eu possa controlar."
 
 # game/script/corridors_night.rpy:487
-translate portuguese corridors_Bc_2d894d11:
+translate portuguese corridors_Bc_9d3848cb:
 
-    # "And I don't know if it's something I even want to control."
-    "E eu não sei se isso é algo que eu queira controlar."
+    # "And I don't know if it's something I ever want to control."
+    "E eu não sei se isso é algo que eu sequer queira controlar."
 
 # game/script/corridors_night.rpy:489
 translate portuguese corridors_Bc_af84b99e:
@@ -1195,9 +1237,9 @@ translate portuguese corridors_Bc_734b8fc3:
     "Eu não sei se eu quero que a gente volte a ser tão próximos quanto antes."
 
 # game/script/corridors_night.rpy:495
-translate portuguese corridors_Bc_e4978331:
+translate portuguese corridors_Bc_8881640c:
 
-    # "It's not like we're bound together by some unbreakable tie or anything."
+    # "It's not like we're bound together by some unbreakable leash or anything."
     "Não é como se estivéssemos preso por um laço inquebrável ou algo assim."
 
 # game/script/corridors_night.rpy:497
@@ -1207,10 +1249,10 @@ translate portuguese corridors_Bc_697d3e0b:
     "Eu não sei se eu quero isso…"
 
 # game/script/corridors_night.rpy:499
-translate portuguese corridors_Bc_b3ed2a03:
+translate portuguese corridors_Bc_46e4af68:
 
-    # "But I also don't know if I want the opposite."
-    "Mas eu também não sei se eu quero o contrário."
+    # "But I also don't know if I want the other side."
+    "Mas também não sei se eu quero o contrário."
 
 # game/script/corridors_night.rpy:501
 translate portuguese corridors_Bc_0e9e41ac:
@@ -1267,9 +1309,9 @@ translate portuguese corridors_Bc_095dced5:
     "Tudo estava indo bem, eu estava seguindo minha vida normalmente, e agora, isso?"
 
 # game/script/corridors_night.rpy:519
-translate portuguese corridors_Bc_043cb617:
+translate portuguese corridors_Bc_42f74b66:
 
-    # "It's just a message, but damn, why is it messing with me this much?"
+    # "It's just a message, but damn, why is it messing with me so much?"
     "É só uma mensagem, mas cacete, por que isso tá mexendo tanto comigo?"
 
 # game/script/corridors_night.rpy:521
@@ -1284,11 +1326,17 @@ translate portuguese corridors_Bc_3ad8a361:
     # "Maybe I wanted to talk about this as much as you did, and just the idea of seeing you again is making me feel like this."
     "Talvez eu quisesse falar tanto sobre isso quanto você, que só a ideia de te ver já me deixa assim."
 
-# game/script/corridors_night.rpy:525
-translate portuguese corridors_Bc_45a9e50b:
+# game/script/corridors_night.rpy:547
+translate portuguese corridors_Bc_325ee6f1:
 
-    # "It feels wrong not to try. Wrong to just leave things as they are."
-    "É como se fosse errado eu não tentar, errado em te deixar."
+    # "I'd rather that weren't true, it's easier when I'm the one who doesn't care as much."
+    "Eu preferiria que isso não fosse verdade, é mais fácil quando sou eu quem não se importa tanto."
+
+# game/script/corridors_night.rpy:525
+translate portuguese corridors_Bc_4d67b07c:
+
+    # "But it feels wrong not to try. Wrong to just leave things as they are."
+    "Mas é como se fosse errado eu não tentar, errado em te deixar."
 
 # game/script/corridors_night.rpy:527
 translate portuguese corridors_Bc_6d3db39c:
@@ -1381,9 +1429,9 @@ translate portuguese corridors_C_53af24a3:
     "E também do que vou sentir depois disso."
 
 # game/script/corridors_night.rpy:561
-translate portuguese corridors_C_8a5b96c1:
+translate portuguese corridors_C_1df857a4:
 
-    # "I don't know what it's going to be like when I open this door. I still don't understand why I can't bring myself to turn the handle."
+    # "I don't know what it's going to be like when I open this door. I still don't understand why I can't bring myself to turn this handle."
     "Eu não sei como vai ser quando eu abrir essa porta. Ainda não entendi porque eu não giro essa maçaneta."
 
 # game/script/corridors_night.rpy:563
@@ -1428,11 +1476,23 @@ translate portuguese corridors_C_58db400c:
     # "Relationships were never my forte, and I've always avoided getting too involved."
     "Relacionamentos nunca foram meu forte, e eu sempre evitei me envolver demais."
 
-# game/script/corridors_night.rpy:577
-translate portuguese corridors_C_6f343361:
+# game/script/corridors_night.rpy:601
+translate portuguese corridors_C_9d43ba54:
 
-    # "One way or another, I ended up involved anyway. Maybe that's why I was never exactly popular with people."
-    "Querendo ou não, acabei me envolvendo em um de qualquer forma. Vai ver é por isso que eu nunca fui tão popular com as pessoas."
+    # "Not that people avoided me, I just never let anything get past a certain depth."
+    "Não que as pessoas me evitassem, eu só nunca deixei nada passar de um certo ponto."
+
+# game/script/corridors_night.rpy:603
+translate portuguese corridors_C_734e2d56:
+
+    # "Nobody ever complained, and everyone's fine with keeping things shallow."
+    "Ninguém nunca reclamou comigo, e todo mundo tá bem em manter as coisas superficiais."
+
+# game/script/corridors_night.rpy:605
+translate portuguese corridors_C_e6ee1404:
+
+    # "Everyone except one person."
+    "Todo mundo exceto por uma pessoa."
 
 # game/script/corridors_night.rpy:579
 translate portuguese corridors_C_b2672053:
@@ -1471,10 +1531,10 @@ translate portuguese corridors_C_1ee97ccd:
     "Acho que agora é tarde demais pra sentir vergonha."
 
 # game/script/corridors_night.rpy:591
-translate portuguese corridors_C_ea499b21:
+translate portuguese corridors_C_9014f890:
 
-    # "Your strategy worked, but that doesn't mean I'm happy about it. It's just that I don't have any other choice now."
-    "Sua estratégia funcionou, mas não quer dizer que eu tô feliz por isso, só não tenho escolha a não ser isso agora."
+    # "Your plan worked, but that doesn't mean I'm happy about it. It's just that I don't have any other choice now."
+    "Seu plano funcionou, mas não quer dizer que eu tô feliz por isso, é que eu só não tenho mais nenhuma escolha agora."
 
 # game/script/corridors_night.rpy:593
 translate portuguese corridors_C_5b8f4ae1:
@@ -1561,9 +1621,9 @@ translate portuguese corridors_C_e8f8b8f9:
     "Por quanto tempo será que você planejou isso? Na verdade, houve sequer algum planejamento?"
 
 # game/script/corridors_night.rpy:621
-translate portuguese corridors_C_f58e645d:
+translate portuguese corridors_C_f45ec1c0:
 
-    # "And if I hadn't shown up, what would you have done? If you're behind this door waiting for me, how long would you have waited?"
+    # "And if I hadn't shown up, what would have you done? If you're behind this door waiting for me, how long would have you waited?"
     "E se eu não fosse aparecer hoje, o que você faria? Se você estivesse ai atrás dessa porta, esperando por mim, por quanto tempo você aguentaria?"
 
 # game/script/corridors_night.rpy:623
@@ -1643,6 +1703,24 @@ translate portuguese corridors_C_a6ae1cdd:
 
     # "It's not something I want to feel all the time, but… it's good to know I'm still capable of it."
     "Não é algo que eu queira sentir sempre, mas… é bom saber que eu ainda sou capaz disso."
+
+# game/script/corridors_night.rpy:678
+translate portuguese corridors_C_ce617998:
+
+    # "…"
+    "…"
+
+# game/script/corridors_night.rpy:680
+translate portuguese corridors_C_a27c1778:
+
+    # "My hand's been on the handle this whole time."
+    "Minha mão esteve segurando a maçaneta esse tempo todo."
+
+# game/script/corridors_night.rpy:682
+translate portuguese corridors_C_ecc9aef3:
+
+    # "Long enough that the metal isn't cold anymore."
+    "O suficiente pra que o metal não esteja mais frio."
 
 # game/script/corridors_night.rpy:650
 translate portuguese corridors_C_8f902b84:
@@ -1969,16 +2047,10 @@ translate portuguese corridors_Ca_ef294b27:
     "Preciso aprender a lidar com essas coisas."
 
 # game/script/corridors_night.rpy:782
-translate portuguese corridors_Ca_3cb7b3f2:
+translate portuguese corridors_Ca_b0bc6891:
 
-    # "I need to learn how to open up to people more."
-    "Preciso aprender a me abrir mais pras pessoas."
-
-# game/script/corridors_night.rpy:784
-translate portuguese corridors_Ca_5d99c29a:
-
-    # "I need to learn how to care more."
-    "Preciso aprender a me importar mais."
+    # "I need to learn how to open up to people more, how to care."
+    "Preciso aprender a me abrir mais pras pessoas, a me importar."
 
 # game/script/corridors_night.rpy:786
 translate portuguese corridors_Ca_821c0515:
@@ -1987,10 +2059,10 @@ translate portuguese corridors_Ca_821c0515:
     "Mesmo que eu me sinta vulnerável pra isso."
 
 # game/script/corridors_night.rpy:788
-translate portuguese corridors_Ca_b6289ee7:
+translate portuguese corridors_Ca_31c92ad8:
 
-    # "And even if I don't want to, I need to learn how to take the first step on my own."
-    "E mesmo que eu não queira, preciso aprender a dar o primeiro passo sozinho."
+    # "And I gotta learn how to take the first step on my own."
+    "E eu preciso aprender a dar o primeiro passo sozinho."
 
 # game/script/corridors_night.rpy:790
 translate portuguese corridors_Ca_39b40503:
@@ -2076,23 +2148,35 @@ translate portuguese corridors_Ca_51e0956d:
     # "Even if I'm scared of where that ending might take me."
     "Mesmo que eu tenha medo de onde esse fim vai me levar."
 
-# game/script/corridors_night.rpy:820
-translate portuguese corridors_Ca_395fcb38:
+# game/script/corridors_night.rpy:854
+translate portuguese corridors_Ca_ce617998:
 
-    # "But still, I feel strangely positive about it."
-    "Mas, eu me sinto estranhamente positivo sobre isso."
+    # "…"
+    "…"
+
+# game/script/corridors_night.rpy:856
+translate portuguese corridors_Ca_793e8f97:
+
+    # "And the strangest part is that I'm not dreading it."
+    "O mais estranho é que eu não estou com receio disso."
+
+# game/script/corridors_night.rpy:858
+translate portuguese corridors_Ca_9a13598b:
+
+    # "I don't know what that feeling's called. It's been a while."
+    "Eu não sei como esse sentimento se chama, faz um tempo que não sinto isso."
 
 # game/script/corridors_night.rpy:827
 translate portuguese corridors_Cb_1613a2ce:
 
     # "The truth is that I don't have any answers."
-    "A verdade é que eu não tenho resposta nenhuma."
+    "A verdade é que eu não tenho nenhuma resposta."
 
 # game/script/corridors_night.rpy:829
-translate portuguese corridors_Cb_51577441:
+translate portuguese corridors_Cb_b8fe57c5:
 
-    # "I have no idea what I want, what I feel, or what I expect."
-    "Não tenho certeza do que eu quero, do que eu sinto, ou do que eu espero."
+    # "I've been standing here trying to make one out of nothing."
+    "Eu estive parado aqui tentando criar uma a partir do nada."
 
 # game/script/corridors_night.rpy:831
 translate portuguese corridors_Cb_ca59af0a:
@@ -2119,10 +2203,10 @@ translate portuguese corridors_Cb_b16b4aea:
     "Eu ainda continuo me sentindo perdido."
 
 # game/script/corridors_night.rpy:839
-translate portuguese corridors_Cb_3923ce4d:
+translate portuguese corridors_Cb_a1a010c9:
 
-    # "I know I'm complicating something that could be simple in the end, but I can't help it."
-    "Eu sei que só estou complicando algo que poderia ser simples no final, mas eu não consigo evitar."
+    # "I know I'm overcomplicating something that could be way simpler in the end, but I can't help it."
+    "Eu sei que estou complicando algo que poderia ser muito mais simples no final, mas eu não consigo evitar."
 
 # game/script/corridors_night.rpy:841
 translate portuguese corridors_Cb_caeedb33:
@@ -2195,6 +2279,12 @@ translate portuguese corridors_Cb_f887b4cb:
 
     # "As if you knew I'd be here, stuck in front of this door, not knowing what to do."
     "Como se você soubesse que eu estaria aqui, parado nessa frente dessa porta, sem saber o que fazer."
+
+# game/script/corridors_night.rpy:903
+translate portuguese corridors_Cb_34cb3dd1:
+
+    # "You've always been better at this than me."
+    "Você sempre foi melhor nisso do que eu."
 
 # game/script/corridors_night.rpy:865
 translate portuguese corridors_Cb_7abf3824:
@@ -2401,16 +2491,16 @@ translate portuguese corridors_Cb_22cc9d88:
     "Não sei se vai ser estranho, constrangedor, ou até mesmo doloroso."
 
 # game/script/corridors_night.rpy:936
-translate portuguese corridors_Cb_d025eb40:
+translate portuguese corridors_Cb_fbb06c30:
 
-    # "I don't know if I'm going to feel relieved, happy, or maybe even sad."
+    # "I don't know if I'm going to feel relieved, happy, or maybe sad."
     "Não sei se vou me sentir aliviado, feliz, ou talvez até triste."
 
 # game/script/corridors_night.rpy:938
-translate portuguese corridors_Cb_3dd5a827:
+translate portuguese corridors_Cb_35ee58ab:
 
-    # "Maybe nothing will change, or maybe everything will flip upside down."
-    "Pode ser que muito pouco mude, ou que tudo vire de cabeça pra baixo."
+    # "There's a chance nothing will change, or that everything will flip upside down."
+    "Pode ser que nada mude, ou que tudo vire de cabeça pra baixo."
 
 # game/script/corridors_night.rpy:940
 translate portuguese corridors_Cb_01ab5f9d:
@@ -2419,15 +2509,15 @@ translate portuguese corridors_Cb_01ab5f9d:
     "Mas se eu não tentar… se eu não girar essa droga de maçaneta… nunca vou saber se eu poderia ter mudado alguma coisa."
 
 # game/script/corridors_night.rpy:942
-translate portuguese corridors_Cb_82ad3068:
+translate portuguese corridors_Cb_a5b25d8b:
 
-    # "And maybe that 'not knowing' is worse than any answer I could get tonight."
-    "E talvez esse 'não saber' seja pior do que qualquer resposta que eu possa receber essa noite."
+    # "And I can assure that 'not knowing' is worse than any answer I could get tonight."
+    "E eu garanto que 'não saber' é pior do que qualquer resposta que eu possa receber essa noite."
 
 # game/script/corridors_night.rpy:945
-translate portuguese corridors_Cb_5dbcc86c:
+translate portuguese corridors_Cb_9f3c71ea:
 
-    # "I may have the right to doubt, but I don't have the right to give up."
+    # "I may have the right of doubt, but I don't have the right to give up."
     "Eu posso ter o direito da dúvida, mas não o direito de desistir."
 
 # game/script/corridors_night.rpy:947
@@ -2497,10 +2587,10 @@ translate portuguese corridors_Cb_61b46525:
     "Meu sentimento de culpa só vai aumentar se eu não fizer nada."
 
 # game/script/corridors_night.rpy:970
-translate portuguese corridors_Cb_1576f09b:
+translate portuguese corridors_Cb_6890aa3c:
 
-    # "And the worst part is there's no one else to blame but myself."
-    "E o pior de tudo é que não há ninguém mais pra culpar além de mim."
+    # "And the worst part is that there will be no one else to blame but myself."
+    "E o pior de tudo é que não vai ter ninguém mais pra culpar além de mim."
 
 # game/script/corridors_night.rpy:972
 translate portuguese corridors_Cb_fff40dc3:
@@ -3137,3 +3227,4 @@ translate portuguese corridors_D_fallback_5203c237:
 
     # "Still, there's only one thing left for me to do…"
     "Por fim, só me resta fazer uma coisa…"
+

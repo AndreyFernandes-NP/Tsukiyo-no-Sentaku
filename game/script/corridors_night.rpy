@@ -20,6 +20,8 @@ label corridors:
     return
 
 label corridors_A:
+    $ ambience_sfx_cycle = SfxCycler(items=corridor_ambience_sfx, interval=(20.0, 50.0), channel="ambfx", fadein=0.05, fadeout=0.05, auto_rotation_mode="all")
+    
     window hide None
 
     scene bg school_corridor
@@ -28,7 +30,9 @@ label corridors_A:
     $ amb_volume(0.3, 0.05)
     $ amb_play(ambience_corridor_wind, fadein=1.0)
 
-    $ ambience_sfx_cycle.start(start_after_random=True)
+    $ ambience_sfx_cycle.start(start_after_random=True) 
+    
+    $ routes_number = []
 
     window show
 
@@ -42,7 +46,7 @@ label corridors_A:
 
     "It's enough to remind me where I am, and why I came here. Even though summer's almost here, the night has no intention of feeling any less cold."
 
-    "The rustling of the leaves, the trees creaking as they sway from side to side… all of it has been sending shivers down my spine."
+    "The rustling of leaves, the trees creaking as they sway from side to side… all of it has been sending shivers down my spine."
 
     "Damn it. So much effort, yet for what? I didn't want to be here, but it's not like I had any other choice, not after what I received earlier."
 
@@ -102,7 +106,7 @@ label corridors_A:
 
     "And I always felt guilty for not being able to reciprocate that feeling."
 
-    "I was never great at making friends, not because I wasn't sociable, but because I didn't really care. But with Miya… she was the only person I ever got close to."
+    "I wasn't exactly good at making friends, not because I wasn't sociable, I didn't really care at all. But with Miya… she was the only person I ever got close to."
 
     "And that's why it bothers me to think this way."
 
@@ -145,12 +149,15 @@ label choice_corridorsA:
         with menueffect
         "I had fun.":
 
+            $ routes_number.append(1)
             return "opt1"
         "I can't blame her.":
 
+            $ routes_number.append(2)
             return "opt2"
         "She was annoying.":
 
+            $ routes_number.append(3)
             return "opt3"
 
 label corridors_Aa:
@@ -160,7 +167,7 @@ label corridors_Aa:
 
     "No matter how much I try to complicate things now, there's no way to erase what I felt back then."
 
-    "I remember all the times we laughed so hard it felt like we were going to die. All the stupid things we did, the random conversations, the afternoons that ended way too fast."
+    "I remember all the times we laughed so hard it felt like we were going to die. All the stupid things we did, our notorious conversations, the afternoons that ended way too soon."
 
     "They were simple moments… but they were ours."
 
@@ -170,13 +177,13 @@ label corridors_Aa:
 
     "There were no expectations. No pressure. Just the moment."
 
-    "You don't need obligation to laugh like that."
+    "You don't need any obligation to laugh like that."
 
     "Even when our families pushed us together, there were moments when I completely forgot about it. Moments when having her around felt… natural."
 
     "And I never admitted that out loud."
 
-    "Not even when we became teenagers, and things started to change."
+    "Not even when we got to high school, and things started to change."
 
     "Maybe I just took everything for granted. Maybe I thought it would last forever."
 
@@ -188,14 +195,14 @@ label corridors_Aa:
 
     "And even if I still have doubts about what all of this means… I know I had a great time."
 
-    "Still…"
+    "With that said, the one to blame for all of this is still me."
 
     return
 
 label corridors_Ab:
     $ mc_personality.append("He feels guilty for not reciprocating Miya's efforts in their friendship.")
 
-    "It's not like I can blame her or her family for any of this. And honestly, I can't even blame myself."
+    "It's not like I can blame her or her family for any of this. And I've gotten very good at not blaming myself."
 
     "For years, I tried to believe our friendship only existed because our families wanted it that way. It was easier to think like that."
 
@@ -215,7 +222,7 @@ label corridors_Ab:
 
     "Or afraid of realizing that without her friendship… I wouldn't have anyone else."
 
-    "And even then, she never pressured me. Never threw her effort in my face. Never made me feel like I owed her anything."
+    "And even then, she never pressured me. Never threw her effort in my face, never made me feel like I owed her anything."
 
     "She just… kept being herself."
 
@@ -231,7 +238,7 @@ label corridors_Ab:
 
     "At least now I can see that clearly."
 
-    "After all…"
+    "And I still didn't message her back, even though I knew she was waiting for me to do it."
 
     return
 
@@ -252,9 +259,13 @@ label corridors_Ac:
 
     "Or… maybe I only said that because it was easier than admitting I liked it."
 
-    "Because in the end, she was the one who made me feel alive."
+    "Because in the end, she was the one who made me—"
 
-    "Every time she grabbed my arm and said, 'Come on, Ren, trust me,' it felt like the world got a little lighter."
+    "...no. That's not the word."
+
+    "She made me tired, that was almost all of it."
+
+    "But, every time she grabbed my arm and said, 'Come on, Ren, trust me,' it felt like the world got a little lighter."
 
     "And that scared me."
 
@@ -262,7 +273,7 @@ label corridors_Ac:
 
     "Let alone someone who can actually see me."
 
-    "So I said she was annoying. Because admitting the opposite would mean admitting she mattered."
+    "I say she's annoying. Because admitting the opposite would mean admitting she mattered."
 
     "But now, after all this time, after all my attempts to push her away…"
 
@@ -276,13 +287,11 @@ label corridors_Ac:
 
     "And today is one of the worst days to feel that."
 
-    "In the end…"
+    "Someone's to blame here, I'm just not convinced it's only me, but at the same time…"
 
     return
 
 label corridors_B:
-    "The one to blame for all of this is still me."
-
     "If it weren't for me, I wouldn't be here right now."
 
     "Or better… I wouldn't be in this situation."
@@ -316,7 +325,13 @@ label corridors_B:
 
     "You don't notice when it's already too late to try again."
 
-    "But it's these doubts, these uncertainties, that bother me so much."
+    "…"
+
+    "I don't even know which one it was. I could scroll up and find it right away, it'd only take ten seconds…"
+
+    "But I'm not going to."
+
+    "It's these doubts, these uncertainties, that bother me so much."
 
     "What does all this mean to me? What am I supposed to do with it?"
 
@@ -324,11 +339,13 @@ label corridors_B:
 
     "I really wish I had an answer, but the more I think, the messier everything gets."
 
-    "Even as childhood friends… I guess not even a friendship like that is immune to problems like these."
+    "Even as childhood friends… I guess not even a friendship like that is immune to these problems."
 
-    "We're two completely different people now."
+    "We're completely different people now."
 
-    "Our social circles aren't the same, she's always surrounded by people, always going out whenever she gets the chance. And me? I barely talk to one or two people in my class."
+    "Our social circles aren't the same, she's always surrounded by people, always going out whenever she gets the chance."
+
+    "And me? I talked to maybe two people in class this week."
 
     "We don't have anything in common anymore, and I always tried to believe that wasn't a problem."
 
@@ -344,9 +361,11 @@ label corridors_B:
 
     mc "…"
 
+    "Somewhere down the hall I hear something creaking. Wood, metal, or a window, the sound of the wind is strong tonight, and it makes the whole school feel like it's alive."
+
     "Is there anyone else in the world going through something like this right now?"
 
-    "Or am I the only one tonight feeling this way?"
+    "Or am I the only one feeling this way?"
 
     "I don't know."
 
@@ -387,12 +406,15 @@ label choice_corridorsB:
         with menueffect
         "No, that's not how it works.":
 
+            $ routes_number.append(1)
             return "opt1"
         "I can't make up my mind.":
 
+            $ routes_number.append(2)
             return "opt2"
         "Things are just the way they are.":
 
+            $ routes_number.append(3)
             return "opt3"
 
 label corridors_Ba:
@@ -410,11 +432,11 @@ label corridors_Ba:
 
     "If I don't try, I'll never know what could've happened. And I don't want to live with that regret."
 
-    "Even less do I want you to live with it."
+    "And I want that even less for you."
 
     "I take a deep breath, trying to push these negative thoughts away."
 
-    "I can't let this consume me."
+    "But it doesn't work, it never does. I can't just ignore them, but I can try to change the way I think about them."
 
     "If I want things to go back to how they were, then I'm the one who has to put in the effort."
 
@@ -463,9 +485,9 @@ label corridors_Bb:
 
     "Wanting to walk in one direction but always ending up somewhere else."
 
-    "In that case, does the destination always matter?"
+    "Does the destination even matter, then?"
 
-    "Does it matter, or am I just fooling myself?"
+    "…"
 
     "Maybe I just need to stop overthinking everything."
 
@@ -484,7 +506,7 @@ label corridors_Bc:
 
     "I don't know if this is something I can control."
 
-    "And I don't know if it's something I even want to control."
+    "And I don't know if it's something I ever want to control."
 
     "I don't know if I want things to be different."
 
@@ -492,11 +514,11 @@ label corridors_Bc:
 
     "I don't know if I want us to go back to being as close as we used to be."
 
-    "It's not like we're bound together by some unbreakable tie or anything."
+    "It's not like we're bound together by some unbreakable leash or anything."
 
     "I don't know if I want that…"
 
-    "But I also don't know if I want the opposite."
+    "But I also don't know if I want the other side."
 
     "Being away from you, Miya, does bother me."
 
@@ -516,13 +538,15 @@ label corridors_Bc:
 
     "Everything was fine, I was living my life normally, and now… this?"
 
-    "It's just a message, but damn, why is it messing with me this much?"
+    "It's just a message, but damn, why is it messing with me so much?"
 
     "Or am I just fooling myself?"
 
     "Maybe I wanted to talk about this as much as you did, and just the idea of seeing you again is making me feel like this."
 
-    "It feels wrong not to try. Wrong to just leave things as they are."
+    "I'd rather that weren't true, it's easier when I'm the one who doesn't care as much."
+
+    "But it feels wrong not to try. Wrong to just leave things as they are."
 
     "And that's why everything feels so confusing. I don't even know what I truly want anymore."
 
@@ -558,7 +582,7 @@ label corridors_C:
     else:
         "And closer to whatever I'm going to feel after this."
 
-    "I don't know what it's going to be like when I open this door. I still don't understand why I can't bring myself to turn the handle."
+    "I don't know what it's going to be like when I open this door. I still don't understand why I can't bring myself to turn this handle."
 
     "But anything that involves your name never goes the way I expect. It's always been like that with you."
 
@@ -574,7 +598,11 @@ label corridors_C:
 
     "Relationships were never my forte, and I've always avoided getting too involved."
 
-    "One way or another, I ended up involved anyway. Maybe that's why I was never exactly popular with people."
+    "Not that people avoided me, I just never let anything get past a certain depth."
+
+    "Nobody ever complained, and everyone's fine with keeping things shallow."
+
+    "Everyone except one person."
 
     "I never saw that as a problem, to be honest, but thinking about it now…"
 
@@ -588,7 +616,7 @@ label corridors_C:
 
     "I guess it's too late to feel embarrassed."
 
-    "Your strategy worked, but that doesn't mean I'm happy about it. It's just that I don't have any other choice now."
+    "Your plan worked, but that doesn't mean I'm happy about it. It's just that I don't have any other choice now."
 
     "No matter what I think, I can't find a single reason to go back home."
 
@@ -618,7 +646,7 @@ label corridors_C:
 
     "How long did you even plan this? Actually, was there even a plan?"
 
-    "And if I hadn't shown up, what would you have done? If you're behind this door waiting for me, how long would you have waited?"
+    "And if I hadn't shown up, what would have you done? If you're behind this door waiting for me, how long would have you waited?"
 
     "You do things impulsively without thinking about the consequences most of the time, but you do them. Meanwhile, I slow everything down on my side."
 
@@ -646,6 +674,12 @@ label corridors_C:
         "And as hard as it is to admit, I felt more alive tonight than during a lot of the predictable days I've been having."
 
         "It's not something I want to feel all the time, but… it's good to know I'm still capable of it."
+    
+    "…"
+
+    "My hand's been on the handle this whole time."
+
+    "Long enough that the metal isn't cold anymore."
 
     "Maybe the real problem is that I'm uncertain about everything."
 
@@ -658,17 +692,20 @@ label corridors_C:
 
     return
 
-label choice_corridorsC:   
+label choice_corridorsC:
     menu:
         with menueffect
         "I'll go all the way.":
 
+            $ routes_number.append(1)
             return "opt1"
         "I'll only know if I try.":
 
+            $ routes_number.append(2)
             return "opt2"
         "Maybe nothing'll change.":
 
+            $ routes_number.append(3)
             return "opt3"
 
 label corridors_Ca:
@@ -779,13 +816,11 @@ label corridors_Ca:
 
             "I need to learn how to deal with things like this."
 
-            "I need to learn how to open up to people more."
-
-            "I need to learn how to care more."
+            "I need to learn how to open up to people more, how to care."
 
             "Even if being vulnerable scares me."
 
-            "And even if I don't want to, I need to learn how to take the first step on my own."
+            "And I gotta learn how to take the first step on my own."
 
             "Because in the end, no one is going to do that for me except her."
 
@@ -816,8 +851,11 @@ label corridors_Ca:
 
     "Even if I'm scared of where that ending might take me."
 
-    if not seen_label("corridors_Bc"):
-        "But still, I feel strangely positive about it."
+    "…"
+
+    "And the strangest part is that I'm not dreading it."
+
+    "I don't know what that feeling's called. It's been a while."
 
     return
 
@@ -826,7 +864,7 @@ label corridors_Cb:
 
     "The truth is that I don't have any answers."
 
-    "I have no idea what I want, what I feel, or what I expect."
+    "I've been standing here trying to make one out of nothing."
 
     "I don't have a plan, much less control over what's going to happen."
 
@@ -836,7 +874,7 @@ label corridors_Cb:
 
     "I'm still lost."
 
-    "I know I'm complicating something that could be simple in the end, but I can't help it."
+    "I know I'm overcomplicating something that could be way simpler in the end, but I can't help it."
 
     "You're still an enigma to me. I think, again and again, but nothing makes sense."
 
@@ -861,6 +899,8 @@ label corridors_Cb:
     "As if you knew exactly what you were doing."
 
     "As if you knew I'd be here, stuck in front of this door, not knowing what to do."
+
+    "You've always been better at this than me."
 
     "I want to believe that, so I can feel less stupid for being in this situation."
 
@@ -933,16 +973,16 @@ label corridors_Cb:
 
     "I don't know if it's going to be awkward, embarrassing, or even painful."
 
-    "I don't know if I'm going to feel relieved, happy, or maybe even sad."
+    "I don't know if I'm going to feel relieved, happy, or maybe sad."
 
-    "Maybe nothing will change, or maybe everything will flip upside down."
+    "There's a chance nothing will change, or that everything will flip upside down."
 
     "But if I don't try… if I don't turn this damn handle… I'll never know whether things could've changed."
 
-    "And maybe that 'not knowing' is worse than any answer I could get tonight."
+    "And I can assure that 'not knowing' is worse than any answer I could get tonight."
 
     if seen_label("corridors_Ba"):
-        "I may have the right to doubt, but I don't have the right to give up."
+        "I may have the right of doubt, but I don't have the right to give up."
 
         "Standing here won't give me the clarity I need."
 
@@ -967,7 +1007,7 @@ label corridors_Cb:
 
         "My guilt will only grow if I do nothing."
 
-        "And the worst part is there's no one else to blame but myself."
+        "And the worst part is that there will be no one else to blame but myself."
 
         "So I need to act."
 
@@ -1157,6 +1197,22 @@ label corridors_D:
         "At the very least, that's what I'm going to do."
 
         "For both of us."
+    
+    python:
+        digit = count_number(routes_number)
+
+        match digit:
+            case 1:
+                mc_routes.append("Close")
+
+            case 2:
+                mc_routes.append("Neutral")
+
+            case 3:
+                mc_routes.append("Distant")
+                
+            case _:
+                mc_routes.append("Neutral")
 
     "After losing myself in my thoughts for so long, I finally gather the courage I needed."
 
@@ -1183,7 +1239,6 @@ label corridors_D:
 
         else:
             renpy.block_rollback()
-
             current_llm_request = llm_request(
                 system_prompt=prompt_thoughts(user_language()),
                 player_input=ren_thought,
@@ -1195,6 +1250,8 @@ label corridors_D:
 
             if current_llm_request and current_llm_request.error:
                 print("LLM request error:", current_llm_request.error)
+                renpy.notify([f"{ERROR_PROTOCOL['llm']}", f"{ERROR_MESSAGES['llm_request_failure']}"])
+                log_error("llm_log", current_llm_request.error)
                 renpy.call("iscene", "corridors_D_fallback")
             
             else:
@@ -1204,10 +1261,14 @@ label corridors_D:
                     renpy.call("iscene", "corridors_D_fallback")
                 else:
                     if lines[0] == "break_detected":
+                        lines.clear()
                         renpy.call("glitch_scene", "school_corridor", duration=0.3, dialogue=[("", ":)")] if not getattr(persistent, "endings_unlocked", None) else [("", "g-694c8e05bc188191802f2555becf4e8f-")])
-                    else:
-                        for line in lines:
-                            renpy.say("", line)
+
+    $ renpy.block_rollback()
+    
+    while len(lines) > 0:
+        $ renpy.say("", lines[0])
+        $ lines.pop(0)
     
     $ amb_stop()
     $ ambience_sfx_cycle.stop(stop_all=True)

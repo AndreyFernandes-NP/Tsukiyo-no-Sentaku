@@ -13,6 +13,13 @@ define corridor_ambience_sfx = [
 
 default mc_personality = ["Ren is calm, introspective, and observes before acting. He avoids emotional confrontation and rarely reveals his feelings. He lives with an internal conflict between what he feels and what he believes he should feel. Tonight, something is changing that, for better or for worse."]
 
+# Define the type of routes taken by the player for each main scene.
+# Mostly used to have different types of dialogue and even generation based on choices.
+# Starts with an empty list, and appends route types for each scene.
+# In order we have: corridors scene, classroom introduction scene... etc. (Add the rest later)
+# E.g. ["A", "C"] means the player took approach A from the first scene, the corridors, and C for the next scene, classroom introduction.
+default mc_routes = []
+
 default miya_personality = ["Miya is quietly cheerful and outgoing, sometimes impulsive. She values friendship and loyalty, even to the point of stubbornness. Her energetic nature can both uplift and overwhelm those around her. She speaks her mind when comfortable, but can also retreat into silence when she feels unsure. Tonight, she wants Ren alongside her, even if it hurts."]
 
 ### Scenes Context
@@ -36,4 +43,18 @@ define routes_corridorC = {
         "opt1": "corridors_Ca",
         "opt2": "corridors_Cb",
         "opt3": "corridors_Cc",
+}
+
+### Error Handling and Notifications
+define ERROR_PROTOCOL = {
+        "http": _("HTTP Error"),
+        "llm": _("LLM Error"),
+        "generic": _("Error")
+}
+
+define ERROR_MESSAGES = {
+        "no_internet": _("No internet connection available."),
+        "http_failure": _("Failed to get response from server. See 'http_log.txt' for details."),
+        "llm_warmup_failure": _("An error occurred during LLM warmup. See 'llm_log.txt' for details."),
+        "llm_request_failure": _("An error occurred while processing your request. See 'llm_log.txt' for details.")
 }

@@ -39,7 +39,7 @@ init python:
         - DO NOT mention entering, doorknobs, or the topic directly.
 
         Output format:
-        - 3 to 5 lines of plain narration with no brackets or explanations.
+        - 4 to 5 lines of plain narration with no brackets or explanations.
 
         Examples (Coherent):
         I take a deep breath by the door.

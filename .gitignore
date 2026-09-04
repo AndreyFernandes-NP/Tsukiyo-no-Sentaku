@@ -3,6 +3,8 @@ development_log.txt
 errors.txt
 log.txt
 traceback.txt
+http_log.txt
+llm_log.txt
 project.json
 android.json
 android.keystore
